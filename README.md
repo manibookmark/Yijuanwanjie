@@ -4,9 +4,9 @@
 
 [![开场 CG，远山宫阙与云海上的地球](docs/media/opening-cg.jpg)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Opening-CG.mp4)
 
-[观看开场 CG（3 分 32 秒）](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Opening-CG.mp4) · [Windows 游玩](#windows-游玩)
+[观看开场 CG（3 分 32 秒）](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Opening-CG.mp4) · [下载 Windows 试玩（EXE）](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Play.exe)
 
-目前做了三个主关卡 **双叉岭、鹰愁涧、高老庄**。花果山是上手教程。
+目前做了三个主关卡 **双叉岭、鹰愁涧、高老庄**，预计共 **15 关**。花果山是上手教程。
 
 ## 核心玩法
 
@@ -14,27 +14,11 @@
 - **叠势与相生。** 按费用逐张加 1，可以接续数字叠势并强化相关牌效。也可以利用五行相生组织连锁。
 - **探索与构筑。** 选择路线，经历战斗和地图事件，用新卡、灵印和英灵能力调整牌组，再迎战关底首领。
 
-| 孙悟空对战寅将军 | 卷中关卡 |
-| --- | --- |
-| ![实机战斗画面，显示孙悟空、寅将军与手牌](docs/media/wukong-battle.jpg) | ![云海中的山间关卡平台与路线节点](docs/media/scroll-map.png) |
-
-## 英灵登场
-
-点击下方预览，观看从游戏资源导出的首次登场动画。
-
-| 孙悟空 | 唐三藏 | 白龙马 |
-| --- | --- | --- |
-| [![孙悟空登场预览](docs/media/wukong-entrance.jpg)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Wukong-Entrance.mp4) | [![唐三藏登场预览](docs/media/tang-sanzang-entrance.jpg)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Tang-Sanzang-Entrance.mp4) | [![白龙马登场预览](docs/media/bai-longma-entrance.jpg)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Bai-Longma-Entrance.mp4) |
+作者库已登记 **97 张卡牌设计**，其中 **50 张已实现并通过功能与界面验收**。最终卡牌总量待定。
 
 ## Windows 游玩
 
-克隆仓库后，双击 `Play.cmd` 或在仓库目录运行下面的命令。首次启动会从 GitHub Release 下载并校验 Windows x64 玩家包，文件缓存于当前用户的本地应用数据目录。以后可以复用缓存。玩家版无需安装编辑器。
-
-```powershell
-powershell -NoProfile -ExecutionPolicy Bypass -File .\Play.ps1
-```
-
-玩家包和素材包发布在 [版本下载页](https://github.com/manibookmark/Yijuanwanjie/releases/tag/v2026.11.25)。使用启动脚本即可自动下载、校验并合并分卷。
+下载后双击 `WanjieScroll-Play.exe`。首次启动会自动下载并校验约 1.6 GB 的游戏数据，之后会复用已安装的数据。
 
 ## 从源码运行
 
@@ -52,6 +36,7 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\Setup-Project.ps1 -OpenEdi
 
 - `Assets/Scenes/`、`Assets/Prefabs/`、`Assets/Scripts/` 提供正式游戏场景、预制件与源码。
 - `ContentSource/cards/` 是卡牌、敌人等内容的作者源，`Assets/Resources/Content/Generated/` 是生成后的运行时包。
+- 克隆仓库后也可以双击 `Play.cmd` 启动。Windows 试玩启动器的源码和构建脚本位于 `tools/launcher/`。
 - 美术、音频、字体和视频以原始运行格式随同版本 Release 发布。素材及校验值逐项列在 `runtime-media.manifest.json` 和 `external-assets.manifest.json`。脚本将它们恢复到原始路径，Git 中的 `.meta` 保留引擎资源身份。
 
 软件源码和内容配置采用 [MIT](LICENSE)。项目自有游戏美术、音乐、音效、配音和视频采用 CC BY 4.0。字体遵循上游许可，团结引擎及其下载依赖有独立许可。详见 [素材与依赖许可](ASSET-LICENSES.md)。
