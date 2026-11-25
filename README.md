@@ -1,6 +1,20 @@
 # 万界长卷 · Yijuanwanjie
 
-万界长卷是一款中国风回合制卡牌与地牢探索 Roguelite。从花果山教程出发，在关卡中探索路线、收集卡牌，并通过战斗和地堂事件成长。
+万界长卷（参赛名《一卷万界》）是一款国风回合制卡牌 Roguelite。你扮演执卷人，从花果山出发，与孙悟空、唐三藏等英灵同行，深入被侵蚀的河洛卷。每一局都要选路线、打战斗、拿奖励，边探索边调整牌组。
+
+[![一卷万界参赛演示，四字书法封面](docs/media/contest-cover.png)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Contest-Showcase.mp4)
+
+[观看参赛实机演示（4 分 19 秒）](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Contest-Showcase.mp4) · [Windows 游玩](#windows-游玩)
+
+## 怎么玩
+
+- **看敌人意图，安排出牌顺序。** 用灵力施展仙法，决定这一回合该进攻、防御还是为连锁留牌。
+- **用数字叠势和五行相生接牌。** 按费用从 0、1、2 逐张接续可以叠势，五行搭配则提供另一条连锁路线。
+- **选路线，逐步成型。** 通过战斗、地堂事件和奖励调整构筑，让不同英灵的能力融入牌组，再迎战关底首领。
+
+| 孙悟空对战寅将军 | 卷中关卡 |
+| --- | --- |
+| ![实机战斗画面，显示孙悟空、寅将军与手牌](docs/media/wukong-battle.jpg) | ![云海中的山间关卡平台与路线节点](docs/media/scroll-map.png) |
 
 ## Windows 游玩
 
