@@ -1,20 +1,30 @@
 # 万界长卷 · Yijuanwanjie
 
-万界长卷（参赛名《一卷万界》）是一款国风回合制卡牌 Roguelite。你扮演执卷人，从花果山出发，与孙悟空、唐三藏等英灵同行，深入被侵蚀的河洛卷。每一局都要选路线、打战斗、拿奖励，边探索边调整牌组。
+《万界长卷》是一款国风回合制卡牌 Roguelite。你扮演执卷人，与西游英灵同行，在受侵蚀的河洛卷中探路、战斗，逐步构筑牌组。
 
-[![一卷万界参赛演示，四字书法封面](docs/media/contest-cover.png)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Contest-Showcase.mp4)
+[![开场 CG，远山宫阙与云海上的地球](docs/media/opening-cg.jpg)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Opening-CG.mp4)
 
-[观看参赛实机演示（4 分 19 秒）](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Contest-Showcase.mp4) · [Windows 游玩](#windows-游玩)
+[观看开场 CG（3 分 32 秒）](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Opening-CG.mp4) · [Windows 游玩](#windows-游玩)
 
-## 怎么玩
+目前做了三个主关卡 **双叉岭、鹰愁涧、高老庄**。花果山是上手教程。
 
-- **看敌人意图，安排出牌顺序。** 用灵力施展仙法，决定这一回合该进攻、防御还是为连锁留牌。
-- **用数字叠势和五行相生接牌。** 按费用从 0、1、2 逐张接续可以叠势，五行搭配则提供另一条连锁路线。
-- **选路线，逐步成型。** 通过战斗、地堂事件和奖励调整构筑，让不同英灵的能力融入牌组，再迎战关底首领。
+## 核心玩法
+
+- **回合制战斗。** 观察敌人意图，分配有限的灵力，决定出牌顺序。
+- **叠势与相生。** 按费用逐张加 1，可以接续数字叠势并强化相关牌效。也可以利用五行相生组织连锁。
+- **探索与构筑。** 选择路线，经历战斗和地图事件，用新卡、灵印和英灵能力调整牌组，再迎战关底首领。
 
 | 孙悟空对战寅将军 | 卷中关卡 |
 | --- | --- |
 | ![实机战斗画面，显示孙悟空、寅将军与手牌](docs/media/wukong-battle.jpg) | ![云海中的山间关卡平台与路线节点](docs/media/scroll-map.png) |
+
+## 英灵登场
+
+点击下方预览，观看从游戏资源导出的首次登场动画。
+
+| 孙悟空 | 唐三藏 | 白龙马 |
+| --- | --- | --- |
+| [![孙悟空登场预览](docs/media/wukong-entrance.jpg)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Wukong-Entrance.mp4) | [![唐三藏登场预览](docs/media/tang-sanzang-entrance.jpg)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Tang-Sanzang-Entrance.mp4) | [![白龙马登场预览](docs/media/bai-longma-entrance.jpg)](https://github.com/manibookmark/Yijuanwanjie/releases/download/v2026.11.25/WanjieScroll-Bai-Longma-Entrance.mp4) |
 
 ## Windows 游玩
 
