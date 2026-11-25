@@ -1,0 +1,17 @@
+{
+    "name": "WanjieScroll.Persistence",
+    "rootNamespace": "WanjieScroll.Persistence",
+    "references": [
+        "WanjieScroll.Core",
+        "WanjieScroll.Meta"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

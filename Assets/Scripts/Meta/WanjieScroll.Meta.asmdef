@@ -1,0 +1,16 @@
+{
+    "name": "WanjieScroll.Meta",
+    "rootNamespace": "WanjieScroll.Meta",
+    "references": [
+        "WanjieScroll.Core"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

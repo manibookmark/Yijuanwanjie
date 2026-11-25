@@ -1,0 +1,19 @@
+{
+    "name": "WanjieScroll.Progression",
+    "rootNamespace": "WanjieScroll.Progression",
+    "references": [
+        "WanjieScroll.Core",
+        "WanjieScroll.Content",
+        "WanjieScroll.Dungeon",
+        "WanjieScroll.Meta"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
