@@ -25,6 +25,7 @@ namespace WanjieScroll.EditorTools
         private static readonly UTF8Encoding Utf8WithoutBom =
             new UTF8Encoding(false);
 
+        [MenuItem("万界长卷/内容/生成运行时内容包")]
         public static void GenerateFromMenu()
         {
             int count = GeneratePackage();

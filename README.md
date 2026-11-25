@@ -20,17 +20,26 @@
 
 下载后双击 `WanjieScroll-Play.exe`。首次启动会自动下载并校验约 1.6 GB 的游戏数据，之后会复用已安装的数据。
 
-## 从源码运行
+## 接着开发
 
 1. 安装团结引擎 1.10.2（`2022.3.62t14`）。
-2. 在克隆目录中运行下列命令。脚本会下载并校验游戏素材，导入官方 TextMesh Pro Essentials，然后打开正式的 Loading 场景。
-3. 等待导入完成，在团结引擎内按 Play。修改 `ContentSource/cards/` 后通过菜单「万界长卷 / 内容 / 生成运行时内容包」重新生成运行包。
+2. 克隆本仓库，双击根目录的 `Setup.cmd`。首次会下载约 1.9 GB 素材、恢复引擎依赖并打开工程。
+3. 导入完成后就可以编辑场景和代码，也可以按 Play 从 Loading 场景试玩。以后直接从团结 Hub 打开这个目录。
+
+改卡牌等内容配置时，编辑 `ContentSource/cards/`，再点团结引擎菜单「万界长卷 / 内容 / 生成运行时内容包」。
+
+<details>
+<summary>手动打开、离线恢复与构建</summary>
 
 ```powershell
 powershell -NoProfile -ExecutionPolicy Bypass -File .\Setup-Project.ps1 -OpenEditor
 ```
 
-离线时可通过 `-AssetArchivePath` 和 `-RuntimeMediaArchivePath` 指定已下载的同版完整资源 ZIP。若已安装的引擎不在脚本的发现路径中，通过 `-EditorPath` 指定 `Tuanjie.exe`。要从源码构建 Windows x64 玩家版，安装对应构建支持，并在命令行传入 `-batchmode -nographics -quit -projectPath <仓库路径> -executeMethod WanjieScroll.EditorTools.PublicPlayerBuilder.BuildWindows`。输出目录为 `Builds/Public`。
+- 若准备完成后工程没有自动打开，可用团结 Hub 打开克隆目录，再打开 `Assets/Scenes/Loading.unity`。引擎安装在自定义位置时，可以用 `-EditorPath` 指定 `Tuanjie.exe`。
+- 已有完整素材 ZIP 时，可用 `-AssetArchivePath` 和 `-RuntimeMediaArchivePath` 从本地恢复。准备脚本会把清单里的素材恢复到发布版本，修改这些素材后请通过 Hub 开工程。
+- 构建 Windows x64 玩家版需要安装对应的构建支持。批处理入口为 `WanjieScroll.EditorTools.PublicPlayerBuilder.BuildWindows`，输出目录是 `Builds/Public`。
+
+</details>
 
 ## 源码与素材
 
