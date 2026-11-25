@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a87c3cc1b996e544988bed031c63bfb, type: 3}
+  m_Name: gubendan
+  m_EditorClassIdentifier:
+  contentId: legacy.card.common.13a386c5
+  projectileSprite: {fileID: 0}
+  visualType: Sprite
+  projectileScale: 0.3
+  flightDuration: 0.18
+  flightArc: 0
+  flightArcHeight: 0
+  multiProjectileDelay: 0.045
+  useAuthoritativeHitSequence: 0
+  bounceScaleMultiplier: 0.72
+  selfEffectStyle: 2
+  selfEffectPrimaryColor: {r: 0.2, g: 0.82, b: 0.42, a: 1}
+  selfEffectSecondaryColor: {r: 0.82, g: 1, b: 0.7, a: 0.96}
+  selfEffectDuration: 0.92
+  selfEffectScale: 1.05
+  selfEffectParticleCount: 12
+  enableTrail: 0
+  trailColor: {r: 0.24, g: 0.85, b: 0.44, a: 0.7}
+  trailWidth: 0.06
+  trailTime: 0.1
+  hitParticleTexture: {fileID: 0}
+  hitParticleColor: {r: 0.2, g: 0.82, b: 0.42, a: 1}
+  hitParticleCount: 0
+  hitParticleSize: 0.05
+  hitParticleSpeed: 2
+  hitParticleLifetime: 0.2
+  secondaryParticleTexture: {fileID: 0}
+  secondaryParticleColor: {r: 0.8, g: 1, b: 0.7, a: 0.9}
+  secondaryParticleCount: 0
+  secondaryParticleSize: 0.04
+  secondaryParticleSpeed: 1.2
+  secondaryParticleLifetime: 0.22
+  punchScaleIntensity: 0.1
+  critPunchScaleIntensity: 0.2
+  hitStopDuration: 0.015
+  critHitStopDuration: 0.03
+  hitStopTimeScale: 0.06
+  deathEffect: 0
+  playSfxClip: {fileID: 8300000, guid: 78f80c05e99a4124887b97c1fadc3ad2, type: 3}
+  playSfxPath:
+  playSfxGain: 1
+  hitSfxPath:
+  hitSfxGain: 1
+  fallbackContentId:

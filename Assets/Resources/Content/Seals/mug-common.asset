@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805ec6b225aa4edaa5ba552bfc217f0c, type: 3}
+  m_Name: mug-common
+  m_EditorClassIdentifier:
+  contentId: seal.xiyou.mug.common.v1
+  displayName: "掠夺印"
+  sealCharacter: "掠"
+  effectType: 21
+  effectValue: 3
+  grade: 0
+  material: 0
+  presentationId: reward.reveal.seal.mug.common.v1
+  description: "宿主主动攻击实际命中的敌人获得来源实例标记，之后被任意伤害击杀时该来源每枚印基础+3灵玉，接受敛玉。同源多次命中不叠标记，不同来源分别结算；自动轰炸、印的独立追击和外溅不新标记。抹除或逃离不领取，标记不跨遭遇。"

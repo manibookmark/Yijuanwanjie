@@ -1,0 +1,393 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c012ed9835f4eb495b07f5f65bca0c2, type: 3}
+  m_Name: liushahe-g4f05-map
+  m_EditorClassIdentifier: 
+  contentId: map.xiyou.liushahe.f05.v1
+  background: {fileID: 21300000, guid: 345b119bf5f263b488d2771bc82de610, type: 3}
+  orthographicSize: 5.4
+  backgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  debugFocusGroupId: 
+  interactionVisualPolicy: 1
+  nodes:
+  - contentId: map.visual.node.xiyou.liushahe.f05.e01
+    interactionGroupId: node.xiyou.liushahe.f05.e01
+    enemyContentId: enemy.xiyou.liushahe_sneaky_head.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 34820408a344494db842228cd1d6ef87, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-sneaky-head-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.49902344, y: 0.27278647}
+      normalizedSize: {x: 0.41601562, y: 0.03328125}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.1, y: 0.2147924}
+    visualScale: 0.20604396
+    hitSize: {x: 1.1967033, y: 1.6681321}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.e02
+    interactionGroupId: node.xiyou.liushahe.f05.e02
+    enemyContentId: enemy.xiyou.liushahe_sneaky_head.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 34820408a344494db842228cd1d6ef87, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-sneaky-head-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.49902344, y: 0.27278647}
+      normalizedSize: {x: 0.41601562, y: 0.03328125}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.23, y: 0.23479241}
+    visualScale: 0.20604396
+    hitSize: {x: 1.1967033, y: 1.6681321}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.e03
+    interactionGroupId: node.xiyou.liushahe.f05.e03
+    enemyContentId: enemy.xiyou.liushahe_sneaky_head.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 34820408a344494db842228cd1d6ef87, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-sneaky-head-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.49902344, y: 0.27278647}
+      normalizedSize: {x: 0.41601562, y: 0.03328125}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.36, y: 0.24979243}
+    visualScale: 0.20604396
+    hitSize: {x: 1.1967033, y: 1.6681321}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.e04
+    interactionGroupId: node.xiyou.liushahe.f05.e04
+    enemyContentId: enemy.xiyou.liushahe_sneaky_head.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 34820408a344494db842228cd1d6ef87, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-sneaky-head-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.49902344, y: 0.27278647}
+      normalizedSize: {x: 0.41601562, y: 0.03328125}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.49, y: 0.24979243}
+    visualScale: 0.20604396
+    hitSize: {x: 1.1967033, y: 1.6681321}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.e05
+    interactionGroupId: node.xiyou.liushahe.f05.e05
+    enemyContentId: enemy.xiyou.liushahe_sneaky_head.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 34820408a344494db842228cd1d6ef87, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-sneaky-head-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.49902344, y: 0.27278647}
+      normalizedSize: {x: 0.41601562, y: 0.03328125}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.62, y: 0.24979241}
+    visualScale: 0.20604396
+    hitSize: {x: 1.1967033, y: 1.6681321}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.e06
+    interactionGroupId: node.xiyou.liushahe.f05.e06
+    enemyContentId: enemy.xiyou.liushahe_sneaky_head.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 34820408a344494db842228cd1d6ef87, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-sneaky-head-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.49902344, y: 0.27278647}
+      normalizedSize: {x: 0.41601562, y: 0.03328125}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.75, y: 0.2447924}
+    visualScale: 0.20604396
+    hitSize: {x: 1.1967033, y: 1.6681321}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.e07
+    interactionGroupId: node.xiyou.liushahe.f05.e07
+    enemyContentId: enemy.xiyou.liushahe_sneaky_head.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 34820408a344494db842228cd1d6ef87, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-sneaky-head-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.49902344, y: 0.27278647}
+      normalizedSize: {x: 0.41601562, y: 0.03328125}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.88, y: 0.22979245}
+    visualScale: 0.20604396
+    hitSize: {x: 1.1967033, y: 1.6681321}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.s01
+    interactionGroupId: node.xiyou.liushahe.f05.s01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.34, y: 0.6383333}
+    visualScale: 0.07177033
+    hitSize: {x: 0.8305264, y: 0.87947375}
+    sortingOrder: 24
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.s02
+    interactionGroupId: node.xiyou.liushahe.f05.s02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.53, y: 0.6933333}
+    visualScale: 0.07177033
+    hitSize: {x: 0.8305264, y: 0.87947375}
+    sortingOrder: 24
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.a01
+    interactionGroupId: node.xiyou.liushahe.f05.a01
+    enemyContentId: enemy.xiyou.liushahe_ghost_elite_ambush.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 73cbf88e4fc90314db6ac04b5fe22fb7, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-ghost-elite-ambush-v2
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.22396398}
+      normalizedSize: {x: 0.51624, y: 0.022042044}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.17, y: 0.5291919}
+    visualScale: 0.15341702
+    hitSize: {x: 2.6640003, y: 1.8960001}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f05.b01
+    interactionGroupId: node.xiyou.liushahe.f05.b01
+    enemyContentId: enemy.xiyou.liushahe_river_obsession
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: c505aaa941b001a4bb284ed679a464de, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 2800000, guid: dffb68c71c77e1245b03e806b6bceeee, type: 3}
+      frameCount: 48
+      atlasColumns: 6
+      atlasRows: 8
+      framesPerSecond: 12
+      groundAnchorNormalizedY: 0.087037034
+      playOnceThenHoldFirstFrame: 1
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.515625, y: 0.087037034}
+      normalizedSize: {x: 0.24300002, y: 0.07776001}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.8, y: 0.58852017}
+    visualScale: 2.9344978
+    hitSize: {x: 2.3564017, y: 3.6798608}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  dependencyVisualAnchors:
+  - prerequisiteGroupId: node.xiyou.liushahe.f05.e02
+    dependentGroupId: node.xiyou.liushahe.f05.s01
+    prerequisiteVisualId: map.visual.node.xiyou.liushahe.f05.e02
+    dependentVisualId: map.visual.node.xiyou.liushahe.f05.s01
+  - prerequisiteGroupId: node.xiyou.liushahe.f05.e05
+    dependentGroupId: node.xiyou.liushahe.f05.s02
+    prerequisiteVisualId: map.visual.node.xiyou.liushahe.f05.e05
+    dependentVisualId: map.visual.node.xiyou.liushahe.f05.s02
+  explorationRewardSlots: []
+  battleBackground: {fileID: 21300000, guid: c87f4a77d72e100458ef8f2cb68625b8, type: 3}
+  battleBackgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  overrideBattleGridColor: 0
+  battleGridColor: {r: 0.42, g: 0.18, b: 0.1, a: 0.34}
+  battleTopFogEnabled: 0
+  transitionProfileContentId: transition.paper-cloud.standard.v1
+  layoutSource: configurator
+  layoutRoundId: g4-f2f3-ground-and-alpha-review-r2-20261016
+  layoutAppliedUtc: 2026-10-16T09:25:28.9178955Z
+  layoutCandidateSha256: 0070304855a55ea2e885c300bcc6bcbd263c241244d444394ce89f1b25efdb2a

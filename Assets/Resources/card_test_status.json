@@ -1,0 +1,316 @@
+{
+    "cards": [
+        {
+            "contentId": "card.xiyou.bailongma.v1",
+            "name": "白龙马",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.8b1aef56",
+            "name": "分影镯",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.common.dingfengzhu.v1",
+            "name": "定风珠",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.c6471450",
+            "name": "雷火环",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.aea0fdf2",
+            "name": "烈阳杖",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.7e46b7e4",
+            "name": "飞刀",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.xiyou.0578cfde",
+            "name": "芭蕉扇",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.5aa5940d",
+            "name": "神火飞鸦",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.973d06a5",
+            "name": "通脉草",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.f22c29d6",
+            "name": "开山斧",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.2927e58a",
+            "name": "锁子甲",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.common.sunwukong.v1",
+            "name": "孙悟空",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.tangsanzang.v1",
+            "name": "唐三藏",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.b4b26600",
+            "name": "摄卷术",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.xiyou.315dc4d8",
+            "name": "筋斗云",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.jingubang.v1",
+            "name": "金箍棒",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.56004d59",
+            "name": "离火咒",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.common.taomujian.v1",
+            "name": "桃木剑",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.common.jiujiebian.v1",
+            "name": "九节鞭",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.6b5e71f5",
+            "name": "烈焰杖",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.a2978dfe",
+            "name": "天罡桃木剑",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.cab047cb",
+            "name": "金丝甲",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.13a386c5",
+            "name": "固本丹",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.c0191ee0",
+            "name": "无字天书",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.9f958e38",
+            "name": "灵玉袋",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.9b5395ff",
+            "name": "福运花",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.fuyuncao.v1",
+            "name": "福运草",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.tianjijing",
+            "name": "福运镜",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.yiwofeng",
+            "name": "神火飞蜂",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.fumozhu",
+            "name": "伏魔珠",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.zhubajie",
+            "name": "猪八戒",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.4c1505d8",
+            "name": "九齿钉耙",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.fe5cd821",
+            "name": "木鼓",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.common.candelabrador.tier2.v1",
+            "name": "震天鼓",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.65bbe23b",
+            "name": "九齿噬魂",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.8c8d6d45",
+            "name": "九霄雷火环",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.xiuxian.d9894e05",
+            "name": "叠影镯",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.5f916d2a",
+            "name": "灵纹天书",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.e4795c77",
+            "name": "展卷符",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.jianshuiyoulong.v1",
+            "name": "涧水游龙",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.7765369e",
+            "name": "千刃",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.188dcf46",
+            "name": "真火咒",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.72bd90af",
+            "name": "玄纹天书",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.shawujing.v1",
+            "name": "沙悟净",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.linglijue.v1",
+            "name": "流沙诀",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.rawmana.v1",
+            "name": "流沙符",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.shatter.v1",
+            "name": "碎裂",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.210a2221",
+            "name": "回旋剑",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "legacy.card.common.cf73149c",
+            "name": "回旋剑阵",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.muddle.v1",
+            "name": "乱魂蛊",
+            "uiConfirmed": true,
+            "functionConfirmed": true
+        },
+        {
+            "contentId": "card.xiyou.guanyin.v1",
+            "name": "观音",
+            "uiConfirmed": false,
+            "functionConfirmed": false
+        },
+        {
+            "contentId": "card.xiyou.confuse",
+            "name": "扰灵",
+            "uiConfirmed": false,
+            "functionConfirmed": false
+        }
+    ]
+}

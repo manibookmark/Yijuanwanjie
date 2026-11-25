@@ -1,0 +1,466 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143359128dc37dc47912248c427531f1, type: 3}
+  m_Name: liushahe-g4f03
+  m_EditorClassIdentifier: 
+  contentId: level.xiyou.liushahe.f03
+  dungeonContentId: dungeon.xiyou.liushahe
+  dungeonBonusJade: 0
+  levelBonusBaseJade: 0
+  floorIndex: 3
+  nextFloorContentId: level.xiyou.liushahe.f04
+  victoryNextRunEntryContentId: 
+  prerequisiteLevelContentId: level.xiyou.liushahe.f02
+  displayName: "\u6697\u6DA1\u5FC3"
+  mapPresentationContentId: map.xiyou.liushahe.f03.v1
+  entryPresentationId: 
+  entryPresentationVariantId: 
+  hideMapNodesDuringEntryPresentation: 0
+  defaultSnapshotId: snapshot.xiyou.liushahe.f03.start
+  levelExperienceRules:
+    baseRequirement: 25
+    curveExponent: 2
+    continuationMode: 1
+    continuationIncrement: 14
+    explicitRequirements: 050000000f000000190000002300000032000000400000004e0000005c0000006a000000780000008600000094000000a2000000
+  levelUpRewardRuleProfileId: reward.level-up.global.v1
+  levelUpOfferScheduleProfileId: 
+  nodes:
+  - contentId: node.xiyou.liushahe.f03.e01
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.liushahe.f03.e01.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.library01_common.v1
+      difficultyContentId: encounter.xiyou.library01_f03_e01.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.0399999991
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.e02
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.liushahe.f03.e02.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.library01_common.v1
+      difficultyContentId: encounter.xiyou.library01_f03_e02.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.130000001
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.e03
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.liushahe.f03.e03.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.library01_common.v1
+      difficultyContentId: encounter.xiyou.library01_f03_e03.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.220000003
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.e04
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.liushahe.f03.e04.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.library01_common.v1
+      difficultyContentId: encounter.xiyou.library01_f03_e04.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.310000005
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.e05
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.liushahe.f03.e05.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.library01_common.v1
+      difficultyContentId: encounter.xiyou.library01_f03_e05.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.400000007
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.e06
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.liushahe.f03.e06.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.library01_common.v1
+      difficultyContentId: encounter.xiyou.library01_f03_e06.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.49000001
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.s01
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.liushahe.f03.e01
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.library01.f03.s01.source.v1
+      kind: 14
+      amount: 0
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u6765\u6E90\u4EA4\u4E92"
+      detailText: "\u6B63\u5F0F\u5165\u573A\u65F6\u7531\u5DF2\u6838\u51C6\u6765\u6E90\u751F\u6210\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.s02
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.liushahe.f03.e03
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.library01.f03.s02.source.v1
+      kind: 14
+      amount: 0
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u6765\u6E90\u4EA4\u4E92"
+      detailText: "\u6B63\u5F0F\u5165\u573A\u65F6\u7531\u5DF2\u6838\u51C6\u6765\u6E90\u751F\u6210\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.s03
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.liushahe.f03.e05
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.library01.f03.s03.source.v1
+      kind: 14
+      amount: 0
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u6765\u6E90\u4EA4\u4E92"
+      detailText: "\u6B63\u5F0F\u5165\u573A\u65F6\u7531\u5DF2\u6838\u51C6\u6765\u6E90\u751F\u6210\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.b01
+    nodeType: 1
+    encounterRole: 3
+    scenarioId: battle.xiyou.liushahe.f03.b01.v1
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.liushahe.f03.exit
+    nodeType: 4
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.liushahe.f03.b01
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.liushahe.f03.exit.v1
+      kind: 1
+      amount: 150
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u8FC7\u6CB3\u7075\u7389"
+      detailText: "\u9886\u53D6150\u7075\u7389\uFF0C\u524D\u5F80\u4E0B\u4E00\u5C42\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  snapshots:
+  - snapshotId: snapshot.xiyou.liushahe.f03.start
+    nodeStates:
+    - nodeContentId: node.xiyou.liushahe.f03.e01
+      progress: 1
+    - nodeContentId: node.xiyou.liushahe.f03.e02
+      progress: 1
+    - nodeContentId: node.xiyou.liushahe.f03.e03
+      progress: 1
+    - nodeContentId: node.xiyou.liushahe.f03.e04
+      progress: 1
+    - nodeContentId: node.xiyou.liushahe.f03.e05
+      progress: 1
+    - nodeContentId: node.xiyou.liushahe.f03.e06
+      progress: 1
+    - nodeContentId: node.xiyou.liushahe.f03.s01
+      progress: 0
+    - nodeContentId: node.xiyou.liushahe.f03.s02
+      progress: 0
+    - nodeContentId: node.xiyou.liushahe.f03.s03
+      progress: 0
+    - nodeContentId: node.xiyou.liushahe.f03.b01
+      progress: 1
+    - nodeContentId: node.xiyou.liushahe.f03.exit
+      progress: 0
+  explorationGuards: []
+  commonFormationRevision: 1

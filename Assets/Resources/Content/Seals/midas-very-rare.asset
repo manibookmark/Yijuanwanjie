@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805ec6b225aa4edaa5ba552bfc217f0c, type: 3}
+  m_Name: midas-very-rare
+  m_EditorClassIdentifier:
+  contentId: seal.xiyou.midas.very-rare.v1
+  displayName: "聚财印"
+  sealCharacter: "点"
+  effectType: 15
+  effectValue: 5
+  grade: 3
+  material: 1
+  presentationId: reward.reveal.seal.midas.very-rare.v1
+  description: "宿主在手牌中时，每次其他卡牌真实出牌获得基础5灵玉，经统一经济规则接受敛玉修正。多宿主独立结算；宿主进入结算区即离手，不为自身产玉。回响、周期轰炸不触发，玩家主动打出的复制牌可触发；不受叠势放大。"

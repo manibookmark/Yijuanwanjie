@@ -1,0 +1,911 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6b740d8bcbc719241aa2a8a3206429b8, type: 3}
+  m_Name: EnemyAreaPresentation
+  m_EditorClassIdentifier: 
+  schemaVersion: 2
+  profileId: ui.enemy-area.huaguoshan.v1
+  gridFrontY: -1.9
+  gridBackY: 2.25
+  gridFrontHalfWidth: 6.3
+  gridBackHalfWidth: 5.2
+  cellWidthUsage: 0.82
+  visualDepthPadding: 0.3
+  backRowScale: 0.82
+  gridLineWidth: 0.025
+  gridColor: {r: 0.42, g: 0.18, b: 0.1, a: 0.34}
+  topFogPosition: {x: 0, y: 2.9, z: 0}
+  topFogWidth: 14.5
+  topFogOpacity: 0.6
+  enemyStatusPosition: {x: 0, y: 3.7, z: 0}
+  bossEnemyStatusYOffset: 0.55
+  entries:
+  - contentId: legacy.enemy.common.b83e679a
+    sprite: {fileID: 21300000, guid: 11a32f7af8ad4b4bbfbd8fa08409ec03, type: 3}
+    groundAnchor: {x: 0.5, y: 0.496}
+    visualOffset: {x: 0, y: -0.0062734876}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.04166666
+      y: 0.20703125
+      width: 0.9166666
+      height: 0.5839844
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.common.snake_elite
+    sprite: {fileID: 21300000, guid: 22b43f8bf9be4c5cc0ce90b1951afd04, type: 3}
+    groundAnchor: {x: 0.5, y: 0.221}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.shuangchaling_coiled_snake_boss
+    sprite: {fileID: 21300000, guid: 22b43f8bf9be4c5cc0ce90b1951afd04, type: 3}
+    groundAnchor: {x: 0.5, y: 0.221}
+    visualOffset: {x: 0, y: -0.029789645}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.034285717
+      y: 0.025423706
+      width: 0.93142855
+      height: 0.9491526
+    visibleBodyTargetMaxWorldSize: 2.4
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.mixed_world_demon
+    sprite: {fileID: 21300000, guid: e07448f6aa0341eca41ea69426fb63fb, type: 3}
+    groundAnchor: {x: 0.49445674, y: 0.2086}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.25
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.shuangchaling_ridge_minion
+    sprite: {fileID: 21300000, guid: 20e91c4d6c0449a0af588562a88861c5, type: 3}
+    groundAnchor: {x: 0.5, y: 0.093}
+    visualOffset: {x: 0.0030616277, y: -0.2508512}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.2096354
+      y: 0.06249999
+      width: 0.58203125
+      height: 0.875
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.shuangchaling_techushi
+    sprite: {fileID: 21300000, guid: 217958993c2549d9a830b4a000b3696d, type: 3}
+    groundAnchor: {x: 0.5, y: 0.048}
+    visualOffset: {x: -0.002314162, y: -0.19962724}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.15755206
+      y: 0.06249999
+      width: 0.6848959
+      height: 0.875
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.shuangchaling_huchang
+    sprite: {fileID: 21300000, guid: 3f54b5365ebe4e9f8eb85b5e1276efc1, type: 3}
+    groundAnchor: {x: 0.5, y: 0.1672794}
+    visualOffset: {x: -0.0018964248, y: -0.20243685}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.15686275
+      y: 0.16666666
+      width: 0.71200985
+      height: 0.6495098
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.17727941}
+    contactShadowNormalizedSize: {x: 0.5122059, y: 0.02598039}
+  - contentId: enemy.xiyou.shuangchaling_xiongshanjun
+    sprite: {fileID: 21300000, guid: 5d5dd79fa78748fdb16db4a306796d5e, type: 3}
+    groundAnchor: {x: 0.5, y: 0.04}
+    visualOffset: {x: -0.0065254327, y: -0.19933964}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.171875
+      y: 0.06249999
+      width: 0.65625
+      height: 0.875
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.shuangchaling_chanteng
+    sprite: {fileID: 21300000, guid: 7d2659445b19479e9c2348a30172d156, type: 3}
+    groundAnchor: {x: 0.5, y: 0.04}
+    visualOffset: {x: 0.009868711, y: -0.2841948}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.25390625
+      y: 0.06249999
+      width: 0.4921875
+      height: 0.875
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.shuangchaling_gold_marten
+    sprite: {fileID: 21300000, guid: 5dab0b8839ec45ff95c8a1705ea6ebea, type: 3}
+    groundAnchor: {x: 0.5, y: 0.04}
+    visualOffset: {x: 0.005371081, y: -0.43821162}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.24609374
+      y: 0.06445311
+      width: 0.5078125
+      height: 0.8730468
+    visibleBodyTargetMaxWorldSize: 1.1
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yinjiangjun
+    sprite: {fileID: 21300000, guid: b4728235c02446678c401208a95dd566, type: 3}
+    groundAnchor: {x: 0.49434483, y: 0.14590542}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 2.0590563
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yingchoujian_rock_cleft_bat
+    sprite: {fileID: 21300000, guid: 5909f06d5df8475ea5996f78dd25a2e2, type: 3}
+    groundAnchor: {x: 0.5, y: 0.48}
+    visualOffset: {x: 0, y: -0.004993261}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.04166666
+      y: 0.25
+      width: 0.9166666
+      height: 0.5
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yingchoujian_tide_shell
+    sprite: {fileID: 21300000, guid: f694d0e94f4c411f8ecfceed9afdc19b, type: 3}
+    groundAnchor: {x: 0.5055376, y: 0.37137574}
+    visualOffset: {x: 0.0015631577, y: 0.07801715}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.1640625
+      y: 0.06249999
+      width: 0.67057294
+      height: 0.875
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yingchoujian_glowwing_bat
+    sprite: {fileID: 21300000, guid: bda392b4df4142f9979238530eb74325, type: 3}
+    groundAnchor: {x: 0.5, y: 0.246997}
+    visualOffset: {x: 0.0076190466, y: -0.21732579}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.125
+      y: 0.24774775
+      width: 0.75
+      height: 0.515015
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.256997}
+    contactShadowNormalizedSize: {x: 0.53928006, y: 0.020630632}
+  - contentId: enemy.xiyou.yingchoujian_ravine_water_wraith
+    sprite: {fileID: 21300000, guid: 6fffdc7e7dd3429fa29ca66370c3e7ba, type: 3}
+    groundAnchor: {x: 0.5, y: 0.23123123}
+    visualOffset: {x: -0.0073549207, y: -0.2484771}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.13800001
+      y: 0.23123123
+      width: 0.724
+      height: 0.5510511
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.24123123}
+    contactShadowNormalizedSize: {x: 0.52092004, y: 0.022042044}
+  - contentId: enemy.xiyou.yingchoujian_mudscale_guard
+    sprite: {fileID: 21300000, guid: a26ce5c1af8a418884042eccf5fda6c4, type: 3}
+    groundAnchor: {x: 0.45661795, y: 0.4053594}
+    visualOffset: {x: 0.004215755, y: -0.0333182}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.072916664
+      y: 0.06249999
+      width: 0.8541666
+      height: 0.875
+    visibleBodyTargetMaxWorldSize: 2.2
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yingchoujian_tide_seal_vine
+    sprite: {fileID: 21300000, guid: e47bacb59f4f42758cc84ca6a5552458, type: 3}
+    groundAnchor: {x: 0.48353517, y: 0.47232598}
+    visualOffset: {x: -0.0022041816, y: 0.05712303}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.113281235
+      y: 0.06249999
+      width: 0.7721354
+      height: 0.875
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yingchoujian_dragon_lock_chain_guard
+    sprite: {fileID: 21300000, guid: fb9af770bbb643cd9d054f5c0f229131, type: 3}
+    groundAnchor: {x: 0.5, y: 0.17524509}
+    visualOffset: {x: -4.81985e-10, y: -0.19856821}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.16299018
+      y: 0.17524508
+      width: 0.6740196
+      height: 0.6531863
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.1852451}
+    contactShadowNormalizedSize: {x: 0.48485294, y: 0.02612745}
+  - contentId: enemy.xiyou.yingchoujian_abyss_stone_guard
+    sprite: {fileID: 21300000, guid: d93640d2a795418abd848d495d263947, type: 3}
+    groundAnchor: {x: 0.5, y: 0.1524024}
+    visualOffset: {x: -0.0044883117, y: -0.21219021}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.22999999
+      y: 0.15165165
+      width: 0.53999996
+      height: 0.69669664
+    visibleBodyTargetMaxWorldSize: 2.2
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.1624024}
+    contactShadowNormalizedSize: {x: 0.38916, y: 0.027837835}
+  - contentId: enemy.xiyou.yingchoujian_tide_shell_general
+    sprite: {fileID: 21300000, guid: 14f4572ff04b477e8c7fb952b67d3f76, type: 3}
+    groundAnchor: {x: 0.5, y: 0.0625}
+    visualOffset: {x: -0.0040577035, y: -0.27531034}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.04166666
+      y: 0.13085938
+      width: 0.9166666
+      height: 0.73828125
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yingchoujian_glowwing_bat_king
+    sprite: {fileID: 21300000, guid: 54acba9740bb43bfa6284985dde94874, type: 3}
+    groundAnchor: {x: 0.5, y: 0.5}
+    visualOffset: {x: 0, y: 0.00018221635}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.04166666
+      y: 0.203125
+      width: 0.9166666
+      height: 0.5957031
+    visibleBodyTargetMaxWorldSize: 2.4
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yingchoujian_mudscale_commandant
+    sprite: {fileID: 21300000, guid: 16a843c0837b413d89a6d8178e504385, type: 3}
+    groundAnchor: {x: 0.49697253, y: 0.16694513}
+    visualOffset: {x: -0.00022412569, y: 0.0077321567}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.22916667
+      y: 0.06249999
+      width: 0.5416666
+      height: 0.875
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yingchoujian_tide_sickle_mantis
+    sprite: {fileID: 21300000, guid: cdd1721762f54da2a4b64c1db27e4111, type: 3}
+    groundAnchor: {x: 0.5, y: 0.13664216}
+    visualOffset: {x: -0.000092224895, y: 0.00009222733}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.14338234
+      y: 0.1360294
+      width: 0.71446073
+      height: 0.7058824
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.14664216}
+    contactShadowNormalizedSize: {x: 0.5139706, y: 0.028235294}
+  - contentId: enemy.xiyou.yingchoujian_treasure_glider
+    sprite: {fileID: 21300000, guid: 318dd189d15b46fb9bc4e9b94a78ad1e, type: 3}
+    groundAnchor: {x: 0.5, y: 0.48}
+    visualOffset: {x: 0, y: 0.00019509034}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.04166666
+      y: 0.16210936
+      width: 0.9166666
+      height: 0.67578125
+    visibleBodyTargetMaxWorldSize: 2.4
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.yingchoujian_dragon_lock_captain
+    sprite: {fileID: 21300000, guid: 9595e13c31ff4c7bbd07c6513cecdd7d, type: 3}
+    groundAnchor: {x: 0.5, y: 0.163}
+    visualOffset: {x: 0.0033437524, y: -0.06680818}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.20120119
+      y: 0.16300002
+      width: 0.5975976
+      height: 0.68200004
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.17300001}
+    contactShadowNormalizedSize: {x: 0.43027028, y: 0.02728}
+  - contentId: enemy.xiyou.yingchoujian_abyss_warden
+    sprite: {fileID: 21300000, guid: d26832af060841f0bea5a2add4f384f1, type: 3}
+    groundAnchor: {x: 0.5, y: 0.15234375}
+    visualOffset: {x: -0.0015389593, y: -0.06383833}
+    visualScale: 2.824404
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.gaolaozhuang_armored_raider
+    sprite: {fileID: 21300000, guid: 30068eddf7d86dc46afa94a51e89968c, type: 3}
+    groundAnchor: {x: 0.5, y: 0.149867}
+    visualOffset: {x: -0.0072754845, y: -0.21098913}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.14190981
+      y: 0.14986736
+      width: 0.71618044
+      height: 0.7015915
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.159867}
+    contactShadowNormalizedSize: {x: 0.5156499, y: 0.028090186}
+  - contentId: enemy.xiyou.gaolaozhuang_blade_wolf
+    sprite: {fileID: 21300000, guid: 226a2aae42be3dc47afba3a320cd25fb, type: 3}
+    groundAnchor: {x: 0.5, y: 0.116048}
+    visualOffset: {x: 0.0061555314, y: -0.2594375}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.14058354
+      y: 0.1153846
+      width: 0.7427056
+      height: 0.76259947
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.126048}
+    contactShadowNormalizedSize: {x: 0.5342706, y: 0.030503979}
+  - contentId: enemy.xiyou.gaolaozhuang_sigil_wing_guard
+    sprite: {fileID: 21300000, guid: 101ece80dc139e647bc0fd9a0db5ac09, type: 3}
+    groundAnchor: {x: 0.5, y: 0.263263}
+    visualOffset: {x: 0.0030920794, y: -0.18569522}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.09416446
+      y: 0.26392573
+      width: 0.811671
+      height: 0.49071622
+    visibleBodyTargetMaxWorldSize: 2.4
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.27326298}
+    contactShadowNormalizedSize: {x: 0.5834483, y: 0.019628648}
+  - contentId: enemy.xiyou.gaolaozhuang_stone_carrier
+    sprite: {fileID: 21300000, guid: 112fe74981e4e5441bcfda709a93f428, type: 3}
+    groundAnchor: {x: 0.5, y: 0.143669}
+    visualOffset: {x: -0.0032273147, y: -0.28519925}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.111713685
+      y: 0.14285712
+      width: 0.7765726
+      height: 0.7077922
+    visibleBodyTargetMaxWorldSize: 2.2
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.153669}
+    contactShadowNormalizedSize: {x: 0.55913234, y: 0.028311688}
+  - contentId: enemy.xiyou.gaolaozhuang_iron_barricade
+    sprite: {fileID: 21300000, guid: 3be3cd7e732561c4a8c89f5b43b4e699, type: 3}
+    groundAnchor: {x: 0.5, y: 0.174403}
+    visualOffset: {x: -0.0040688813, y: -0.24005663}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.0994695
+      y: 0.17374004
+      width: 0.80106103
+      height: 0.6485411
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.184403}
+    contactShadowNormalizedSize: {x: 0.576764, y: 0.02591512}
+  - contentId: enemy.xiyou.gaolaozhuang_patrol_chief
+    sprite: {fileID: 21300000, guid: 65c7d1722e103f649b17bcd1c92c9c80, type: 3}
+    groundAnchor: {x: 0.5, y: 0.116883}
+    visualOffset: {x: -0.0050998265, y: -0.19464609}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.10954449
+      y: 0.11688312
+      width: 0.78091097
+      height: 0.7727274
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.126883}
+    contactShadowNormalizedSize: {x: 0.5618655, y: 0.03090909}
+  - contentId: enemy.xiyou.gaolaozhuang_manor_commander
+    sprite: {fileID: 21300000, guid: 406f7e418b786bd45b78333010f227e6, type: 3}
+    groundAnchor: {x: 0.5, y: 0.126623}
+    visualOffset: {x: -0.002680242, y: -0.21096215}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.099783085
+      y: 0.12662338
+      width: 0.79934925
+      height: 0.737013
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.13662301}
+    contactShadowNormalizedSize: {x: 0.5755315, y: 0.029512987}
+  - contentId: enemy.xiyou.gaolaozhuang_mountain_hexer
+    sprite: {fileID: 21300000, guid: 55eac4dd9f2832c45ac39255e81ea972, type: 3}
+    groundAnchor: {x: 0.5, y: 0.103084}
+    visualOffset: {x: -0.009971111, y: -0.14666136}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.18438178
+      y: 0.10389608
+      width: 0.65184385
+      height: 0.79058444
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.113083996}
+    contactShadowNormalizedSize: {x: 0.4693276, y: 0.031655844}
+  - contentId: enemy.xiyou.gaolaozhuang_cave_gate_brute
+    sprite: {fileID: 21300000, guid: 55b5231a3ac93e245b1f856e168a0e93, type: 3}
+    groundAnchor: {x: 0.5, y: 0.124188}
+    visualOffset: {x: -0.0070948796, y: -0.19857056}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.13774405
+      y: 0.125
+      width: 0.7255965
+      height: 0.73863643
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.134188}
+    contactShadowNormalizedSize: {x: 0.52203906, y: 0.029545454}
+  - contentId: enemy.xiyou.gaolaozhuang_cave_demon_lord
+    sprite: {fileID: 21300000, guid: d09d5db6ad1b0ed4199bf3905160df01, type: 3}
+    groundAnchor: {x: 0.5, y: 0.14595349}
+    visualOffset: {x: 0, y: -0.09}
+    visualScale: 3.8296065
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.14595349}
+    contactShadowNormalizedSize: {x: 0.48150328, y: 0.04056783}
+  - contentId: enemy.xiyou.gaolaozhuang_raid_grunt
+    sprite: {fileID: 21300000, guid: 7b8afe5c42dc7da418f3aa21a2675e06, type: 3}
+    groundAnchor: {x: 0.5, y: 0.144562}
+    visualOffset: {x: -0.0010581221, y: -0.24121606}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.119363405
+      y: 0.14456232
+      width: 0.77851456
+      height: 0.6803714
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.15456201}
+    contactShadowNormalizedSize: {x: 0.5605305, y: 0.027214853}
+  - contentId: enemy.xiyou.gaolaozhuang_courtyard_claw
+    sprite: {fileID: 21300000, guid: 8d989a5d87d04fbd9d75610e222ba91b, type: 3}
+    groundAnchor: {x: 0.5, y: 0.175066}
+    visualOffset: {x: -0.013082307, y: -0.23192625}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.11140583
+      y: 0.1750663
+      width: 0.801061
+      height: 0.6339523
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.185066}
+    contactShadowNormalizedSize: {x: 0.576764, y: 0.02535809}
+  - contentId: enemy.xiyou.gaolaozhuang_wooden_barricade
+    sprite: {fileID: 21300000, guid: befaecbabc5eda84b98f1fbbe1ce91ff, type: 3}
+    groundAnchor: {x: 0.5, y: 0.17639257}
+    visualOffset: {x: -0.0040420187, y: -0.20579517}
+    visualScale: 1
+    hasVisibleBodySizing: 1
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0.10344827
+      y: 0.17639257
+      width: 0.79442966
+      height: 0.6100796
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.18639258}
+    contactShadowNormalizedSize: {x: 0.5715119, y: 0.024429707}
+  - contentId: enemy.xiyou.liushahe_mudman.v1
+    sprite: {fileID: 21300000, guid: 9605ac3ba18730e4b8b88d47f33a9d10, type: 3}
+    groundAnchor: {x: 0.5, y: 0.30143228}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 2.5180328
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.30143228}
+    contactShadowNormalizedSize: {x: 0.38671875, y: 0.0309375}
+  - contentId: enemy.xiyou.liushahe_ecto.v1
+    sprite: {fileID: 21300000, guid: 87f4d5d982cdea2488d07a817cde4268, type: 3}
+    groundAnchor: {x: 0.5, y: 0.13051471}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.0860728
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.14051472}
+    contactShadowNormalizedSize: {x: 0.4861765, y: 0.029558823}
+  - contentId: enemy.xiyou.liushahe_mudman_elite.v1
+    sprite: {fileID: 21300000, guid: b0fff197aebeb16409c66fd588b933bf, type: 3}
+    groundAnchor: {x: 0.5, y: 0.24924925}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.5748585
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.25924924}
+    contactShadowNormalizedSize: {x: 0.5382, y: 0.02123123}
+  - contentId: enemy.xiyou.liushahe_ecto_elite.v1
+    sprite: {fileID: 21300000, guid: 031f462694ee402f90304eff924c5932, type: 3}
+    groundAnchor: {x: 0.5, y: 0.14264265}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.3371116
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.15264265}
+    contactShadowNormalizedSize: {x: 0.53352004, y: 0.027867867}
+  - contentId: enemy.xiyou.liushahe_ghost.v1
+    sprite: {fileID: 21300000, guid: 94b791859a6241a19bf862005dd7b39d, type: 3}
+    groundAnchor: {x: 0.50097656, y: 0.22460938}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.8285714
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.50097656, y: 0.22460938}
+    contactShadowNormalizedSize: {x: 0.26367188, y: 0.02109375}
+  - contentId: enemy.xiyou.liushahe_ghost_elite.v1
+    sprite: {fileID: 21300000, guid: 84f4499a7fec4dd684bd1bc1c486fe7b, type: 3}
+    groundAnchor: {x: 0.5, y: 0.15015015}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.3590795
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.16015016}
+    contactShadowNormalizedSize: {x: 0.42012003, y: 0.027417416}
+  - contentId: enemy.xiyou.liushahe_lion_head.v1
+    sprite: {fileID: 21300000, guid: d60b486578364a2c84a44a65696da697, type: 3}
+    groundAnchor: {x: 0.50097656, y: 0.28450522}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 2.2857144
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.50097656, y: 0.28450522}
+    contactShadowNormalizedSize: {x: 0.41601562, y: 0.03328125}
+  - contentId: enemy.xiyou.liushahe_glowing_bat_elite.v1
+    sprite: {fileID: 21300000, guid: 989f0b7390714f129790ccebf0516ce8, type: 3}
+    groundAnchor: {x: 0.49934897, y: 0.30566406}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 2.47343
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.49934897, y: 0.30566406}
+    contactShadowNormalizedSize: {x: 0.20963542, y: 0.037734374}
+  - contentId: enemy.xiyou.liushahe_sneaky_head.v1
+    sprite: {fileID: 21300000, guid: ca049767748449e8ab5c4e6ace3f8edb, type: 3}
+    groundAnchor: {x: 0.49902344, y: 0.27278647}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 2.1041095
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.49902344, y: 0.27278647}
+    contactShadowNormalizedSize: {x: 0.41601562, y: 0.03328125}
+  - contentId: enemy.xiyou.liushahe_apprentice_witch.v1
+    sprite: {fileID: 21300000, guid: 16d08882daf546fdab281be8f604469b, type: 3}
+    groundAnchor: {x: 0.5, y: 0.16605392}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.2094218
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.17605393}
+    contactShadowNormalizedSize: {x: 0.48441178, y: 0.026544116}
+  - contentId: enemy.xiyou.liushahe_lion_head_elite.v1
+    sprite: {fileID: 21300000, guid: ae703895daac4aea89a0bb6771dee8bc, type: 3}
+    groundAnchor: {x: 0.5, y: 0.20045045}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.5667167
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.21045046}
+    contactShadowNormalizedSize: {x: 0.53892, y: 0.023783782}
+  - contentId: enemy.xiyou.liushahe_shade_bomb.v1
+    sprite: {fileID: 21300000, guid: 802728b8eb204bef853e53f3a5013eaf, type: 3}
+    groundAnchor: {x: 0.49609375, y: 0.30273438}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 2.3558283
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.49609375, y: 0.30273438}
+    contactShadowNormalizedSize: {x: 0.3828125, y: 0.030625}
+  - contentId: enemy.xiyou.liushahe_nesuferit_elite.v1
+    sprite: {fileID: 21300000, guid: de38dd50d8ce4c129fc7a425578a27ab, type: 3}
+    groundAnchor: {x: 0.5, y: 0.19294295}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.5749117
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.20294295}
+    contactShadowNormalizedSize: {x: 0.47880003, y: 0.024024023}
+  - contentId: enemy.xiyou.liushahe_glowing_bat.v1
+    sprite: {fileID: 21300000, guid: 11a32f7af8ad4b4bbfbd8fa08409ec03, type: 3}
+    groundAnchor: {x: 0.5, y: 0.496}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 0
+    contactShadowNormalizedCenter: {x: 0, y: 0}
+    contactShadowNormalizedSize: {x: 0, y: 0}
+  - contentId: enemy.xiyou.liushahe_ghost_elite_ambush.v1
+    sprite: {fileID: 21300000, guid: 3c88ce4fb455fc343af2fe1b4e0cda52, type: 3}
+    groundAnchor: {x: 0.5, y: 0.21396397}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.716525
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.22396398}
+    contactShadowNormalizedSize: {x: 0.51624, y: 0.022042044}
+  - contentId: enemy.xiyou.liushahe_river_obsession
+    sprite: {fileID: 21300000, guid: 22a34fc7a4be8044d874861c8093a6ab, type: 3}
+    groundAnchor: {x: 0.5, y: 0.12222222}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 1.8635077
+    hasVisibleBodySizing: 0
+    visibleBodyNormalizedRect:
+      serializedVersion: 2
+      x: 0
+      y: 0
+      width: 1
+      height: 1
+    visibleBodyTargetMaxWorldSize: 1.8
+    hasContactShadowCalibration: 1
+    contactShadowNormalizedCenter: {x: 0.5, y: 0.12222222}
+    contactShadowNormalizedSize: {x: 0.2475, y: 0.0792}

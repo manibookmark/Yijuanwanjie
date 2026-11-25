@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c19177bf24744be8ae5667acbc03825, type: 3}
+  m_Name: gaolaozhuang-sigil-wing-guard
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  contentId: behavior.enemy.xiyou.gaolaozhuang-sigil-wing-guard.v1
+  selectionMode: 1
+  avoidImmediateRepeat: 0
+  actions:
+  - intentType: 1
+    amount: 1
+    weight: 60
+    description: 符力冲击
+    actionId: action.gaolaozhuang.sigil_wing_guard.strike
+    temporaryCardContentId: 
+    temporaryCardPlacement: 0
+    temporaryCardMaxRemaining: 0
+  - intentType: 2
+    amount: 19
+    weight: 28
+    description: "\u5C01\u7F04\u62A4\u8EAB"
+    actionId: action.gaolaozhuang.sigil_wing_guard.guard
+    temporaryCardContentId: 
+    temporaryCardPlacement: 0
+    temporaryCardMaxRemaining: 0
+  - intentType: 9
+    amount: 1
+    weight: 2
+    description: "\u79FD\u5377\u5165\u5E93"
+    actionId: action.gaolaozhuang.sigil_wing_guard.foul_card
+    temporaryCardContentId: card.xiyou.shatter.v1
+    temporaryCardPlacement: 0
+    temporaryCardMaxRemaining: 3

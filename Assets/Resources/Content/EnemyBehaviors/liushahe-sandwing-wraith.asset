@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c19177bf24744be8ae5667acbc03825, type: 3}
+  m_Name: liushahe-sandwing-wraith
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  contentId: behavior.enemy.xiyou.liushahe-sandwing-wraith.v1
+  selectionMode: 1
+  avoidImmediateRepeat: 0
+  actions: []
+  hasPhaseSwitch: 0
+  phaseHealthThresholdPercent: 50
+  phaseActionCountThreshold: 7
+  phaseTwoActions: []
+  useHealthGroups: 1
+  healthGroups:
+  - requiredHealthPercent: 100
+    turnCountdown: -1
+    actions:
+    - intentType: 1
+      amount: 7
+      weight: 70
+      healthWeight: 70
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: 沙羽掠身
+      actionId: behavior.enemy.xiyou.liushahe-sandwing-wraith.v1.attack
+    - intentType: 2
+      amount: 120
+      weight: 15
+      healthWeight: 15
+      canBeConsecutive: 0
+      prioritiseForStartPhase: 0
+      description: 羽砂护身
+      actionId: behavior.enemy.xiyou.liushahe-sandwing-wraith.v1.guard
+    - intentType: 9
+      amount: 1
+      weight: 15
+      healthWeight: 15
+      canBeConsecutive: 0
+      prioritiseForStartPhase: 0
+      description: 卷入碎裂
+      actionId: behavior.enemy.xiyou.liushahe-sandwing-wraith.v1.shatter
+      temporaryCardContentId: card.xiyou.shatter.v1
+      temporaryCardPlacement: 3
+      temporaryCardMaxRemaining: 0

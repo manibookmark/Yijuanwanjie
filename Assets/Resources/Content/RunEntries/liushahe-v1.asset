@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2204209db2e44a75a53aac3bce9ac83d, type: 3}
+  m_Name: liushahe-v1
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  contentId: run-entry.xiyou.liushahe.v1
+  firstFloorContentId: level.xiyou.liushahe.f01
+  volumeId: xiyou
+  entrySnapshotId: snapshot.xiyou.liushahe.f01.start
+  sideEventTimelineContentId: sidetimeline.xiyou.g4_library01.v1
+  maxHealth: 50
+  baseMana: 2
+  handSize: 3
+  commonCardContentIds:
+  - legacy.card.common.7e46b7e4
+  - legacy.card.xiyou.0578cfde
+  - legacy.card.common.f22c29d6
+  - legacy.card.common.973d06a5
+  - legacy.card.common.2927e58a

@@ -1,0 +1,201 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d3a91c4e8b24f60a2c5d817e94b30f2, type: 3}
+  m_Name: tianlu-registry-catalog
+  m_EditorClassIdentifier: 
+  entries:
+  - contentId: tianlu.entry.crawler.wukong.v1
+    kind: 0
+    displayName: "\u5B59\u609F\u7A7A"
+    unlockedText: "\u968F\u6267\u5377\u4EBA\u540C\u884C\u7684\u7B2C\u4E00\u4F4D\u82F1\u7075\uFF0C\u6301\u68D2\u7834\u9635\u7684\u5148\u950B\u3002"
+    lockedText: "\u5728\u82B1\u679C\u5C71\u79D8\u6D1E\u6700\u6DF1\u5904\u51FB\u8D25\u5996\u738B\u540E\u7834\u5C01\u6551\u51FA\u3002"
+    check: 1
+    checkContentId: legacy.crawler.common.5a3f3db3
+    completionLevelContentId: 
+  - contentId: tianlu.entry.relic.jiudie.v1
+    kind: 1
+    displayName: "\u4E5D\u53E0"
+    unlockedText: "\u542F\u7528\u53E0\u52BF\uFF1A\u6309\u7075\u529B\u6D88\u8017\u9012\u589E\u8FDE\u7EED\u51FA\u724C\uFF0C\u9010\u5C42\u7D2F\u79EF\u53E0\u52BF\uFF0C\u987A\u5E8F\u4E2D\u65AD\u5219\u91CD\u7F6E\u3002"
+    lockedText: "\u6559\u7A0B\xB7\u82B1\u679C\u5C71\u7B2C\u4E8C\u6218\u540E\u62FE\u53D6\u3002"
+    check: 2
+    checkContentId: relic.tutorial.jiudie.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.relic.wuxing-disc.v1
+    kind: 1
+    displayName: "\u4E94\u884C\u76D8"
+    unlockedText: "\u542F\u7528\u4E94\u884C\u76F8\u751F\uFF1A\u76F8\u90BB\u4E24\u5F20\u51FA\u724C\u6784\u6210\u76F8\u751F\u65F6\uFF0C\u89E6\u53D1\u5BF9\u5E94\u589E\u76CA\u3002"
+    lockedText: "\u6559\u7A0B\xB7\u82B1\u679C\u5C71\u7B2C\u4E94\u6218\u540E\u62FE\u53D6\u3002"
+    check: 2
+    checkContentId: relic.tutorial.wuxing-disc.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.level.huaguoshan.v1
+    kind: 3
+    displayName: "\u82B1\u679C\u5C71\u79D8\u6D1E"
+    unlockedText: "\u8BD5\u73A9\u5377\xB7\u5996\u4E71\u521D\u8D77\u4E4B\u5730\uFF0C\u4E03\u6218\u4E4B\u540E\u5996\u738B\u73B0\u5F62\u3002"
+    lockedText: "\u51FB\u8D25\u82B1\u679C\u5C71\u5996\u738B\u540E\u901A\u5173\u3002"
+    check: 4
+    checkContentId: level.tutorial.huaguoshan.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.facility.tianlu.v1
+    kind: 4
+    displayName: "\u5929\u7B93"
+    unlockedText: "\u603B\u8FDB\u5EA6\u540D\u518C\uFF0C\u6536\u5F55\u4E07\u754C\u89E3\u9501\u4E4B\u4E8B\u3002"
+    lockedText: "\u968F\u6267\u5377\u4EBA\u5F52\u6765\u800C\u82CF\u9192\u3002"
+    check: 0
+    checkContentId: 
+    completionLevelContentId: 
+  - contentId: tianlu.entry.facility.wanjie.v1
+    kind: 4
+    displayName: "\u4E07\u754C"
+    unlockedText: "\u901A\u5F80\u5404\u5377\u5173\u533A\u7684\u95E8\u6237\u3002"
+    lockedText: "\u968F\u6267\u5377\u4EBA\u5F52\u6765\u800C\u82CF\u9192\u3002"
+    check: 0
+    checkContentId: 
+    completionLevelContentId: 
+  - contentId: tianlu.entry.relic.yuyin.v1
+    kind: 1
+    displayName: "\u7389\u5370"
+    unlockedText: "\u89E3\u9501\u5373\u65F6\u94A4\u5370\uFF1B\u53D6\u5F97\u7075\u5370\u65F6\uFF0C\u53EF\u5C06\u5176\u94A4\u5165\u6709\u7A7A\u5370\u4F4D\u7684\u5361\u724C\u3002"
+    lockedText: "\u53CC\u53C9\u5CAD\xB7\u864E\u7A74\u89E3\u5384\u7B2C\u4E8C\u5C42\u661F\u75D5\u5370\u53F0\u53D6\u5F97\u3002"
+    check: 2
+    checkContentId: relic.xiyou.yuyin.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.crawler.tangsanzang.v1
+    kind: 0
+    displayName: "\u5510\u4E09\u85CF"
+    unlockedText: "\u53CC\u53C9\u5CAD\u6551\u51FA\u7684\u540C\u884C\u82F1\u7075\uFF1B\u4E0B\u6B21\u5165\u5377\u65F6\u53EF\u9009\u62E9\u5510\u4E09\u85CF\u53CA\u5176\u4E13\u5C5E\u8D77\u59CB\u724C\u7EC4\u3002"
+    lockedText: "\u51FB\u8D25\u53CC\u53C9\u5CAD\u7B2C\u56DB\u5C42\u7684\u5BC5\u5C06\u519B\u540E\u6551\u51FA\u3002"
+    check: 1
+    checkContentId: crawler.xiyou.tangsanzang.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.level.shuangchaling.v1
+    kind: 3
+    displayName: "\u53CC\u53C9\u5CAD"
+    unlockedText: "\u7B2C\u4E00\u5377\u542F\u7A0B\u4E4B\u5730\uFF0C\u5996\u6C14\u76D8\u8E1E\uFF0C\u5C01\u5370\u5EF6\u5411\u5377\u9875\u6DF1\u5904\u3002"
+    lockedText: "\u5C1A\u672A\u901A\u5173\u3002"
+    check: 4
+    checkContentId: level.xiyou.shuangchaling.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.facility.daozang.v1
+    kind: 4
+    displayName: "\u9053\u85CF"
+    unlockedText: "\u5341\u4E5D\u90E8\u7ECF\u8BC0\u6240\u5728\uFF0C\u53EF\u6C38\u4E45\u63D0\u5347\u4FEE\u4E3A\u3002"
+    lockedText: "\u901A\u5173\u53CC\u53C9\u5CAD\u540E\u590D\u82CF\u3002"
+    check: 5
+    checkContentId: 
+    completionLevelContentId: level.xiyou.shuangchaling.v1
+  - contentId: tianlu.entry.facility.qunyingdian.v1
+    kind: 4
+    displayName: "\u7FA4\u82F1\u6BBF"
+    unlockedText: "\u82F1\u7075\u540D\u7C4D\u60AC\u6302\u4E4B\u6BBF\uFF0C\u53EF\u62DB\u52DF\u4E0E\u5207\u6362\u51FA\u6218\u82F1\u7075\u3002"
+    lockedText: "\u901A\u5173\u53CC\u53C9\u5CAD\u540E\u590D\u82CF\u3002"
+    check: 5
+    checkContentId: 
+    completionLevelContentId: level.xiyou.shuangchaling.v1
+  - contentId: tianlu.entry.relic.polentir.v1
+    kind: 1
+    displayName: "\u89C2\u661F\u53F0\xB7\u5929\u673A"
+    unlockedText: "\u5F00\u653E\u51FA\u53D1\u524D\u7684\u5929\u673A\u9009\u62E9\uFF0C\u5E76\u89E3\u9501\u67AF\u6728\u9022\u6625\u4E0E\u5316\u7532\u4E3A\u950B\u3002"
+    lockedText: "\u5728\u9E70\u6101\u6DA7 F1 \u53D6\u5F97\uFF0C\u5F00\u653E\u5929\u673A\u9009\u62E9\u3002"
+    check: 2
+    checkContentId: relic.xiyou.polentir.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.arcana.huichun-miyao.v1
+    kind: 2
+    displayName: "\u67AF\u6728\u9022\u6625"
+    unlockedText: "\u6240\u6709\u6CBB\u7597\u6548\u679C\u7FFB\u500D\u3002"
+    lockedText: "\u53D6\u5F97\u9E70\u6101\u6DA7 F1 \u7684\u89C2\u661F\u53F0\u540E\u81EA\u52A8\u89E3\u9501\u3002"
+    check: 3
+    checkContentId: arcana.xiyou.experimental-medicine.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.arcana.hudun-mengji.v1
+    kind: 2
+    displayName: "\u5316\u7532\u4E3A\u950B"
+    unlockedText: "\u6BCF\u6B21\u62A4\u7532\u5361\u7ED3\u7B97\u540E\uFF0C\u4EE5\u5F53\u524D\u62A4\u7532\u5BF9\u6700\u524D\u654C\u4EBA\u8FFD\u52A0\u7B49\u503C\u76F4\u63A5\u4F24\u5BB3\u3002"
+    lockedText: "\u53D6\u5F97\u9E70\u6101\u6DA7 F1 \u7684\u89C2\u661F\u53F0\u540E\u81EA\u52A8\u89E3\u9501\u3002"
+    check: 3
+    checkContentId: arcana.xiyou.shield-bash.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.relic.guanxing-tai.v1
+    kind: 1
+    displayName: "\u89C2\u661F\u53F0\xB7\u7EC8\u5C40"
+    unlockedText: "\u4E0E\u9E70\u6101\u6DA7\u901A\u5173\u8BB0\u5F55\u5171\u540C\u590D\u82CF\u5929\u673A\u9601\u548C\u4E07\u5B9D\u9601\u3002"
+    lockedText: "\u5728\u9E70\u6101\u6DA7 F5 \u53D6\u5F97\u3002"
+    check: 2
+    checkContentId: relic.xiyou.guanxing-tai.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.crawler.bailongma.v1
+    kind: 0
+    displayName: "\u767D\u9F99\u9A6C"
+    unlockedText: "\u9E70\u6101\u6DA7\u6551\u51FA\u7684\u540C\u884C\u82F1\u7075\uFF1B\u4E0B\u6B21\u5165\u5377\u65F6\u53EF\u9009\u62E9\u767D\u9F99\u9A6C\u53CA\u5176\u4E13\u5C5E\u8D77\u59CB\u724C\u7EC4\u3002"
+    lockedText: "\u901A\u5173\u86C7\u76D8\u5C71\xB7\u9E70\u6101\u6DA7\uFF0C\u51FB\u8D25\u9547\u6E0A\u72F1\u4F7F\u540E\u6551\u51FA\u3002"
+    check: 1
+    checkContentId: crawler.xiyou.bailongma.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.level.heifengshan.v1
+    kind: 3
+    displayName: "\u86C7\u76D8\u5C71\xB7\u9E70\u6101\u6DA7"
+    unlockedText: "\u5DF2\u7834\u9547\u6E0A\u5C01\u9501\uFF0C\u6551\u51FA\u767D\u9F99\u9A6C\uFF1B\u9AD8\u8001\u5E84\xB7\u4E91\u6808\u6D1E\u5DF2\u5F00\u653E\u3002"
+    lockedText: "\u901A\u5173\u86C7\u76D8\u5C71\xB7\u9E70\u6101\u6DA7\u540E\u6536\u5F55\uFF1B\u901A\u5173\u53CC\u53C9\u5CAD\u540E\u53EF\u8FDB\u5165\u3002"
+    check: 4
+    checkContentId: level.xiyou.yingchoujian.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.facility.wanbaoge.v1
+    kind: 4
+    displayName: "\u4E07\u5B9D\u9601"
+    unlockedText: "\u6536\u5F55\u5DF2\u53D6\u5F97\u7684\u9057\u73CD\uFF0C\u67E5\u770B\u5176\u6548\u679C\u4E0E\u53D6\u5F97\u8BB0\u5F55\u3002"
+    lockedText: "\u901A\u5173\u86C7\u76D8\u5C71\xB7\u9E70\u6101\u6DA7\u5E76\u53D6\u5F97\u7EC8\u5C40\u89C2\u661F\u53F0\u540E\u590D\u82CF\u3002"
+    check: 8
+    checkContentId: 
+    completionLevelContentId: level.xiyou.yingchoujian.v1
+  - contentId: tianlu.entry.facility.tianjige.v1
+    kind: 4
+    displayName: "\u5929\u673A\u9601"
+    unlockedText: "\u5929\u673A\u9601\u5DF2\u590D\u82CF\uFF1B\u5929\u673A\u9009\u62E9\u987B\u5148\u53D6\u5F97\u9E70\u6101\u6DA7
+      F1 \u89C2\u661F\u53F0\u3002"
+    lockedText: "\u901A\u5173\u9E70\u6101\u6DA7\u5E76\u53D6\u5F97 F5 \u89C2\u661F\u53F0\u540E\u590D\u82CF\uFF1B\u5929\u673A\u9009\u62E9\u53E6\u9700
+      F1 \u89C2\u661F\u53F0\u3002"
+    check: 6
+    checkContentId: 
+    completionLevelContentId: level.xiyou.yingchoujian.v1
+  - contentId: tianlu.entry.crawler.zhubajie.v1
+    kind: 0
+    displayName: "\u732A\u516B\u6212"
+    unlockedText: "\u4E91\u6808\u6D1E\u6551\u51FA\u7684\u540C\u884C\u82F1\u7075\uFF1B\u4E0B\u4E00\u6B21\u5165\u5377\u65F6\u53EF\u9009\u62E9\u732A\u516B\u6212\u53CA\u5176\u4E13\u5C5E\u8D77\u59CB\u724C\u7EC4\u3002"
+    lockedText: "\u901A\u5173\u9AD8\u8001\u5E84\xB7\u4E91\u6808\u6D1E\uFF0C\u51FB\u8D25\u88C2\u5377\u5996\u738B\u540E\u514D\u8D39\u6551\u51FA\u3002"
+    check: 1
+    checkContentId: crawler.xiyou.zhubajie
+    completionLevelContentId: 
+  - contentId: tianlu.entry.level.gaolaozhuang.v1
+    kind: 3
+    displayName: "\u9AD8\u8001\u5E84\xB7\u4E91\u6808\u6D1E"
+    unlockedText: "\u4E94\u5C42\u9AD8\u8001\u5E84\u4E0E\u4E91\u6808\u6D1E\u5DF2\u5B8C\u6210\uFF1B\u732A\u516B\u6212\u7684\u82F1\u7075\u8BB0\u5F55\u5DF2\u6536\u5F55\uFF0C\u6D41\u6C99\u6CB3\u5DF2\u5F00\u653E\u3002"
+    lockedText: "\u901A\u5173\u9AD8\u8001\u5E84\xB7\u4E91\u6808\u6D1E\u540E\u6536\u5F55\uFF1B\u901A\u5173\u86C7\u76D8\u5C71\xB7\u9E70\u6101\u6DA7\u540E\u53EF\u8FDB\u5165\u3002"
+    check: 4
+    checkContentId: level.xiyou.gaolaozhuang.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.crawler.shawujing.v1
+    kind: 0
+    displayName: "\u6C99\u609F\u51C0"
+    unlockedText: "\u6D41\u6C99\u6CB3\u6551\u51FA\u7684\u540C\u884C\u82F1\u7075\uFF1B\u4E0B\u6B21\u5165\u5377\u65F6\u53EF\u9009\u62E9\u6C99\u609F\u51C0\u53CA\u5176\u4E13\u5C5E\u8D77\u59CB\u724C\u7EC4\u3002"
+    lockedText: "\u5B8C\u6210\u6D41\u6C99\u6CB3\xB7\u5F31\u6C34\u5F52\u6D41\u7EC8\u5C40\u540E\u6551\u51FA\u3002"
+    check: 1
+    checkContentId: crawler.xiyou.shawujing.v1
+    completionLevelContentId: 
+  - contentId: tianlu.entry.level.liushahe.v1
+    kind: 3
+    displayName: "\u6D41\u6C99\u6CB3\xB7\u5F31\u6C34\u5F52\u6D41"
+    unlockedText: "\u4E94\u5C42\u5F31\u6C34\u5F52\u6D41\u5DF2\u5B8C\u6210\uFF0C\u6C99\u609F\u51C0\u7684\u82F1\u7075\u8BB0\u5F55\u5DF2\u6536\u5F55\u3002"
+    lockedText: "\u901A\u5173\u6D41\u6C99\u6CB3\xB7\u5F31\u6C34\u5F52\u6D41\u540E\u6536\u5F55\u3002"
+    check: 4
+    checkContentId: level.xiyou.liushahe.f01
+    completionLevelContentId: 

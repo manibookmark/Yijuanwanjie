@@ -1,0 +1,96 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4785e0198374e218e694f855c1b62af, type: 3}
+  m_Name: hub-video-facility-art
+  m_EditorClassIdentifier: 
+  _contentId: presentation.hub.video-facilities.s2.v1
+  _background: {fileID: 2800000, guid: 73b186df1ff14b0094269ab948010a97, type: 3}
+  _canvasSize: {x: 1920, y: 1080}
+  _facilities:
+  - _registryEntryId: tianlu.entry.facility.daozang.v1
+    _displayName: "\u9053\u85CF"
+    _video: {fileID: 32900000, guid: 1a3959af3ccf6594dabc32ce9c523359, type: 3}
+    _material: {fileID: 2100000, guid: c5f4476edf1108f49a584ac4f55fbc63, type: 2}
+    _hitMask: {fileID: 2800000, guid: cb0dba4b5550a01439b10c4cdb021c9f, type: 3}
+    _artRect:
+      serializedVersion: 2
+      x: 1323.09
+      y: 253.24
+      width: 629.28
+      height: 353.78
+    _playbackSpeed: 2
+    _audioVolume: 0.65
+  - _registryEntryId: tianlu.entry.facility.qunyingdian.v1
+    _displayName: "\u7FA4\u82F1\u6BBF"
+    _video: {fileID: 32900000, guid: 453f71ea56492254bbefbb44414c4a6e, type: 3}
+    _material: {fileID: 2100000, guid: 53b671811e736c646ab21f332db7f03e, type: 2}
+    _hitMask: {fileID: 2800000, guid: f771a2c76a3abde4796d33d4968f2c4c, type: 3}
+    _artRect:
+      serializedVersion: 2
+      x: 68.22
+      y: 116.36
+      width: 844.02
+      height: 474.47
+    _playbackSpeed: 2
+    _audioVolume: 0.65
+  - _registryEntryId: tianlu.entry.facility.tianlu.v1
+    _displayName: "\u5929\u7B93"
+    _video: {fileID: 32900000, guid: cb0e1a6f0e11dd14eb798be504f78b0b, type: 3}
+    _material: {fileID: 2100000, guid: c43450cab4eebd7409830eecd0fe2456, type: 2}
+    _hitMask: {fileID: 2800000, guid: c596af01288d44f4a97abb741c8ceeb8, type: 3}
+    _artRect:
+      serializedVersion: 2
+      x: 407.66
+      y: 746.01
+      width: 505.26
+      height: 269.71
+    _playbackSpeed: 2
+    _audioVolume: 0.65
+  - _registryEntryId: tianlu.entry.facility.wanbaoge.v1
+    _displayName: "\u4E07\u5B9D\u9601"
+    _video: {fileID: 32900000, guid: b9d41f2c1a26e8d4f8cb13dd672dea3f, type: 3}
+    _material: {fileID: 2100000, guid: 43e74dfc87025a94794fb5d63c573b1b, type: 2}
+    _hitMask: {fileID: 2800000, guid: 3406ea9c444e3fe468d0e1b6fd2ef33b, type: 3}
+    _artRect:
+      serializedVersion: 2
+      x: 63.16
+      y: 476.3
+      width: 355.98
+      height: 304.14
+    _playbackSpeed: 2
+    _audioVolume: 0.65
+  - _registryEntryId: tianlu.entry.facility.tianjige.v1
+    _displayName: "\u5929\u673A\u9601"
+    _video: {fileID: 32900000, guid: 77017f4523135be4bbe56327c2c1e379, type: 3}
+    _material: {fileID: 2100000, guid: d86fe4431e864c547bfe85bbf2bb46df, type: 2}
+    _hitMask: {fileID: 2800000, guid: d6219d496eef2b340b735c327129817f, type: 3}
+    _artRect:
+      serializedVersion: 2
+      x: 964.59
+      y: 68.86
+      width: 378.95
+      height: 309.88
+    _playbackSpeed: 2
+    _audioVolume: 0.65
+  - _registryEntryId: tianlu.entry.facility.yinfang.v1
+    _displayName: "\u5370\u574A"
+    _video: {fileID: 32900000, guid: 5920acb0ce3c031479db1d475700fdc6, type: 3}
+    _material: {fileID: 2100000, guid: 0a01251e2d95b50429feb33cd686e304, type: 2}
+    _hitMask: {fileID: 2800000, guid: d6f6c587e99bd22479824cba79698585, type: 3}
+    _artRect:
+      serializedVersion: 2
+      x: 1228.71
+      y: 619.77
+      width: 516.75
+      height: 338.58
+    _playbackSpeed: 2
+    _audioVolume: 0.65

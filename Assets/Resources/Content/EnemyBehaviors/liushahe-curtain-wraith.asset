@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c19177bf24744be8ae5667acbc03825, type: 3}
+  m_Name: liushahe-curtain-wraith
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  contentId: behavior.enemy.xiyou.liushahe-curtain-wraith.v1
+  selectionMode: 1
+  avoidImmediateRepeat: 0
+  actions: []
+  hasPhaseSwitch: 0
+  phaseHealthThresholdPercent: 50
+  phaseActionCountThreshold: 7
+  phaseTwoActions: []
+  useHealthGroups: 1
+  healthGroups:
+  - requiredHealthPercent: 100.0
+    turnCountdown: -1
+    actions:
+    - intentType: 1
+      amount: 10
+      weight: 75
+      healthWeight: 75.0
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: 弱水扑击
+      actionId: behavior.enemy.xiyou.liushahe-curtain-wraith.v1.g0.choice0
+    - intentType: 2
+      amount: 350
+      weight: 25
+      healthWeight: 25.0
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: 聚影护体
+      actionId: behavior.enemy.xiyou.liushahe-curtain-wraith.v1.g0.choice1
+  - requiredHealthPercent: 50.0
+    turnCountdown: 7
+    actions:
+    - intentType: 1
+      amount: 10
+      weight: 75
+      healthWeight: 75.0
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: 弱水扑击
+      actionId: behavior.enemy.xiyou.liushahe-curtain-wraith.v1.g1.choice0
+    - intentType: 2
+      amount: 400
+      weight: 25
+      healthWeight: 25.0
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 1
+      description: 聚影护体
+      actionId: behavior.enemy.xiyou.liushahe-curtain-wraith.v1.g1.choice1

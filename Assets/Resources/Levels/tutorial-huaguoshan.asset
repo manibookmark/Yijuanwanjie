@@ -1,0 +1,243 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143359128dc37dc47912248c427531f1, type: 3}
+  m_Name: tutorial-huaguoshan
+  m_EditorClassIdentifier: 
+  contentId: level.tutorial.huaguoshan.v1
+  dungeonContentId: 
+  floorIndex: 0
+  nextFloorContentId: 
+  prerequisiteLevelContentId: 
+  displayName: "\u82B1\u679C\u5C71"
+  mapPresentationContentId: map.tutorial.huaguoshan.v1
+  entryPresentationId: presentation.character.scroll-spirit.level-milestone.v1
+  entryPresentationVariantId: presentation.variant.scroll-spirit.tutorial-huaguoshan.entry.v1
+  hideMapNodesDuringEntryPresentation: 1
+  defaultSnapshotId: snapshot.tutorial.huaguoshan.start
+  levelExperienceRules:
+    baseRequirement: 25
+    curveExponent: 2
+    explicitRequirements: 050000000f000000190000002300000032000000
+  levelUpRewardRuleProfileId: 
+  nodes:
+  - contentId: node.tutorial.huaguoshan.w01
+    nodeType: 1
+    scenarioId: battle.tutorial.huaguoshan.w01.v1
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.tutorial.huaguoshan.w02
+    nodeType: 1
+    scenarioId: battle.tutorial.huaguoshan.w02.v1
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.w01
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.tutorial.huaguoshan.r01
+    nodeType: 3
+    scenarioId: 
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.w02
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.tutorial.huaguoshan.r01.jiudie.v1
+      kind: 2
+      amount: 1
+      amountMax: 0
+      targetContentId: relic.tutorial.jiudie.v1
+      presentationId: reward.reveal.relic.jiudie.v1
+      rarity: 2
+      summaryText: "\u4E5D\u53E0"
+      detailText: "\u83B7\u5F97\u540E\u542F\u7528\u53E0\u52BF\u3002\u6309\u7075\u529B\u6D88\u8017\u9012\u589E\u8FDE\u7EED\u51FA\u724C\uFF08\u5982
+        0\u21921\u21922\uFF09\uFF0C\u9010\u5C42\u589E\u52A0\u53E0\u52BF\u3002\u53E0\u52BF\u8D8A\u9AD8\uFF0C\u5361\u724C\u6548\u679C\u8D8A\u5F3A\uFF1B\u987A\u5E8F\u4E2D\u65AD\u65F6\u91CD\u7F6E\u3002"
+    completionPresentationId: presentation.character.scroll-spirit.key-relic-reveal.v1
+    completionPresentationVariantId: relic.tutorial.jiudie.v1
+  - contentId: node.tutorial.huaguoshan.w03
+    nodeType: 1
+    scenarioId: battle.tutorial.huaguoshan.w03.v1
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.r01
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.tutorial.huaguoshan.j01
+    nodeType: 3
+    scenarioId: 
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.w03
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.tutorial.huaguoshan.j01.random-jade.v1
+      kind: 1
+      amount: 3
+      amountMax: 6
+      targetContentId: 
+      presentationId: reward.reveal.jade.v1
+      rarity: 1
+      summaryText: 
+      detailText: "\u6267\u5377\u4EBA\u9014\u4E2D\u7684\u901A\u5B9D\u3002\u7075\u6C14\u51DD\u6210\u7684\u7389\u9B44\uFF0C\u6563\u843D\u4E8E\u957F\u5377\u5404\u5904\uFF0C\u62FE\u53D6\u79EF\u6512\u3002"
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.tutorial.huaguoshan.w04
+    nodeType: 1
+    scenarioId: battle.tutorial.huaguoshan.w04.v1
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.j01
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.tutorial.huaguoshan.r02
+    nodeType: 3
+    scenarioId: 
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.w04
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.tutorial.huaguoshan.r02.wuxing-disc.v1
+      kind: 2
+      amount: 1
+      amountMax: 0
+      targetContentId: relic.tutorial.wuxing-disc.v1
+      presentationId: reward.reveal.relic.wuxing-disc.v1
+      rarity: 2
+      summaryText: "\u4E94\u884C\u76D8"
+      detailText: "\u83B7\u5F97\u540E\u542F\u7528\u4E94\u884C\u76F8\u751F\u3002\u76F8\u90BB\u4E24\u5F20\u51FA\u724C\u6784\u6210\u4E94\u884C\u76F8\u751F\u65F6\uFF0C\u89E6\u53D1\u5BF9\u5E94\u7684\u76F8\u751F\u589E\u76CA\u3002"
+    completionPresentationId: presentation.character.scroll-spirit.key-relic-reveal.v1
+    completionPresentationVariantId: relic.tutorial.wuxing-disc.v1
+  - contentId: node.tutorial.huaguoshan.w05
+    nodeType: 1
+    scenarioId: battle.tutorial.huaguoshan.w05.v1
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.r02
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.tutorial.huaguoshan.m01
+    nodeType: 3
+    scenarioId: 
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.w05
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.tutorial.huaguoshan.m01.base-mana.v1
+      kind: 0
+      amount: 1
+      amountMax: 0
+      targetContentId: 
+      presentationId: reward.reveal.base-mana.v1
+      rarity: 1
+      summaryText: "\u7075\u529B\u4E0A\u9650 +1"
+      detailText: "\u540E\u7EED\u6218\u6597\u4E2D\u7075\u529B\u4E0A\u9650 +1"
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.tutorial.huaguoshan.w06
+    nodeType: 1
+    scenarioId: battle.tutorial.huaguoshan.w06.v1
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.m01
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.tutorial.huaguoshan.w07
+    nodeType: 2
+    scenarioId: battle.tutorial.huaguoshan.w07.v1
+    prerequisiteNodeIds:
+    - node.tutorial.huaguoshan.w06
+    victoryRewards:
+    - contentId: reward.tutorial.huaguoshan.wukong.v1
+      kind: 0
+      targetContentId: legacy.crawler.common.5a3f3db3
+      presentationId: presentation.character.wukong.tutorial-unlock.v1
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  snapshots:
+  - snapshotId: snapshot.tutorial.huaguoshan.start
+    nodeStates:
+    - nodeContentId: node.tutorial.huaguoshan.w01
+      progress: 1
+    - nodeContentId: node.tutorial.huaguoshan.w02
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.r01
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w03
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.j01
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w04
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.r02
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w05
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.m01
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w06
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w07
+      progress: 0
+  - snapshotId: snapshot.tutorial.huaguoshan.after-w01
+    nodeStates:
+    - nodeContentId: node.tutorial.huaguoshan.w01
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.w02
+      progress: 1
+    - nodeContentId: node.tutorial.huaguoshan.r01
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w03
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.j01
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w04
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.r02
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w05
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.m01
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w06
+      progress: 0
+    - nodeContentId: node.tutorial.huaguoshan.w07
+      progress: 0
+  - snapshotId: snapshot.tutorial.huaguoshan.before-w07
+    nodeStates:
+    - nodeContentId: node.tutorial.huaguoshan.w01
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.w02
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.r01
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.w03
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.j01
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.w04
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.r02
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.w05
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.m01
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.w06
+      progress: 3
+    - nodeContentId: node.tutorial.huaguoshan.w07
+      progress: 1

@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f38a252376895469e17aa254530f94, type: 3}
+  m_Name: liejuan-yaowang
+  m_EditorClassIdentifier: 
+  contentId: enemy.xiyou.gaolaozhuang_cave_demon_lord
+  actionPlaybackSpeed: 1
+  defendImpactNormalized: 0.25
+  idle:
+    frameAtlas: {fileID: 2800000, guid: 408d54b0f9e2caf45bafcbfc5d29fe05, type: 3}
+    frameCount: 48
+    atlasColumns: 7
+    atlasRows: 7
+    framesPerSecond: 11.405941
+    audioClip: {fileID: 8300000, guid: 19f5289ee754598439472dceb35e6d09, type: 3}
+    audioVolume: 0.65
+  attack:
+    frameAtlas: {fileID: 2800000, guid: 8d248a657e91f9d44be56bf20cf1ec03, type: 3}
+    frameCount: 48
+    atlasColumns: 7
+    atlasRows: 7
+    framesPerSecond: 12
+    audioClip: {fileID: 8300000, guid: 9558262ef30c7f04492bc7ea2008c1df, type: 3}
+    audioVolume: 1
+  defend:
+    frameAtlas: {fileID: 2800000, guid: 5549a55ac046b2b46a800b06c337bf0f, type: 3}
+    frameCount: 48
+    atlasColumns: 7
+    atlasRows: 7
+    framesPerSecond: 12
+    audioClip: {fileID: 8300000, guid: 4ee3640ccd55089468d3482913515017, type: 3}
+    audioVolume: 1
+  attackVariants:
+  - actionId: action.gaolaozhuang.cave_demon_lord.cleave
+    clip:
+      frameAtlas: {fileID: 2800000, guid: 8d248a657e91f9d44be56bf20cf1ec03, type: 3}
+      frameCount: 48
+      atlasColumns: 7
+      atlasRows: 7
+      framesPerSecond: 12
+      audioClip: {fileID: 8300000, guid: 9558262ef30c7f04492bc7ea2008c1df, type: 3}
+      audioVolume: 1
+    hitNormalized: 0.34375
+  - actionId: action.gaolaozhuang.cave_demon_lord.quick_cut
+    clip:
+      frameAtlas: {fileID: 2800000, guid: 8d248a657e91f9d44be56bf20cf1ec03, type: 3}
+      frameCount: 48
+      atlasColumns: 7
+      atlasRows: 7
+      framesPerSecond: 18
+      audioClip: {fileID: 8300000, guid: f2aae8457272c4641ae831a2b5ae6e0b, type: 3}
+      audioVolume: 1
+    hitNormalized: 0.34375
+  utilityVariants:
+  - actionId: action.gaolaozhuang.cave_demon_lord.seal_guard
+    steps:
+    - resolveImpact: 1
+      impactNormalized: 0.25
+      emitSpellRelease: 0
+      releaseNormalized: 0
+      sourceAnchorNormalized: {x: 0.5, y: 0.5}
+      clip:
+        frameAtlas: {fileID: 2800000, guid: 5549a55ac046b2b46a800b06c337bf0f, type: 3}
+        frameCount: 48
+        atlasColumns: 7
+        atlasRows: 7
+        framesPerSecond: 12
+        audioClip: {fileID: 8300000, guid: 4ee3640ccd55089468d3482913515017, type: 3}
+        audioVolume: 1
+  - actionId: action.gaolaozhuang.cave_demon_lord.confuse
+    steps:
+    - resolveImpact: 1
+      impactNormalized: 0.34375
+      emitSpellRelease: 1
+      releaseNormalized: 0.34375
+      sourceAnchorNormalized: {x: 0.2934729, y: 0.8466705}
+      clip:
+        frameAtlas: {fileID: 2800000, guid: fa89f81f99681734e873675c5200bb4d, type: 3}
+        frameCount: 48
+        atlasColumns: 7
+        atlasRows: 7
+        framesPerSecond: 12
+        audioClip: {fileID: 8300000, guid: d61717cbd97c33b4088d13befe2fc1e0, type: 3}
+        audioVolume: 1
+  - actionId: action.gaolaozhuang.cave_demon_lord.guard_and_confuse
+    steps:
+    - resolveImpact: 1
+      impactNormalized: 0.25
+      emitSpellRelease: 0
+      releaseNormalized: 0
+      sourceAnchorNormalized: {x: 0.5, y: 0.5}
+      clip:
+        frameAtlas: {fileID: 2800000, guid: 5549a55ac046b2b46a800b06c337bf0f, type: 3}
+        frameCount: 48
+        atlasColumns: 7
+        atlasRows: 7
+        framesPerSecond: 12
+        audioClip: {fileID: 8300000, guid: 4ee3640ccd55089468d3482913515017, type: 3}
+        audioVolume: 1
+    - resolveImpact: 0
+      impactNormalized: 0.34375
+      emitSpellRelease: 1
+      releaseNormalized: 0.34375
+      sourceAnchorNormalized: {x: 0.2934729, y: 0.8466705}
+      clip:
+        frameAtlas: {fileID: 2800000, guid: fa89f81f99681734e873675c5200bb4d, type: 3}
+        frameCount: 48
+        atlasColumns: 7
+        atlasRows: 7
+        framesPerSecond: 12
+        audioClip: {fileID: 8300000, guid: d61717cbd97c33b4088d13befe2fc1e0, type: 3}
+        audioVolume: 1
+  groundAnchor: {x: 0.5, y: 0.14595349}
+  visualScale: 3.8296065

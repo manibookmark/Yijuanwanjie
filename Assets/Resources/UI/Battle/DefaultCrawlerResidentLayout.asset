@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5db8b727c324485eaeb81c6524668993, type: 3}
+  m_Name: DefaultCrawlerResidentLayout
+  m_EditorClassIdentifier: 
+  slots:
+  - anchoredPosition: {x: 200, y: 465}
+    displayHeight: 260
+  - anchoredPosition: {x: 235, y: 565}
+    displayHeight: 220
+  - anchoredPosition: {x: 270, y: 665}
+    displayHeight: 220
+  entryDuration: 0.65
+  exitDuration: 0.45
+  entryStartScale: 0.84
+  entryStartOffset: {x: -10, y: 24}
+  materializationParticleCount: 512
+  materializationSizeScale: 0.42633945
+  durationOffset: {x: -100, y: 100}
+  durationFontSize: 32
+  hoverAuraParticleCount: 28
+  hoverAuraRadius: 55.215683
+  hoverAuraCyclesPerSecond: 0.19189519
+  hoverAuraParticleSize: 2.8562055

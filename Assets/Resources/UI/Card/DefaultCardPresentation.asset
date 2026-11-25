@@ -1,0 +1,553 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3baee2144e53a9442975cc0747fc92c5, type: 3}
+  m_Name: DefaultCardPresentation
+  m_EditorClassIdentifier: 
+  schemaVersion: 6
+  profileId: ui.card.standard.v1
+  revision: 41
+  drawCardDuration: 0.44
+  drawCardStagger: 0.08
+  referenceSize: {x: 200, y: 300}
+  sourceArtSize: {x: 1024, y: 1024}
+  artworkRect:
+    anchorMin: {x: 0.04, y: 0.19}
+    anchorMax: {x: 0.96, y: 0.86}
+  sealLayerRect:
+    anchorMin: {x: 0, y: 0.19}
+    anchorMax: {x: 1, y: 0.84}
+  typeHeaderRect:
+    anchorMin: {x: 0.02, y: 0.84}
+    anchorMax: {x: 0.98, y: 0.985}
+  costFrameRect:
+    anchorMin: {x: 0.05, y: 0.855}
+    anchorMax: {x: 0.22, y: 0.965}
+  nameRect:
+    anchorMin: {x: 0.2, y: 0.855}
+    anchorMax: {x: 0.8, y: 0.965}
+  descriptionRect:
+    anchorMin: {x: 0.08, y: 0.035}
+    anchorMax: {x: 0.92, y: 0.18}
+  cornerRadius: 0
+  borderWidth: 1
+  costBorderWidth: 1
+  cardBaseColor: {r: 0.9490196, g: 0.9098039, b: 0.8235294, a: 1}
+  bodyTextColor: {r: 0.16862746, g: 0.12941177, b: 0.09411765, a: 1}
+  paperFiberAlpha: 0.12
+  inkMasterAlpha: 1
+  sealSize: 44
+  sealInsetAndGap: 8
+  sealMaxCount: 3
+  paperFiberSprite: {fileID: 21300000, guid: 4bf02a4f12485284e8cbfc05d1c4e0a7, type: 3}
+  inkWashSprite: {fileID: 21300000, guid: 567621d95cf426d41808a761812f64cb, type: 3}
+  titleFont: {fileID: 12800000, guid: 160c527aa939dd84fb7026686ab2fdb9, type: 3}
+  bodyFont: {fileID: 12800000, guid: d9115678fb1651f4997ee3f625ae1f7e, type: 3}
+  numberFont: {fileID: 12800000, guid: 69bee21ba80c36b46817765774965ee4, type: 3}
+  nameFontSize: 18
+  costFontSize: 28
+  descriptionFontSize: 18
+  nameMinFontSize: 14
+  costMinFontSize: 18
+  descriptionMinFontSize: 14
+  hoverScale: 1.2
+  hoverLiftY: 30
+  hoverEnterDuration: 0.18
+  hoverExitDuration: 0.22
+  hoverDescriptionFontSize: 24
+  hoverDescriptionHeightMultiplier: 2.5
+  hoverOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  selectedOutlineColor: {r: 1, g: 1, b: 1, a: 1}
+  insufficientCostColor: {r: 0.5411765, g: 0.5058824, b: 0.46666667, a: 1}
+  glowRimAlpha: 0.218
+  glowProxyWidth: 2.91
+  glowColorMultiplier: 1
+  glowProxyAlpha: 0
+  glowScatterSpread: 2
+  glowScatterAlpha: 0
+  colorStyles:
+  - color: 0
+    headerColor: {r: 0.65882355, g: 0.29803923, b: 0.23921569, a: 1}
+    borderColor: {r: 0.40392157, g: 0.17254902, b: 0.14509805, a: 1}
+    headerTextColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 1}
+    costFillColor: {r: 0, g: 0, b: 0, a: 0}
+    costBorderColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 0.72156864}
+    inkOpacity: 0.24
+  - color: 1
+    headerColor: {r: 0.54901963, g: 0.40392157, b: 0.27058825, a: 1}
+    borderColor: {r: 0.3254902, g: 0.23529412, b: 0.16078432, a: 1}
+    headerTextColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 1}
+    costFillColor: {r: 0, g: 0, b: 0, a: 0}
+    costBorderColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 0.72156864}
+    inkOpacity: 0.22
+  - color: 2
+    headerColor: {r: 0.32156864, g: 0.45490196, b: 0.35686275, a: 1}
+    borderColor: {r: 0.1882353, g: 0.28627452, b: 0.21176471, a: 1}
+    headerTextColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 1}
+    costFillColor: {r: 0, g: 0, b: 0, a: 0}
+    costBorderColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 0.72156864}
+    inkOpacity: 0.22
+  - color: 3
+    headerColor: {r: 0.23921569, g: 0.3764706, b: 0.44313726, a: 1}
+    borderColor: {r: 0.14117648, g: 0.23137255, b: 0.28235295, a: 1}
+    headerTextColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 1}
+    costFillColor: {r: 0, g: 0, b: 0, a: 0}
+    costBorderColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 0.72156864}
+    inkOpacity: 0.26
+  - color: 4
+    headerColor: {r: 0.78431374, g: 0.7254902, b: 0.54901963, a: 1}
+    borderColor: {r: 0.5019608, g: 0.4392157, b: 0.29803923, a: 1}
+    headerTextColor: {r: 0.12156863, g: 0.078431375, b: 0.039215688, a: 1}
+    costFillColor: {r: 0, g: 0, b: 0, a: 0}
+    costBorderColor: {r: 0.12156863, g: 0.078431375, b: 0.039215688, a: 0.72156864}
+    inkOpacity: 0.18
+  - color: 5
+    headerColor: {r: 0.90588236, g: 0.8666667, b: 0.7607843, a: 1}
+    borderColor: {r: 0.63529414, g: 0.5411765, b: 0.34509805, a: 1}
+    headerTextColor: {r: 0.12156863, g: 0.078431375, b: 0.039215688, a: 1}
+    costFillColor: {r: 0, g: 0, b: 0, a: 0}
+    costBorderColor: {r: 0.12156863, g: 0.078431375, b: 0.039215688, a: 0.72156864}
+    inkOpacity: 0.18
+  - color: 6
+    headerColor: {r: 0.34901962, g: 0.27450982, b: 0.37254903, a: 1}
+    borderColor: {r: 0.1882353, g: 0.14509805, b: 0.21568628, a: 1}
+    headerTextColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 1}
+    costFillColor: {r: 0, g: 0, b: 0, a: 0}
+    costBorderColor: {r: 0.9490196, g: 0.92156863, b: 0.8509804, a: 0.72156864}
+    inkOpacity: 0.3
+  artworkBindings:
+  - contentId: legacy.card.common.7e46b7e4
+    artwork: {fileID: 21300000, guid: 80ac7ff66ed8d2c4e9115db4121f07c0, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.2927e58a
+    artwork: {fileID: 21300000, guid: b272db34580464a41af0e4f0d67824cb, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 1
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.crawler.common.5a3f3db3
+    artwork: {fileID: 21300000, guid: 8b080afa43e3df14189c2f3898a4dd61, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.common.sunwukong.v1
+    artwork: {fileID: 21300000, guid: 8b080afa43e3df14189c2f3898a4dd61, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: crawler.xiyou.tangsanzang.v1
+    artwork: {fileID: 21300000, guid: 2a4525640c5440529f751475355e7901, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.tangsanzang.v1
+    artwork: {fileID: 21300000, guid: 2a4525640c5440529f751475355e7901, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.xiyou.315dc4d8
+    artwork: {fileID: 21300000, guid: 52c0ffd681f0d4c41a77c101401905a1, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.xiyou.0578cfde
+    artwork: {fileID: 21300000, guid: f08bd45b5985d1d43b59bad11c76efec, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 1
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.5aa5940d
+    artwork: {fileID: 21300000, guid: 7dfcc44b9dfc97b4e805a8a9541493c2, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 1
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.973d06a5
+    artwork: {fileID: 21300000, guid: d9d3f8afaefd4f6409fe5dbc83385e6c, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.f22c29d6
+    artwork: {fileID: 21300000, guid: 400288a1615a8834da3509a03205edbe, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 1
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.56004d59
+    artwork: {fileID: 21300000, guid: 83990bd2c61cc884a8a09d5ad679df89, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.jingubang.v1
+    artwork: {fileID: 21300000, guid: 2021116bd3ad48ca809dfc43bc3da7f1, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.cab047cb
+    artwork: {fileID: 21300000, guid: 36d82797dd314084bffca53c1dc2ba22, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 1
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.common.taomujian.v1
+    artwork: {fileID: 21300000, guid: f7054bdbdd8545858e3cd84fbc06a845, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.common.jiujiebian.v1
+    artwork: {fileID: 21300000, guid: 58408ec6d5cf439c8e1dcff6f4076716, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 1
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.6b5e71f5
+    artwork: {fileID: 21300000, guid: 97da4b74cbe3441295aefa2dbaf8dafd, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.a2978dfe
+    artwork: {fileID: 21300000, guid: c6b375b54ac2449890d165b883286315, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.8b1aef56
+    artwork: {fileID: 21300000, guid: b02b444f75a84998b48ac81493517d60, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.common.dingfengzhu.v1
+    artwork: {fileID: 21300000, guid: 6dcb17a5b37648389969f37812e221f7, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.c6471450
+    artwork: {fileID: 21300000, guid: a43ac06ef6874471970f36ca9170be46, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.13a386c5
+    artwork: {fileID: 21300000, guid: 0e3895784bb5425dbf0dc3cd18c50ead, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.e14018c8
+    artwork: {fileID: 21300000, guid: a2b98d6df0534a6fa407864e36b86884, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.c0191ee0
+    artwork: {fileID: 21300000, guid: 65bf5af34fc8493a81bbda2f3c5656f8, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.9f958e38
+    artwork: {fileID: 21300000, guid: 44e64f493b7d41ca920b1df66b55d59a, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.fuyuncao.v1
+    artwork: {fileID: 21300000, guid: bf6133bed9dc4248989cfbb5f39317c0, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.b4b26600
+    artwork: {fileID: 21300000, guid: 414b268f2bd24f00a5d454722895611c, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.aea0fdf2
+    artwork: {fileID: 21300000, guid: c6de5e63f9a6c0840bc05cbf9e3d58e4, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.wudaoguan.v1
+    artwork: {fileID: 21300000, guid: ce1d070d38fd23a48a3e318a9b5a1c98, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: crawler.xiyou.zhubajie
+    artwork: {fileID: 21300000, guid: f6e8e6f297665684d977f05948899a11, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.zhubajie
+    artwork: {fileID: 21300000, guid: f6e8e6f297665684d977f05948899a11, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.4c1505d8
+    artwork: {fileID: 21300000, guid: 85ade2d8fc7fd334191d45669b82c87d, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.yiwofeng
+    artwork: {fileID: 21300000, guid: 0fd28c1db9674660b89e21c80f9a4a44, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.fumozhu
+    artwork: {fileID: 21300000, guid: 3d140aeb4df04ce2bc40f9a0a655d5b9, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.9b5395ff
+    artwork: {fileID: 21300000, guid: 26385a3fa8dc427ba2df5e266dfc0182, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.tianjijing
+    artwork: {fileID: 21300000, guid: d92f0292695b4c729329922e556b3919, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.fe5cd821
+    artwork: {fileID: 21300000, guid: d0096a4e58874220996e41b21d615097, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.common.candelabrador.tier2.v1
+    artwork: {fileID: 21300000, guid: afae861e4485a474885a3812da551348, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.65bbe23b
+    artwork: {fileID: 21300000, guid: e0e02dbe5a094f54a124b6e4bf559cf6, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: crawler.xiyou.shawujing.v1
+    artwork: {fileID: 21300000, guid: df9d0318444b19b418a73b27f300fb64, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.shawujing.v1
+    artwork: {fileID: 21300000, guid: df9d0318444b19b418a73b27f300fb64, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.linglijue.v1
+    artwork: {fileID: 21300000, guid: 175865aa3f0579249aa2374773a6e2a3, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.72bd90af
+    artwork: {fileID: 21300000, guid: 6353aecd63cb4a38ae4fb4901ddc8862, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.bailongma.v1
+    artwork: {fileID: 21300000, guid: 2a8aec4fa2de4774ca843560ae50e2f2, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.jianshuiyoulong.v1
+    artwork: {fileID: 21300000, guid: cc5dc566811a1644c86dee96be5f8ff7, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.shatter.v1
+    artwork: {fileID: 21300000, guid: 0545486de9130634b9388a35096bf9bc, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.muddle.v1
+    artwork: {fileID: 21300000, guid: 24fe3394088e4115a6d2616cf9504865, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.confuse
+    artwork: {fileID: 21300000, guid: 0e39b0c4988ce6a49922ee26b35827b2, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.8c8d6d45
+    artwork: {fileID: 21300000, guid: 99f3f0f8beab41af8e8aa429990cfca6, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.xiuxian.d9894e05
+    artwork: {fileID: 21300000, guid: ac2322e1276d48f0bac256d193ef3cdd, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.5f916d2a
+    artwork: {fileID: 21300000, guid: 6b69d554ce4e4a7189c252945b9f4ebc, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.e4795c77
+    artwork: {fileID: 21300000, guid: a71e74d54dd24aba98ae8c82fafb0e8a, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.7765369e
+    artwork: {fileID: 21300000, guid: 8ec336cb989f426393025460d43cef01, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.188dcf46
+    artwork: {fileID: 21300000, guid: f525a9c4b4834af7ab6bbe6d7c1e1941, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.rawmana.v1
+    artwork: {fileID: 21300000, guid: e31344320fc34f5ea599167101eb477c, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.210a2221
+    artwork: {fileID: 21300000, guid: 5e0a6d7305a840c4b1041b62b9b59a59, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: legacy.card.common.cf73149c
+    artwork: {fileID: 21300000, guid: b8c256c45fc59194a9c24653b281e4c1, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: crawler.xiyou.guanyin.v1
+    artwork: {fileID: 21300000, guid: 5a8634bf3568c974b8cdca18b93cd4f6, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  - contentId: card.xiyou.guanyin.v1
+    artwork: {fileID: 21300000, guid: 5a8634bf3568c974b8cdca18b93cd4f6, type: 3}
+    scale: 1
+    normalizedOffset: {x: 0, y: 0}
+    sealAnchor: 0
+    sealOffset: {x: 0, y: 0}
+    presentationMode: 0
+  artRect:
+    anchorMin: {x: 0, y: 0}
+    anchorMax: {x: 1, y: 1}
+  colorTagRect:
+    anchorMin: {x: 0.76, y: 0.8}
+    anchorMax: {x: 0.95, y: 0.88}
+  durabilityRect:
+    anchorMin: {x: 0.1, y: 0.015}
+    anchorMax: {x: 0.9, y: 0.035}
+  nameColor: {r: 0.12, g: 0.08, b: 0.04, a: 1}
+  costColor: {r: 0, g: 0, b: 0, a: 1}
+  descriptionColor: {r: 0, g: 0, b: 0, a: 1}
+  colorTagFontSize: 16
+  inkWashAlpha: 0.24

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ad3b43fdd374d4fb5a7c1a41cdd134d, type: 3}
+  m_Name: gaolaozhuang-repair
+  m_EditorClassIdentifier:
+  schemaVersion: 1
+  contentId: conversion.card-to-run-stat.xiyou.gaolaozhuang.repair
+  selectionPolicy: 1
+  cashOutPolicy: 1
+  exitPolicy: 0
+  fixedOutcome: 3
+  fixedAmount: 1
+  rules: []

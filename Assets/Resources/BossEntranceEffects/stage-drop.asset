@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6af397f9fd12441291f766bb2576449d, type: 3}
+  m_Name: stage-drop
+  m_EditorClassIdentifier: 
+  schemaVersion: 5
+  effectId: effect.boss.stage_drop.v1
+  duration: 1.32
+  landingNormalized: 0.58
+  startScale: 1.12
+  dropDistanceInBossHeights: 0.22
+  impactHoldDuration: 0.05
+  particleCount: 176
+  particleSize: 1.55
+  particleSpread: 1.2
+  particleSpeed: 0.92
+  particleOpacity: 0.72
+  particleLifetime: 0.95
+  cloudDisperseDuration: 0.18
+  cloudDisperseDistance: 0.62
+  cloudRiseDistance: 0.55
+  impactShakeDuration: 0.24
+  impactShakeIntensity: 0.22
+  convergenceDuration: 1.22
+  convergenceParticleCount: 320
+  convergenceParticleSize: 1.52
+  convergenceRadius: 1.1
+  convergenceOpacity: 0.96
+  convergenceRevealNormalized: 0.76
+  convergenceSmokeStretch: 1.8
+  convergenceSmokeCurl: 0.5
+  convergenceSmokeSoftness: 0.75
+  waterDuration: 1.8
+  waterRadius: 1
+  waterOpacity: 0.82

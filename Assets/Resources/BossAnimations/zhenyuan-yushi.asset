@@ -1,0 +1,54 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f38a252376895469e17aa254530f94, type: 3}
+  m_Name: zhenyuan-yushi
+  m_EditorClassIdentifier: 
+  contentId: enemy.xiyou.yingchoujian_abyss_warden
+  actionPlaybackSpeed: 1.25
+  defendImpactNormalized: 0.6041667
+  idle:
+    frameAtlas: {fileID: 2800000, guid: c35f57fce56f415dbccfde8eea128715, type: 3}
+    frameCount: 48
+    atlasColumns: 6
+    atlasRows: 8
+    framesPerSecond: 12
+    audioClip: {fileID: 8300000, guid: e464887524dd455891f0e6ba0222bbe7, type: 3}
+    audioVolume: 0.9
+  attack:
+    frameAtlas: {fileID: 2800000, guid: 1bd21be27b554ba9a24075b080b6b625, type: 3}
+    frameCount: 48
+    atlasColumns: 6
+    atlasRows: 8
+    framesPerSecond: 12
+    audioClip: {fileID: 8300000, guid: 50b93063514b41f59600db37c3fee616, type: 3}
+    audioVolume: 1
+  defend:
+    frameAtlas: {fileID: 2800000, guid: 7bb408e31aad4226b617815caa2f06a1, type: 3}
+    frameCount: 48
+    atlasColumns: 6
+    atlasRows: 8
+    framesPerSecond: 12
+    audioClip: {fileID: 8300000, guid: 37eb6b4a795e442d8d146b123da07fe6, type: 3}
+    audioVolume: 1
+  attackVariants:
+  - actionId: attack.zhenyuan_yushi.abyss_sweep
+    clip:
+      frameAtlas: {fileID: 2800000, guid: 1bd21be27b554ba9a24075b080b6b625, type: 3}
+      frameCount: 48
+      atlasColumns: 6
+      atlasRows: 8
+      framesPerSecond: 12
+      audioClip: {fileID: 8300000, guid: 50b93063514b41f59600db37c3fee616, type: 3}
+      audioVolume: 1
+    hitNormalized: 0.46
+  groundAnchor: {x: 0.5, y: 0.15234375}
+  visualScale: 2.824404

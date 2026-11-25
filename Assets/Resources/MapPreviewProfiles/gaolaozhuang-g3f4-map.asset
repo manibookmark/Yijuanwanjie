@@ -1,0 +1,819 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c012ed9835f4eb495b07f5f65bca0c2, type: 3}
+  m_Name: gaolaozhuang-g3f4-map
+  m_EditorClassIdentifier: 
+  contentId: map.xiyou.gaolaozhuang.f04.v1
+  background: {fileID: 21300000, guid: 9c843b1e808c240489e1605d7c9eff28, type: 3}
+  orthographicSize: 5.4
+  backgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  debugFocusGroupId: 
+  interactionVisualPolicy: 1
+  nodes:
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.e01
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.e01
+    enemyContentId: enemy.xiyou.gaolaozhuang_stone_carrier
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 2e71e814ac6878748887ed3e1afe7e66, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g3-stone-carrier
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.153669}
+      normalizedSize: {x: 0.55913234, y: 0.028311688}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.140625, y: 0.6655093}
+    visualOffset: {x: 0, y: -0.16467625}
+    visualScale: 0.107622184
+    hitOffset: {x: 0, y: -0.03372264}
+    hitSize: {x: 1.8700001, y: 1.1355432}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.e02
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.e02
+    enemyContentId: enemy.xiyou.gaolaozhuang_stone_carrier
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 2e71e814ac6878748887ed3e1afe7e66, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g3-stone-carrier
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.153669}
+      normalizedSize: {x: 0.55913234, y: 0.028311688}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.44140625, y: 0.7569444}
+    visualOffset: {x: 0, y: -0.16467625}
+    visualScale: 0.107622184
+    hitOffset: {x: 0, y: -0.03372264}
+    hitSize: {x: 1.8700001, y: 1.1355432}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.t01
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.t01
+    enemyContentId: enemy.xiyou.yingchoujian_treasure_glider
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 5fd5b9e8ad964b01bb81c92dfa6e0b79, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.59765625, y: 0.37037036}
+    visualOffset: {x: 0, y: 0.10224104}
+    visualScale: 0.11944731
+    hitOffset: {x: 0, y: 0.1447643}
+    hitSize: {x: 2.035, y: 1.0059376}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.e03
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.e03
+    enemyContentId: enemy.xiyou.gaolaozhuang_stone_carrier
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 2e71e814ac6878748887ed3e1afe7e66, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g3-stone-carrier
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.153669}
+      normalizedSize: {x: 0.55913234, y: 0.028311688}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.3736979, y: 0.5972222}
+    visualOffset: {x: 0, y: -0.16467625}
+    visualScale: 0.107622184
+    hitOffset: {x: 0, y: -0.03372264}
+    hitSize: {x: 1.8700001, y: 1.1355432}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.e04
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.e04
+    enemyContentId: enemy.xiyou.gaolaozhuang_stone_carrier
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 2e71e814ac6878748887ed3e1afe7e66, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g3-stone-carrier
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.153669}
+      normalizedSize: {x: 0.55913234, y: 0.028311688}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.44010416, y: 0.2962963}
+    visualOffset: {x: 0, y: -0.16467625}
+    visualScale: 0.107622184
+    hitOffset: {x: 0, y: -0.03372264}
+    hitSize: {x: 1.8700001, y: 1.1355432}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.e05
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.e05
+    enemyContentId: enemy.xiyou.gaolaozhuang_stone_carrier
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 2e71e814ac6878748887ed3e1afe7e66, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g3-stone-carrier
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.153669}
+      normalizedSize: {x: 0.55913234, y: 0.028311688}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.5026042, y: 0.8969907}
+    visualOffset: {x: 0, y: -0.16467625}
+    visualScale: 0.107622184
+    hitOffset: {x: 0, y: -0.03372264}
+    hitSize: {x: 1.8700001, y: 1.1355432}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.e06
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.e06
+    enemyContentId: enemy.xiyou.gaolaozhuang_stone_carrier
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 2e71e814ac6878748887ed3e1afe7e66, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g3-stone-carrier
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.153669}
+      normalizedSize: {x: 0.55913234, y: 0.028311688}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.7213542, y: 0.38541666}
+    visualOffset: {x: 0, y: -0.16467625}
+    visualScale: 0.107622184
+    hitOffset: {x: 0, y: -0.03372264}
+    hitSize: {x: 1.8700001, y: 1.1355432}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.e07
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.e07
+    enemyContentId: enemy.xiyou.gaolaozhuang_stone_carrier
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 2e71e814ac6878748887ed3e1afe7e66, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g3-stone-carrier
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.153669}
+      normalizedSize: {x: 0.55913234, y: 0.028311688}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.3606771, y: 0.8449074}
+    visualOffset: {x: 0, y: -0.16467625}
+    visualScale: 0.107622184
+    hitOffset: {x: 0, y: -0.03372264}
+    hitSize: {x: 1.8700001, y: 1.1355432}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.b01
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.b01
+    enemyContentId: enemy.xiyou.gaolaozhuang_cave_gate_brute
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9c948ae89f831784695030a1ddf923ac, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g3f4-cave-gate-brute-v2
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.134188}
+      normalizedSize: {x: 0.52203906, y: 0.029545454}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.95523924, y: 0.11327146}
+    visualOffset: {x: -0.10494828, y: -0.28894866}
+    visualScale: 0.14328359
+    hitOffset: {x: -0.4028349, y: -0.22705013}
+    hitSize: {x: 2.8512003, y: 1.9405184}
+    sortingOrder: 30
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.i01
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.i01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: b33427abe41a410685632b83f4d33bf2, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.0859375, y: 0.65625}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.9
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.75789475, y: 0.79815793}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.i02
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.i02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.1953125, y: 0.6793981}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.07177033
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.83052635, y: 0.8794737}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.c01
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.c01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: baee10e728c2482aa3848ef2f9dd801f, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.61588544, y: 0.29166666}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.9
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.8739474, y: 0.75236845}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.i03
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.i03
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.5651042, y: 0.29166666}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.07177033
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.83052635, y: 0.8794737}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.q01
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.q01
+    enemyContentId: enemy.xiyou.shuangchaling_gold_marten
+    visualKind: 0
+    sprite: {fileID: 0}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/gold-marten
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.3190104, y: 0.6365741}
+    visualOffset: {x: 0, y: 0.08740342}
+    visualScale: 0.09131493
+    hitOffset: {x: 0, y: 0.12904304}
+    hitSize: {x: 0.86625, y: 0.99}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.i04
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.i04
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.49479166, y: 0.2962963}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.07177033
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.83052635, y: 0.8794737}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.q02
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.q02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: e9f5d0554f7a446485d49200c31e47ce, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.44791666, y: 0.8946759}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.9
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.75789475, y: 0.79815793}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.i05
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.i05
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.3736979, y: 0.7037037}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.07177033
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.83052635, y: 0.8794737}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.i06
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.i06
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.38541666, y: 0.2962963}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.07177033
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.83052635, y: 0.8794737}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.i07
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.i07
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.3059896, y: 0.8171296}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.07177033
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.83052635, y: 0.8794737}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.i08
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.i08
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 696c6846033940c7a51f98d008eed20a, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.2513021, y: 0.8194444}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.9
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.75789475, y: 0.79815793}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.j01
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.j01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d6d3717c32c4afb928d336f4ade6a0d, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.49609375, y: 0.7962963}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.3515625
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.75789475, y: 0.79815793}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.j02
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.j02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d6d3717c32c4afb928d336f4ade6a0d, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.7760417, y: 0.3784722}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.3515625
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.75789475, y: 0.79815793}
+    sortingOrder: 26
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.gaolaozhuang.f04.exit
+    interactionGroupId: node.xiyou.gaolaozhuang.f04.exit
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d6d3717c32c4afb928d336f4ade6a0d, type: 3}
+    spriteResourcePath: Sprites/Maps/jade-node
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 1, y: 0.10032652}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.35
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.847, y: 0.8624}
+    sortingOrder: 24
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  dependencyVisualAnchors: []
+  explorationRewardSlots:
+  - guardGroupId: node.xiyou.gaolaozhuang.f04.e02
+    normalizedPosition: {x: 0.48697916, y: 0.7569444}
+  - guardGroupId: node.xiyou.gaolaozhuang.f04.e06
+    normalizedPosition: {x: 0.6770834, y: 0.38541666}
+  battleBackground: {fileID: 21300000, guid: bf8d698efb5a03e4480b92f583d9a4d4, type: 3}
+  battleBackgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  overrideBattleGridColor: 0
+  battleGridColor: {r: 0.42, g: 0.18, b: 0.1, a: 0.34}
+  battleTopFogEnabled: 0
+  transitionProfileContentId: transition.paper-cloud.standard.v1
+  layoutSource: ai-annotation
+  layoutRoundId: g3-reward-distribution-20261014-f4
+  layoutAppliedUtc: 2026-10-14T09:35:29.0307867Z
+  layoutCandidateSha256: BF3380A9C7CBD74AD9C3583435319AEC813E513E591791D85A1D18228CCB8C72

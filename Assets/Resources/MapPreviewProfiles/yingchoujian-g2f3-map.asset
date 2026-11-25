@@ -1,0 +1,677 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c012ed9835f4eb495b07f5f65bca0c2, type: 3}
+  m_Name: yingchoujian-g2f3-map
+  m_EditorClassIdentifier: 
+  contentId: map.xiyou.yingchoujian.f03.v1
+  background: {fileID: 21300000, guid: 3d5a00125ba1433fb00592211670176c, type: 3}
+  orthographicSize: 5.4
+  backgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  debugFocusGroupId: node.xiyou.yingchoujian.f03.b01
+  interactionVisualPolicy: 1
+  nodes:
+  - contentId: map.visual.xiyou.yingchoujian.f03.e01.1
+    interactionGroupId: node.xiyou.yingchoujian.f03.e01
+    enemyContentId: enemy.xiyou.yingchoujian_mudscale_guard
+    visualKind: 0
+    sprite: {fileID: 0}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/yingchoujian-mudscale-guard
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.24045701, y: 0.5678075}
+    visualOffset: {x: 0, y: 0.124293774}
+    visualScale: 0.11779379
+    hitOffset: {x: 0, y: 0.17800775}
+    hitSize: {x: 1.8700001, y: 1.2770731}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.e02.1
+    interactionGroupId: node.xiyou.yingchoujian.f03.e02
+    enemyContentId: enemy.xiyou.yingchoujian_mudscale_guard
+    visualKind: 0
+    sprite: {fileID: 0}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/yingchoujian-mudscale-guard
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.3203125, y: 0.68009}
+    visualOffset: {x: 0, y: 0.124293774}
+    visualScale: 0.11779379
+    hitOffset: {x: 0, y: 0.17800775}
+    hitSize: {x: 1.8700001, y: 1.2770731}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.e03.1
+    interactionGroupId: node.xiyou.yingchoujian.f03.e03
+    enemyContentId: enemy.xiyou.yingchoujian_mudscale_guard
+    visualKind: 0
+    sprite: {fileID: 0}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/yingchoujian-mudscale-guard
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.8362897, y: 0.6023302}
+    visualOffset: {x: 0, y: 0.124293774}
+    visualScale: 0.11779379
+    hitOffset: {x: 0, y: 0.17800775}
+    hitSize: {x: 1.8700001, y: 1.2770731}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.e04.1
+    interactionGroupId: node.xiyou.yingchoujian.f03.e04
+    enemyContentId: enemy.xiyou.yingchoujian_tide_shell
+    visualKind: 0
+    sprite: {fileID: 0}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/yingchoujian-tide-shell
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.26459444, y: 0.4048179}
+    visualOffset: {x: 0, y: 0.12933812}
+    visualScale: 0.11892178
+    hitOffset: {x: 0, y: 0.18356645}
+    hitSize: {x: 1.485, y: 1.2893023}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.e05.1
+    interactionGroupId: node.xiyou.yingchoujian.f03.e05
+    enemyContentId: enemy.xiyou.yingchoujian_tide_shell
+    visualKind: 0
+    sprite: {fileID: 0}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/yingchoujian-tide-shell
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.35156247, y: 0.34051105}
+    visualOffset: {x: 0, y: 0.12933812}
+    visualScale: 0.11892178
+    hitOffset: {x: 0, y: 0.18356645}
+    hitSize: {x: 1.485, y: 1.2893023}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.e06.1
+    interactionGroupId: node.xiyou.yingchoujian.f03.e06
+    enemyContentId: enemy.xiyou.yingchoujian_mudscale_guard
+    visualKind: 0
+    sprite: {fileID: 0}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/yingchoujian-mudscale-guard
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.48437497, y: 0.76365924}
+    visualOffset: {x: 0, y: 0.124293774}
+    visualScale: 0.11779379
+    hitOffset: {x: 0, y: 0.17800775}
+    hitSize: {x: 1.8700001, y: 1.2770731}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.e07.1
+    interactionGroupId: node.xiyou.yingchoujian.f03.e07
+    enemyContentId: enemy.xiyou.yingchoujian_mudscale_guard
+    visualKind: 0
+    sprite: {fileID: 0}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/yingchoujian-mudscale-guard
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.85774094, y: 0.4882328}
+    visualOffset: {x: 0, y: 0.124293774}
+    visualScale: 0.11779379
+    hitOffset: {x: 0, y: 0.17800775}
+    hitSize: {x: 1.8700001, y: 1.2770731}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.i06.1
+    interactionGroupId: node.xiyou.yingchoujian.f03.i06
+    enemyContentId: enemy.xiyou.shuangchaling_gold_marten
+    visualKind: 0
+    sprite: {fileID: 0}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/gold-marten
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.21875, y: 0.2756963}
+    visualOffset: {x: 0, y: 0.005880326}
+    visualScale: 0.09131493
+    hitOffset: {x: 0, y: 0.047519952}
+    hitSize: {x: 0.86625, y: 0.99}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.b01.2
+    interactionGroupId: node.xiyou.yingchoujian.f03.b01
+    enemyContentId: enemy.xiyou.yingchoujian_tide_sickle_mantis
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: f7566f35e41a41d29733e6d61680801e, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/yingchoujian-tide-sickle-mantis
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.14664216}
+      normalizedSize: {x: 0.5139706, y: 0.028235294}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.71768814, y: 0.16109641}
+    visualOffset: {x: 0, y: -0.5355805}
+    visualScale: 0.16438356
+    hitOffset: {x: 0, y: -0.050468206}
+    hitSize: {x: 2.8512003, y: 2.8121426}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.i01
+    interactionGroupId: node.xiyou.yingchoujian.f03.i01
+    enemyContentId: 
+    visualKind: 1
+    sprite: {fileID: 0}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.19270833, y: 0.39696306}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.55
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.75789475, y: 0.7981579}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.i02
+    interactionGroupId: node.xiyou.yingchoujian.f03.i02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 696c6846033940c7a51f98d008eed20a, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.23958336, y: 0.662037}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.9
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.7408547, y: 0.9899999}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.i03
+    interactionGroupId: node.xiyou.yingchoujian.f03.i03
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: d4c294e5c8ec48c2886c6f7a6422581f, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.375, y: 0.71296304}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.9
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.79855394, y: 0.99}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.i04
+    interactionGroupId: node.xiyou.yingchoujian.f03.i04
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.93727577, y: 0.4815701}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.07177033
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.8305263, y: 0.8794736}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.i05
+    interactionGroupId: node.xiyou.yingchoujian.f03.i05
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.5414424, y: 0.77045894}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.07177033
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.8305263, y: 0.8794736}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.i07
+    interactionGroupId: node.xiyou.yingchoujian.f03.i07
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3cbd67c00ba7567488a711d2abc10edd, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.9216507, y: 0.6139775}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.07177033
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.8305263, y: 0.8794736}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.c01
+    interactionGroupId: node.xiyou.yingchoujian.f03.c01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: baee10e728c2482aa3848ef2f9dd801f, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.2760417, y: 0.29166666}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.9
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.9431517, y: 0.99}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.c02
+    interactionGroupId: node.xiyou.yingchoujian.f03.c02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: baee10e728c2482aa3848ef2f9dd801f, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.42160466, y: 0.3477397}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.9
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.9431517, y: 0.99}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.yingchoujian.f03.exit
+    interactionGroupId: node.xiyou.yingchoujian.f03.exit
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d6d3717c32c4afb928d336f4ade6a0d, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.8802083, y: 0.2137037}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.35
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.85, y: 0.86}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  dependencyVisualAnchors:
+  - prerequisiteGroupId: node.xiyou.yingchoujian.f03.e03
+    dependentGroupId: node.xiyou.yingchoujian.f03.i07
+    prerequisiteVisualId: map.visual.xiyou.yingchoujian.f03.e03.1
+    dependentVisualId: map.visual.xiyou.yingchoujian.f03.i07
+  - prerequisiteGroupId: node.xiyou.yingchoujian.f03.e05
+    dependentGroupId: node.xiyou.yingchoujian.f03.c02
+    prerequisiteVisualId: map.visual.xiyou.yingchoujian.f03.e05.1
+    dependentVisualId: map.visual.xiyou.yingchoujian.f03.c02
+  - prerequisiteGroupId: node.xiyou.yingchoujian.f03.e02
+    dependentGroupId: node.xiyou.yingchoujian.f03.i03
+    prerequisiteVisualId: map.visual.xiyou.yingchoujian.f03.e02.1
+    dependentVisualId: map.visual.xiyou.yingchoujian.f03.i03
+  - prerequisiteGroupId: node.xiyou.yingchoujian.f03.e01
+    dependentGroupId: node.xiyou.yingchoujian.f03.i02
+    prerequisiteVisualId: map.visual.xiyou.yingchoujian.f03.e01.1
+    dependentVisualId: map.visual.xiyou.yingchoujian.f03.i02
+  - prerequisiteGroupId: node.xiyou.yingchoujian.f03.e04
+    dependentGroupId: node.xiyou.yingchoujian.f03.i01
+    prerequisiteVisualId: map.visual.xiyou.yingchoujian.f03.e04.1
+    dependentVisualId: map.visual.xiyou.yingchoujian.f03.i01
+  - prerequisiteGroupId: node.xiyou.yingchoujian.f03.i06
+    dependentGroupId: node.xiyou.yingchoujian.f03.c01
+    prerequisiteVisualId: map.visual.xiyou.yingchoujian.f03.i06.1
+    dependentVisualId: map.visual.xiyou.yingchoujian.f03.c01
+  - prerequisiteGroupId: node.xiyou.yingchoujian.f03.e06
+    dependentGroupId: node.xiyou.yingchoujian.f03.i05
+    prerequisiteVisualId: map.visual.xiyou.yingchoujian.f03.e06.1
+    dependentVisualId: map.visual.xiyou.yingchoujian.f03.i05
+  - prerequisiteGroupId: node.xiyou.yingchoujian.f03.e07
+    dependentGroupId: node.xiyou.yingchoujian.f03.i04
+    prerequisiteVisualId: map.visual.xiyou.yingchoujian.f03.e07.1
+    dependentVisualId: map.visual.xiyou.yingchoujian.f03.i04
+  explorationRewardSlots: []
+  battleBackground: {fileID: 21300000, guid: b7d5e9a2c4f1468aa3e1d6c9f2b8a570, type: 3}
+  battleBackgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  overrideBattleGridColor: 1
+  battleGridColor: {r: 0.13, g: 0.25, b: 0.23, a: 0.46}
+  battleTopFogEnabled: 0
+  transitionProfileContentId: transition.paper-cloud.standard.v1
+  layoutSource: ai-annotation
+  layoutRoundId: g2f3-capacity-redesign-20261028-r1
+  layoutAppliedUtc: 2026-10-28T10:36:44.9314547Z
+  layoutCandidateSha256: 2350662B6764AA069B0BAD6AD474FE3EAAC4FE281FBEA01B80CCFD10CB00E328

@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352414a495174cb9a747b1c2cea58c8a, type: 3}
+  m_Name: bailongma-g2f5-unlock-v1
+  m_EditorClassIdentifier: 
+  contentId: presentation.character.bailongma.g2f5-unlock.v1
+  subjectContentId: crawler.xiyou.bailongma.v1
+  frameAtlas: {fileID: 2800000, guid: 41225685f3e74a5eb7b17b063910de4d, type: 3}
+  frameCount: 48
+  atlasColumns: 8
+  atlasRows: 6
+  framesPerSecond: 12
+  playbackMode: 0
+  completionMode: 1
+  hintTiming: 0
+  repeatMode: 0
+  interactionMode: 0
+  panelStyle: 1
+  effectPreset: 0
+  enterDuration: 0.45
+  panelFadeDuration: 0.18
+  exitDuration: 0.36
+  maxVoiceWaitAfterDialogue: 8
+  materializationParticleCount: 96
+  materializationSizeScale: 1
+  materializationSpeedScale: 1
+  placement: 1
+  displayHeight: 760
+  anchoredOffset: {x: 0, y: 34}
+  dialoguePanelOffset: {x: 0, y: 0}
+  dialoguePanelSize: {x: 800, y: 184}
+  dialogueFontSize: 27
+  speakerFontSize: 24
+  dismissHintFontSize: 18
+  backdropColor: {r: 0.02, g: 0.014, b: 0.009, a: 0.2}
+  displayTitle: "\u897F\u6D77\u7389\u9F99\xB7\u767D\u9F99\u9A6C"
+  dismissHint: "\u70B9\u51FB\u7EE7\u7EED"
+  openingAudioCueId: 
+  lines:
+  - speakerName: "\u767D\u9F99\u9A6C"
+    text: "\u5F15\u6F6E\u542C\u4EE4\uFF0C\u62A4\u9001\u53D6\u7ECF\u3002"
+    visibleSeconds: 3.2
+    audioCueId: voice.bailongma.g2f5.unlock.v1
+  variants: []

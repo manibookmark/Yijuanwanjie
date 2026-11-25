@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c2557453fcc460ca94dd1fbfd76a085, type: 3}
+  m_Name: SealStampVfxProfile
+  m_EditorClassIdentifier: 
+  impactShardCount: 320
+  impactDustCount: 480
+  impactDuration: 0.72
+  impactDelaySpread: 0.1
+  impactStartRadius: 40
+  impactEndRadius: 520
+  impactVerticalCompression: 0.55
+  impactShardLength: 38
+  impactShardWidth: 2.6
+  impactDustMinSize: 0.6
+  impactDustMaxSize: 2.2
+  impactTangentialDrift: 16
+  impactAlpha: 0.78
+  dissolveParticleCount: 361
+  dissolveDuration: 0.839
+  dissolveDelaySpread: 0
+  dissolveWind: {x: 175, y: 58}
+  dissolveTurbulence: 19.5
+  dissolveParticleMinSize: 0.99
+  dissolveParticleMaxSize: 3.2
+  dissolveAlpha: 0.86

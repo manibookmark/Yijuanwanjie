@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b86606d9c8044a26925a0529a4715124, type: 3}
+  m_Name: zhubajie-resident-idle-v1
+  m_EditorClassIdentifier: 
+  crawlerContentId: crawler.xiyou.zhubajie
+  frameAtlas: {fileID: 2800000, guid: 0afc168030d7f6446b675cdad8b555b5, type: 3}
+  frameCount: 48
+  atlasColumns: 8
+  atlasRows: 6
+  framesPerSecond: 12
+  atlasFirstFrame: 0
+  sandPresence: 0
+  pingPongLoop: 0
+  summonVoiceCue: voice.zhubajie.enter.v1
+  triggerVoiceCue: 
+  residentBodyBounds:
+    serializedVersion: 2
+    x: 0.14
+    y: 0.03
+    width: 0.62
+    height: 0.85
+  hoverAuraOffset: {x: 0, y: 0}

@@ -1,0 +1,88 @@
+{
+  "tag": "v2026.11.25",
+  "sha256": "0514fda2654a5225032c51adcbe335d5c63fa9c273cc1daa965d685ee7d38240",
+  "assetName": "WanjieScroll-Windows-x64.zip",
+  "executable": "WanjieScroll.exe",
+  "parts": [
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part01",
+      "bytes": 100663296,
+      "sha256": "4283bec22e934c50601b09ba2f631294c5c0e2a029c4bb80c0cd361df6f9429c"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part02",
+      "bytes": 100663296,
+      "sha256": "72869bd73a101814650873629391dc7d7cb8760597b82e1e2229d0f6b33bfa03"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part03",
+      "bytes": 100663296,
+      "sha256": "3a01cf7f265b374e576cf34b1f7eb88c0bab52d6626bf2c8770597f0c6b5398d"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part04",
+      "bytes": 100663296,
+      "sha256": "724db650cf5a3a1597abd0875eaf38fc39c1d06f02cc3fbd3a0e6d9b64fbaf31"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part05",
+      "bytes": 100663296,
+      "sha256": "68c5773666cd47e30c6f9cb0ea3eebac39bc8569215becc65674ed2e4bdff4e3"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part06",
+      "bytes": 100663296,
+      "sha256": "c247a1f81b9a1c180f03c5b4db4c84e844d6eb2b15dc24a061c1292a7797c8cb"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part07",
+      "bytes": 100663296,
+      "sha256": "dca3f8eaa73a8a704cda209160c6e63ec1292a87f03824e39c313fba6938383d"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part08",
+      "bytes": 100663296,
+      "sha256": "fa18e5d2dd23dbd3f5995e06e042780b8f82e5655e50641d32b2051fe1395b48"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part09",
+      "bytes": 100663296,
+      "sha256": "de2ed41acbfc62e14b624e0529e3379a0e141f94b96c3dc3c061bb06fcf9fc6a"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part10",
+      "bytes": 100663296,
+      "sha256": "ae7b6e2709a19072326711b0855a7cc9e0a3de8891d0c61df048c7bd1e96f68c"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part11",
+      "bytes": 100663296,
+      "sha256": "1b358a4b90c9b98348c1b3baf51b28d1d952056e088d8d05c65ebb3c6e10aef6"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part12",
+      "bytes": 100663296,
+      "sha256": "8425b37ee0b91c3996fcbf7354b0037a2268f14d735020876abe61574bec684f"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part13",
+      "bytes": 100663296,
+      "sha256": "a5c049ef2981eec229cb1c24fae44eadc065eccc20dba2d52e4632c75be175f5"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part14",
+      "bytes": 100663296,
+      "sha256": "94dbe53cb211058257bb0a9c89c57dab252c3eb0757d6d04c9a9e3d70b598088"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part15",
+      "bytes": 100663296,
+      "sha256": "ed03c3a562afb9d3c34827cece43936af07d87212b3ac0b7b9f616a29ec9889e"
+    },
+    {
+      "name": "WanjieScroll-Windows-x64.zip.part16",
+      "bytes": 93867695,
+      "sha256": "55f2799644cfb5b375cb160f12a2f80c9fbc35a3399a841673f2891d4246c75d"
+    }
+  ]
+}

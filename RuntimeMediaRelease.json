@@ -1,0 +1,61 @@
+{
+  "parts": [
+    {
+      "name": "runtime-media-2026.11.25.zip.part01",
+      "bytes": 100663296,
+      "sha256": "c3d4fd47d62cbbc8e37aa4812b81ee0f0165312cfd88a48006432b8708f20bc7"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part02",
+      "bytes": 100663296,
+      "sha256": "777d110fdd430151f4e511af7ecca51b8ceb6f973fa659a145fc1f56fb1c441e"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part03",
+      "bytes": 100663296,
+      "sha256": "e4828f7cdcf0e0015b4ef9c615a7d2689223fea5a0a49fa9fec238ca874b5adb"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part04",
+      "bytes": 100663296,
+      "sha256": "446102d69a21ed97a9cba0d5d6824258952a80a96becfbc9850e08e761322fe7"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part05",
+      "bytes": 100663296,
+      "sha256": "b476ad4441e208d7a82177cce52844863fafbb4ecfb6d4cc91d269c00bb73872"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part06",
+      "bytes": 100663296,
+      "sha256": "ae98b748ab424602e07da784cd57598d27bb986ed07222dd319e626af889f5f9"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part07",
+      "bytes": 100663296,
+      "sha256": "6eeb4b1f4a07926d153c2a29dc0886f602163e047b118e63fe03641b1502907e"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part08",
+      "bytes": 100663296,
+      "sha256": "4e2b038b2dd421a731e985a4c02e8713fee2974a634dbe9a115962a44d6da008"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part09",
+      "bytes": 100663296,
+      "sha256": "cc2229667abc99dca90dc9346e14c985ed1acd12d2298199c5790e5c7bb59c23"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part10",
+      "bytes": 100663296,
+      "sha256": "75407034d3c69382ced3df7d0e46c8eebdabb5de4889792a80dba1212c4c57e3"
+    },
+    {
+      "name": "runtime-media-2026.11.25.zip.part11",
+      "bytes": 51196899,
+      "sha256": "fadb5045c4ccae2749d0d78ae5edbdedf3c8654f1fcf7f8850ebb6d4fd5600cd"
+    }
+  ],
+  "assetName": "runtime-media-2026.11.25.zip",
+  "sha256": "86979a45b6fea5b7dcd95431e7245f3b579684e58b3444792110f093943ccee1"
+}

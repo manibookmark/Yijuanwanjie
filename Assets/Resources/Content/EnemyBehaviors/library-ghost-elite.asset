@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c19177bf24744be8ae5667acbc03825, type: 3}
+  m_Name: library-ghost-elite
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  contentId: behavior.enemy.xiyou.library-ghost-elite.v1
+  selectionMode: 1
+  avoidImmediateRepeat: 0
+  actions: []
+  hasPhaseSwitch: 0
+  phaseHealthThresholdPercent: 50
+  phaseActionCountThreshold: 7
+  phaseTwoActions: []
+  useHealthGroups: 1
+  healthGroups:
+  - requiredHealthPercent: 100
+    turnCountdown: -1
+    actions:
+    - intentType: 1
+      amount: 9
+      weight: 70
+      healthWeight: 70
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: "\u5f31\u6c34\u6251\u51fb"
+      actionId: behavior.enemy.xiyou.library-ghost-elite.v1.g0.a0
+    - intentType: 2
+      amount: 150
+      weight: 30
+      healthWeight: 30
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: "\u805a\u7802\u62a4\u4f53"
+      actionId: behavior.enemy.xiyou.library-ghost-elite.v1.g0.a1

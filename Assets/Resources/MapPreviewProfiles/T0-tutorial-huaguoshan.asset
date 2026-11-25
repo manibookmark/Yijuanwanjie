@@ -1,0 +1,341 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c012ed9835f4eb495b07f5f65bca0c2, type: 3}
+  m_Name: T0-tutorial-huaguoshan
+  m_EditorClassIdentifier: 
+  contentId: map.tutorial.huaguoshan.v1
+  background: {fileID: 21300000, guid: 65c804b31ba94f159bcce7319c9cfd21, type: 3}
+  orthographicSize: 5.4
+  backgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  debugFocusGroupId: node.tutorial.huaguoshan.w07
+  interactionVisualPolicy: 0
+  nodes:
+  - contentId: map.visual.tutorial.huaguoshan.w01.bat
+    interactionGroupId: node.tutorial.huaguoshan.w01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.17501989, y: 0.7923729}
+    visualScale: 0.1
+    hitSize: {x: 1.8, y: 1.1}
+    sortingOrder: 20
+    initialState: 5
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.w02.bat
+    interactionGroupId: node.tutorial.huaguoshan.w02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.24757643, y: 0.61936337}
+    visualScale: 0.1
+    hitSize: {x: 1.8, y: 1.1}
+    sortingOrder: 20
+    initialState: 5
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.r01.jiudie
+    interactionGroupId: node.tutorial.huaguoshan.r01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: f7856544f46b4212acfc2dc2654fe88a, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.336, y: 0.558}
+    visualScale: 0.085
+    hitSize: {x: 1.5, y: 1.5}
+    sortingOrder: 24
+    initialState: 5
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.w03.bat
+    interactionGroupId: node.tutorial.huaguoshan.w03
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.42803878, y: 0.59416443}
+    visualScale: 0.1
+    hitSize: {x: 1.8, y: 1.1}
+    sortingOrder: 20
+    initialState: 5
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.w04.bat
+    interactionGroupId: node.tutorial.huaguoshan.w04
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.5197614, y: 0.38726792}
+    visualScale: 0.1
+    hitSize: {x: 1.8, y: 1.1}
+    sortingOrder: 20
+    initialState: 5
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.w05.bat
+    interactionGroupId: node.tutorial.huaguoshan.w05
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.6420582, y: 0.44960213}
+    visualScale: 0.1
+    hitSize: {x: 1.8, y: 1.1}
+    sortingOrder: 20
+    initialState: 5
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.j01.jade
+    interactionGroupId: node.tutorial.huaguoshan.j01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d6d3717c32c4afb928d336f4ade6a0d, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.475, y: 0.49}
+    visualScale: 0.3515625
+    hitSize: {x: 1.5, y: 1.5}
+    sortingOrder: 24
+    initialState: 5
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.r02.wuxing-disc
+    interactionGroupId: node.tutorial.huaguoshan.r02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 049c8108ee52414592717a1623063a4e, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.575, y: 0.5}
+    visualScale: 0.08
+    hitSize: {x: 1.65, y: 1.65}
+    sortingOrder: 25
+    initialState: 5
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.m01.mana
+    interactionGroupId: node.tutorial.huaguoshan.m01
+    enemyContentId: 
+    visualKind: 1
+    sprite: {fileID: 0}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.7218494, y: 0.6140584}
+    visualScale: 0.55
+    hitSize: {x: 2.5, y: 2.6}
+    sortingOrder: 26
+    initialState: 5
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.w06.bat
+    interactionGroupId: node.tutorial.huaguoshan.w06
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.8351976, y: 0.41777188}
+    visualScale: 0.1
+    hitSize: {x: 1.8, y: 1.1}
+    sortingOrder: 20
+    initialState: 5
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.tutorial.huaguoshan.w07.seal
+    interactionGroupId: node.tutorial.huaguoshan.w07
+    enemyContentId: 
+    visualKind: 2
+    sprite: {fileID: 0}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.875, y: 0.195}
+    visualScale: 0.62
+    hitSize: {x: 1.55, y: 1.85}
+    sortingOrder: 30
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 21300000, guid: 191be09e290446f9b5cd25cb6914a088, type: 3}
+  dependencyVisualAnchors: []
+  explorationRewardSlots: []
+  battleBackground: {fileID: 21300000, guid: 52b89787862945578a3e30affcaa6502, type: 3}
+  battleBackgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  overrideBattleGridColor: 0
+  battleGridColor: {r: 0.42, g: 0.18, b: 0.1, a: 0.34}
+  battleTopFogEnabled: 0
+  transitionProfileContentId: transition.paper-cloud.standard.v1
+  layoutSource: 
+  layoutRoundId: 
+  layoutAppliedUtc: 
+  layoutCandidateSha256: 

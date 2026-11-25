@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a87c3cc1b996e544988bed031c63bfb, type: 3}
+  m_Name: yiwofeng
+  m_EditorClassIdentifier: 
+  contentId: card.xiyou.yiwofeng
+  projectileSprite: {fileID: 0}
+  visualType: ProceduralBeeSting
+  projectileScale: 0.52
+  flightDuration: 0.36
+  flightArc: 1
+  flightArcHeight: 0.14
+  multiProjectileDelay: 0.1
+  useAuthoritativeHitSequence: 1
+  bounceScaleMultiplier: 0.72
+  periodicFireCrow: 1
+  periodicAttackerVisualKind: 1
+  beeBodyColor: {r: 0.88, g: 0.46, b: 0.12, a: 1}
+  beeWingColor: {r: 1, g: 0.82, b: 0.42, a: 0.78}
+  fireCrowBodyColor: {r: 0.09, g: 0.025, b: 0.035, a: 1}
+  fireCrowFlameColor: {r: 1, g: 0.24, b: 0.035, a: 0.95}
+  fireCrowScale: 0.55
+  fireCrowHoverHeight: 0.8
+  fireCrowOrbitWidth: 0.9
+  fireCrowOrbitSpeed: 0.16
+  proceduralBladeColor: {r: 0.025, g: 0.03, b: 0.04, a: 1}
+  proceduralBladeEdgeColor: {r: 0.55, g: 0.62, b: 0.7, a: 0.8}
+  proceduralBladeShape: 0
+  proceduralBladeLengthScale: 1
+  proceduralBladeWidthRatio: 0.24
+  proceduralBladeEdgeScale: 1.1
+  proceduralAxeSteelColor: {r: 0.22, g: 0.25, b: 0.28, a: 1}
+  proceduralAxeEdgeColor: {r: 0.92, g: 0.78, b: 0.34, a: 1}
+  proceduralAxeHandleColor: {r: 0.22, g: 0.08, b: 0.035, a: 1}
+  proceduralAxeAccentColor: {r: 0.78, g: 0.22, b: 0.08, a: 1}
+  proceduralAxeSpinSpeed: 1080
+  proceduralAxeHeadScale: 1
+  proceduralVialGlassColor: {r: 0.2, g: 0.08, b: 0.035, a: 0.9}
+  proceduralVialFireColor: {r: 1, g: 0.28, b: 0.035, a: 1}
+  proceduralVialCoreColor: {r: 1, g: 0.86, b: 0.25, a: 1}
+  proceduralVialCorkColor: {r: 0.24, g: 0.095, b: 0.035, a: 1}
+  proceduralVialSpinSpeed: 620
+  proceduralVialFillRatio: 0.56
+  ruyiStaffLengthScale: 1
+  ruyiStaffThicknessScale: 1
+  ruyiStaffWakeScale: 1
+  wandBoltCoreColor: {r: 1, g: 0.86, b: 0.28, a: 1}
+  wandBoltAuraColor: {r: 1, g: 0.28, b: 0.04, a: 0.72}
+  wandBoltRuneColor: {r: 1, g: 0.92, b: 0.58, a: 0.9}
+  wandBoltLengthScale: 1
+  wandBoltWidthScale: 1
+  wandBoltSpinSpeed: 360
+  wandBoltPulseSpeed: 6
+  wandBoltRuneRing: 0
+  lightningCoreColor: {r: 1, g: 0.98, b: 0.82, a: 1}
+  lightningAuraColor: {r: 0.26, g: 0.72, b: 1, a: 0.82}
+  lightningGroundColor: {r: 0.66, g: 0.36, b: 1, a: 0.9}
+  lightningSkyHeight: 4.8
+  lightningSegments: 13
+  lightningDuration: 0.24
+  lightningContactDelay: 0.045
+  lightningJitter: 0.58
+  lightningBranchCount: 2
+  lightningIntensity: 1
+  whipSegmentColor: {r: 0.48, g: 0.22, b: 0.07, a: 1}
+  whipJointColor: {r: 0.95, g: 0.58, b: 0.14, a: 1}
+  whipInkColor: {r: 0.24, g: 0.055, b: 0.025, a: 0.82}
+  whipSweepDuration: 0.64
+  whipInterSweepDelay: 0.1
+  whipSpanPadding: 0.62
+  whipArcHeight: 0.38
+  whipFlexibility: 0.78
+  whipSegmentThickness: 0.12
+  whipAirRingIntensity: 1
+  whipAirWakeIntensity: 1
+  whipAirWakeLength: 1
+  selfEffectStyle: 0
+  selfEffectPrimaryColor: {r: 0.95, g: 0.82, b: 0.35, a: 1}
+  selfEffectSecondaryColor: {r: 1, g: 0.96, b: 0.72, a: 0.88}
+  selfEffectDuration: 0.8
+  selfEffectScale: 1
+  selfEffectParticleCount: 12
+  enableTrail: 1
+  trailColor: {r: 1, g: 0.38, b: 0.055, a: 0.65}
+  trailWidth: 0.035
+  trailTime: 0.065
+  hitParticleTexture: {fileID: 0}
+  hitParticleColor: {r: 1, g: 0.46, b: 0.06, a: 1}
+  hitParticleCount: 10
+  hitParticleSize: 0.045
+  hitParticleSpeed: 1.7
+  hitParticleLifetime: 0.22
+  secondaryParticleTexture: {fileID: 0}
+  secondaryParticleColor: {r: 0.26, g: 0.16, b: 0.075, a: 0.45}
+  secondaryParticleCount: 4
+  secondaryParticleSize: 0.035
+  secondaryParticleSpeed: 0.9
+  secondaryParticleLifetime: 0.15
+  punchScaleIntensity: 0.12
+  critPunchScaleIntensity: 0.25
+  hitStopDuration: 0.02
+  critHitStopDuration: 0.04
+  hitStopTimeScale: 0.05
+  deathEffect: 2
+  playSfxClip: {fileID: 8300000, guid: c62d65060a831ed45a62cca169e6b2f4, type: 3}
+  playSfxPath: Audio/SFX/yiwofeng-play-v1
+  playSfxGain: 1
+  hitSfxPath: Audio/CardSfx/yiwofeng-impact-v1
+  hitSfxGain: 1
+  fallbackContentId:
+  critSfxPath:
+  critSfxGain: 1

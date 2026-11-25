@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805ec6b225aa4edaa5ba552bfc217f0c, type: 3}
+  m_Name: triple-damage-rare
+  m_EditorClassIdentifier:
+  contentId: seal.xiyou.triple-damage.rare.v1
+  displayName: "三伤印"
+  sealCharacter: "叁"
+  effectType: 3
+  effectValue: 3
+  grade: 2
+  material: 2
+  presentationId: reward.reveal.seal.triple-damage.rare.v1
+  description: "宿主攻击计划的每发正伤害×3，只强化该卡，不增加全局锋锐。与双伤印及其他三伤印相乘，每枚在每发中只计算一次；要求宿主具有正伤害攻击，不放大炎息、倾甲等独立后置攻击。"

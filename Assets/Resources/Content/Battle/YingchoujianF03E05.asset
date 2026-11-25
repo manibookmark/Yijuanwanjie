@@ -1,0 +1,87 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b418109531b85b4fbb508c8d09ddf27, type: 3}
+  m_Name: YingchoujianF03E05
+  m_EditorClassIdentifier: 
+  schemaVersion: 3
+  scenarioId: battle.xiyou.yingchoujian.f03.e05.v1
+  volumeId: xiyou
+  maxHealth: 50
+  baseMana: 3
+  handLimit: 3
+  turnDrawCount: 3
+  might: 10
+  luck: 15
+  nirvana: 10
+  deckContentIds:
+  - legacy.card.common.7e46b7e4
+  - legacy.card.xiyou.0578cfde
+  - legacy.card.common.f22c29d6
+  - legacy.card.common.973d06a5
+  - legacy.card.common.2927e58a
+  - card.xiyou.tangsanzang.v1
+  - card.common.taomujian.v1
+  - card.common.taomujian.v1
+  - legacy.card.common.2927e58a
+  - legacy.card.common.b4b26600
+  enemyContentIds:
+  - enemy.xiyou.yingchoujian_tide_shell
+  - enemy.xiyou.yingchoujian_tide_shell
+  - enemy.xiyou.yingchoujian_tide_shell
+  - enemy.xiyou.yingchoujian_tide_shell
+  - enemy.xiyou.yingchoujian_tide_shell
+  - enemy.xiyou.yingchoujian_tide_shell
+  - enemy.xiyou.yingchoujian_tide_shell
+  - enemy.xiyou.yingchoujian_tide_shell
+  - enemy.xiyou.yingchoujian_mudscale_guard
+  - enemy.xiyou.yingchoujian_mudscale_guard
+  levelBossContentId: 
+  levelBossRank: 1
+  crawlerContentId: crawler.xiyou.tangsanzang.v1
+  referenceLoadoutContentId: 
+  bossTimerEnabled: 0
+  bossTimerEyes: 5
+  bossTimerDamage: 25
+  enemyWaveSizes: 
+  enemyFormationRows: 
+  serializedEnemyFormationPattern: 
+  enemyFormationSourceColumnCount: 5
+  enemyFormationSourceSlots:
+  - sourceRow: 0
+    sourceColumn: 0
+  - sourceRow: 0
+    sourceColumn: 1
+  - sourceRow: 0
+    sourceColumn: 2
+  - sourceRow: 0
+    sourceColumn: 3
+  - sourceRow: 0
+    sourceColumn: 4
+  - sourceRow: 1
+    sourceColumn: 0
+  - sourceRow: 1
+    sourceColumn: 1
+  - sourceRow: 1
+    sourceColumn: 2
+  - sourceRow: 2
+    sourceColumn: 0
+  - sourceRow: 2
+    sourceColumn: 2
+  testOnlyUnconfirmed: 0
+  enemyHealthOverride: 0
+  enemyExperienceOverride: 0
+  startingArmor: 0
+  introHintText: 
+  entryExperienceGrant: 0
+  fixedFirstLevelUpRewardCardContentIds: []
+  forcedOpeningHandContentIds: []
+  rewardUtilityPolicy: 0

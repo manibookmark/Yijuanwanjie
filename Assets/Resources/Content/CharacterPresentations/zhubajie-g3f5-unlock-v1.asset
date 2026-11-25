@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352414a495174cb9a747b1c2cea58c8a, type: 3}
+  m_Name: zhubajie-g3f5-unlock-v1
+  m_EditorClassIdentifier: 
+  contentId: presentation.character.zhubajie.g3f5-unlock.v1
+  subjectContentId: crawler.xiyou.zhubajie
+  frameAtlas: {fileID: 2800000, guid: b8e44e480bd15284bb66104df1c5fe39, type: 3}
+  frameCount: 60
+  atlasColumns: 12
+  atlasRows: 5
+  framesPerSecond: 12
+  playbackMode: 0
+  completionMode: 1
+  hintTiming: 0
+  repeatMode: 0
+  interactionMode: 0
+  panelStyle: 1
+  effectPreset: 0
+  enterDuration: 0.45
+  panelFadeDuration: 0.18
+  exitDuration: 0.36
+  maxVoiceWaitAfterDialogue: 8
+  materializationParticleCount: 96
+  materializationSizeScale: 1
+  materializationSpeedScale: 1
+  placement: 1
+  displayHeight: 760
+  anchoredOffset: {x: 0, y: 34}
+  dialoguePanelOffset: {x: 0, y: 0}
+  dialoguePanelSize: {x: 800, y: 184}
+  dialogueFontSize: 27
+  speakerFontSize: 24
+  dismissHintFontSize: 18
+  backdropColor: {r: 0.02, g: 0.014, b: 0.009, a: 0.2}
+  displayTitle: "\u5929\u84EC\u5143\u5E05 \xB7 \u732A\u516B\u6212"
+  dismissHint: "\u70B9\u51FB\u7EE7\u7EED"
+  openingAudioCueId: 
+  lines:
+  - speakerName: "\u732A\u516B\u6212"
+    text: "\u5929\u84EC\u5143\u5E05\u5728\u6B64\uFF01"
+    visibleSeconds: 3.2
+    audioCueId: voice.zhubajie.enter.v1
+  variants: []

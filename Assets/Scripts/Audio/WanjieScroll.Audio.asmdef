@@ -1,0 +1,17 @@
+{
+    "name": "WanjieScroll.Audio",
+    "rootNamespace": "WanjieScroll.Audio",
+    "references": [
+        "WanjieScroll.Core",
+        "WanjieScroll.Dungeon"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

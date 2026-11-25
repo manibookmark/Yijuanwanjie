@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4a2f1e8d7394b62a0c5e7f3918d42ab, type: 3}
+  m_Name: xiyou-shared-v2
+  m_EditorClassIdentifier:
+  schemaVersion: 1
+  contentId: reward.level-up.xiyou.shared.v2
+  cardContentIds:
+  - card.common.jiujiebian.v1
+  - card.common.taomujian.v1
+  - card.xiyou.wudaoguan.v1
+  - legacy.card.common.13a386c5
+  - legacy.card.common.2927e58a
+  - legacy.card.common.6b5e71f5
+  - legacy.card.common.7e46b7e4
+  - legacy.card.common.973d06a5
+  - legacy.card.common.b4b26600
+  - legacy.card.common.c0191ee0
+  - legacy.card.common.cab047cb
+  - legacy.card.common.f22c29d6
+  - legacy.card.xiyou.0578cfde
+  requiredCardCount: 13
+  baseChoiceCount: 3
+  maxChoiceCount: 3
+  luckAffectsChoiceCount: 0
+  cardRewardChance: 1
+  uniqueCardChoices: 1
+  useNaturalCardSealPool: 0
+  naturalSealOfferChance: 0
+  naturalBaseCardContentIds: []
+  naturalSealContentIds: []
+  useLevelCostPolicy: 1
+  levelCostPolicyVersion: 1
+  levelCostStages:
+  - minLevel: 1
+    maxLevel: 6
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 60
+    - rewardPoolCost: 1
+      weight: 40
+  - minLevel: 7
+    maxLevel: 10
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 40
+    - rewardPoolCost: 1
+      weight: 60
+  - minLevel: 11
+    maxLevel: 14
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 25
+    - rewardPoolCost: 1
+      weight: 25
+    - rewardPoolCost: 2
+      weight: 50
+  - minLevel: 15
+    maxLevel: 17
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 34
+    - rewardPoolCost: 1
+      weight: 33
+    - rewardPoolCost: 2
+      weight: 33
+  - minLevel: 18
+    maxLevel: 19
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 50
+    - rewardPoolCost: 1
+      weight: 30
+    - rewardPoolCost: 2
+      weight: 20
+  - minLevel: 20
+    maxLevel: 23
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 15
+    - rewardPoolCost: 1
+      weight: 15
+    - rewardPoolCost: 2
+      weight: 20
+    - rewardPoolCost: 3
+      weight: 50
+  - minLevel: 24
+    maxLevel: 27
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 25
+    - rewardPoolCost: 1
+      weight: 25
+    - rewardPoolCost: 2
+      weight: 25
+    - rewardPoolCost: 3
+      weight: 25
+  - minLevel: 28
+    maxLevel: 29
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 40
+    - rewardPoolCost: 1
+      weight: 30
+    - rewardPoolCost: 2
+      weight: 15
+    - rewardPoolCost: 3
+      weight: 15
+  - minLevel: 30
+    maxLevel: 33
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 12
+    - rewardPoolCost: 1
+      weight: 12
+    - rewardPoolCost: 2
+      weight: 12
+    - rewardPoolCost: 3
+      weight: 12
+    - rewardPoolCost: 4
+      weight: 52
+  - minLevel: 34
+    maxLevel: 36
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 10
+    - rewardPoolCost: 1
+      weight: 15
+    - rewardPoolCost: 2
+      weight: 15
+    - rewardPoolCost: 3
+      weight: 20
+    - rewardPoolCost: 4
+      weight: 40
+  - minLevel: 37
+    maxLevel: 39
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 40
+    - rewardPoolCost: 1
+      weight: 20
+    - rewardPoolCost: 2
+      weight: 15
+    - rewardPoolCost: 3
+      weight: 15
+    - rewardPoolCost: 4
+      weight: 5
+  - minLevel: 40
+    maxLevel: 43
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 10
+    - rewardPoolCost: 1
+      weight: 10
+    - rewardPoolCost: 2
+      weight: 10
+    - rewardPoolCost: 3
+      weight: 10
+    - rewardPoolCost: 4
+      weight: 10
+    - rewardPoolCost: 5
+      weight: 50
+  - minLevel: 44
+    maxLevel: 46
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 10
+    - rewardPoolCost: 1
+      weight: 10
+    - rewardPoolCost: 2
+      weight: 15
+    - rewardPoolCost: 3
+      weight: 15
+    - rewardPoolCost: 4
+      weight: 20
+    - rewardPoolCost: 5
+      weight: 30
+  - minLevel: 47
+    maxLevel: 49
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 30
+    - rewardPoolCost: 1
+      weight: 20
+    - rewardPoolCost: 2
+      weight: 15
+    - rewardPoolCost: 3
+      weight: 15
+    - rewardPoolCost: 4
+      weight: 10
+    - rewardPoolCost: 5
+      weight: 10
+  - minLevel: 50
+    maxLevel: 2147483647
+    cardContentIds:
+    - card.common.jiujiebian.v1
+    - card.common.taomujian.v1
+    - card.xiyou.wudaoguan.v1
+    - legacy.card.common.13a386c5
+    - legacy.card.common.2927e58a
+    - legacy.card.common.6b5e71f5
+    - legacy.card.common.7e46b7e4
+    - legacy.card.common.973d06a5
+    - legacy.card.common.b4b26600
+    - legacy.card.common.c0191ee0
+    - legacy.card.common.cab047cb
+    - legacy.card.common.f22c29d6
+    - legacy.card.xiyou.0578cfde
+    costWeights:
+    - rewardPoolCost: 0
+      weight: 10
+    - rewardPoolCost: 1
+      weight: 10
+    - rewardPoolCost: 2
+      weight: 10
+    - rewardPoolCost: 3
+      weight: 10
+    - rewardPoolCost: 4
+      weight: 10
+    - rewardPoolCost: 5
+      weight: 10
+    - rewardPoolCost: 6
+      weight: 10
+    - rewardPoolCost: 7
+      weight: 10
+    - rewardPoolCost: 8
+      weight: 10
+    - rewardPoolCost: 9
+      weight: 10
+    - rewardPoolCost: 10
+      weight: 10

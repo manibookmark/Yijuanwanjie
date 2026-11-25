@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805ec6b225aa4edaa5ba552bfc217f0c, type: 3}
+  m_Name: nduja-uncommon
+  m_EditorClassIdentifier:
+  contentId: seal.xiyou.nduja.uncommon.v1
+  displayName: "炎息印"
+  sealCharacter: "炎"
+  effectType: 13
+  effectValue: 16
+  grade: 1
+  material: 3
+  presentationId: reward.reveal.seal.nduja.uncommon.v1
+  description: "宿主结算后，对此时最近可攻击一排的每名敌人喷火1次，基础伤害16。受锋锐影响，不受宿主叠势、数量、倍伤或裂空影响；不追击补位，不附加持续灼烧。"

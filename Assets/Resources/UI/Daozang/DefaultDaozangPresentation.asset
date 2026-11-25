@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a8fd9521486fbb4e8cb71135499a46f, type: 3}
+  m_Name: DefaultDaozangPresentation
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  profileId: ui.daozang.standard.v1
+  revision: 1
+  topBarHeight: 81
+  bottomBarHeight: 220
+  contentMarginX: 77
+  columnSpacing: 58
+  headerHeight: 165
+  talismanHeight: 640
+  talismanRowSpacing: 2
+  actionIconSize: 155
+  actionBtnCenterX: 152
+  actionBtnCenterY: 129
+  overviewIconSize: 67
+  overviewOffsetX: 71
+  overviewOffsetY: 60
+  lingyuIconSize: 44
+  detailPanelWidth: 1150
+  detailPanelMargin: 0
+  bodySelectedColor: {r: 1, g: 0.96, b: 0.85, a: 1}
+  bodyLockedColor: {r: 0.55, g: 0.52, b: 0.48, a: 0.35}

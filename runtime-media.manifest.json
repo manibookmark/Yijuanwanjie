@@ -1,0 +1,4035 @@
+{
+  "schemaVersion": 1,
+  "assets": [
+    {
+      "path": "Assets/Branding/AppIcon.png",
+      "bytes": 469734,
+      "sha256": "3fd789d44836beb8fb9da9f828e6f721c6fa9a14340531da9871fd96c36b8461"
+    },
+    {
+      "path": "Assets/Codely/Fonts/NotoSansSC-Regular.otf",
+      "bytes": 8331336,
+      "sha256": "faa6c9df652116dde789d351359f3d7e5d2285a2b2a1f04a2d7244df706d5ea9"
+    },
+    {
+      "path": "Assets/Fonts/MaShanZheng-Regular.ttf",
+      "bytes": 5857936,
+      "sha256": "6d2546bb189c732a8ca29af9e22457b152387d158aa459e4ac2ce1e51788b7fb"
+    },
+    {
+      "path": "Assets/Fonts/NotoSansSC-Bold.otf",
+      "bytes": 8543168,
+      "sha256": "c6cb5a93abaa9edc8ee7463b7ebb7f42d618d40e6ed2f7a5371c97b0b64767c0"
+    },
+    {
+      "path": "Assets/Fonts/NotoSansSC-Medium.otf",
+      "bytes": 8345436,
+      "sha256": "7633f5a016d4dd95e685a69633d818aabc4644c4b08e26bd35b1b30c45ed5dda"
+    },
+    {
+      "path": "Assets/Fonts/ZCOOLXiaoWei-Regular.ttf",
+      "bytes": 6313808,
+      "sha256": "a42b620140f493db42f741351dfbf343c0936d58588ee8004b8b2a218d997ff1"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/01-tianlu-mask.png",
+      "bytes": 16277,
+      "sha256": "7802fc21308b3d98eb88921631be39e1db5dd6e438a9918b2c82bfb05d527c4f"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/01-tianlu.mp4",
+      "bytes": 2197814,
+      "sha256": "d053d86b62d8f43368342c5fd25b5e8f906166e4290365dd59b0565a43b1c4f2"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/02-wanbaoge-mask.png",
+      "bytes": 14131,
+      "sha256": "a781f34ff25c9fba8c5a8cfb75fc3ff35135a7410b8655bb79f638859ef114fc"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/02-wanbaoge.mp4",
+      "bytes": 1683872,
+      "sha256": "df8899b711e0db7989f3163b2ce343ef52e03082d1375f876a3a70ff98ef3882"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/03-tianjige-mask.png",
+      "bytes": 15080,
+      "sha256": "92194a42fc0b96c44c169f4ba0516537c8a2e073f2909591eee6468747a4ee12"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/03-tianjige.mp4",
+      "bytes": 1419875,
+      "sha256": "012cef726a5b28241631e81e82d6077cba36fd58270f4dd71b06f91136d7acfa"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/04-yinfang-mask.png",
+      "bytes": 12211,
+      "sha256": "417db31453ad441bc507e283911c9f8d0b36aa5e2c6db9db2621a0e917d2dcf5"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/04-yinfang.mp4",
+      "bytes": 2659087,
+      "sha256": "57f09ce73f7d8ec45fad4a38d95e69add1e31b7f49f890cbb942bdeb5fabae9c"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/Daozang.mp4",
+      "bytes": 2930568,
+      "sha256": "61111d93fc60bd65f8112c2fd1b9da25a302b95f1e6089b45416c14c58b6e1cf"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/DaozangBody.png",
+      "bytes": 1221906,
+      "sha256": "bedb11b2ad3b511be93f1137dacf4b375121f9b109be81b0c34ab12010a7aab2"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/DaozangVideoAlpha.png",
+      "bytes": 48769,
+      "sha256": "417072599ad32c5078baa251b890a337185e1aaf10820bdb9875931cc7744dd1"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/HallBuildingAlpha-v1.png",
+      "bytes": 48853,
+      "sha256": "b967feff7a4c5e34e72bd1934bbb7424bd5370f6dea56d1f50c286e7d1baa0c1"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/HallOfHeroes.mp4",
+      "bytes": 2399291,
+      "sha256": "dba20d3279a44f2a72962d167159c8ecea4c20a9a2982310e4486953b492adf5"
+    },
+    {
+      "path": "Assets/Previews/HubVideoOverlay20260910/final_bg.png",
+      "bytes": 3859181,
+      "sha256": "5fc3af851992f36212aeb042d847c7ac600339bd698a3fd8ff1917ffc7e63bec"
+    },
+    {
+      "path": "Assets/Resources/Audio/BossCloseups/g4-frontal-thrust-native.wav",
+      "bytes": 856104,
+      "sha256": "f117e57d693dd287188713869e9de6d7baf09ae01f7d8574f75bbebc5a88accf"
+    },
+    {
+      "path": "Assets/Resources/Audio/BossCloseups/g4-spear-screen-crack.wav",
+      "bytes": 38852,
+      "sha256": "a96399006551651cebd0976da60adf7eab16d9a4fb4c44e028d73548faf36a4f"
+    },
+    {
+      "path": "Assets/Resources/Audio/CardSfx/shenhuofeiya-impact-v1.wav",
+      "bytes": 63548,
+      "sha256": "a2dbd3531c62fccf7968c4a29c5e10b8e10f0511f608dd65b526f81a3f06de74"
+    },
+    {
+      "path": "Assets/Resources/Audio/CardSfx/shenhuofeiya-summon-v2.wav",
+      "bytes": 354888,
+      "sha256": "d300593c099ae44b7d83cbc59492d578bc531307c8fcc163f33acddd33af8745"
+    },
+    {
+      "path": "Assets/Resources/Audio/CardSfx/talisman-paper-burn-v1.wav",
+      "bytes": 87102,
+      "sha256": "0c4a405bb4072fdd1441ad4d1b75f33d3760cf53087c0f240fbec48872699f21"
+    },
+    {
+      "path": "Assets/Resources/Audio/CardSfx/yiwofeng-impact-v1.wav",
+      "bytes": 38852,
+      "sha256": "a96399006551651cebd0976da60adf7eab16d9a4fb4c44e028d73548faf36a4f"
+    },
+    {
+      "path": "Assets/Resources/Audio/Music/普通怪战斗背景2.mp3",
+      "bytes": 722276,
+      "sha256": "3bb1248068e18d59e46e4b72a83ff3713b5f3ec26b82c1ce07028c521c65c75e"
+    },
+    {
+      "path": "Assets/Resources/Audio/Music/西游地图背景音.mp3",
+      "bytes": 722276,
+      "sha256": "6f9c62e3e5c9804173da3c674e2bf836caeeac031ec05659a99f254f1f8c0a39"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/boss-entrance.wav",
+      "bytes": 274284,
+      "sha256": "43b3dfd2aa8ad570b650bffe577a33d5746160fa9cc7d8f26fca0ced5a8deb1c"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/liejuan-yaowang-attack-quick-v1.wav",
+      "bytes": 384102,
+      "sha256": "ee9f54d11d735fbebc7533a0080dc6e54deaca6717907e686aafe3fe9eea4da0"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/liejuan-yaowang-attack-v1.wav",
+      "bytes": 576102,
+      "sha256": "0be6eb150d9fc035c4420df5f2ef87e9c6189c41d6939a827ee513e4aeb7bbb9"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/liejuan-yaowang-confuse-v1.wav",
+      "bytes": 576102,
+      "sha256": "b529dce320c0a39bfb62e1120b360b120b402727aa47b85514a00c994a0ead19"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/liejuan-yaowang-defend-v1.wav",
+      "bytes": 576102,
+      "sha256": "1ca210185ec5f3ce993f56cdde179c5aa01d2678d1704e671b115fd950fe1b54"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/liejuan-yaowang-idle-v1.wav",
+      "bytes": 606102,
+      "sha256": "54530da271df336eed21183256b5cc243da3ac43055e91daca0876f5d7c766a8"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/yinjiangjun-claw-attack.wav",
+      "bytes": 720850,
+      "sha256": "9b503db264310f2c569554dff5df402c8223b19017ecd6a66c1eb3f3987232fb"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/yinjiangjun-defend.wav",
+      "bytes": 720850,
+      "sha256": "e60cb931e505575ebaf7342b6ae1c8da4cdb59bd8ecf12385ecd205731086686"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/yinjiangjun-idle.wav",
+      "bytes": 716790,
+      "sha256": "3a47da9c9dc29c26e09c25ce4d2f51323f1d86d1824a40fb956cee88c6f9e9dd"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/yinjiangjun-spinning-sweep-kick.wav",
+      "bytes": 585318,
+      "sha256": "d4f0da69f9952771355c6e90fb3475309ed34064e702ee6fd4744c7142973311"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/zhenhe-yaojiang-attack-v3.wav",
+      "bytes": 576102,
+      "sha256": "8fb6c472336f7c932d19533d1a085016c19328c24143100e1ed830f00d4da706"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/zhenhe-yaojiang-defend-v2.wav",
+      "bytes": 576102,
+      "sha256": "0a1f5078e91210e20392625ed620cb3509a095fd6c89733834b5cbef22eb680b"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/zhenhe-yaojiang-idle-v1.wav",
+      "bytes": 576102,
+      "sha256": "12f413997bbf20864aa449ecc30c89fed5bf96c29b396af7cda48d003a5502c7"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/zhenyuan-yushi-attack-abyss-sweep-v1.wav",
+      "bytes": 588490,
+      "sha256": "34c2afa1faf32a73f7f61174dfceb56a9735165c68623c8a2f8889dbff612a20"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/zhenyuan-yushi-battle-idle-v1.wav",
+      "bytes": 576102,
+      "sha256": "19ea3cc540233e81eca870cf71fb6297491cca0ed5b3fd2d7f755850929e001f"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/Boss/zhenyuan-yushi-defend-v1.wav",
+      "bytes": 576102,
+      "sha256": "dc7a7015603f78c903d592fb4c182c54186005ca93eefc4e0d631d20bf4d7afd"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/armor-gain-01.wav",
+      "bytes": 274284,
+      "sha256": "227d78207f451bd9f84408a3c11a93d71b485e6d1406ba2e436a51d056d9c508"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/bailongma-play-water-v1.wav",
+      "bytes": 54822,
+      "sha256": "73e0c4dacade04a63ae96167dba2d65339c34eead045330945331a538b71a3c3"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/bajiaoshan-play.wav",
+      "bytes": 257960,
+      "sha256": "523144084df8c3169f15047a10267c7ab5eb5c377d5a093aaf8bb4531729e041"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/card-draw-01.wav",
+      "bytes": 48144,
+      "sha256": "5f1f6ebcf410db712b4a4760e178ce225172421b3253a8c01c5bd4c953dbfd00"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/card-hover-01.wav",
+      "bytes": 53860,
+      "sha256": "68c335923c35c5f56b5456a9eb1362c7c8f5763d7516515c9cf070975cb0ee49"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/dieyingzhuo-play-v1.wav",
+      "bytes": 67244,
+      "sha256": "5bb58a884d37d1b5ed3e4dc17471552fad45a20ed41ce32ac190bc944a0a8a2e"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/dingfengzhu-play-v1.wav",
+      "bytes": 57644,
+      "sha256": "460b2baa6df9d76c0dd33f973b44c4dcebc64bcbb7d7104561265f0ac6aa68ba"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/enemy-attack-01.wav",
+      "bytes": 180302,
+      "sha256": "958c829604c2d00316184becc7af9e9d31fe9968f14d9c1142b86e021278b0b3"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/feidao-hit.wav",
+      "bytes": 38852,
+      "sha256": "6b245b21b3ba74e5d42713aa01895e824413def303c2f2d468657687ac7cc232"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/feng-rui-gain-01.wav",
+      "bytes": 278464,
+      "sha256": "5a807a131d2652ad4382e1779872168048e8095cd22ce4e52af75cc588513e25"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/fenyingzhuo-play-v1.wav",
+      "bytes": 49964,
+      "sha256": "a3c7ec78784353beabbb7f1b304af5e46b30361898b3a73ef9db9e017ab3c6fc"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/formation-activate.wav",
+      "bytes": 335950,
+      "sha256": "7c9c229d970279f03de97972d241eaf170f3170b084ac2cf75210e58bd4c419d"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/fumozhu-play-v1.wav",
+      "bytes": 172668,
+      "sha256": "fde36465ddc27cee55523cbaecb0b0b039612a587981b44170df7c216ce319ec"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/gift.wav",
+      "bytes": 335950,
+      "sha256": "0964a2f5dcc6c3207a2a9c95ca5e7eb1f8b359175cfe38f2ea2b6165c5a572f0"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/huixuanjian-hit-v1.wav",
+      "bytes": 16364,
+      "sha256": "883198a0d57d7a527d213158fec390c7146fe362b57af0631e339d9555b5d942"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/huixuanjian-play-v1.wav",
+      "bytes": 21164,
+      "sha256": "e6c0e6ff70274d899745ca2a0ad5bf0e13b1db9fa5949feca02ed087f12f70c1"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/huixuanjianzhen-crit-v1.wav",
+      "bytes": 25004,
+      "sha256": "4373e283adb530872511aa1efb2b7fd1e159c6078c3e03e2c340ac85a09b76d7"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/huixuanjianzhen-hit-v1.wav",
+      "bytes": 15404,
+      "sha256": "a599f0ad8d9707d2a386b816807e96edfb0a36e291ea5e6b80661689d149c447"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/huixuanjianzhen-play-v1.wav",
+      "bytes": 69164,
+      "sha256": "3f9d06861e00d65f5bdc634f07e545e92f613f0339f80c00348a6f1b0fb04b44"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jianshuiyoulong-hit-v1.wav",
+      "bytes": 21164,
+      "sha256": "26619f4f9d60499003c55b581ba8bf1335447d557d05e4b19ce688ed0c01f81d"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jianshuiyoulong-hit-v2.wav",
+      "bytes": 22124,
+      "sha256": "61c1cd9472a4c061103252715a82a07865d72948211010e2e7eece2827b82be8"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jianshuiyoulong-play-v1.wav",
+      "bytes": 38444,
+      "sha256": "666167dda54140c31eaf87b2c67a0cc4e2afd7650e68796f4178b364edc11bc6"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jianshuiyoulong-play-v2.wav",
+      "bytes": 81644,
+      "sha256": "4f8cc9adb17d3fa7656893f6b99517e1fe11c75f6df028f15eb335deeb3780e7"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jindouyun-play-v1.wav",
+      "bytes": 86444,
+      "sha256": "aa53a45392feff11caec5f1dc3e0d086f81663d85731a6edbe843b69e7ad7ad9"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jingubang-hit-v2.wav",
+      "bytes": 40422,
+      "sha256": "b7a5e3a31c2ae6b83dfa107dd8c073f8b98f49b7e3aa9888f6b876f4b30d8279"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jingubang-hit.wav",
+      "bytes": 335950,
+      "sha256": "92428075079e817eae11988b6a940a1e13db715778aea52726e840932c7bd6d4"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jingubang-swing-v2.wav",
+      "bytes": 49062,
+      "sha256": "50328d74da085d44596023d485403210be3c1cd2ce863b4eba75280a0ef7c562"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jiuchidingpa-hit-v1.wav",
+      "bytes": 70604,
+      "sha256": "7883c7f7be5f9d36b376a72a21f2c0f10bbfef023daa71a575c9bfa63c257ac2"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jiuchidingpa-play-v1.wav",
+      "bytes": 165876,
+      "sha256": "fb13428f242abd96fbd0395efc1143f6bbe7efcd4141fc9f95268b94b0f84209"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jiujiebian-whip-01.wav",
+      "bytes": 113748,
+      "sha256": "5d8c1fa43002bedbe1306c181431d7154763336b4ec518a54c3e387df2a6da30"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/jiuxiao-leihuohuan-play-v1.wav",
+      "bytes": 59564,
+      "sha256": "4bc15e11111bb1370ddd7cf75253a4d14f205518e88c628e01a69ceb6acda863"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/kaishanfu-hit.wav",
+      "bytes": 68840,
+      "sha256": "6ab8485de119b7181c54c0bc31d11c940fe7bba1ce835b4d6aa414e40f6621aa"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/leihuohuan-play-v1.wav",
+      "bytes": 46124,
+      "sha256": "8cf0dfb645a0c9db1debe5648ad5f2f0186c7525a20aba9728369dc788cfc42d"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/level-up-01.wav",
+      "bytes": 285118,
+      "sha256": "c6f7623a6758d98817c244202a8aa212a3a060859576c27cf1539e30e1f1f5c7"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/lieyangzhang-explosion.wav",
+      "bytes": 356430,
+      "sha256": "3a1f0ac31e133ec525a81f8b46b625d8290cf570140a5eb5f9a819b9735e6325"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/lihuozhou-end-v1.wav",
+      "bytes": 31724,
+      "sha256": "fc6507b69c1fdf052a22e6e0767c7fd018799204b1a480bf446ac709ebf9ca3a"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/lihuozhou-play.wav",
+      "bytes": 335950,
+      "sha256": "5d2915526c05c479df7ad5219e9d6c0e0c4fbc73451926293892d326a2457eb9"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/lihuozhou-symbol-hit-v1.wav",
+      "bytes": 22124,
+      "sha256": "154c7c766148fc980d271a1e8fdcb474b2180485025e4253fe14dbc9f48d0a7a"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/lihuozhou-symbol-play-v1.wav",
+      "bytes": 32684,
+      "sha256": "329bef16d1ca7d2642fbdb8e09a1b13aab4778609a07a776d9eef0d77fe266a9"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/lingwen-tianshu-play-v1.wav",
+      "bytes": 57644,
+      "sha256": "ba4510d956adaae3d80930cb2615cde45d19437dc838f0d42f7b874b20010f18"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/liusha-condense-v2.wav",
+      "bytes": 25004,
+      "sha256": "6143d9c8cf8793a3fda82bbb1bf308cac19d1d8219b1f08ab8de29ee94740d2a"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/liushafu-spirit-v2.wav",
+      "bytes": 38444,
+      "sha256": "b9b93f59d11326a6bb0358d28968f9ccf6f4a427e786eac2109b111cdd0fc9ab"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/liushajue-sand-wave-v2.wav",
+      "bytes": 59564,
+      "sha256": "a6199d1cd4fc35e8573b1f60809b234a435a27979a0f4b77704885f3e4127ad2"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/muddle-low-bell-v1.wav",
+      "bytes": 273498,
+      "sha256": "ad3e58067bad6279dd72a6698df116ad723fcc6fc3012290d70b87b2de87b877"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/page-turn.wav",
+      "bytes": 335950,
+      "sha256": "dfa02421ba055e0e7c9e3296bb8a5a27620bb2fb428632b1f89cf4dc97acd58d"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/qianren-crit-v1.wav",
+      "bytes": 23084,
+      "sha256": "4e95606dbeb541a1009dd24f823855c1cc1889b82edc7b93a2d3430279688c35"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/qianren-hit-v1.wav",
+      "bytes": 18284,
+      "sha256": "309f0cbc5e1619648be0d6aa765ff78e1fc6806db98c5d43670772d3944f6932"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/qianren-play-v1.wav",
+      "bytes": 32684,
+      "sha256": "111527f086251171f442720067d18e53d65667bd2ea73452ecddbd4604eb535e"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/reward-relic-01.wav",
+      "bytes": 613688,
+      "sha256": "fab8b21118a4d3bc02d5978d4b7eb04f35ab6c70aba90b57f4d7e5f2401013db"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/shawujing-duration-sand-v1.wav",
+      "bytes": 33644,
+      "sha256": "b15dd83a6cdf1b5818a2318c837c789c2f079c1ba4b8bcd32a6ea558b6ab7de2"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/small-light.wav",
+      "bytes": 335950,
+      "sha256": "81c054428a3397205f6bcfc5d0bb47a6bf4046988674e9cd5c3db7ae3961ba9c"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/taomujian-pierce-01.wav",
+      "bytes": 147226,
+      "sha256": "671db7bca47a8c9e3717b35d2866ee5376c1b2c2ce69e45ee7f839b207e28ba8"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/tianjijing-play-v1.wav",
+      "bytes": 145552,
+      "sha256": "eb94953f05de17fdcbddc4838b311886e2aee3c7a509d6c984dc6944ac070d45"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/tianshizhang-thunder.wav",
+      "bytes": 344142,
+      "sha256": "e89cfd3fa8a21c3807112af1ec55c656779415263adadef30ae3345ca129e256"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/ui-click-01.wav",
+      "bytes": 20182,
+      "sha256": "2758836c72b985e2b987b4b277d117555696bc4801fd774d0153c7b8c56ea8bd"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/water-drop.wav",
+      "bytes": 335950,
+      "sha256": "280c41b58974d2a1a90a84219045c63691ecddea0e04ea19ba78ed7d6e62fbed"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/xp-bar-arrive-01.wav",
+      "bytes": 19476,
+      "sha256": "e37d12c4a1d0ea5200330041d8281b2d12af2f79d7cacf1053841312b4fba03f"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/xuanwentianshu-page-v1.wav",
+      "bytes": 65324,
+      "sha256": "9ef11ab85c289adb6b5b9adca8734b8825a0bf591bc98a967dd8cf9d9b26c695"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/yinjiangjun-claw-attack.wav",
+      "bytes": 720850,
+      "sha256": "9b503db264310f2c569554dff5df402c8223b19017ecd6a66c1eb3f3987232fb"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/yinjiangjun-defend.wav",
+      "bytes": 720850,
+      "sha256": "e60cb931e505575ebaf7342b6ae1c8da4cdb59bd8ecf12385ecd205731086686"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/yinjiangjun-idle.wav",
+      "bytes": 716790,
+      "sha256": "3a47da9c9dc29c26e09c25ce4d2f51323f1d86d1824a40fb956cee88c6f9e9dd"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/yiwofeng-play-v1.wav",
+      "bytes": 123520,
+      "sha256": "3890a0b94a64b094ef26240d809199cae4321c011be95420590aa67df259f824"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/yuyin-stamp-2s.wav",
+      "bytes": 352470,
+      "sha256": "26bdcaeb6d9cbf41f517db0453fcf18644f47d92070e502ba12380f5506a1829"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/zhanjuanfu-play-v1.wav",
+      "bytes": 44204,
+      "sha256": "fa1c21dadd180057055e572e09b25ee37ed1307f89357b5914f4b5ba65eb6551"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/zhenhuozhou-end-v1.wav",
+      "bytes": 42284,
+      "sha256": "8573feffc5f77c66b32e5e1c6e72d904b05d3f927161a3e57bc5642163a3d979"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/zhenhuozhou-hit-v1.wav",
+      "bytes": 28844,
+      "sha256": "72d0b89e4ad6b557dbfe1ce7062c7d9a9cc5f0c33940e2634a6d63042d74b13c"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/zhenhuozhou-play-v1.wav",
+      "bytes": 40364,
+      "sha256": "4f7468e372375e42b34cd4cdc437cd4e527474c477d468ecaecddf174d6d3067"
+    },
+    {
+      "path": "Assets/Resources/Audio/SFX/zhentiangu-play-v1.wav",
+      "bytes": 165840,
+      "sha256": "7b11ac874140fdd64b325f1bdb91e847968ee163fd499f424deca5bd183b4606"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/Bailongma/bailongma-g2f5-unlock-v1.mp3",
+      "bytes": 25773,
+      "sha256": "9e501360ee8bf80b265b717349f523a6ac3b01f89bc1a3ef2abf9ffad1615970"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/Guanyin/guanyin-enter-v1.wav",
+      "bytes": 278316,
+      "sha256": "53f6a2eec49db74df6eef2af9692b813bfb733a591d2c78663832071ae9e586c"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/Guanyin/guanyin-enter-v2.wav",
+      "bytes": 336378,
+      "sha256": "f6b33e87e96e6abd38d25320034b52f41d846746198dc95eaddd34c419d38245"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-first-map-v1.wav",
+      "bytes": 960812,
+      "sha256": "790bad2c0e8b97a0d32a21ae6bafce57dbabf73ecad3b2e0345150b9744d83a5"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-g1l1-entry-v1.wav",
+      "bytes": 1133612,
+      "sha256": "04415aea053742db8155028d9192bf87f5e8a3e9831b867be00a619d9d3151db"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-g2f1-entry-v1.wav",
+      "bytes": 1034322,
+      "sha256": "52e8346d6457d051800413cc9e80bf99587e082042775ae1cf46b5d7c9a48b83"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-g3f1-entry-v1.wav",
+      "bytes": 951894,
+      "sha256": "0adcc49bfdc431e9d0574f38f3b6590bf7f019287e0fd8760c755ba51ca6ba82"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-g4f1-entry-v1.wav",
+      "bytes": 1010514,
+      "sha256": "878b11787d83536eea7a2d5290cc2ef90f1387736e3c1fbe52b5dca5be839035"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-jiudie-v1.wav",
+      "bytes": 812204,
+      "sha256": "2c3f3572980776730071d6aee4710f231d4529837272f16654816d1be240e6f3"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-opening-cg-end-v1.wav",
+      "bytes": 407852,
+      "sha256": "8f0da04eb80b1e2eef8211dfcf127745712a2760298597e5f411763c1be85c92"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-tutorial-hub-awakening-v1.wav",
+      "bytes": 1334060,
+      "sha256": "0374d0b7cfb23d400fb1eefd7f4ac577691d3dd9585c82268e526e243f9c989b"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-tutorial-hub-awakening-v2.wav",
+      "bytes": 843308,
+      "sha256": "dec0bdf76ef151e6276f59c81db7bae895bc08e00dc4ccbd99d8d60b7c0e8ac4"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-wuxing-disc-v1.wav",
+      "bytes": 985004,
+      "sha256": "b7b1a60d234cac35eca32648a304fe2b8ce773dc04e6e05be27e2f988ef367b8"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/ScrollSpirit/scroll-spirit-yuyin-v1.wav",
+      "bytes": 615270,
+      "sha256": "b1b17b7ca1cad0a4a8cc6c2910c4ed3f56a7e5b441642610aed3098b69c89252"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/Shawujing/shawujing-enter-v2.wav",
+      "bytes": 341834,
+      "sha256": "a65a350c24b254bf651452964a557fb3f6639492fff47ac13636296e7a5b2e1c"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/Stats/stats-amount-gain-v1.wav",
+      "bytes": 32434,
+      "sha256": "9bca55c9edbceb807da3963efcb0b3c4fcda6eb0e14db5da09e17584eb2e62a0"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/Tangsanzang/tangsanzang-enter-v1.wav",
+      "bytes": 290348,
+      "sha256": "fcbe1512b02cccb4faf1d647e280b5f7e71aa0d261d8b22b1d2ad8c1fb2861a2"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/Wukong/wukong-arrival-v1.wav",
+      "bytes": 293804,
+      "sha256": "337822885c9e59af1c6ed197cbf0c3db2e4c5a60b1884e87b03bb45e6b14b15f"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/Yinjiangjun/yinjiangjun-entrance-taunt-v1.wav",
+      "bytes": 235110,
+      "sha256": "95724600147077608f67e44d44aa9e994abd00b29d92c464d505c5c7c671d9df"
+    },
+    {
+      "path": "Assets/Resources/Audio/Voice/Zhubajie/zhubajie-enter-v1.mp3",
+      "bytes": 19629,
+      "sha256": "abdf4b34be61e580607b6da718cd6c0dc23280b8a6e77585cc0ea37b83edc033"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f1-berserk-wood-map-v1.png",
+      "bytes": 2903764,
+      "sha256": "5bd835276d773285f2f873056a13054f3d64885e6dd6b79ebdfc71eafd1ae729"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f1-gaolaozhuang-battle-v2.png",
+      "bytes": 2910670,
+      "sha256": "6c4492645a54b9e4b9801e480a12b056061eb2eaefcc9cad369ba5d85f533c74"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f2-gaolaozhuang-battle-v2.png",
+      "bytes": 3187490,
+      "sha256": "0ab4c5ebceecbd9bbd8ca2c6141a6c116f6e71fcac326e667e3a85700927f192"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f2-high-manor-map-v1.png",
+      "bytes": 2891187,
+      "sha256": "178beb5371b7e24266ded0a96c3cbc913bcbd17ccd79af4cb5e51de93669cfb1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f3-fuling-mountain-battle-v1.png",
+      "bytes": 3176977,
+      "sha256": "4b82c7b663113b509ee7cd9f3b6ec19a8a062240a1fd86d07447018197eb156c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f3-manor-warehouse-map-v1.png",
+      "bytes": 2630321,
+      "sha256": "f6659e92fe9c2e00480525acd92929c7fb2375af436a87ff109c85e721a76703"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f4-cave-arsenal-map-v1.png",
+      "bytes": 2829923,
+      "sha256": "66e66701b0382bd65a429473457928f0450642a323c93ff3dd2b37381a3ac24a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f4-cave-mouth-battle-v1.png",
+      "bytes": 2995746,
+      "sha256": "d5e57917cbb64a1510fe9e9d90917aa8779e6d3b38203b4cc3fbc89a11382401"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f5-deep-cave-battle-v1.png",
+      "bytes": 2732546,
+      "sha256": "b91228931339bb70ddb5ed34da060a5dfcc0ccb50479cdf28f0aa9f64f53d2d3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G3/g3f5-final-estate-map-v1.png",
+      "bytes": 2911293,
+      "sha256": "8b023a733fb3d29ad80b9031440b17fc94596130c7dc4e98de67e5a0c1382254"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G4/g4f1-chenshatan-battle-v1.png",
+      "bytes": 2830376,
+      "sha256": "d5d42a0f0ceeb8fe1c5174daf3bf29cd12b3dde8654784fccdd79a829e475f92"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G4/g4f2-jiugudu-battle-v1.png",
+      "bytes": 2823188,
+      "sha256": "e333b74873f1781cd26b1a2ff1492d4780d73c3f30c130fe3f62feb4f3a67224"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G4/g4f3-anwoxin-battle-v1.png",
+      "bytes": 3039027,
+      "sha256": "5c93bdefd57df6c0d3cce21b26ab6ebb433be723da87c9b1c6c62a75d2efad58"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G4/g4f4-hegushiai-battle-v1.png",
+      "bytes": 3908441,
+      "sha256": "02dddb9bb367aaa8765be38ec96698c5f39ecbd848b4a08a4fa6cbd314ecf52f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/battle-huaguo-papercraft-v1.png",
+      "bytes": 5792857,
+      "sha256": "c0c81f3725d331376a2263df412fafd2928d08873028f9c75f9cae7d40b2326c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/battle-huaguo-v3.png",
+      "bytes": 1808325,
+      "sha256": "90a39cc3a7a62fcb568393b9c32285eeea9f812ebf1dbcbe42014fdabcf9e59f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/battle-huaguo.png",
+      "bytes": 2900692,
+      "sha256": "750694aaa4b74706e09b7ed44ffc4011daca8b114373662b38b24d1839337bd9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/battle-xiyou.png",
+      "bytes": 2676601,
+      "sha256": "8818be5261a00664130ee8d799be0dc0896f752046bde80bc1d0c769fa630ed8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/f1-shuangchaling-battle-bg.png",
+      "bytes": 2497559,
+      "sha256": "5265cef7bda66a099323c737ca696f15a41fb53b1b9a833b42bac5de029a3f41"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/f2-shuangchaling-battle-bg.png",
+      "bytes": 2428615,
+      "sha256": "c3789b29215ebb9c5eef97809acb48a8c134a1ac50a9c40136100e90cd533408"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/f3-shuangchaling-battle-bg.png",
+      "bytes": 2774655,
+      "sha256": "ad124c333e47dcf076f5af3a1f386a24d9a5c16c6d15c76085b94c38f78dfca2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/f3-youhe-battle-bg.png",
+      "bytes": 2176631,
+      "sha256": "ac08a4efd5c24bab8341b867b9418085c4dbb946972c26e2f59dd1dcd7f011ec"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/f4-huxue-battle-bg.png",
+      "bytes": 1862876,
+      "sha256": "4bd3ef09de78d6ebb01a893f51b4fadab68904f2c8bbf3896ff8726a59235d90"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/f4-shuangchaling-battle-bg.png",
+      "bytes": 2482445,
+      "sha256": "9f80693e0db0415a8c004781b0369155650a8323030dc0446bcfd7876ab708b6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f1-shepanshan-fanchao-battle-bg-runtime.png",
+      "bytes": 3273698,
+      "sha256": "990804592ab3db42dba6c0824dcf5084e8ef676bb342a034cd62157f6dc8fde4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f1-shepanshan-fanchao-battle-bg-v2.png",
+      "bytes": 2486243,
+      "sha256": "9b88d22ce4fe95713756b6ce846b4910d7213c912dbeb26f166db3e43fc14760"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f1-shepanshan-fanchao-battle-bg-v3.png",
+      "bytes": 2932823,
+      "sha256": "f73a174883a5681039684509af4cbc742fac8f6eef19ccff9ac4432cb5135d9a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f1-shepanshan-fanchao-battle-bg-v4.png",
+      "bytes": 7179362,
+      "sha256": "5d226a606f814868893732051d43c1d15eafa2830a6ada6bffcadb1ab09715bc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f2-yingchoujian-battle-bg-runtime-v2.png",
+      "bytes": 7641713,
+      "sha256": "624555fec7b2ede48454c35958eb254841564b8d1f58148ea55da2998a51ee52"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f2-yingchoujian-battle-bg-runtime-v3.png",
+      "bytes": 7833680,
+      "sha256": "e244160152faad1f8d84efbf6e4073eaad9dec216eb5ed98b92b3f874588e20f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f2-yingchoujian-battle-bg-runtime.png",
+      "bytes": 7486739,
+      "sha256": "99e5595da5de07255d505874d803200345407708c451cbb78f50f43013c2488f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f2-yingchoujian-battle-bg-v1.png",
+      "bytes": 7486739,
+      "sha256": "99e5595da5de07255d505874d803200345407708c451cbb78f50f43013c2488f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f2-yingchoujian-battle-bg-v2.png",
+      "bytes": 7022626,
+      "sha256": "5c14153f310cc1aa9c65397935f84b1c8c36b8f9edcc67cb09f6f8a80414964c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f2-yingchoujian-battle-bg-v3.png",
+      "bytes": 6924518,
+      "sha256": "5214a247fd4c5af2cf8d4d96f5d2fd34e27ae1de99657f234e02ed9458612621"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f2-yingchoujian-battle-bg-v4.png",
+      "bytes": 7085145,
+      "sha256": "a7e74ac788cc7ebed33c32ddec0494a5a645e6fc214dc08ec865bc7b0628db90"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f2-yingchoujian-battle-bg-v5.png",
+      "bytes": 7314969,
+      "sha256": "e234146a1ce0fdcc14891719ce866bc8f101ced8636b7b66c25304b075256906"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f2-yingchoujian-battle-bg-v6.png",
+      "bytes": 2873755,
+      "sha256": "96b4823b7cadae0df1f2aa47a58940cd5527eefb70bbb0393c96a4e5ad9b099d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f3-sunken-bay-battle-v13.png",
+      "bytes": 7474099,
+      "sha256": "6ffa6024c29b34c32ed4544c590f063b6c8d5373098fcf5992baa57567ddd673"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f3-sunken-bay-battle-v3.png",
+      "bytes": 8157982,
+      "sha256": "d887c9575ee105963470ce212364cabb7b13e91abdab579e67f866f35da18b15"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f3-sunken-bay-battle-v4.png",
+      "bytes": 2770660,
+      "sha256": "92ccda29b64d3e65dbe485ca5b87f817a0e0b420d3a415c248b8ac18180dc99a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f3-sunken-bay-battle.png",
+      "bytes": 7946662,
+      "sha256": "ed3ec109fb6b6d8cc703e7ff0d1133c59fea86a63fa310dbe017948e5cd0b1db"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f4-lock-cavern-battle-v3.png",
+      "bytes": 2765439,
+      "sha256": "15522da0092ffa681554f3839400214f13d9a1ff1a99c58d085383863ea757e9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f4-lock-cavern-battle.png",
+      "bytes": 6307640,
+      "sha256": "29d5b741c6792904832e9a6db83500dcd1e52bf4761d8b14ac7ed8f10437629a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/g2f5-abyss-platform-battle.png",
+      "bytes": 2560331,
+      "sha256": "b1d1ad11f68a7952e19a8cc4975978757434dcd98f448c9a61371c52f9f858a1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/level-select-bg.png",
+      "bytes": 2917065,
+      "sha256": "f838495c4f3d8acc3cbf6ee077eb60054283190d67330128be2faf7362222829"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/main-menu-bg.png",
+      "bytes": 834799,
+      "sha256": "5db272d38e363358c6aba56b542c3a0b76330ea6835c7a6333b6eb38b46594a5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/scroll-select-bg.png",
+      "bytes": 2670625,
+      "sha256": "0b675643ae825c57b6e8c8d9b4b65acab694f9d62907182b6e7e6192473aae27"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/bajiaoshan-illustration-1024.png",
+      "bytes": 1975871,
+      "sha256": "ee577b3cffb5a2592352333b65eb2a0aa34fb5c53a4b63e6559a21be86b21c6a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/feidao-illustration-1024.png",
+      "bytes": 1658286,
+      "sha256": "6814b57fd121bfbea280602079ad1dafd3d8485463a382ab0a7f961cbcb57e55"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/huixuanjian-v1.png",
+      "bytes": 950639,
+      "sha256": "fb038192fd931bf14c681bc9213c1e153d3528a8f4d49b23ce1125eae1f677a3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/jindouyun-illustration-1024.png",
+      "bytes": 1555217,
+      "sha256": "25050526cd85b44642d6ea6ca1670d4289b739caec6476a1a30d9da1a3ac6d02"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/kaishan-fu-illustration-1024.png",
+      "bytes": 1835713,
+      "sha256": "da65ca0284c49b036315ab10a027378810c50b049885a081297fc47ecb7e623a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/lihuozhou-illustration-1024.png",
+      "bytes": 1787272,
+      "sha256": "21e086be5a8a12ec38daa84e36de6170e4ed56f68ff8198c9562a42d3e51a94b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/shenhuo-feiya-illustration-1024.png",
+      "bytes": 1529756,
+      "sha256": "c1d6a7407eb674921b23fa0f4825bae5c0897d02b931af4e97cfa26ef7262459"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/suozi-jia-illustration-1024.png",
+      "bytes": 1921075,
+      "sha256": "f75ab684a73c4f61dcbe392b34216bbcdbc9590a66a6548c3394b659afad2383"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/tongmaicao-illustration-1024.png",
+      "bytes": 1824765,
+      "sha256": "f4cb7f3eb75019b178e76a2d43bdf868b474fe001b3ecf5aa57e01206343b81c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Cutout/wukong-illustration-1024.png",
+      "bytes": 1331537,
+      "sha256": "15dd4849f959c0ccb82a20006ca65f259e6c15820b1e2c08a654c5695a91b322"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/FinalCards/bajiaoshan-final.png",
+      "bytes": 3721256,
+      "sha256": "950478764f3920020b5983418c708124f5177beabc8b6b912a59268e6252c9d9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/FinalCards/feidao-final.png",
+      "bytes": 3863956,
+      "sha256": "2e762aacc7db1c30da647c11c52d7ba0db6d5d5de6552effbeaeae08f45d6293"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/FinalCards/jindouyun-final.png",
+      "bytes": 3401294,
+      "sha256": "b287c61f89412938ba059169d19ef9a185cf40adddef0d0c7721ddaabf26aa4d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/FinalCards/kaishan-fu-final.png",
+      "bytes": 3808553,
+      "sha256": "24efeb75f3d78b58411b3b93b1b18158e4a1c4c85d59d89fd57aa36436e96ef0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/FinalCards/lihuozhou-final.png",
+      "bytes": 3706170,
+      "sha256": "37729739bc2377d235de89e28b33a6fed96eb5b31644926a9ad4be4675aa5472"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/FinalCards/shenhuo-feiya-final.png",
+      "bytes": 3472679,
+      "sha256": "b0c0f1b5010fa444e02dbcb756609bf05d36cf31158fa111ff75fe1ad5484b46"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/FinalCards/suozi-jia-final.png",
+      "bytes": 3792803,
+      "sha256": "cc42edcc1ea4b2beceb12be70eaec8dcb0b892eec1f7b7d6db920bff91495e34"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/FinalCards/tongmaicao-final.png",
+      "bytes": 3417178,
+      "sha256": "668053e3a9fcd156290ee6defd5f67cd2dee54b5f310362a63ea5019b511a958"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/FinalCards/wukong-yingling-final.png",
+      "bytes": 3886476,
+      "sha256": "d43f548154bd37103f387e012ebe9c94a10f25d99baf7588bb39e21af2508c09"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Frames/card_frame.png",
+      "bytes": 2936298,
+      "sha256": "c4dddd1f7c76dad15bd9d9df59828ba83dd723be1fc80488a010d70f5c5c1c43"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Fused/legacy.card.common.2927e58a-fused.png",
+      "bytes": 1794808,
+      "sha256": "90ffe0d21beb71117b02a2760be447753d2934105180b908316f08e2ba9672f6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Fused/legacy.card.common.56004d59-fused.png",
+      "bytes": 1590837,
+      "sha256": "a21605874bf00e8746dfa454df35ea115b9b933d084fc078b233090a0409dcf2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Fused/legacy.card.common.5aa5940d-fused.png",
+      "bytes": 1424385,
+      "sha256": "ec8ba2aabe097544c8d56f2372ada8ca87927cec39ca1bccbb7dba70cc2fb557"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Fused/legacy.card.common.7e46b7e4-fused.png",
+      "bytes": 1440415,
+      "sha256": "3a477e10440b3c441920cb59fc7f40a8f5a983e09c5c813dc05c58e7458c3165"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Fused/legacy.card.common.973d06a5-fused.png",
+      "bytes": 1616755,
+      "sha256": "db88465c9a6aeb925590e9d6dfffc9089d975cea70954bc1723734dad3f9e427"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Fused/legacy.card.common.f22c29d6-fused.png",
+      "bytes": 1709606,
+      "sha256": "ff1bb2c4a8a3bd71901697a7ee5af7df53aa42817518a2bb21bf53507f1fb1e1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Fused/legacy.card.xiyou.0578cfde-fused.png",
+      "bytes": 1761438,
+      "sha256": "f1cea1ba0e28dfa578cbe983ba8650ce84723d5c309e36a37507ff59ee22bffd"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Fused/legacy.card.xiyou.315dc4d8-fused.png",
+      "bytes": 1331732,
+      "sha256": "f6ca3ee11d62d51e69a09ea74f9386de7fcf5f03c61f0426b5f901cf9354f44f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Fused/legacy.crawler.common.5a3f3db3-fused.png",
+      "bytes": 1748862,
+      "sha256": "204164e7e9945bc7d4a54c3b6009d7213810e84f9585f4f51981a64c8e24cbd0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/bailongma-illustration-1024.png",
+      "bytes": 3363173,
+      "sha256": "abe9924aea031f4e68cece49c58d75471731a24c7f8900876eeaa13e3ea46af1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/bajiaoshan-illustration-1024.png",
+      "bytes": 1723256,
+      "sha256": "b00b6a273478281ada04d5b10b5091e407f3d2fae59a5746039f0f9c251f14ca"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/dieyingzhuo-illustration-v1.png",
+      "bytes": 2189646,
+      "sha256": "fb00c009e2e1a4ab050570e30d0007ab0c99223fe9872bc47d7f236e72716d05"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/dingfengzhu-illustration-v1.png",
+      "bytes": 2636703,
+      "sha256": "8701e2ad73cc29865e275def99657e6caabef2ac8063eb0cb7b8d1ca2b81b44a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/feidao-illustration-1024.png",
+      "bytes": 1409734,
+      "sha256": "2263407d3c436a1b83bbfd78e60b3a534f4f2422ff6060715773fa8d19ae2299"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/feidao_knives.png",
+      "bytes": 2644528,
+      "sha256": "cad39815414cc412424e9a8127962ba5cd205fdea72a39258d8cd3a2a8a6b622"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/fenyingzhuo-illustration-v1.png",
+      "bytes": 1649833,
+      "sha256": "b621b466bb1dcbca5ac61fad16feb6562df40e9c9c7102f5879536b2dbd307a6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/fumozhu-illustration-v1.png",
+      "bytes": 2311157,
+      "sha256": "ac56963b7e192967ba9dc1346603ec9324522aa16b8e7ba6a531a6941b2b2a80"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/fuyun-cao-illustration-1024.png",
+      "bytes": 1712476,
+      "sha256": "68cd327b40c901405ac0d3428d84a696b0d74a6e39e4e7080de53e80e63f91f1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/fuyunhua-illustration-v1.png",
+      "bytes": 2454584,
+      "sha256": "aa4d837c05af3af0e6e11245e3a89784d00fd91956c226796a7a3e5dbea0d292"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/gengtiankailong-illustration-v1.png",
+      "bytes": 2886939,
+      "sha256": "8e985a5c4b403718c75ace7e6c8422827759429767b380cc7ce89134173a6343"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/guanyin-illustration-v1.png",
+      "bytes": 2170756,
+      "sha256": "5db1b12629b31bc4e9a5970170ec781ab45618d48338bbc439e354d49310d537"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/guben-dan-illustration-1024.png",
+      "bytes": 1771820,
+      "sha256": "c7321c19bdc7951fc1b25b1674053a0bf9fd1fb22044bdb9ff9dfc3dd03f3e27"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/huixuanjian-v1.png",
+      "bytes": 950639,
+      "sha256": "fb038192fd931bf14c681bc9213c1e153d3528a8f4d49b23ce1125eae1f677a3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/huixuanjianzhen-v1.png",
+      "bytes": 2185147,
+      "sha256": "2834edb41205da77c4084357f3b46e56450e1ef73ce6fe910dba2c3dcf8f8b6f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/jindouyun-illustration-1024.png",
+      "bytes": 1283917,
+      "sha256": "962bc270e9dd976b8770c62f3a584aa1c73bbff5922dacb1efe93a77ca541d59"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/jingangbuhuai-illustration-1024.png",
+      "bytes": 2482229,
+      "sha256": "14a4a91f1113b18b79544d974b6dd4f19bfb43b17a3951e3b96d0a6336ebf01a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/jingubang-illustration-1024.png",
+      "bytes": 2347784,
+      "sha256": "1f4b4731d9b03d393c5be7efcb4a969e03b5bff1f30b22b9047d7b82d7cd4ecc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/jinsi-jia-illustration-1024.png",
+      "bytes": 2125458,
+      "sha256": "64151f628e384bd9640892aa62604cb114e4dba069b3f43bef2155c552d15948"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/jiuchidingpa-illustration-v1.png",
+      "bytes": 3054984,
+      "sha256": "f9a3556b6a854a151e9764ba1acd904ac21c92878390b0e2d6e80e6eb38e73a8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/jiuchishihun-illustration-v1.png",
+      "bytes": 3109502,
+      "sha256": "1f516409cad86037a43f27a6b0107b97e70611b2c60d79327a513713da5bd734"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/jiujiebian-illustration-1024.png",
+      "bytes": 1851862,
+      "sha256": "dbf475d85f23f404ff68330154605a5f1aa92a4eefe5d8ea6b367ba7b181f7ca"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/jiuxiao-leihuohuan-illustration-v1.png",
+      "bytes": 2875619,
+      "sha256": "8ba4d84327d897a1a52d00947e25dd371859d635105e238e49974d54f616e3e9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/kaishan-fu-illustration-1024.png",
+      "bytes": 1638863,
+      "sha256": "34173322572611cacdaae36300739fbe29387ca123e867f5346d6402b87544a4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/leihuohuan-illustration-v1.png",
+      "bytes": 2776358,
+      "sha256": "28d238a06fcbcc432e8b1ab2e8017fdbe7b91e0bb35cae0695269bd50c978500"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/lieyan-zhang-illustration-1024.png",
+      "bytes": 1858556,
+      "sha256": "f8f78c9d38cb8455057e9fa1428050ca36258dfcf22d18118ec5dce5082ffb3b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/lieyang-zhang-illustration-v1.png",
+      "bytes": 2765210,
+      "sha256": "41fc3ddcf21aaade188625067f648c94efa841b8f7468beede2834220ee31772"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/lihuozhou-illustration-1024.png",
+      "bytes": 1515707,
+      "sha256": "1e94367433698f02043787ce0683191e529705a1c75955305b84bb24fbe88a2a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/lingwen-tianshu-v1.png",
+      "bytes": 2638869,
+      "sha256": "c139938cb30941434edc003eee81c889a5796ed7f0c281156bf0ef6dc834ca58"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/lingyu-dai-illustration-1024.png",
+      "bytes": 1874958,
+      "sha256": "b110b883cec35d7b3e4aef06c295bcddece1fa7f52c5722b2b791a600cd229de"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/liushafu-v2.png",
+      "bytes": 3004310,
+      "sha256": "c8bfce89ef119e7f1cdec3f16c12dd384c9ac90bd2057caa7191162a6b8fdfd9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/muddle-illustration-v1.png",
+      "bytes": 3584660,
+      "sha256": "c68d2ea58094097588815b08e2766dc000d7755844587cfcd83b617265172a8c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/mugu-illustration-v1.png",
+      "bytes": 2596564,
+      "sha256": "c13749e87fb1aea12a7f6f3bc0dc58a8c56a108e6c90e71dc60c5aa2a8b32cdb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/qianren-v1.png",
+      "bytes": 2486474,
+      "sha256": "591eb6328508d500ac37c2606d05222c4e766b2ef22738ba34cc6a748761c105"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/shejuan-shu-illustration-1024.png",
+      "bytes": 1839370,
+      "sha256": "9b4f039d2c4bca78ca5a9bed2025e4cf87e23bfdd3f50aa68dcee655aaf1f63d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/shenhuo-feiya-illustration-1024.png",
+      "bytes": 1390788,
+      "sha256": "915fb43d204b8fb3378aa305ffbe9b7221d53220b205e88b506c3079e321d3e5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/suozi-jia-illustration-1024.png",
+      "bytes": 1712498,
+      "sha256": "554207e2effd3f21ae9ada6d41a79125ab2143d4cdf5a6fc5011e063582d573a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/tangsanzang-illustration-1024.png",
+      "bytes": 2179651,
+      "sha256": "35f257c4d89b72afa2c5e4798ea6dcd28a833f3b4c634c575524ad2288dafa8f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/tanlangmian-illustration-1024.png",
+      "bytes": 2992479,
+      "sha256": "5ee0e901ef4d2e6c8845e00d6bb4597bbe7367bc2772cd79880fbd754fb3d483"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/taomujian-illustration-1024.png",
+      "bytes": 2666236,
+      "sha256": "336937af524d14cafde224c7adbea040db911c3e752cf93787c63163bee1c844"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/tiangang-taomujian-illustration-v1.png",
+      "bytes": 2863751,
+      "sha256": "3932ad1ce93029f46e341ff030d2c04d7cb7f703d90ddff6f7b8eb98a57b2bee"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/tianjijing-illustration-v1.png",
+      "bytes": 2495974,
+      "sha256": "96e29652d21c06ae8c0a164acc876488a2d2bfd9f1d2e28e5bec6f7bb9f0da4e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/tianshi-zhang-illustration-1024.png",
+      "bytes": 1615820,
+      "sha256": "2d46eebdd03f4b2728d9be99e593356fc958b1a658f7ca60c69b8f9ea136449e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/tongmaicao-illustration-1024.png",
+      "bytes": 1556356,
+      "sha256": "97bc07ecb9f6897bbcb947ab845c5107f4c006943a2fc6952527e6ee8bc111f3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/wudaoguan-illustration-1024.png",
+      "bytes": 2652921,
+      "sha256": "ac20cda5ca69b299047c7373d050d01b0c1f1c309b0d0dbda427c3d24f3995ff"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/wukong-illustration-1024.png",
+      "bytes": 1331537,
+      "sha256": "15dd4849f959c0ccb82a20006ca65f259e6c15820b1e2c08a654c5695a91b322"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/wuzi-tianshu-illustration-1024.png",
+      "bytes": 1712040,
+      "sha256": "c6893efbd9b8ab9d83acbe71d3a444d8038193eecae6db088cdac1d20eba830a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/xuanwen-tianshu-v1.png",
+      "bytes": 2770618,
+      "sha256": "ba4356aa747ee6b3cc0dc2e2123fdf0d6d8cbdcc5ba074be3abd098c32230568"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/yiwofeng-illustration-v1.png",
+      "bytes": 2427341,
+      "sha256": "00f147d630fb172b866d520ec12cad41ee4ac5ccedc47da68353f4c1cf4a9f4a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/yunzhanjiashi-illustration-v1.png",
+      "bytes": 3169767,
+      "sha256": "8739f70df65dff6dcb9b6256f951f1c37d224020ed47ccc3d065f2f75c39a9f4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/zhanjuanfu-v1.png",
+      "bytes": 2567302,
+      "sha256": "d4e0fe3ddf5d340f7d2bbb6b8e8a24a00a20c5a2a25910fa8eeeb9dfa31df657"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/zhenhuozhou-v1.png",
+      "bytes": 2466879,
+      "sha256": "f92ed75516e64515f248ab0821ddf689ff412297be41341f48c72ab7d31c218a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/zhentiangu-illustration-v1.png",
+      "bytes": 2717358,
+      "sha256": "57cf9072d05d6a0d84520018e9905b54ed4ca0e509f1acd93f7e7ad7d4bf3090"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/zhubajie-illustration-v1.png",
+      "bytes": 3317140,
+      "sha256": "a03d8baeaf7cf6e547dae681ecbccfac4c0900fbde1c3e3fbc33c45a13571c44"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/zhuhuo-illustration-v1.png",
+      "bytes": 2649168,
+      "sha256": "f2a1be737368bcebbf60ecd271c1b3ea9013e7f40ccb24c447f79a7a68a5fbee"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/乱灵.png",
+      "bytes": 3267861,
+      "sha256": "a72afbef5045e4b05c187e97eb587e337c00ae5c4fed8d53f9802746982aa426"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/分水诀.png",
+      "bytes": 3307186,
+      "sha256": "1b50eccf5eb983e3f13b82170beec92b02cc8180f86da9022e3695d826ba5e6d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/沙悟净.png",
+      "bytes": 3168417,
+      "sha256": "841a84b2ce58ba607e60f8a70c72f02df604237ab0e38c762df217700bc621ba"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/涧中水纹.png",
+      "bytes": 2989340,
+      "sha256": "4de12717b10aac3f128e9737cc28a99299a8ca74aadf82de76ececb59861edb8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/涧水游龙.png",
+      "bytes": 2531458,
+      "sha256": "ccd37f5124621507e92c11138f4b8ebd6b79a6c5c60ae5672f622c799e9eb0f5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/灵力诀.png",
+      "bytes": 3230285,
+      "sha256": "6af75d738737a979ec607e2055a6727e5deae79510ebd81d537d5cbe91684174"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/灵玉简.png",
+      "bytes": 3056976,
+      "sha256": "d29fc490fd16afc3311cf338b584be668200b34660600b0ceaaaf5edc7d286e0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/白龙马.png",
+      "bytes": 3363173,
+      "sha256": "abe9924aea031f4e68cece49c58d75471731a24c7f8900876eeaa13e3ea46af1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Cards/Illustrations/碎裂.png",
+      "bytes": 3009573,
+      "sha256": "1d82cb0c3862065f5ef172c365f42f351c50ee41d1363d086c7dfd8ce51fe416"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G3/g3f1-enemy-berserk-wood-v1.png",
+      "bytes": 2639986,
+      "sha256": "0ee059ed061c903b6c0df120c9f9d784d70faf74b233f253dafac5052b2f114c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G3/g3f2-enemy-manor-guard-v1.png",
+      "bytes": 2452483,
+      "sha256": "9a6dc47cc6e897e7ab198a320d57f09f62628c1d6ecee7a93ad9c3c1cdc7a582"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G3/g3f3-enemy-seal-wing-v1.png",
+      "bytes": 1704642,
+      "sha256": "428a8866a60c04073967782f744ef033cd6a73cd6c332c019be576c68849a696"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G3/g3f4-enemy-cave-wolf-v1.png",
+      "bytes": 2068158,
+      "sha256": "80a6698037b36d6a4d001a749b250d71fa5acb8d296123f075b3e8b33696e9a6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G3/g3f5-enemy-demon-lord-v1.png",
+      "bytes": 2662304,
+      "sha256": "62c5c81b37a2d6144eda5998fe6916ee75778c1130a60c20628ed8393e989fe2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G3/liejuan-yaowang-battle-idle-v1.png",
+      "bytes": 874186,
+      "sha256": "e5e2f7ba25d7f86c7546ca89f96c3893db809d275fae26fe3ef6cd849d751e02"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G3/liejuan-yaowang-map-challenge-idle-v1.png",
+      "bytes": 874186,
+      "sha256": "e5e2f7ba25d7f86c7546ca89f96c3893db809d275fae26fe3ef6cd849d751e02"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G3/liejuan-yaowang-map-idle-v1.png",
+      "bytes": 874186,
+      "sha256": "e5e2f7ba25d7f86c7546ca89f96c3893db809d275fae26fe3ef6cd849d751e02"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G4/StageBoss/zhenhe-yaojiang-battle-first-v1.png",
+      "bytes": 203735,
+      "sha256": "1bf678003dfe3d4b5db4553b554f0384c284278b40786c7c91b372eab5c1bc80"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/G4/StageBoss/zhenhe-yaojiang-map-first-v1.png",
+      "bytes": 193528,
+      "sha256": "68a94e7a424d9f9d530ba3af24d3fc359b3caba93913bff47badc6926497e245"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_00.png",
+      "bytes": 406125,
+      "sha256": "576895059deb64b12cc70c35954eeb836a064c4861f030e771e67b66903821cf"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_01.png",
+      "bytes": 419157,
+      "sha256": "a997f07349d61541b0d8a6ecf3d21d82a236a432111c50c61a910b21d61f9087"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_02.png",
+      "bytes": 416948,
+      "sha256": "8ed0e24b3fca1e6498932a9acc39801a9be97653f47130ee1c7cb6a5997dd4f3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_03.png",
+      "bytes": 331991,
+      "sha256": "94356ae4ae464ad34c2eadbadaa10d2c7a4b08e0f0d45003a37d59925f23bf34"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_04.png",
+      "bytes": 154482,
+      "sha256": "9ed812c0e05e70451317f5619640d6102c4e36e5f05f81145c1bd084eedc07ff"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_05.png",
+      "bytes": 149064,
+      "sha256": "9f399a124b1af68231a90a15c3d522eb99dea0a8093535198b678baec60ab6a4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_06.png",
+      "bytes": 123409,
+      "sha256": "0e17f5208e3c2a5ad537a7d43e5a20152bc7cb8321813e281a530d3565dff9bc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_07.png",
+      "bytes": 43146,
+      "sha256": "763c23b467a349b49557258c0a6ac1cb7388c05e175e446728e7666384090977"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_08.png",
+      "bytes": 262525,
+      "sha256": "a14d887cd7a9748d6090ab379d60d6ea25b48c3861f2a39c6fb0f24cf3a6ef2e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_09.png",
+      "bytes": 188169,
+      "sha256": "ae429bef1452b4e068e78aa6f761a2a6d0e063da0a6452640a3630f1ea03b723"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_10.png",
+      "bytes": 244038,
+      "sha256": "2e3cf48535d40b53fe38a0fc81cd166bd52d2e4a0284da0cc5c53808b0e55dc8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_11.png",
+      "bytes": 60544,
+      "sha256": "88b0082caf19345a2c27cccccff11584d0d61cdd5e8496faa2700ca1e94a062c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_attack.png",
+      "bytes": 3927107,
+      "sha256": "75214d6b80e3a8cedf084048284aa8901b3dcb879c842b2d1e52d70a41db11b0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/MonsterFrames/monster_idle.png",
+      "bytes": 2037143,
+      "sha256": "ead55d8c39a7e6b2288d17507a7f048ea7a006d97aabca199b823f6998774de5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/bat.png",
+      "bytes": 78170,
+      "sha256": "f5d9dc8f17b4f50aff64b6c1b47cb9be74e7f982cc4979d71aad0a386bec0559"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/chanteng.png",
+      "bytes": 76532,
+      "sha256": "93a0bb39e21c9a5617708b21a700db0368d8710ce8de32888fa59d4acd644cdc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3-blade-wolf-guard.png",
+      "bytes": 157996,
+      "sha256": "9e80d9919ef171d9fe372a85d093bd8a9b5b03dda760e6f786142d768cbe7410"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3-courtyard-claw-v2.png",
+      "bytes": 120286,
+      "sha256": "671c3fd9c47ab421f565643a0709e9a9a67fa3967836a2aa5ffae424b14cada5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3-courtyard-claw.png",
+      "bytes": 154308,
+      "sha256": "500008936385787a5a0e1e16c70f78b85243d8806462dc105281a92f37c7fec7"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3-gaolaozhuang-guard.png",
+      "bytes": 138550,
+      "sha256": "8a098eecac6af22eff68ca51e0e15320c28d87e3448aaacf9e2a86050a2b5dd4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3-gaolaozhuang-raid-grunt-v2.png",
+      "bytes": 147311,
+      "sha256": "e3cec441cfd77b107ef01370bea2378d7116869287de3aab84fe91a743c9fcef"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3-iron-barricade.png",
+      "bytes": 104855,
+      "sha256": "0808a62530b68c57380638fae960807dfbee9dd43278d7b451f6d316115e6c6d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3-sigil-wing-guard.png",
+      "bytes": 102530,
+      "sha256": "d76216f82696eebaae7fecbeb38eb3172743ca075b7913eb06a8f70f4c76153b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3-stone-carrier.png",
+      "bytes": 140272,
+      "sha256": "e11c1577822bb3b1fb04ff7d9461e0b3b7c347a7327b8b463cfe1261d32597a7"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3-wooden-barricade.png",
+      "bytes": 131502,
+      "sha256": "9126cb4eee9067926cee08e61271468ae2cb0612246b52ab1019c968db23e585"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3f1-patrol-chief.png",
+      "bytes": 140765,
+      "sha256": "da3b75775e92b2e5d1736009619731bbaee808f937869c2fb9ef0925379a3f5f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3f2-manor-commander-v2.png",
+      "bytes": 142049,
+      "sha256": "a967015a430212b07bdc06b7116b57df94aff8aac3dbe57bd1ca941215d8a503"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3f3-mountain-hexer-v2.png",
+      "bytes": 136329,
+      "sha256": "deca6b8a673a548fb8c67068cf67e07dcef33d2120f7c363d1e311fdd60a094e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g3f4-cave-gate-brute-v2.png",
+      "bytes": 129046,
+      "sha256": "8f89dac52cce4fa51226ee16dfdf495392ec39fbbbab5dea01aede1a534be8e2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-apprentice-witch-v1.png",
+      "bytes": 111574,
+      "sha256": "18a139b721e0c6245fc22b592788e9fa55e9c66cf15829c7d50ee7632b42ac26"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-ecto-elite-v1.png",
+      "bytes": 152078,
+      "sha256": "25502530db04802a07dd6e27c0af4dc5e569c6280b776b4f8e3cfccd43a78327"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-ecto-v1.png",
+      "bytes": 101668,
+      "sha256": "860b13ab0cc7dd1a144a308c4de6d181bc6f39b8f89e2a6387ca5eb89d91402c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-ghost-elite-ambush-v2.png",
+      "bytes": 113187,
+      "sha256": "8d33075eba42bf225828a78d3a181c1beb21849d98dfdf501982a7e3a9989d1e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-ghost-elite-v1.png",
+      "bytes": 119576,
+      "sha256": "bf86cd2db55c040e0e4e06429bd391c3680d12c9292a4bffa9d08d27da578587"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-ghost-v1.png",
+      "bytes": 31797,
+      "sha256": "57714f88ef42df11b0b7a4a270c34ca8406f894c6f166273b40b012ee9ef39b1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-glowing-bat-elite-v1.png",
+      "bytes": 46962,
+      "sha256": "9cf7fbcd6f4ce7e3ba9e52d53f0112866530d4f6be92ac0e8c153f393a3fb5e6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-lion-head-elite-v1.png",
+      "bytes": 149621,
+      "sha256": "47a0e0b71dda0bf38a6c1167d51e1a105f0901fef093533b82b8a4d8ba072a2c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-lion-head-v1.png",
+      "bytes": 52905,
+      "sha256": "99e19d9cfe011fdefc9517eab8e3545755d9032f2607f4155d2b724602e27bc0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-mudman-elite-v1.png",
+      "bytes": 112207,
+      "sha256": "28710a4c9de9dba801d0fdcc03f5e3415d183005f04c29c343554aa3780534c8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-mudman-v1.png",
+      "bytes": 41806,
+      "sha256": "eb82c3b748bac1d707954bc81cfbb1f72d300be9857dea3af80dd4df80b7df6e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-nesuferit-elite-v1.png",
+      "bytes": 107916,
+      "sha256": "9d0c95061b82474bd3fddcd7527d0c3ccf17fda23349138d0e60778a679e77ef"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-shade-bomb-v1.png",
+      "bytes": 42191,
+      "sha256": "86f779c4f782098883295b82c4bf06eaefe5ac0713dc1ad3db7e3b87f524d103"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/g4-sneaky-head-v1.png",
+      "bytes": 41926,
+      "sha256": "acab28d248cdf449d07401c741093757934d6e0fc41fb92cd147fd8cb1096239"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/gold-marten.png",
+      "bytes": 112854,
+      "sha256": "71b4ad52c070f4edb392083887ab87cd3b9a5dba66f4c3c1a87adfed512ba08e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/huchang.png",
+      "bytes": 140018,
+      "sha256": "939913c026d0e15ced46c3743224222f66e684ff66aeaa975ec2ca962b3549d2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/mixed-world-demon.png",
+      "bytes": 88098,
+      "sha256": "ac790e04ef5147997763669a859539ef212b282f2eb0710b44a4fdd87c74562b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/ridge-minion.png",
+      "bytes": 100393,
+      "sha256": "2a6cec9d9cf0c3d1268b1666dbfa269b062165f84c8671de381f18326639f902"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/snake.png",
+      "bytes": 63044,
+      "sha256": "1b008abf9ce4647f2030e85f645a2d8e12955cb917c9d747e6bf0e32da162bc3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/techushi.png",
+      "bytes": 131603,
+      "sha256": "9e5964fb30b925e3ed54f437f74c48d8ad4a9ac793b36fa820ec82a0d3f5857d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/top-fog.png",
+      "bytes": 65053,
+      "sha256": "6c8d4117f9a0f19a37bd2d285a40964c90c597d53ce7e20464cfb37732463421"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/xiongshanjun.png",
+      "bytes": 126233,
+      "sha256": "edcaa16c739b7b043207406e6d12b4206b08e44a5cf03a1dd2c65cff5510838a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-abyss-stone-guard.png",
+      "bytes": 106715,
+      "sha256": "3f0f38377db4a9fe48e8a901cebf1e256af3c47d9ecaf1ce7d60ed39af1e3150"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-abyss-warden.png",
+      "bytes": 46926,
+      "sha256": "e35d745e98f086bda057f8f8ce3ab63c0382e940b9b824a685323733a6bcd9c1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-dragon-lock-captain.png",
+      "bytes": 137671,
+      "sha256": "45434faed760241c10d868539775dd5c5e9061c0cde27243bb14ea864c65cb74"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-dragon-lock-chain-guard.png",
+      "bytes": 124627,
+      "sha256": "afd3b8d43ead6d7ccfe11c7d46bae6c726dbe14e2e96a67b71afd86475628b82"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-glowwing-bat-king.png",
+      "bytes": 93329,
+      "sha256": "09e3eecfb571a482dd5d0804dbe32f1f69c4adc821bcdb977659dbb22e1b8783"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-glowwing-bat.png",
+      "bytes": 101313,
+      "sha256": "a5743c176cdd18ace937a2caf297b13fe882399d4b1169b6b24f8ae2ccaea258"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-mudscale-commandant.png",
+      "bytes": 82711,
+      "sha256": "99bab63dc8690e67c5c09f2236f60c1d510ad6bd8710b8d036650552f2e67f3e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-mudscale-guard.png",
+      "bytes": 157938,
+      "sha256": "c2ff0aef418abff250fd1361163fa4a6eadc6c0cc5109ba22f97c4db4781d86e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-ravine-water-wraith.png",
+      "bytes": 95562,
+      "sha256": "f2ef939f746a7f74e41d6ae510bb2f6f7707c7a5d3b51a4dcd4d387d2a2c4b24"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-rock-cleft-bat.png",
+      "bytes": 79989,
+      "sha256": "252312494797bbca48e94b3a4e6ae6ed36a28ce9bfac86181f48b587bca92d04"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-tide-seal-vine.png",
+      "bytes": 148955,
+      "sha256": "a94423eee47e98a95d357730e59ba1540e921c4d950ff439c5c7e39acdf66681"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-tide-shell-general.png",
+      "bytes": 121571,
+      "sha256": "3fccc4dd1c0f1d566f54be1eb35e939918f33eb8e9a217987e465a3ebeafdc96"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-tide-shell.png",
+      "bytes": 116212,
+      "sha256": "310f9cc9f93919028ef4532d986eaa18413685bdca5bb3ebc4ed2b424a1f2123"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-tide-sickle-mantis.png",
+      "bytes": 124609,
+      "sha256": "a0ff062e8d8c4b5791b031fc4cb26fa4848d0a639a9f7d7ca7e7b006e32a2d18"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yingchoujian-treasure-glider.png",
+      "bytes": 118453,
+      "sha256": "6dd6a34550844f98ab93c1bc70b8800ebfafbbbe785c9937b13eed9197ad1158"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/Map/yinjiangjun.png",
+      "bytes": 93741,
+      "sha256": "67828de4882817be2d0830d28bd178676898b90483246eab52d6cda3c45f4524"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/bat.png",
+      "bytes": 302747,
+      "sha256": "f2f621e6fc62bffcd3f555f20cba79797f88aab85932b18ae5eef3b13ad45c5c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/chanteng.png",
+      "bytes": 290703,
+      "sha256": "4054f7cd0505929108f09e52759bf799a17ec8964da2e8a1e262e4209b89c026"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3-blade-wolf-guard.png",
+      "bytes": 589030,
+      "sha256": "3ec12e8adf611844697445606fae7ac9c0b61d86f50e5f8e1029f60cf585465d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3-courtyard-claw-v2.png",
+      "bytes": 441460,
+      "sha256": "2a89fdbadd1e73f60cea957f14953f8d283cccbef0361c5a597e6ee294f0d113"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3-courtyard-claw.png",
+      "bytes": 608757,
+      "sha256": "c8a18a30a9f6a37ca022d3b824d9f94db5e60869000257df9b45e74edb9ec635"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3-gaolaozhuang-guard.png",
+      "bytes": 525727,
+      "sha256": "94dea76d370e90ac32cb3b54ab29dce59dd3fd556800b2feeeae2e4c67b0a1a3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3-gaolaozhuang-raid-grunt-v2.png",
+      "bytes": 556227,
+      "sha256": "2812229b89f788b5307fbbe7eb75fea771a23f30d8aa2691a37bbbb10e34a6a2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3-iron-barricade.png",
+      "bytes": 406692,
+      "sha256": "c5daa9fc7c1318d6956da2e3c0198831c38a82b7c04c2e5547da33566c3cae16"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3-sigil-wing-guard.png",
+      "bytes": 375182,
+      "sha256": "7e16435737a20b36982dcaa0c9a5919d8e22a794a2468392c679499a3f3ec53c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3-stone-carrier.png",
+      "bytes": 529867,
+      "sha256": "f98f152d19a17a6e5f56dccab10841a880c06e353f477b4d4f11cd4ceedfa326"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3-wooden-barricade.png",
+      "bytes": 519111,
+      "sha256": "2a213953145fbdf53eabeb69c501acfacdd401aebe312f07602d141a4d0d0598"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3f1-patrol-chief.png",
+      "bytes": 502591,
+      "sha256": "7e1281e904aa209d2f9d27a4f089facc46900d4383432ad1a5fc726cccc9667b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3f2-manor-commander-v2.png",
+      "bytes": 524230,
+      "sha256": "12b6802d50be8cbdff6ad426a67e89f056ff75c8bea618ef9a0384f8c7393840"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3f3-mountain-hexer-v2.png",
+      "bytes": 541759,
+      "sha256": "3de1b10ad5cef1898e5cebac9c1fd6ed50fa07d0a9ec49dbb95db151e91cce86"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g3f4-cave-gate-brute-v2.png",
+      "bytes": 484082,
+      "sha256": "2c359206d604780fc551c56aa147d979de332ccf3772f2252087bc94d6276fc0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-apprentice-witch-v1.png",
+      "bytes": 412813,
+      "sha256": "7e85bb3b62be2a11df72a6864179bc0d9b4d78aa9f9feb5917ca13d83f23a3cb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-ecto-elite-v1.png",
+      "bytes": 534630,
+      "sha256": "9232411589370e9160254aa22b123330e1cd8e05b0bd825ae8ec440072ad60a7"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-ecto-v1.png",
+      "bytes": 380002,
+      "sha256": "e86bcc0b6512a6d8cc3c3ee2f8f74ddd9380e03d80c2cb04edd73280f81fed42"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-ghost-elite-ambush-v2.png",
+      "bytes": 415019,
+      "sha256": "66ad29b83d8e763efe083a00a7254530a58636310cd5c80a5f84b1d4ebff2c7e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-ghost-elite-v1.png",
+      "bytes": 450527,
+      "sha256": "12ea7742621950d724023fe370c8eb4b9c166fd43361955490d6a61ebb1ad9da"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-ghost-v1.png",
+      "bytes": 103002,
+      "sha256": "23acc727b47cc3c09ddac8e9fcb3f7c72d44b7e4a52dd61a17e5509ee9e271d4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-glowing-bat-elite-v1.png",
+      "bytes": 160689,
+      "sha256": "a852018fff00f80c2b28202150a66138dca57943dcf258ecdbd19b58613312af"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-lion-head-elite-v1.png",
+      "bytes": 519271,
+      "sha256": "d6a0b6ceb18fa928789d4c3fc859845616fe264dee40e3cccf31d1bbd8c10802"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-lion-head-v1.png",
+      "bytes": 181508,
+      "sha256": "a22214af3e21c9f12d1c5d15e220d17d558bf08f8894775681e5a92cf765f63d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-mudman-elite-v1.png",
+      "bytes": 416651,
+      "sha256": "12b8f7df47af838ad1d6eb03964f914e485cd39dcc6a3ce2db1dee733c16f057"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-mudman-v1.png",
+      "bytes": 146317,
+      "sha256": "3ed5d3a015c563107f46d191f101427bc8d4b85013c49ea1efb58b98d7c33eb2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-nesuferit-elite-v1.png",
+      "bytes": 387316,
+      "sha256": "87de5a791f52eb4e3f3fc66e29df68299827352612c1dcd93bc51f1c5c9a4559"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-shade-bomb-v1.png",
+      "bytes": 145835,
+      "sha256": "f13859b03f0518ada0dfe7748d0eb03b8b2f136253f6e6cbdc67ddddb353433f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/g4-sneaky-head-v1.png",
+      "bytes": 138563,
+      "sha256": "ac687b7ba0c58e193b227b7bd63c5b082f1eedfe488a378fc513967c651a1aa2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/gold-marten.png",
+      "bytes": 438688,
+      "sha256": "f97b780b148c6dc17235089c1234d7ff5af784b29efc69210823b5d3341fcd8d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/huchang.png",
+      "bytes": 512174,
+      "sha256": "fd7f94d8ec8eabe49e5b4ac85dc0f8cec3c860192f9c7653110fd27fa543660f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/mixed-world-demon.png",
+      "bytes": 334246,
+      "sha256": "317cdaad35abaf61a5d241685ee43ef71c48eb5b57ca74e54ebe2dc8c1181002"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/ridge-minion.png",
+      "bytes": 384603,
+      "sha256": "dba1ce87d971311c67a73d3154543de81384fce316337df2ddee06cbdc954af6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/snake.png",
+      "bytes": 236140,
+      "sha256": "230a1cea3952265ae4d90f110bd94a1c54ebeb396a1379ce266e11c641de6b49"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/techushi.png",
+      "bytes": 510985,
+      "sha256": "9e2c7d9c94b766ad509fde176c6d8c52db6c292ba632d9240809f475018b1b8a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/top-fog.png",
+      "bytes": 248211,
+      "sha256": "0a6618ee078ddc5a6faf3833c35dcf524a4fc7d2c9611ce87bef1b044162b970"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/xiongshanjun.png",
+      "bytes": 486156,
+      "sha256": "46549b30ae748d252c60db91f6021eddbda213c8febcff0a62a444b0fea92173"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-abyss-stone-guard.png",
+      "bytes": 400733,
+      "sha256": "d5f491129a74b1b0df60ec7fe3439b3e8f2974398b18d9a51d8dac76cedc0e27"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-abyss-warden.png",
+      "bytes": 131274,
+      "sha256": "f7813eb1c11a3bf4c99c32609d350d77d08f5bdc72bd5a64bbaffb80de703940"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-dragon-lock-captain.png",
+      "bytes": 529894,
+      "sha256": "b8a8630d289f6d71e69dbeb84eb209726848ca99cd1d7c184a1a4b77bdbc7cf5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-dragon-lock-chain-guard.png",
+      "bytes": 466678,
+      "sha256": "d6162174c61e82874ce0955dd02f4bd973b341957a5762f97890fa65689b8b2f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-glowwing-bat-king.png",
+      "bytes": 354199,
+      "sha256": "481f03eabbbef46eace61befd309eb3fedf920135ab98002f7b5b7abb3ed0f53"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-glowwing-bat.png",
+      "bytes": 370401,
+      "sha256": "8a5fb7ca4782189240d796d0ecea1cebaa5b27f38790ddd55e3cf2eec8b3201d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-mudscale-commandant.png",
+      "bytes": 321393,
+      "sha256": "8f17d83df434988c395ed8654c51c48841a86e1d8b560b1e43bfc90e50ad5560"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-mudscale-guard.png",
+      "bytes": 615224,
+      "sha256": "99832e83cc5f61360b0888b794a0102e65de3c03a07d0fbee1b4f2a49c97dbe3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-ravine-water-wraith.png",
+      "bytes": 346339,
+      "sha256": "d9ca89a4929d0c8b774a5a07df2fbe1d29dcf969bb62960ea5186815ac58ec39"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-rock-cleft-bat.png",
+      "bytes": 315429,
+      "sha256": "15a4a80d034cf83f0bfd41464842f0dac1cd72b620463ca4f12ee322c1efec09"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-tide-seal-vine.png",
+      "bytes": 577476,
+      "sha256": "d8c86a36d63d52b244c503c08b1cddf8be4091a9d50a6c2da2e1a7135eca0b4f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-tide-shell-general.png",
+      "bytes": 463366,
+      "sha256": "78fbeae90bd07657bf3981646a7bc80dc498e6686a1284eb8dc13b56b3aeeef3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-tide-shell.png",
+      "bytes": 447282,
+      "sha256": "e7b1bf9892de2930695d068f697e4f9c865d4fc684fa89db42c4c9d8602311f9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-tide-sickle-mantis.png",
+      "bytes": 425781,
+      "sha256": "6c19b3acd0bf76525e0dc7c4bda91a2c83b8af85ca3212c378bf9b2b119a53b0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yingchoujian-treasure-glider.png",
+      "bytes": 461015,
+      "sha256": "8e358eb93ffca04d8e3cd2a4bb0c7a78a78babeacce8e4ec8acd488b7a5a8c83"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/Papercraft/yinjiangjun.png",
+      "bytes": 187191,
+      "sha256": "dbf92910b17814ef4f6f37e168576ff85d2a01890bbbba85252fd209bee2b15f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Enemies/monster-spritesheet.png",
+      "bytes": 2002934,
+      "sha256": "995296f29947b16b9c6f44d99630b51fbcc31172f71545688f770eb8d60ef6db"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_00.png",
+      "bytes": 134791,
+      "sha256": "ffbe3c6ce4d3d0d6a267859a9b795b606efbe6659ba1b05ddf0a3ce6ea6c511c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_01.png",
+      "bytes": 141474,
+      "sha256": "aa3181686de9c20e56b97b72a9a7bca32723f5857c63b54e6ffa41eeae336784"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_02.png",
+      "bytes": 189867,
+      "sha256": "ff42269cda309c6ae78a79952e64fa9a1983964fd1d5ea10b886cbc050e68005"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_03.png",
+      "bytes": 180513,
+      "sha256": "ef836cad24e4000c501d5cf129931e7dae412871e1f481ce590c969d7f04a815"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_04.png",
+      "bytes": 181694,
+      "sha256": "218b830df6f4caf93407c70d04f5ed282967acca87555f25bcad53d90b5b4259"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_05.png",
+      "bytes": 174571,
+      "sha256": "6dd201358ca08694e02fbcd00e72cd69a3a45e469d26784be589235a0fd6cb40"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_06.png",
+      "bytes": 147486,
+      "sha256": "f7bf89758f36c5b034352c8e8359db2329f2a2a0c696267bfbcae745e8228b14"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_07.png",
+      "bytes": 212152,
+      "sha256": "4d058461a4c016bd48ce9c926fb47a6babe7e39ee4cd69a1bea02b13dd9cecad"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_08.png",
+      "bytes": 206242,
+      "sha256": "13db91d9698a4b09b913ddf4cba7028cadd0c908c1917cb4da5b6a9a884b60de"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_09.png",
+      "bytes": 181915,
+      "sha256": "066a45ceb15c07f96b8bb3c1250b6a9c539cc2187ea2211f824efe5f59b8735f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_10.png",
+      "bytes": 230100,
+      "sha256": "bea6e8c801745da327cbc3d5f200ea317ecdd19c895e094c44aea077a433f0dd"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/WukongFrames/wukong_11.png",
+      "bytes": 193598,
+      "sha256": "07a3fdaad921efd73403a4761c512b4afae2679f4824fdd9a28e5db8c52262c7"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/wukong-battle-spritesheet.png",
+      "bytes": 2443679,
+      "sha256": "6e80049c11585804c569ad3bb52b08db03d81f1043834e1c2011a010f735f84c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Heroes/wukong-hero-portrait.png",
+      "bytes": 3362694,
+      "sha256": "391a5b500dbf1f79fcde265b15f7ebab30a4cb14071af139dd07dbc649a84ffc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-00.png",
+      "bytes": 185227,
+      "sha256": "5df883de65afd601e60cd5ac502ffef538db6525260470799b13acc38218113c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-01.png",
+      "bytes": 199878,
+      "sha256": "6b72c2ae3a3f69ead1bce5a6fda723c211ee03ca5ef8c5f48897d8c0802e78bf"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-02.png",
+      "bytes": 198122,
+      "sha256": "1ceef4b81cf408c5d5501f59216a9753824c7201ddc9d2cc9de25cf95b3fd182"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-03.png",
+      "bytes": 197543,
+      "sha256": "5b23fcf883f6b0f3963dcdad385274c82ba5d70b8ae7d56fd9aa2359eb0e3439"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-04.png",
+      "bytes": 197660,
+      "sha256": "93d38be4f5b44ae4bb37f044fdc92156f44dcf1b75b08cf1079f8775192f3e80"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-05.png",
+      "bytes": 197447,
+      "sha256": "9f5f3f246897eb333d666c5dc3f5c1d588d42d02ad382d8d31c7d6577d669ee0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-06.png",
+      "bytes": 197513,
+      "sha256": "fd907a9b632138e3aba29b9715f297811d654e2129eea73c8301cb33f6a30c34"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-07.png",
+      "bytes": 197363,
+      "sha256": "7e39c37fba8b9482b8c21474196d93d0ceeff29e2fe15c7d4bb1e88a70a2f24d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-08.png",
+      "bytes": 197188,
+      "sha256": "a29ada6ad9cf4d8351d6c77a04a9d3d7ae763dd5bc6cba7b9c0ca1a16ece502d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-09.png",
+      "bytes": 197285,
+      "sha256": "a3af9c68d0158445978d6bc020d046d3087b8119204e5468086ab6552d7c3eea"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-10.png",
+      "bytes": 196946,
+      "sha256": "5cc621b1912148a16cd913c76e1a3e7fefcca519fadc538b97e2035ea62d7eba"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-11.png",
+      "bytes": 196966,
+      "sha256": "a8231c070677294ec2a9f59295e36c4a4a3f37f3b269ed418e2113569b84b37e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-12.png",
+      "bytes": 197020,
+      "sha256": "c35e8b54e4b70a44023bf4ae6c39325d94189f3914df14cbfbacd03a9e55a702"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-13.png",
+      "bytes": 196851,
+      "sha256": "9e1b9c27440343ba245d413bdbb59a785dafbccdeb66971687125805d5ecf1b4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-14.png",
+      "bytes": 196735,
+      "sha256": "f5d26fc13d63eed2702c118beac819b062a7544b2c5eff97c42738433ca109e9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-15.png",
+      "bytes": 195606,
+      "sha256": "c25fa8f1368c7c1648fc984849d93330a2401df7254a30921eb477ab98225b06"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-16.png",
+      "bytes": 194713,
+      "sha256": "f713fd6d5f6a03f7691d34bf4e9807cb03b878ee19fcf316cb7578b80e0946d0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-17.png",
+      "bytes": 194165,
+      "sha256": "6b86244aa457bf6bd9be09a4ff0a910a47df7c1ddf77ad263d90050270ee4e2f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-18.png",
+      "bytes": 194141,
+      "sha256": "c886ff009b5a317df860072f87a759e057aee8b89883998cebff35fd5efe7005"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-19.png",
+      "bytes": 194170,
+      "sha256": "a9985ce727a8ae5fe42955af2310ac47d06fca2cc4d4db8aff3a882669659057"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-20.png",
+      "bytes": 194075,
+      "sha256": "d3283fbd4c6cfb19e2f2d3075b117cfc2825b32d6e4936c0e9d16ac0b101c756"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-21.png",
+      "bytes": 194008,
+      "sha256": "60bda3304b3edb3cc26fecd3c805415e564973ab8c0d9e750d39a31bfa575766"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-22.png",
+      "bytes": 194097,
+      "sha256": "b232eb5fd610723d58fe2a15ffa84f2421f388a9d2ab6e39356129780231357d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-23.png",
+      "bytes": 194186,
+      "sha256": "627648cd436f2a162316e1dc350c76229452bd9a547154255a2e6c1932b5c1f2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-24.png",
+      "bytes": 193953,
+      "sha256": "51294698ede9d2f894d8f3492ff35d9f8934eabb801ac3a7874cec32890d0619"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-25.png",
+      "bytes": 193654,
+      "sha256": "e9238a749d39f6407187c67881e71707886c1597eb3555bbd19ac6f6081f4eca"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-26.png",
+      "bytes": 193811,
+      "sha256": "2f4bce8a0b8b4547edffa85539303e4f5a829cbad4d5a401eaa65f14648dd21f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-27.png",
+      "bytes": 193836,
+      "sha256": "bad7c8f1310b2356a8692f54e53fbec2ddc84f6634ab51b7a18a3e8db234812f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-28.png",
+      "bytes": 194100,
+      "sha256": "5cf79c59289899423bee9cabf82704f3d6254eae443640e836249f2754ec1fd2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-29.png",
+      "bytes": 194327,
+      "sha256": "e0ef53fbb17d41315775247f1ba1cfb5de229281abc4211e92230723eb9e5a19"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-30.png",
+      "bytes": 194219,
+      "sha256": "6a547c43d496526c93d347ea7a3e710b9dfd864fea997c7751ee8943cb1e7334"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-31.png",
+      "bytes": 194260,
+      "sha256": "2042bf5e750cc32d7441c7beb0b99195df99bfbb2db1ec8e9e1cf5062a71cede"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-32.png",
+      "bytes": 194242,
+      "sha256": "94d927d77e3ac10ebb7b8276fae958619d582c1cdfadb4138356909da60bfb24"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-33.png",
+      "bytes": 194311,
+      "sha256": "65074a8e84493316c75dce814e740f39960e5b1ed50bcdc3c9d4d86a7bcedb7b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-34.png",
+      "bytes": 194439,
+      "sha256": "2e54448aca4dc3ecc5fa517daba06a19c39994809bb4b9a6784100ad6b22433d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-35.png",
+      "bytes": 194333,
+      "sha256": "59d97959dca5275c5a620d2619d1265f50e4da95a77f10453dd7bf17f7e7ce76"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-36.png",
+      "bytes": 194516,
+      "sha256": "9fd96cd67855331a0db5f03364d2f2ae70de1653d0c2446b0790602667fc309d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-37.png",
+      "bytes": 194672,
+      "sha256": "45525c15f89219ebd1ebde22f7c729e77fcc8d07a89dc3b1e2dbdf0aa0f6c49e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-38.png",
+      "bytes": 194360,
+      "sha256": "ff535167777d20d36cfc4145cd061905816a5bc241e171c84ac60cd0628b848d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-39.png",
+      "bytes": 194347,
+      "sha256": "789a226e97dd43d891227dd0eaa902ccfb74784f10b46fdbcf8764247891e61c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-40.png",
+      "bytes": 194272,
+      "sha256": "01a59b928ebe158281e7838dc37b9fc4c934310ae9381ea2a1c34c77ca232bd4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-41.png",
+      "bytes": 194104,
+      "sha256": "8c0314136201c4071d792ed0264dd8d6c441e5cbd75ccecbd5eb333f98b1e44c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-42.png",
+      "bytes": 194031,
+      "sha256": "714b66ec3a81a2b725aabd91b82e6480384c0771b93a824c18b7bbd357e58202"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-43.png",
+      "bytes": 194351,
+      "sha256": "0a18b9781fc748fc9d08aff05e95c19531aee7b0eb437fddded5efa3cf0b34fb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-44.png",
+      "bytes": 194955,
+      "sha256": "9c4cc910016dabf4097b7d85e16ba1a6ef62532d45c3c01eaad4bd38296c6554"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-45.png",
+      "bytes": 195605,
+      "sha256": "05380dacbff8083b4a6f2f09631f31223522329238ba9864c49ee274e267a46e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-46.png",
+      "bytes": 195926,
+      "sha256": "b4a471c45012f5883080ed3834cc9d91a6c65faf55774c1f3b6695ce434f9c74"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-47.png",
+      "bytes": 195928,
+      "sha256": "e2450092a1c105dc27de615ae74fa56c981935a77829fd8647cdc9471229e3a2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/DaozangHover/daozang-hover-48.png",
+      "bytes": 185227,
+      "sha256": "5df883de65afd601e60cd5ac502ffef538db6525260470799b13acc38218113c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-00.png",
+      "bytes": 256764,
+      "sha256": "7ef7de3b9654771ff82344553b6f3844d9c806801a0a1ad9ada6afbaf7c18ed0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-01.png",
+      "bytes": 261795,
+      "sha256": "4c264f1c62ecca8ebe8db4ccf4d181afc2a03eb31e68ba3e6ba247b412ce304b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-02.png",
+      "bytes": 261551,
+      "sha256": "a24263147efe57b66077e5cc239efed88189850efde4e3f4862efc8b41a2e9d8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-03.png",
+      "bytes": 261381,
+      "sha256": "53b1acfa8a3f6cd142d7a1736dca1675f36d5b18c95af3f29fc7102c6543dd33"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-04.png",
+      "bytes": 260626,
+      "sha256": "eb0316e510fc31be0a9918f2afc2536dbd5a99d572ee1633ed5b0c9510b221cc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-05.png",
+      "bytes": 260124,
+      "sha256": "25ac58a7a8e8d968b46aa765ead617db10bc7d936ea4b78417ba1194b4bd25bb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-06.png",
+      "bytes": 259710,
+      "sha256": "ffb148a77c5918d1d41755146db97e494365170795a590c16ed32d184bc4baaa"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-07.png",
+      "bytes": 259165,
+      "sha256": "e07d04d7e256b120bb50ac7ea7a4b51279cb77cf8b9bc09699b10a81fe8ebbc6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-08.png",
+      "bytes": 258689,
+      "sha256": "d3e98b2d667f2cbe6ef4ed4401349686c6d5feaf1cc595df3dbaaae89cabed65"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-09.png",
+      "bytes": 258268,
+      "sha256": "e23a4c430004e7ffcbf52d18fa54c6cf7308c91aaaab7a009ddebec160de2ac6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-10.png",
+      "bytes": 258106,
+      "sha256": "5e22231f2999ec40f47dee7a040124d4f990e5c27448340473f889e35372a11f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-11.png",
+      "bytes": 257272,
+      "sha256": "a2a828f7f1bdf3c7154a0ce58c12b7f604d989fcbefaf154eba9d304f4301ae4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-12.png",
+      "bytes": 257610,
+      "sha256": "13cfef765ecc1fd6240f9911aaadbbdef01031bb9b4ece305be2271375bccad9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-13.png",
+      "bytes": 257185,
+      "sha256": "94daf1c6be62108be5b06d2534185673d1b8b7fd0cf1f6f9f84a710bfb6bd365"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-14.png",
+      "bytes": 256805,
+      "sha256": "d1caa8e3ab71a4c9b45c09b786ef59ee780aff47386464d228a10991ddf607d6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-15.png",
+      "bytes": 257238,
+      "sha256": "c342c63e53b04033127fff43054531ecec89ea4141cefb96529182ce302145ea"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-16.png",
+      "bytes": 257563,
+      "sha256": "0f2a708b675e5993413882b9c3dc868619b00920a1d5f97b979339ccaa0c536c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-17.png",
+      "bytes": 257236,
+      "sha256": "95c93f5d1dca95d2f5ee59c217fd71d7fe074a5ba26ee9e1b2e61764439f5689"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-18.png",
+      "bytes": 257556,
+      "sha256": "19b2bc8020fc722001773102013f4caf82b397d063c34a75fb83d0dc152140f2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-19.png",
+      "bytes": 257470,
+      "sha256": "151414e9fe997cfd283537197d4675d8073fc8cd4e65b54fc5f34a86b02f9fd0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-20.png",
+      "bytes": 258215,
+      "sha256": "aa7e394a1335e1fc635ebf24c86d834b6b2d38a62ba33f097c0e7865f58d2837"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-21.png",
+      "bytes": 259042,
+      "sha256": "238bd4b3db26f2197bc74632b320e9da9fa27f8bfd5b136fa3d9caed0faed47d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-22.png",
+      "bytes": 259813,
+      "sha256": "c22d05cf4f43b3849763b227340b44edb045e99a66ce42a62b7c27f80704d38d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-23.png",
+      "bytes": 260071,
+      "sha256": "bb5cf5a687d83c23bab26580e57a4a01c0df04e6b98a613d4cbb63d0b5e09bb0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-24.png",
+      "bytes": 258923,
+      "sha256": "1c6dcab0871840032369c7bae2cf9f939a8580a83e3336c98f36d546b1912299"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-25.png",
+      "bytes": 258812,
+      "sha256": "5ca189725bd49de4111a6ccb967ed17f6573941fcb182ea29a3fe0cd849152d9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-26.png",
+      "bytes": 258806,
+      "sha256": "b7ecdce63241b93407d6126ed12926a1e9abe8b654f82c720e1a035790973e3c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-27.png",
+      "bytes": 259375,
+      "sha256": "92ac6d0b9d363075a346c85d023c580a00b89d415dc2775c21c8c5d26571c432"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-28.png",
+      "bytes": 259731,
+      "sha256": "e00490171b731c45c828fffe0358dc315b46afb67db0b89137ee1df0a2668c37"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-29.png",
+      "bytes": 259845,
+      "sha256": "d18f138810542545e5b9ae7b61d1b47d3ae381e3b71e0a8aece50ca004f98a97"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-30.png",
+      "bytes": 260126,
+      "sha256": "52d911e58276c424b67d304af0f0a8d0db42d9938eeba29f53da648dbf506e75"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-31.png",
+      "bytes": 260172,
+      "sha256": "10661ab1806a7d890fb3824b833bc9a26110ebea1bc07ec013959fc01ce3ea18"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-32.png",
+      "bytes": 260500,
+      "sha256": "96d6ebba8d1d063c6c1f63ef08e035985f39322183f8d7e8bbb330e690b560c0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-33.png",
+      "bytes": 260895,
+      "sha256": "0bf2b2f9c7a1f0878a0c037c97505a87ef92f84f5c78785de79fc540c5034b4e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-34.png",
+      "bytes": 261041,
+      "sha256": "ab8929760653b0fea862c433b67a4db75ab93b66e29c4c9cf0dbbaba0abe226a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-35.png",
+      "bytes": 261056,
+      "sha256": "4c618e3d1aff06fafac86ed6c5bbe04c1ecf05a4af380671230fa09aab2501f0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-36.png",
+      "bytes": 261098,
+      "sha256": "bb2d08fd3b97d85f1969842b80ce4cba323babba5559a490d3b64e56fac72915"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-37.png",
+      "bytes": 261404,
+      "sha256": "bc33e0a1a76b0a4ab5361a618e4ce761ea84dd4dfbd4d89a973aba601f65aea1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-38.png",
+      "bytes": 261655,
+      "sha256": "78f54f9e44a101e228abfdba6af9a294d59f294be9f00be29342aa364d2abd27"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-39.png",
+      "bytes": 261685,
+      "sha256": "0d0792305cc2e6d4799e435971e6914d5538c7a5d43c686d77d5a2fa567f43fc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-40.png",
+      "bytes": 261888,
+      "sha256": "b96c428338522577c16f9025252e5b69cc35359b1c22ac292731dd8e7b1ab607"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-41.png",
+      "bytes": 262350,
+      "sha256": "d9f08aa29bad1561144ed7d61d5b97e4ed4a87cd3fb9f98698c15ff851620df5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-42.png",
+      "bytes": 263026,
+      "sha256": "f37d34653c34bf2399eb6384e1be1b70529771e649a6837d00669862cf5d1d0f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-43.png",
+      "bytes": 263294,
+      "sha256": "4dc864a08a16a1d134df83981aca976b55a7173b527f573c48ad8de33377092c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-44.png",
+      "bytes": 263369,
+      "sha256": "fb5c8eca07521222375a45f77f1f5d1ac0c33466836e74506aa1a298266b5ac0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-45.png",
+      "bytes": 263074,
+      "sha256": "340d6703b0c724f58f125a074cd53a3239aa0cca2fd6907c30678ace85bee505"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-46.png",
+      "bytes": 263150,
+      "sha256": "8c9e2496e719dd568590a316711d556a1131320ce1fe862d66addb7e15209ebe"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-47.png",
+      "bytes": 263020,
+      "sha256": "ab1af78fc09e8848615b84981ab312153664b4025da336f8cb302d190828be3d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/HallOfHeroesHover/hall-of-heroes-hover-48.png",
+      "bytes": 256764,
+      "sha256": "7ef7de3b9654771ff82344553b6f3844d9c806801a0a1ad9ada6afbaf7c18ed0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/daozang-body-v2.png",
+      "bytes": 173075,
+      "sha256": "deb93dd88f71ef85f8469141a4005ad3c9716bc6fa139a5e465244109a5a9369"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/daozang-body-v3.png",
+      "bytes": 185227,
+      "sha256": "5df883de65afd601e60cd5ac502ffef538db6525260470799b13acc38218113c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/daozang-emission-v2.png",
+      "bytes": 2627,
+      "sha256": "3fcb15ce74bed048daf5a0ab004e6f086a5205663e0a1dd16407df397c1b6ed3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/daozang-emission-v3.png",
+      "bytes": 8877,
+      "sha256": "ca53e9b9ca1dcfdc7cebe05874693efef1e48a895982ff6acccb899a6afc2499"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/daozang-hit-v2.png",
+      "bytes": 8991,
+      "sha256": "f52f67932cf21216b5e8d9da8035a9627150b5a668710fcd4fd1701b58ad596c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/daozang-hit-v3.png",
+      "bytes": 2739,
+      "sha256": "c547139d888d71de9e9de2790ffddba1f5dbd4fd510a158055a8422c5a37fe1b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/hall-of-heroes-body-v2.png",
+      "bytes": 250761,
+      "sha256": "98819beb174ac3c2f6908790e534dadf890e53ff918d6638fee3a7d27a27f706"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/hall-of-heroes-body-v3.png",
+      "bytes": 256764,
+      "sha256": "7ef7de3b9654771ff82344553b6f3844d9c806801a0a1ad9ada6afbaf7c18ed0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/hall-of-heroes-emission-v2.png",
+      "bytes": 2594,
+      "sha256": "4eba14d40d11b707ae38b40232c3c6d266978744797ba0412a87c21e93454a54"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/hall-of-heroes-emission-v3.png",
+      "bytes": 6864,
+      "sha256": "d41adc5d975a313b4beca4774fea19019829fcdb0054d30301d96ab68017efe8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/hall-of-heroes-hit-v2.png",
+      "bytes": 17412,
+      "sha256": "0083466376823a6b035db71fd2789574c9db0f5bfa77960cbbe7c41877e364da"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/hall-of-heroes-hit-v3.png",
+      "bytes": 3776,
+      "sha256": "d0acb45773925dc156f229db62eeed93bb15c11a9bad6e0809d9a748d532abb0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/G1Facilities/stage-02-bg-v1.png",
+      "bytes": 2010242,
+      "sha256": "a63f74c2f8afc9fbf46946e6f5ee1f1b11465b903b58a0f130a0b2c066efa805"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_00.png",
+      "bytes": 324018,
+      "sha256": "4581076c411ef74212cc8e9f70bc47ddc8311ae0ebe5ceac109a568d2c286008"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_01.png",
+      "bytes": 336318,
+      "sha256": "919c70bab1543fc7a2e137ed0e9d13e4ec34979d8383c06950c3cb51456519bc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_02.png",
+      "bytes": 348289,
+      "sha256": "cc1284f300eefa65c63db99a221b3ca478729fd1fada6ae9e9f25b62d3eea06a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_03.png",
+      "bytes": 358150,
+      "sha256": "c1d2fa31f2c4d2cf323283db43ddc2e782c200fb6bcba9edd5e604128db98c1a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_04.png",
+      "bytes": 364227,
+      "sha256": "aff5937c291ac162d51c67ace3c5ff22494920854aadf05865a0218c1d9525a4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_05.png",
+      "bytes": 372351,
+      "sha256": "5813b1dd0d5fad806950b2a53e20cc416fd5db833c233277b5d36f76ffebcd70"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_06.png",
+      "bytes": 377193,
+      "sha256": "13142da59aad767c8273478388d81611caea3af6ac992dfab9be50dfa1df029d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_07.png",
+      "bytes": 381174,
+      "sha256": "7f6acee72d3801380fb80b7ce98112de68c9cf0c4ecd7183370224bc498bddbb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_08.png",
+      "bytes": 382009,
+      "sha256": "e326051850cdd993c7359bc2235273b0af7370aa665be5a384d8e492a94ed2d2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_09.png",
+      "bytes": 382613,
+      "sha256": "4e06ba9ea1ee1372869e3316f17bb067cc7f412ae77b47cb47037214e16847f0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_10.png",
+      "bytes": 380792,
+      "sha256": "83f948dc0ae63c07b43c83754700708b39be28d6fef8229c83760ae9d67ebecb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_11.png",
+      "bytes": 379666,
+      "sha256": "7534b4aafa97f2d7d383eb91c0fba7964b17160f45f38a784b751fc679b9bd92"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_12.png",
+      "bytes": 377891,
+      "sha256": "809cd0a59ebde251b6d81dc40e87a7b230f77fa2552d198f2e72a9f5d84b8ee8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_13.png",
+      "bytes": 380602,
+      "sha256": "0dada2543fc2bdf9d24c6b0249d5d9ffb6a8f0d1cf5a2b5dc7136b6ddabf476a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_14.png",
+      "bytes": 384172,
+      "sha256": "9624827db65fe161eb216daa5803d6458aa8b1aabd9b578d690dc28db07453c0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_15.png",
+      "bytes": 384820,
+      "sha256": "8038d196e5c30182d56cf7be5cf45959ff2bcbbba59d1a612324d467726fcb14"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_16.png",
+      "bytes": 388600,
+      "sha256": "87579a9101de02b85e939a02dcb553ff572db2a56ea0f324c27c5f52bdaa5878"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_17.png",
+      "bytes": 391126,
+      "sha256": "b682fa197a641a09302abf963188d51f005e12ebb50ac90e7ce08503110c1779"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_18.png",
+      "bytes": 395065,
+      "sha256": "9b55275bbc76583a9a059fee61aee62a367eb52807d4a87b7bf2c80d26f09e37"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_19.png",
+      "bytes": 398135,
+      "sha256": "b812005a209c8e01430676a484088c9498a4ec48a1a5b9ea9a74e99d8fb02bdb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_20.png",
+      "bytes": 397682,
+      "sha256": "2e077d8917e16376ba725c26802ed8eb4d3827d32f5f29b3e9074d476d56b537"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_21.png",
+      "bytes": 401452,
+      "sha256": "e5d171605193f38c37b5659278519082aaa2435cabd0fe389110688e04a75280"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_22.png",
+      "bytes": 405796,
+      "sha256": "25ff523e2477c480be16af9bfb98d5775b0519114832dcfdd3bb4dcea917f72e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_23.png",
+      "bytes": 413207,
+      "sha256": "2ad3205dc95a60230cee82ad74ba0a3838ca82ccebe49d48e91d9414e1997794"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_24.png",
+      "bytes": 419300,
+      "sha256": "2eb693d0a160328ed52ebb51e1fb4baf23721051bd3275e3c7a8420d384fd40f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_25.png",
+      "bytes": 424739,
+      "sha256": "4b0c2fcf8419649aab031d353689a5788e589b7243e5b74f76a88d7c8032f520"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_26.png",
+      "bytes": 427442,
+      "sha256": "7e6c7b03327c54c2ad00ab716cbc3a8244d7c22e1ce137c60a89d7a44247397d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_27.png",
+      "bytes": 425505,
+      "sha256": "69eb4b45a88d1694aafa0e36eb00414ab525b966a6552bf5e5ffb46f2bca805d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_28.png",
+      "bytes": 420861,
+      "sha256": "06196967cdfe6befd91b474bd335adb3303c01b3580065d117e0d94b4dfdb40f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_29.png",
+      "bytes": 417956,
+      "sha256": "7dfe5ab2af95d41fd424c832832dd536a9e13d4ddcd1be3385974d23ff432eed"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_30.png",
+      "bytes": 416231,
+      "sha256": "1f5fd81e13be3885a8e9ec43ea8da57d340768b3b38645aba7e3b353f992382c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_31.png",
+      "bytes": 413778,
+      "sha256": "eb87611a20eb7c5914708d601ed8c59a930c25904a8c1b92400baa747b1933a6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_32.png",
+      "bytes": 412279,
+      "sha256": "f53ef2dc9989c49512577cc4a0c0486deffed4633a0d22200eda7a3a517096a8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_33.png",
+      "bytes": 413757,
+      "sha256": "0d7f0cc492a8903e5a3f254d312b382570262c9a538961730dff449278776640"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_34.png",
+      "bytes": 415389,
+      "sha256": "f1059aa4952343ff9c47e5cd13db6beacb1a762f95d230ddf531b437a26a53eb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_35.png",
+      "bytes": 415588,
+      "sha256": "eb9cf214ccd426dc67f6dc312319d5a98ef8f3858f04c8bcc1bb1cfa6897b492"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_36.png",
+      "bytes": 416809,
+      "sha256": "a6f5ea411d9028098a792220aef7763c01def437ee386d8594cbe05e112c90f6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_37.png",
+      "bytes": 418917,
+      "sha256": "27c33d96395570716064281c71aa885e32a86c35f2f796fe605f34ce2b007235"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_38.png",
+      "bytes": 418624,
+      "sha256": "10f98ffff2bec07932749cefb780d1498883f055c7de7a1b0831564e51f37248"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_39.png",
+      "bytes": 420652,
+      "sha256": "1774f76593e59a2e248a7b669277ea873c5321f589356fd7f0757e35386c2afa"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_40.png",
+      "bytes": 421638,
+      "sha256": "65e4c74cc504172d892e97d67eb959a1b85f4895e7158f5f699db41f83a4211b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_41.png",
+      "bytes": 423736,
+      "sha256": "1e21d796c3eab86dd797c5bd713d604eb668829ec3b11d91739734e096438c7c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_42.png",
+      "bytes": 423169,
+      "sha256": "7f960497d7c0d8091c02b59b15738212137235f39f0164babdc328879c125709"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_43.png",
+      "bytes": 425294,
+      "sha256": "c6c90bee0b9f9ce404b03f40a835ef974f6544a23270008529ba963725049e68"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_44.png",
+      "bytes": 423402,
+      "sha256": "591248728696c3cebca5552f805704ac80335be1a2d98c124c770bfeb12a3b5e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_45.png",
+      "bytes": 424102,
+      "sha256": "388571681d47d9ba2ac823272cc1b408273e670105e09e4f115d44f33f09a3cf"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_46.png",
+      "bytes": 423694,
+      "sha256": "dc975dbdd5ed43a192d906327d3b11d89652975a896d89ecf150d99d499537aa"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_47.png",
+      "bytes": 426205,
+      "sha256": "f6f95cc31ec10280f091a39e20ff349956e94b84c9b70b99ef2a26cc222518ff"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/TianluHover/tianlu_hover_48.png",
+      "bytes": 424564,
+      "sha256": "ad816c80ab8e001e2f10bad9dd0c653d2972d80c64400e78e16c00883aa64ede"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Hub/stage-01-bg.png",
+      "bytes": 3954225,
+      "sha256": "2c4393383a1c3ec07432d35b286bbb6425ff7ef774f64515a8022668643f2b5b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Logo/logo.png",
+      "bytes": 2288140,
+      "sha256": "b3dd256b2e3e1c92fb8f65a5a6a08240b5a7a05bb0e62fd75578373daebdc162"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G3/g3f1-gaolaozhuang-map-v2.png",
+      "bytes": 4265317,
+      "sha256": "44a01e5c1356678b1040818abb57bcdf7f4148f99b1f1e9d579d3ab4b812b863"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G3/g3f2-gaolaozhuang-map-v6.png",
+      "bytes": 7564065,
+      "sha256": "6cf330a50184c6b0730cce98925d26259fed34030bd17362168f11394cedc890"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G3/g3f3-fuling-mountain-map-v1.png",
+      "bytes": 4427149,
+      "sha256": "fbf80fbb0568c1b581100f874986826381e4de060ab784c87e739d3970393f4e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G3/g3f4-cave-mouth-map-v1.png",
+      "bytes": 3968269,
+      "sha256": "6df6fcc56e1484a47e8190a959471c49d45b334f24805f16941593e31682fd85"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G3/g3f5-deep-cave-map-v1.png",
+      "bytes": 3287564,
+      "sha256": "b48cd7886bf19e7c817cdbce7b412747ebfb2702917c855598b89d75bf3f52de"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G4/g4f1-chenshatan-map-v2.png",
+      "bytes": 3669472,
+      "sha256": "2016ba2def6e3146d7cc2ddd6116949f2508051df7a8f4db5ed6ab7131c29ba6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G4/g4f2-jiugudu-map-v1.png",
+      "bytes": 3888355,
+      "sha256": "106c9e284de576fd9133e189001a205c8437981996825b5579e2d3c01b145c69"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G4/g4f3-anwoxin-map-v1.png",
+      "bytes": 3773558,
+      "sha256": "a3fa9accd13dbefba3780e77ddfb5312541496acf58822ec915ef60f927409de"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G4/g4f4-hegushiai-map-v1.png",
+      "bytes": 4421322,
+      "sha256": "998ac3d3d5611d95a790ed56c8e9d713ea53eadf7e24696d309dcbf347fa1826"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/G4/g4f5-zhenhetai-map-v1.png",
+      "bytes": 4100493,
+      "sha256": "629fda54cd91ee5ab296f4cef9da557d8544aebf1b6382962e4a0619ce8e28f9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/f1-shuangchaling-map.png",
+      "bytes": 3640677,
+      "sha256": "cd3e1be0f63d5ceeb16fd7d53a942a7e4c0b5938f9fac3ecca52acc865a5cfa1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/f2-shuangchaling-map.png",
+      "bytes": 3159643,
+      "sha256": "10fa75a199907ad6e313ef29c8bdb3664c5168011d7b8d71182fa2dcc89360df"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/f3-shuangchaling-map.png",
+      "bytes": 4099618,
+      "sha256": "4c7b8c22fdeb1e838433130a7b429919c7886fd2014c30a211cb05d0e6f77412"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/f3-youhe-map.png",
+      "bytes": 2777354,
+      "sha256": "9b46d97294e8ba61a6280d7763de01ec01bf24b01cffa4dda75cbe0788c21af3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/f4-huxue-map.png",
+      "bytes": 2778111,
+      "sha256": "d592a4248b655846479a394a071a53253b08db2c5718249c94883cfcb347155d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/f4-shuangchaling-map.png",
+      "bytes": 3277250,
+      "sha256": "4e83965185d07e495387d4bc732ec679d5510efecdd45071939eb9d6d3fba347"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f1-shepanshan-fanchao-map-v2.png",
+      "bytes": 3485711,
+      "sha256": "43e1f2b0d6e3b62be57fbad55ae29d081a7b2107d11e59994f266b80426088e4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f1-shepanshan-fanchao-map-v3.png",
+      "bytes": 2993032,
+      "sha256": "77c4d2386cadfc28503524339d5851068e61444b168258170d553c1222efde85"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f1-shepanshan-fanchao-map-v4.png",
+      "bytes": 2844649,
+      "sha256": "b3bca119c3a238204be0734c545c260e56aeec2e6d97b37af0e538bb00084faa"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f1-shepanshan-fanchao-map-v7.png",
+      "bytes": 7251366,
+      "sha256": "66ef4bcaf11efa67562e57a2efaa65b2052b1aac68695f38ac19048a0791916e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f1-shepanshan-fanchao-map-v8.png",
+      "bytes": 4498347,
+      "sha256": "ef6217b42f1cc626c1704dda6100e5a29c12d6b3a52e484777da9ea550e64fb6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f2-yingchoujian-map-v1.png",
+      "bytes": 3044975,
+      "sha256": "26fc25910c4df6fa06256710407f300937305222aea805bff1f15f455193aaf3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f2-yingchoujian-map-v2.png",
+      "bytes": 3116946,
+      "sha256": "b0544f05f725c45c6856cf0db7cac6e6412c759394bfb14e03e18d0ff32201c5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f2-yingchoujian-map-v3.png",
+      "bytes": 4647955,
+      "sha256": "8ad71950299d9964999e791695d38b23e4fca00683137a4b7046f4119546f4d5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f3-sunken-bay-map-v2.png",
+      "bytes": 4426376,
+      "sha256": "db54e301f6d30d476ee2f55dab5a3395853dd9342898e92e971d0f07d6618b65"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f3-sunken-bay-map.png",
+      "bytes": 2940458,
+      "sha256": "3796164ed2d28bba1f9adf52250fb1f8ebed2e548b876f740872d65c08cf390e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f4-lock-cavern-map-v2.png",
+      "bytes": 3843498,
+      "sha256": "20c9135bfc9838bc6b32f97a531633ef2f6e6cafd09302a8254b0551e381c21f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f4-lock-cavern-map.png",
+      "bytes": 2796723,
+      "sha256": "6b3699991545d5cd5db3a43c0f451f3b3cd6fbd9b6bd99a3698304239b2dbb72"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f5-abyss-platform-map-v2.png",
+      "bytes": 3883538,
+      "sha256": "cf0f4b07a9e882bbfe240a116b8356b2901374b9b40fad276b462ec3093e59ee"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/g2f5-abyss-platform-map.png",
+      "bytes": 2781971,
+      "sha256": "c82a9b1de112fb818982dc4354487c0109433df0c48a898ff6acc5b8936debad"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/jade-node.png",
+      "bytes": 122557,
+      "sha256": "9c5f1fad159284aa31eed310d8b0dbaf27e4114a3d4ea367e301669e5127cb79"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Maps/tutorial-huaguoshan-map.png",
+      "bytes": 6913887,
+      "sha256": "c521ff1081722285af360189a56a94ec859834f29420789dd3d45623e8362772"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Actions/discard-hover.png",
+      "bytes": 54847,
+      "sha256": "42e6a066149a39f88bdbce42ff61ce232587c5d11d6e1ac49d59e27757310ef9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Actions/discard-normal.png",
+      "bytes": 55561,
+      "sha256": "114c3c6924396ef3e87ad0fe607bd0f603f4247940c9c6f03e61d57e9708ade7"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Actions/draw-hover.png",
+      "bytes": 55473,
+      "sha256": "841e9bbc00d193f470feb90148a8e1a901c071e36c2054baaeb1dfe4fce07dc4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Actions/draw-normal.png",
+      "bytes": 56053,
+      "sha256": "ed8c35b667b1643190f1d374090ff21b4f29951438f6c3d035d438b5be7ac0c6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Actions/end-turn-hover.png",
+      "bytes": 73498,
+      "sha256": "498a3773fdb9a362aa0f62282710eb78c79264e68260a3151481f069b66e060b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Actions/end-turn-normal.png",
+      "bytes": 75313,
+      "sha256": "1c7625e2c5a8694fa43e17b27beb569ac8338d871a60685c5e08e531756198ca"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Actions/play-all-hover.png",
+      "bytes": 102902,
+      "sha256": "d1d153f751da1acd930bad8216b6a47eaa4f1265a873db866e510fa0ceb9079d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Actions/play-all-normal.png",
+      "bytes": 104247,
+      "sha256": "f9bf29e259ad06efef1d1634328446291aee0c5a835f627b2c9c37da46b7cdaa"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/amount.png",
+      "bytes": 10260,
+      "sha256": "8ebd7e8e3e99556204ee7b1020bb89c99f0e72a758b9d7b4132d7c28df0705e2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/area.png",
+      "bytes": 7678,
+      "sha256": "691f7d4481b09cee2f2dc042ce64d3eada43b34df10013b53b425bb5483a597f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/curse.png",
+      "bytes": 13173,
+      "sha256": "907a5e9a5dc3084a852f000c669d3c2371fabefa982a0f523e1d672dd50a84a4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/duration.png",
+      "bytes": 8437,
+      "sha256": "a4b86f3ccd6d75a34069f1addb273aa0649537c71375d9aa4c744885145ff8c1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/greed.png",
+      "bytes": 14915,
+      "sha256": "682167872d625ee2a953ad31d46eb2fa58ee72746d896cffde2f2ec54b06bc10"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/growth.png",
+      "bytes": 9457,
+      "sha256": "ddde6c18ce6adcc0a25c285ecec8320fe7ad1d36f53082aed9ecac1f02ac2c43"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/hand.png",
+      "bytes": 19972,
+      "sha256": "645d755d44963500fb35f4260461391154016b810468820518f2f432ce7133b4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/luck.png",
+      "bytes": 16172,
+      "sha256": "ee6d551d3722dcc776ac8ba4d545627f0451a566081c28779e8ab273452099fe"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/might.png",
+      "bytes": 8342,
+      "sha256": "91422fa9a371e0bac17c0e92f37593f18e786ec247148d9b8f2270ed197aff9c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/recovery.png",
+      "bytes": 15557,
+      "sha256": "0c6fc0b503ebfbabff587bbb975f570498b8a027d15575914d4bf7c3e2e18240"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/BuffIcons/revival.png",
+      "bytes": 16680,
+      "sha256": "d2d1a6935c33ba5456f8494cbf0e925e1993032839202edc474e60e5540d8376"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/0.png",
+      "bytes": 2879851,
+      "sha256": "33e6f2eb8502d440a404e5adf233a90ffb496dc07098563f39065f4998804b91"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/1.png",
+      "bytes": 2651871,
+      "sha256": "c11d9e73d22654468ff7dde987ec09966adcd2927f56c98aa2b9c373e1450d98"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/2.png",
+      "bytes": 2790721,
+      "sha256": "0b0e73b5ebb5807dfdafa6fe09194ac7d1ab2c91b3e8a3c6144346e0750d610a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/3.png",
+      "bytes": 2716605,
+      "sha256": "93bbadd1a9b9f89049d39e1a136b89ae7a8232ae514da9c6d4b519ee116647c5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/4.png",
+      "bytes": 2792684,
+      "sha256": "2b9acbb3a2555b2844fdc2a6bc2194f1a851f6d61c2afbf14896ad3338be3f3a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/5.png",
+      "bytes": 2705678,
+      "sha256": "b4e8b2ac87607b1bd951f0697f5af3bc9618575183ebc72b02c86164c1a17248"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/6.png",
+      "bytes": 2762588,
+      "sha256": "e9a2008d38a34d4c534ceecd072d6046c973e7a69d89acf66379be16b914e085"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/7.png",
+      "bytes": 2698019,
+      "sha256": "c455a75e8334d43a41254e57edd11574fc3f0d4b7842e064f897fa9d9d0e221c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/8.png",
+      "bytes": 2938680,
+      "sha256": "4c89c64463bc66ba457d2535e88e206388af821dd232609117b589f8f306befd"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/ComboNumbers/9.png",
+      "bytes": 2743328,
+      "sha256": "55038eedb2436dea389f5ec64f28021fcacebf76b34dd596769e952e04ab0e75"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/EnemyStatus/attack.png",
+      "bytes": 26512,
+      "sha256": "84daeb37800a8bb399ad2eef5c4bd88f729e5093139180d5798cf03168e058f3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/EnemyStatus/defense.png",
+      "bytes": 81258,
+      "sha256": "646d0dd3fbaea516f195972a96c32f47bc4b5d9fa312a1ffe7230c0ea30b0418"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/EnemyStatus/divider-center.png",
+      "bytes": 16701,
+      "sha256": "e494efbd3ec74303ade6caecb457875fee64a23f8d3bd1d420e38ec84f5888f0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/EnemyStatus/divider-left-cap.png",
+      "bytes": 8374,
+      "sha256": "9eeaaceeeeac07c4610dc4c103d3da880bb848e32e036665603db091e12bbdd2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/EnemyStatus/divider-line.png",
+      "bytes": 2338,
+      "sha256": "8df2440ad10153fa01647b75c430d984bb7d0a50792d08ba373f027190f65481"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/EnemyStatus/divider-right-cap.png",
+      "bytes": 8171,
+      "sha256": "db17088e2c3c8f33b1926bd90355fce61284c54a35c0708797e23715423bf9e5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Hero/left-info-panel-center-tile.png",
+      "bytes": 176503,
+      "sha256": "26752dadde627a6292840f58d978c0cc90e350636f2d5024b975287482644926"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Hero/left-info-panel-left-cap.png",
+      "bytes": 51074,
+      "sha256": "6f7bc6d6536bfc80c36f4fd14bb52aa7ca6caf249f24e0b03a50c533c4f8c04e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Hero/left-info-panel-right-cap.png",
+      "bytes": 51626,
+      "sha256": "0e9332293fc704a2bf8de903b04e6da0e646943801c4f05f0f60ddda4ddb2eb0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Hero/left-info-panel.png",
+      "bytes": 290778,
+      "sha256": "312c4a243b23c4a88196aa1604aa583f526ccd4ac55bce4170cc497271177b4a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Hero/upper-left-icon-plate.png",
+      "bytes": 281520,
+      "sha256": "dd58c79f1d15d28e88cff803faa3b87c7a0fa0db29cba8a51c5d51b0b4c25ac0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Hero/wukong-avatar-frame.png",
+      "bytes": 208716,
+      "sha256": "60e150c2f85ba03cd89e4277f08c6b6f844a3d7c2b0f7842ed932f1a5489982b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Hero/wukong-avatar.png",
+      "bytes": 357756,
+      "sha256": "ae19198c0f1fef2a49bfe68c54cf923a85f4a440270654c0b8b83200db9166f2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Resources/hp-component-empty.png",
+      "bytes": 304448,
+      "sha256": "1af34cdea45714779f2cc4d102dc4d9da58b647141969bf0da29de6f31e87645"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Resources/hp-component-full.png",
+      "bytes": 320265,
+      "sha256": "cf1686b7db3dfa3e598d8ea7c8d5a2d9463f118940bd072157ff15cd2317df89"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Resources/mp-component-empty.png",
+      "bytes": 302906,
+      "sha256": "45df7d79a5dd08f94835d4aa0665f7434a383ffe8a26b3074eb2921a23c970f1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/Resources/mp-component-full.png",
+      "bytes": 313559,
+      "sha256": "0bebf89ce38b88a3145f9f4d96843323b7a22f3b61693c9896739e8807e65e03"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/TopHud/top-progress-empty.png",
+      "bytes": 291814,
+      "sha256": "b9129442ea9490ebecf8c8eef826d1cc9988100f2ca8096d889eaca842b57e81"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/TopHud/top-progress-full.png",
+      "bytes": 354858,
+      "sha256": "88b9724f3e2feb42fff9a39e46f204da92e6ef3b64f698fa293b61f25c0dc824"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/armor-shield.png",
+      "bytes": 1372304,
+      "sha256": "402bc104588f84baeb4a87af70ec77e8cb941b1fdc7bea182d120ca97a3556ea"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/icon-attack.png",
+      "bytes": 440556,
+      "sha256": "4fb3badd149d5f0a1afb3e24f4a296bb38589bf478e3c5f857e671c17ebc837e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Battle/icon-defense.png",
+      "bytes": 446349,
+      "sha256": "df592a2284e4abd807fdb056d6d8cfba483e896b399d779acef2290e2318d0d2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Card/Materials/header-ink-wash-alpha-1024x256.png",
+      "bytes": 161812,
+      "sha256": "33e5b65490a723c439cb03c30fcde7a648d04fd8868eeb14c23adf58a6b80928"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Card/Materials/paper-fiber-overlay-alpha-512.png",
+      "bytes": 175694,
+      "sha256": "fa46a8e90b80d187c645b15731f24e71a1ee3f7f5f954a8247ff5d484d44135a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Cards/FreeIcon/free-icon.png",
+      "bytes": 289024,
+      "sha256": "c8f9a2143f776a67011bfef7a70e6995e6bf22cb0f909156d6fc38dd1d4d64ad"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/department-headers/department-guming-header.png",
+      "bytes": 105956,
+      "sha256": "31cb947c340c355ad694c9a58dd310a449215c82d48fa87522782cc14aefc5be"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/department-headers/department-lingtai-header.png",
+      "bytes": 95876,
+      "sha256": "90826684e49f5019d4fb4cc042d3bd1f4729152758a1f457c3246e270b3af4dc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/department-headers/department-shafa-header.png",
+      "bytes": 108144,
+      "sha256": "4de1e4cf0b86d93cdb735927d2acca1116ec5d7f421f14addc272828d732650e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/department-headers/department-xuanji-header.png",
+      "bytes": 101291,
+      "sha256": "0db20ecbf556a9c1f25bf54aefbc5515db14b8bcb8f9c985b14c162732135e2d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/department-headers/department-yunshi-header.png",
+      "bytes": 102055,
+      "sha256": "43eb4f8752e290ad71244c5581de91132dbedb438af685f53c090f53b03ba451"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/detail-panel/detail-panel-9slice.png",
+      "bytes": 85799,
+      "sha256": "56513887b8564ce80ab409470191edfb8f712a585abfce66460ce584b60d62dc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/detail-panel/detail-panel-bg.png",
+      "bytes": 815985,
+      "sha256": "bd9703bc01998c8687808c2dd54e99f49c1ade3104ba39e3cd46b3f714a8d4e9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/detail-panel/level-dot-circle.png",
+      "bytes": 644,
+      "sha256": "cd3093b0b5023a17cca3109109ff8a0dd522fa9df950c5149b513663271055d4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/glyphs/armor.png",
+      "bytes": 20300,
+      "sha256": "c8df4f7fdf1486089cb34b3c34b489cca27c750fbf9b4059fd1e439011c73c0d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/glyphs/banish.png",
+      "bytes": 23545,
+      "sha256": "029529ce0723c3097196983b0728d1f84f010f7a6820abe4d40e86d208553eb3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/glyphs/crawler-slot.png",
+      "bytes": 14529,
+      "sha256": "56896e5bd14e3324d9e14850d81d14161f5e98f634ef2e5d76b85637ea6849b3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/glyphs/magnet.png",
+      "bytes": 18962,
+      "sha256": "3251738e1c2ca81dba6c36cc59d25afe7b440ec2370158d91d0004d228f07917"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/glyphs/mana.png",
+      "bytes": 20478,
+      "sha256": "32fd0ef5a44ac0fcc058793415489ec43768c5996847c0a5b11d420250b92b96"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/glyphs/max-health.png",
+      "bytes": 17461,
+      "sha256": "efd0235e8c0338935f3ce6ea9ebad09fdad8bc5d03efb82191b585e4bb247303"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/glyphs/reroll.png",
+      "bytes": 24070,
+      "sha256": "50add3fc4ffb352bff569cc2b83d11107fc2d8810d0b2396e3debe2d0cc260c7"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/glyphs/skip.png",
+      "bytes": 19876,
+      "sha256": "0f40aa7f084cf75da0cf0b6609e9df0af49d49bfc553e530bc5df591f18ff42e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/talisman-bodies/department-guming.png",
+      "bytes": 379062,
+      "sha256": "64e5236bd056c64ee361fe1a2870a82c2f9ce886c19152995468dd1a771b8d6b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/talisman-bodies/department-lingtai.png",
+      "bytes": 356991,
+      "sha256": "9f39352972de70e6bf26fe80e36389af934aa06e5a32e039c6b73478b7d70b4f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/talisman-bodies/department-shafa.png",
+      "bytes": 375787,
+      "sha256": "b59141afb9814d95ab4dd1daf03eca7dd1cc7488c53e06d571670ce5528ea6ba"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/talisman-bodies/department-xuanji.png",
+      "bytes": 382928,
+      "sha256": "f209e4af0b4aa32719596141e491ce6db09e63ffb25127bf0df2958a41d90e68"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/talisman-bodies/department-yunshi.png",
+      "bytes": 352273,
+      "sha256": "b6bc775e463d5d4526200d944c4c69b06d4997aacf5b871217c1f86740406460"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/utility-icons/back-xianyu.png",
+      "bytes": 1167268,
+      "sha256": "94d943584bc7890443d2436d0210107e47e84b555e1c6cbb00db2f1534bdcb18"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/utility-icons/currency-lingyu.png",
+      "bytes": 122557,
+      "sha256": "9c5f1fad159284aa31eed310d8b0dbaf27e4114a3d4ea367e301669e5127cb79"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/utility-icons/overview.png",
+      "bytes": 106329,
+      "sha256": "d7b744570f7b2cbb6bbd20070c56f35e4b7210763b503f22baf4195eaba7b150"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/utility-icons/reset-fanpu.png",
+      "bytes": 125717,
+      "sha256": "1be8e460939b0aaceff3459e82f014d0306302afe73adf873d3f4fccaf6cc261"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Daozang/utility-icons/study-xiuxi.png",
+      "bytes": 124349,
+      "sha256": "968435c7bc50a16a1a065c7cb67575f373eae92610196ade6060f9b8d4483057"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/abandoned-cart-v1.png",
+      "bytes": 1603604,
+      "sha256": "bb7112d2ddb0bd9315ff0d56041f668dd602eaa37cfc45cab63eec293fc0122c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/blessing-area-v1.png",
+      "bytes": 1299712,
+      "sha256": "835fa7a2c60156f9093b4599b571ace905643772d2fbaf261aebd5fff0fb1eea"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/blessing-armor-v1.png",
+      "bytes": 1251074,
+      "sha256": "8cfb8eaf749ff7076f08fee559d7b89b311cf1a328b9b99b58b711bd6ac04c1b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/blessing-draw-v1.png",
+      "bytes": 1306262,
+      "sha256": "33865ae9dd5761d4728556ad38ebb8f1399eb19b533ad93975e02e1dc743c66c"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/blessing-might-v1.png",
+      "bytes": 932627,
+      "sha256": "5ae8d05c859e2ee4f68e591e8223eca1f8ade2583c64237707603bc16f4abaa0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/blessing-reroll-v1.png",
+      "bytes": 1058781,
+      "sha256": "3963f692298f5bfa47175b26336f29215bc0ec4621d483152e22f554c50ee5d1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/crystal-node-v1.png",
+      "bytes": 1180283,
+      "sha256": "b24b03de578a9a7ccbe9ec9b87d13568c2ad209727a46d026dd25720f77912bd"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/evolution-statue-v1.png",
+      "bytes": 1579673,
+      "sha256": "8c88bc7a68beda43db08e0b12c9414827d1f25b6d5a57a711557aedca3b7b1c2"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/health-life-drop-v1.png",
+      "bytes": 832374,
+      "sha256": "bdaa799eb48fea7fed2ea21036ea2aa7f7c98c6b69bcf27bcc06cee96896c0b3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/hire-banner-v1.png",
+      "bytes": 1185601,
+      "sha256": "3a4ea5d141b7b076b1f6eb4bc5a89bddd82ba6cd4254f2f0dffb652d53d55c6a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/mana-statue-v1.png",
+      "bytes": 1306988,
+      "sha256": "46e54726d42de2e5338d59b3f7d8a919a69d06862b9b93b85608839c170dad31"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/offering-altar-v1.png",
+      "bytes": 1022488,
+      "sha256": "0fb1bd98b7d09bde8ee561eb461cf315fd3fe94113cde2a5cd5f209a94518c61"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/qingling-node-v1.png",
+      "bytes": 680848,
+      "sha256": "de20dc9fab022997fc3e20de788ea348e3117ba2b7fee403c60f740a0fea5e87"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/seal-cache-open-v1.png",
+      "bytes": 1597396,
+      "sha256": "1d8d44a5d8c751c37cde92719cb08173043637982a02641c5378aa9ba72d11e1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/MapRewards/tuoyin-node-v1.png",
+      "bytes": 688316,
+      "sha256": "7470302349b8d3785f7f16f4901d5a0473a1dfbb6463a7d53045295f0bdee3b6"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Buttons/CelestialJade/CelestialJade_Disabled.png",
+      "bytes": 229404,
+      "sha256": "05bc264c374ffd2ccfdaccfe3a0ce3ce27c989a3b10b77ceef807bf11dcc39fd"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Buttons/CelestialJade/CelestialJade_Highlighted.png",
+      "bytes": 245170,
+      "sha256": "98f7119ccc32af9e0e162dd5fa66dd995b6c16ddc9c1f9b79d2df49bdc3469b7"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Buttons/CelestialJade/CelestialJade_Normal.png",
+      "bytes": 239094,
+      "sha256": "f485a447133d65c2083696b9858b55dbf8ef12f33bb3bd8a5036f11fc628601a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Buttons/CelestialJade/CelestialJade_Pressed.png",
+      "bytes": 247005,
+      "sha256": "a2bd2d8eec7759a2502bdc6c70c8c436295ee0baf54e822d59b5987f33dc0ef4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Buttons/JadeGlass/JadeGlass_Disabled.png",
+      "bytes": 204559,
+      "sha256": "4a48e05c3a8c3f36593a965f0ee45f78f0942a362bad66254211a7f3bd0dfb15"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Buttons/JadeGlass/JadeGlass_Highlighted.png",
+      "bytes": 221786,
+      "sha256": "3988f263611eee202aee94d4b36078343b9d06a2185dd3a6902f94e1c80fa458"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Buttons/JadeGlass/JadeGlass_Normal.png",
+      "bytes": 221200,
+      "sha256": "c0caf193d4f26d6937ae71bf57a8c89d58d9ea07c2203ed518addb1e5e55f83b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Buttons/JadeGlass/JadeGlass_Pressed.png",
+      "bytes": 224504,
+      "sha256": "72db4568e048c96e4d4deda201f494acc5f303c50dac648dc89ccf6db849679a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Panels/jade-panel-bg.png",
+      "bytes": 1522551,
+      "sha256": "779b7b4f7723ef3149d230820da856e5bede8baf06c43b45f4fdd08fb1ce7fa5"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Menu/Seals/jade-seal.png",
+      "bytes": 1472446,
+      "sha256": "cfd977d7b88afdb3df2cb08f35ac47dc1764bfd83a9a8b2e2446ab5ad22e70b4"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/amount-seal-rare-v1.png",
+      "bytes": 2131795,
+      "sha256": "e5fab253b4947371115f7b135624f40f7de102bb164180c71db6717f33dca9cb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/armor-seal-common-v1.png",
+      "bytes": 1950596,
+      "sha256": "62f558eb368675c11081728c6fc40aa3711ff446a73402d203622f3317b7d811"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/armor-strike-seal-very-rare-v1.png",
+      "bytes": 371173,
+      "sha256": "f0854b5be79e238164303e115a3bdd0c08b42b0de3f49728877ac21c1307fb97"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/attribute-blessing-v1.png",
+      "bytes": 1326622,
+      "sha256": "9b07ea77290339fa9711302df175f1bd5d987a20bc07a0f58dbd7363a08e1e2d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/benglie-seal-common-v1.png",
+      "bytes": 1945896,
+      "sha256": "8480daa05f5441566c1cee98f9a382eb9841ce79ee6540bb326602ea3e5dfecb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/card-cache-v1.png",
+      "bytes": 1754647,
+      "sha256": "0ba2c33b3ef7a0e61872ab77e2ff119e88acc0b4f77c72c6fa400b434090f780"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/copy-seal-very-rare-v1.png",
+      "bytes": 389593,
+      "sha256": "9084d8fefaec310613cf38603cd415a354fa502a0d74422b855a39ccf68692be"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/double-damage-seal-common.png",
+      "bytes": 2230986,
+      "sha256": "6da8dcdaffa37bd469b58b06c0151556ace73df81de1faf7359ab4ac072b280d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/draw-seal-rare-v1.png",
+      "bytes": 2375626,
+      "sha256": "830779cb1fe89cbb1d8d25b4730bff8b05837a7c14c95b2c72a8d44542f37ab9"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/guanxing-tai-building-v2.png",
+      "bytes": 1355509,
+      "sha256": "78b8abdb216b8bbdacb2fa67e8bd84f48ee4ba5e7ebaefda8ec8597826c0981b"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/guanxing-tai-relic-v1.png",
+      "bytes": 1622121,
+      "sha256": "d6f7424cc771509d65115fd6b9150445f889e70b9339af2fd72e101431f36fcc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/guiyuan-stele.png",
+      "bytes": 1628502,
+      "sha256": "9e25218943216228048865fc4e8c3f4327f73b51dd60ee13e03fe651b9e1b9de"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/huaxing-seal-immortal-v1.png",
+      "bytes": 2019975,
+      "sha256": "80e54aff98a98e0127d8648d8718f00c3e2253929334c662679ab587a3eba5d1"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/jiudie-relic.png",
+      "bytes": 2461874,
+      "sha256": "f3d968e79770d785603dc0cf0df84554a66168f81b80ce638a682e1aed36605e"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/leader-seal-very-rare-v1.png",
+      "bytes": 391124,
+      "sha256": "6ad6201c507453784d794f89a8152e8dae9e4a8877ab9ae805519fbf7551dbdb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/mana-rebate-seal-ultra-rare-v1.png",
+      "bytes": 403271,
+      "sha256": "aada941d6ba8e8ae722e427c7b27e993be2813cd393b9fb0ec459bc0ea90d283"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/midas-seal-very-rare-v1.png",
+      "bytes": 375767,
+      "sha256": "bf881ad71963cb9fd2b3ea0315ba3ec81fc533c75f7f96ca97f4a9a713480632"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/might-seal-common-v1.png",
+      "bytes": 393120,
+      "sha256": "64c452bdb2d5285b9969a1d75d6bf372f85d7e33b5d11b9c9fad16624e3e1629"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/mug-seal-common-v1.png",
+      "bytes": 398297,
+      "sha256": "612d566e90db4693d1e121746734ea7c5ae5622e6cf7adea94c0be07448a4f63"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/nduja-seal-uncommon-v1.png",
+      "bytes": 405585,
+      "sha256": "0d20070a3f6092a685d754db6cc5ee3fea652022676a59eef2a4a6777a37b668"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/refund-seal-uncommon-v1.png",
+      "bytes": 420480,
+      "sha256": "1b3905d577b70f3b5cc3fa01c6e406c04c6ef2e3c7f41db4a2bb06d275f204ae"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/retain-seal-uncommon-v1.png",
+      "bytes": 382423,
+      "sha256": "705876936d145d58d939a1580bce6c1c3e6035882fde1c81c2f2b192efefd5a8"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/return-seal-rare-v1.png",
+      "bytes": 378391,
+      "sha256": "7afd9579a488218edc047c952b6e28c3d7c8ad0cdc238c774a52bad3e997d79d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/reverse-combo-seal-rare-v1.png",
+      "bytes": 385412,
+      "sha256": "60365fb1d55904c3a6ee406d79e024ed97328540a5c2c851ee50e42ab5638c3d"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/seal-cache-v1.png",
+      "bytes": 2071293,
+      "sha256": "439af1438a2edd28832237e333e562f148794d0e1b80cf4385047c71938d4362"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/tanlangmian-shrine-v1.png",
+      "bytes": 2011258,
+      "sha256": "e82d5d7902260b54dacaa223b0e2de9b153f66b84ef0f91321d98c03a52526ce"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/triple-damage-seal-rare-v1.png",
+      "bytes": 393188,
+      "sha256": "73941280d30aedf9021681d5af30a52670b173d368c0c3cf288b338dc407b305"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/wuxing-disc.png",
+      "bytes": 2649776,
+      "sha256": "a6855a0be37c6b090156a15900c8b95c3680ab062e3abb05704e695570c749fc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/yellow-trigger-seal-uncommon-v1.png",
+      "bytes": 400385,
+      "sha256": "8dc3ddd15fc0fa46c350745177d0871c9c92654eb53b9d2d8ac41a3e1215d225"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/Rewards/yuyin-relic.png",
+      "bytes": 785933,
+      "sha256": "32e0c832d46d26d21c0d52ce65e62992ac1f60131772e1137ed2217964bee266"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/back-arrow.png",
+      "bytes": 839,
+      "sha256": "8173f940645d72e02a0a2452053d9a76eaae1e9746ef11f945d3f2949e8d6924"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/back-button.png",
+      "bytes": 999679,
+      "sha256": "3b9bca2e891405e43bddd8ea8f1d4aef79903feb935e99f36a28bfca0f8b951a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/btn-start-game.png",
+      "bytes": 538186,
+      "sha256": "68c265ab05dad49569b10ac7466bf50fdd13fab41ee6707dcfc5d731ceaf07dd"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/portal-buttons-spritesheet.png",
+      "bytes": 2119845,
+      "sha256": "e0b64aca1b1a42566350ad78774df3be93cfc856f47ed6fe42120e54d1548816"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/portal-history-active.png",
+      "bytes": 571209,
+      "sha256": "20b59babcfe95233f5e02f57fba5deb21b2ac478da6f607ea8b509bbc5d41dc0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/portal-history-normal.png",
+      "bytes": 492229,
+      "sha256": "417c90ee85e07446ab647cf20e4a2b63e3be652f24ad1487061b9d7088c486e0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/portal-myth-active.png",
+      "bytes": 546746,
+      "sha256": "ad1e824ab06cc630c45604453b79a11c48e957cb62394f1c40a7064ad5744ab0"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/portal-myth-normal.png",
+      "bytes": 492471,
+      "sha256": "9454226b6f2e3f13c5b63d0bc5741e2d044ced04ec2f2b7c8182970d86ca1245"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/portal-xiuxian-active.png",
+      "bytes": 611019,
+      "sha256": "603c57c197d8a867cd3547917aeba48b4d01859288369bad90711e3e59a943a3"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/portal-xiuxian-normal.png",
+      "bytes": 853919,
+      "sha256": "77bcb733f3e3cb61409713680b2cfd2d23a5e83f5e5811d62d134017e969bcbd"
+    },
+    {
+      "path": "Assets/Resources/Sprites/UI/scroll-panel.png",
+      "bytes": 762784,
+      "sha256": "5d2e6f98ee48a130f03f00767aa40c5f9506fc3a2d0397ce7b26f3fc93e96c3f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/VFX/blood_particle.png",
+      "bytes": 1446,
+      "sha256": "de86b136e9e9abbba259d1568ba3e16aceeb501bf0f86a5b841b3a454cbdfb9a"
+    },
+    {
+      "path": "Assets/Resources/Sprites/VFX/cinnabar_powder.png",
+      "bytes": 492,
+      "sha256": "9d80e5002de1fccbcd4b3594a6a4ac84b2aadb99977906588555b5dd28657826"
+    },
+    {
+      "path": "Assets/Resources/Sprites/VFX/ink_dot.png",
+      "bytes": 1310,
+      "sha256": "97c624381fe0f462ba56f125d81d910bc64cf40ea18ac7a497461dff697860ba"
+    },
+    {
+      "path": "Assets/Resources/Sprites/VFX/knife_projectile.png",
+      "bytes": 39592,
+      "sha256": "3948baae35fc875c8151b50e816a35c9d58d5cb7c241af122841f866484eb4dc"
+    },
+    {
+      "path": "Assets/Resources/Sprites/VFX/paper_scrap.png",
+      "bytes": 1284,
+      "sha256": "38d476010de84c9b35e1f87b47bcaa605c5ebcd7820025cc36ea28d54a3afdeb"
+    },
+    {
+      "path": "Assets/Resources/Sprites/VFX/silver_spark.png",
+      "bytes": 232,
+      "sha256": "496802d885b781595815139689cd14122be4585f071418e404b5aaa01b14f32f"
+    },
+    {
+      "path": "Assets/Resources/Sprites/VFX/spark_particle.png",
+      "bytes": 7293,
+      "sha256": "ab3fa7dc0d102c6b61676bd189d32b2c06eb17e6051ef43bb2fb7029e717d308"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/liejuan-yaowang-map-challenge-atlas-v1.png",
+      "bytes": 5624790,
+      "sha256": "be11aa1bb6d4ac1a1cea64ed332e281422bf6a36cb23c7c2e793eee795121486"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenhe-yaojiang-defend-atlas-v2.png",
+      "bytes": 9292469,
+      "sha256": "e2838a25a3bf9a645ea25ec3fa4629003a0ec5e5c24b5cb9a507322d321a84e3"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenhe-yaojiang-idle-atlas-v1.png",
+      "bytes": 10160154,
+      "sha256": "aa707406147d5283d49505b2db864db99a605ea518aabc97ccc3fd0ec391ce3c"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenhe-yaojiang-map-challenge-atlas-v1.png",
+      "bytes": 9220662,
+      "sha256": "a312ae2e4da57c9924c7105827e4eaa96f49d0b0093823cdf4661732ff7f9f58"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackCandidate/attack-page-00.png",
+      "bytes": 4135151,
+      "sha256": "c2ac5bbf42baa78899701e31085e71e63054900fd15a326e2d8a6949ee0682e9"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackCandidate/attack-page-01.png",
+      "bytes": 4132171,
+      "sha256": "6c505461c65b7dbf13ae8c604a9ebb193f74184a6d7187b1642603557f5cc1af"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackCandidate/attack-page-02.png",
+      "bytes": 5020489,
+      "sha256": "8b7c7a141c354b1b568151321ce664eb81efb3e30e6c39009407b7e6466d8cfa"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackCandidate/attack-page-03.png",
+      "bytes": 4847633,
+      "sha256": "25c3c0c1e931bca6091403baf90ff4601193dcfde31be2466ee5375ce7ab7231"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackCandidate/attack-page-04.png",
+      "bytes": 4503049,
+      "sha256": "6dbece15d6f762eeabfb8aef7a29aa76933ea05f44553f5807386608f3865a59"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackCandidate/attack-page-05.png",
+      "bytes": 1926841,
+      "sha256": "25030e931c2633d3d9a1106edc75f27f522a4cad1347b87e6280eda464b89d3c"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-00.png",
+      "bytes": 4427980,
+      "sha256": "6bda4c07cbbf2522697a840ccc6be3478b2ff1e523b734bdd39dca2817bcbc16"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-01.png",
+      "bytes": 3840924,
+      "sha256": "a0c81f707604ac220aeacbcb3a3e1606d36f5fa33acf37156be83a0ea190d967"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-02.png",
+      "bytes": 3400935,
+      "sha256": "3876334b8f4d5ff5571035a673dd85a75c3373c3c737114bfcff23c37ce5eca2"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-03.png",
+      "bytes": 3263990,
+      "sha256": "f15ce7ad6a17ddb4433316ab9f144198927224728ce37fedcbacec89477c8cad"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-04.png",
+      "bytes": 3880320,
+      "sha256": "61323e28a803913f818934702f4f8e76eee8222f93e65f7602602a7b3a9b7fce"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-05.png",
+      "bytes": 3619329,
+      "sha256": "2ae24e010c900cd5a82572df28ed839704c33570dd7bef2df1e691607efd5cb1"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-06.png",
+      "bytes": 3991892,
+      "sha256": "1e2fa0f7e5ca33148bb0ff4e3c23c6e788981532d54404d1ee0f820b55352d3b"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-07.png",
+      "bytes": 4268724,
+      "sha256": "76ab46f81e1a61aa640a984483fec3ee56b000b9ca1009ccdaa613951dfc8e7d"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-08.png",
+      "bytes": 4603786,
+      "sha256": "5bedaf938f40bee88c7d772788ba3138a94644d27cc4ffcd1a4e5695f60045e3"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-09.png",
+      "bytes": 4618025,
+      "sha256": "b57421ffa3f46a6efd9b893e6ed0bf2e56efff83f3191f83efd9d57c94800afa"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-10.png",
+      "bytes": 4133714,
+      "sha256": "466a1dc00833e3caab341a77d76dbe118443c05580f6347be12c67f8608555c5"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-11.png",
+      "bytes": 3854097,
+      "sha256": "ece0eb6b1c317448d8a07c744d76491fb727cccdee95f165d1404369bf2981b4"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-12.png",
+      "bytes": 4112717,
+      "sha256": "7fa67b1959cbb852fd0e5afd0f7bf6c80a54e6a30d6f8a76db78d5ce3b0557ce"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-13.png",
+      "bytes": 4518958,
+      "sha256": "3dc94b213b1805f3b238ba083811697f0060ea0813a6f232775c89eebd8f1899"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-14.png",
+      "bytes": 4141604,
+      "sha256": "e7859b718d6258369ee1cc3f91cabff3ffb9b7d648d735952aaa3191a382fc94"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-15.png",
+      "bytes": 2746928,
+      "sha256": "ea6216ca4ba3b44323fed7f93bccd1e45ca3e32048940ed5a82d2f83e1f0a8e2"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-16.png",
+      "bytes": 2648354,
+      "sha256": "a72fd3d062aa8d2feb728ab78364cd6e74fa1c18895ad7b211d2ab2ccc109c9f"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/attack-page-17.png",
+      "bytes": 2181922,
+      "sha256": "7c8789da7d7f84ab9c5f2504351069a241bc899a8ecd1b3b879a02e27deaa9c6"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossCloseups/G4AttackNativeCandidate/standing-frame-00.png",
+      "bytes": 741869,
+      "sha256": "6290bdfdcd1980f38be6696be1cda83fc8c44063d76abb92ff6fb56d11909ea5"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/bailongma-identity-v2-alpha.png",
+      "bytes": 1459718,
+      "sha256": "18b5ce9026e0920fbbf10b5b3934e391b07718c024be9691abfd2344b6e0425a"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/bailongma-resident-idle-atlas-v1.png",
+      "bytes": 8212419,
+      "sha256": "5b96f62ae9763e85d44d3de06b9d238cc90dc228a89b6a45a3b6eea16f94cf04"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/guanyin-resident-idle-atlas-v1.png",
+      "bytes": 10421005,
+      "sha256": "6731070e776e2aab13cee100e16e8c559e73bfd0f7f7f6b0966bf19b9093d8ba"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/guanyin-reveal-atlas-v1.png",
+      "bytes": 10441217,
+      "sha256": "fb611abac8ab4911511a7397555eb5e66fd6500041a1a63d68d2870daab0e23d"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/shawujing-resident-side-idle-atlas-v2.png",
+      "bytes": 9671369,
+      "sha256": "ea0f301e32e66064c6c9a587490f8152b1730861ca068446531159c885487080"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/shawujing-reveal-atlas-v1.png",
+      "bytes": 8565640,
+      "sha256": "ff625cf49e4c06908386baddf85519eb34e69626fac34f9e94d76e45ae5b453a"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/tangsanzang-resident-idle-atlas-v1.png",
+      "bytes": 7912612,
+      "sha256": "de2eff91b38708460c6334447841ae1a0adfb49d6b5a7604e59ff8e4b01a5a81"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/tangsanzang-reveal-atlas-v1.png",
+      "bytes": 9753715,
+      "sha256": "de7154f9434544146d0fa8d95cda5d5d6315a9be7706dbe67fb5b8164133c070"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/tangsanzang-reveal-static-v1.png",
+      "bytes": 2241575,
+      "sha256": "913dbe8ba04bbe5e131e2b0b0ed2efba5d9478347269029c4482ed2e199c88cd"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/wukong-resident-idle-atlas-v1.png",
+      "bytes": 5633097,
+      "sha256": "cb2bc6f130f5b421345997b3a04e843593e5b56c7a5d7488b2e3901d307bfe74"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/zhubajie-resident-idle-atlas-v1.png",
+      "bytes": 8657187,
+      "sha256": "56460649e391223598acb8802f63a2101535cb3c37552a115ce3c332675d74bd"
+    },
+    {
+      "path": "Assets/Resources/Video/Effects/yuyin-stamping-screen-impact-2s.mp4",
+      "bytes": 732219,
+      "sha256": "6b439477086150dcbbdfccf0a6ea59f8755e464d0d9c3a57f0b6c54b8e06df7e"
+    },
+    {
+      "path": "Assets/Resources/Video/main-menu-bg-anim.mp4",
+      "bytes": 2389256,
+      "sha256": "8ca2de802fb77e5311bc77b1461234f4258cb4d8c8324a2ad4d6605cdd02bd70"
+    }
+  ]
+}

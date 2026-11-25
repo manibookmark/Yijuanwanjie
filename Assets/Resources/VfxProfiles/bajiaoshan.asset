@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a87c3cc1b996e544988bed031c63bfb, type: 3}
+  m_Name: bajiaoshan
+  m_EditorClassIdentifier: 
+  contentId: legacy.card.xiyou.0578cfde
+  projectileSprite: {fileID: 0}
+  visualType: Tornado
+  projectileScale: 1.05
+  flightDuration: 0.45
+  flightArc: 0
+  flightArcHeight: 0
+  multiProjectileDelay: 0.08
+  proceduralBladeColor: {r: 0.86, g: 0.93, b: 0.96, a: 0.95}
+  proceduralBladeEdgeColor: {r: 0.52, g: 0.64, b: 0.7, a: 0.72}
+  proceduralBladeWidthRatio: 0.12
+  proceduralBladeEdgeScale: 1.2
+  enableTrail: 0
+  trailColor: {r: 0.45, g: 0.7, b: 0.55, a: 0.4}
+  trailWidth: 0.12
+  trailTime: 0.18
+  hitParticleTexture: {fileID: 21300000, guid: d011da594f94d194e8183dff1642701e, type: 3}
+  hitParticleColor: {r: 0.55, g: 0.8, b: 0.55, a: 0.7}
+  hitParticleCount: 12
+  hitParticleSize: 0.12
+  hitParticleSpeed: 3.5
+  hitParticleLifetime: 0.3
+  secondaryParticleTexture: {fileID: 21300000, guid: e1af74f971c189443af358dd2424fe70, type: 3}
+  secondaryParticleColor: {r: 0.7, g: 0.85, b: 0.65, a: 0.5}
+  secondaryParticleCount: 6
+  secondaryParticleSize: 0.08
+  secondaryParticleSpeed: 2
+  secondaryParticleLifetime: 0.35
+  punchScaleIntensity: 0.1
+  critPunchScaleIntensity: 0.22
+  hitStopDuration: 0.02
+  critHitStopDuration: 0.04
+  hitStopTimeScale: 0.05
+  deathEffect: 2
+  playSfxPath: Audio/SFX/bajiaoshan-play
+  playSfxGain: 1
+  hitSfxPath: 
+  hitSfxGain: 1
+  fallbackContentId: 

@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0acd83c14fb36de4ebf7b231c23f4143, type: 3}
+  m_Name: DefaultBattleHudPresentation
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  profileId: ui.battle-hud.standard.v1
+  revision: 1
+  progressEmpty: {fileID: 21300000, guid: 2d6ca672718a57b4f8d789fa7fa1cbee, type: 3}
+  progressFull: {fileID: 21300000, guid: 73fe0321173f7374591afc47c46228af, type: 3}
+  progressSize: {x: 608, y: 68}
+  progressOffset: {x: 0, y: -18}
+  statusPlate: {fileID: 21300000, guid: 1a02e7632fd905848bdab699acf3c679, type: 3}
+  heroAvatar: {fileID: 21300000, guid: e7c63b88b420d3845abcef4486477c65, type: 3}
+  heroAvatarFrame: {fileID: 21300000, guid: fea7d1c243ed0974ea2e8750b1d5e1ac, type: 3}
+  heroInfoPanel: {fileID: 21300000, guid: ad2f97873340c4940846cadd2c716264, type: 3}
+  heroInfoLeftCap: {fileID: 21300000, guid: 7d40cc4c97e8cc74d9d9f3b0a4e17085, type: 3}
+  heroInfoCenterTile: {fileID: 21300000, guid: 6c75fafa828d00649b107d9cc86df556, type: 3}
+  heroInfoRightCap: {fileID: 21300000, guid: cde70eeea77a4b3488c6f47f95de1ea2, type: 3}
+  statusPlateSize: {x: 140, y: 64}
+  heroGroupSize: {x: 390, y: 140}
+  heroGroupOffset: {x: 24, y: -65}
+  hpEmpty: {fileID: 21300000, guid: c5fea0425f842e84cbaf60380561759e, type: 3}
+  hpFull: {fileID: 21300000, guid: 84629539041668a40b590fb78754cf96, type: 3}
+  mpEmpty: {fileID: 21300000, guid: 86745470564b47946a5f1f0d4e25f603, type: 3}
+  mpFull: {fileID: 21300000, guid: 60fb004f848ffca47b06698c533c3853, type: 3}
+  resourceSize: {x: 270, y: 268}
+  resourceEdgeOffset: {x: 12, y: 10}
+  drawNormal: {fileID: 21300000, guid: 460dca0b2a526d54d92214428bc60908, type: 3}
+  drawHover: {fileID: 21300000, guid: c93bb40b060081247a151772378c0794, type: 3}
+  playAllNormal: {fileID: 21300000, guid: b69905051d7e87646b650737d3f37da9, type: 3}
+  playAllHover: {fileID: 21300000, guid: 3b6c3e6e9db94ab46bed492e90575230, type: 3}
+  endTurnNormal: {fileID: 21300000, guid: cd1b1d3bba94d4545a4b3c9353019d95, type: 3}
+  endTurnHover: {fileID: 21300000, guid: f150192b22cb3ef4daa4ffa975c1f503, type: 3}
+  discardNormal: {fileID: 21300000, guid: 1f2bbb9c9c6159743a8044beda26db45, type: 3}
+  discardHover: {fileID: 21300000, guid: 76af655fe06794e48b2585ccda6ba070, type: 3}
+  actionButtonSize: {x: 66, y: 62}
+  titleFont: {fileID: 12800000, guid: 160c527aa939dd84fb7026686ab2fdb9, type: 3}
+  bodyFont: {fileID: 12800000, guid: d9115678fb1651f4997ee3f625ae1f7e, type: 3}
+  progressFontSize: 26
+  resourceFontSize: 34
+  statusFontSize: 17
+  primaryTextColor: {r: 1, g: 0.86, b: 0.48, a: 1}
+  resourceTextColor: {r: 1, g: 1, b: 1, a: 1}
+  buffIconSize: {x: 48, y: 48}
+  buffIconSpacing: 6
+  leftBuffBarOffset: {x: 24, y: 80}
+  rightBuffBarOffset: {x: -24, y: 80}
+  buffBackgroundColor: {r: 0.1, g: 0.08, b: 0.06, a: 0.68}
+  buffActiveColor: {r: 1, g: 1, b: 1, a: 1}
+  buffInactiveColor: {r: 0.15, g: 0.12, b: 0.08, a: 0.5}
+  buffValueFontSize: 14

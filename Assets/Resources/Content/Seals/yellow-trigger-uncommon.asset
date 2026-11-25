@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805ec6b225aa4edaa5ba552bfc217f0c, type: 3}
+  m_Name: yellow-trigger-uncommon
+  m_EditorClassIdentifier:
+  contentId: seal.xiyou.yellow-trigger.uncommon.v1
+  displayName: "金纹印"
+  sealCharacter: "金"
+  effectType: 14
+  effectValue: 1
+  grade: 1
+  material: 3
+  presentationId: reward.reveal.seal.yellow-trigger.uncommon.v1
+  description: "宿主额外获得金色英灵的触发资格。不改变本色、费用、五行或叠势身份；同次出牌对同一英灵最多触发1次。"

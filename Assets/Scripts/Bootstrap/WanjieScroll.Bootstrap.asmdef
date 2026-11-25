@@ -1,0 +1,24 @@
+{
+    "name": "WanjieScroll.Bootstrap",
+    "rootNamespace": "WanjieScroll.Bootstrap",
+    "references": [
+        "WanjieScroll.Core",
+        "WanjieScroll.Content",
+        "WanjieScroll.Dungeon",
+        "WanjieScroll.Meta",
+        "WanjieScroll.Progression",
+        "WanjieScroll.UI",
+        "WanjieScroll.Audio",
+        "WanjieScroll.Effects",
+        "WanjieScroll.Persistence"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

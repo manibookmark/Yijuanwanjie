@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c19177bf24744be8ae5667acbc03825, type: 3}
+  m_Name: gaolaozhuang-cave-demon-lord
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  contentId: behavior.enemy.xiyou.gaolaozhuang-cave-demon-lord.v1
+  selectionMode: 1
+  avoidImmediateRepeat: 1
+  actions:
+  - intentType: 1
+    amount: 14
+    weight: 65
+    healthWeight: 1
+    canBeConsecutive: 1
+    prioritiseForStartPhase: 0
+    description: "\u88C2\u5377\u6756\u51FB"
+    actionId: action.gaolaozhuang.cave_demon_lord.cleave
+    temporaryCardContentId: 
+    temporaryCardPlacement: 0
+    temporaryCardMaxRemaining: 0
+    compoundPrimaryIntentType: 2
+    compoundIntentType: 0
+    compoundAmount: 0
+    compoundDescription: 
+    compoundActionId: 
+    compoundTemporaryCardContentId: 
+    compoundTemporaryCardPlacement: 0
+    compoundTemporaryCardMaxRemaining: 0
+  - intentType: 2
+    amount: 500
+    weight: 25
+    healthWeight: 1
+    canBeConsecutive: 1
+    prioritiseForStartPhase: 0
+    description: "\u5C01\u5377\u62A4\u7532"
+    actionId: action.gaolaozhuang.cave_demon_lord.seal_guard
+    temporaryCardContentId: 
+    temporaryCardPlacement: 0
+    temporaryCardMaxRemaining: 0
+    compoundPrimaryIntentType: 2
+    compoundIntentType: 0
+    compoundAmount: 0
+    compoundDescription: 
+    compoundActionId: 
+    compoundTemporaryCardContentId: 
+    compoundTemporaryCardPlacement: 0
+    compoundTemporaryCardMaxRemaining: 0
+  - intentType: 9
+    amount: 1
+    weight: 10
+    healthWeight: 1
+    canBeConsecutive: 1
+    prioritiseForStartPhase: 0
+    description: "\u6CE8\u5165\u4E71\u7075"
+    actionId: action.gaolaozhuang.cave_demon_lord.confuse
+    temporaryCardContentId: card.xiyou.confuse
+    temporaryCardPlacement: 0
+    temporaryCardMaxRemaining: 3
+    compoundPrimaryIntentType: 2
+    compoundIntentType: 0
+    compoundAmount: 0
+    compoundDescription: 
+    compoundActionId: 
+    compoundTemporaryCardContentId: 
+    compoundTemporaryCardPlacement: 0
+    compoundTemporaryCardMaxRemaining: 0
+  hasPhaseSwitch: 1
+  phaseHealthThresholdPercent: 50
+  phaseActionCountThreshold: 7
+  phaseTwoActions:
+  - intentType: 1
+    amount: 8
+    weight: 50
+    healthWeight: 1
+    canBeConsecutive: 1
+    prioritiseForStartPhase: 0
+    description: "\u62D2\u5B88\u75BE\u51FB"
+    actionId: action.gaolaozhuang.cave_demon_lord.quick_cut
+    temporaryCardContentId: 
+    temporaryCardPlacement: 0
+    temporaryCardMaxRemaining: 0
+    compoundPrimaryIntentType: 2
+    compoundIntentType: 0
+    compoundAmount: 0
+    compoundDescription: 
+    compoundActionId: 
+    compoundTemporaryCardContentId: 
+    compoundTemporaryCardPlacement: 0
+    compoundTemporaryCardMaxRemaining: 0
+  - intentType: 10
+    amount: 250
+    weight: 50
+    healthWeight: 1
+    canBeConsecutive: 1
+    prioritiseForStartPhase: 0
+    description: "\u62D2\u5B88\u62A4\u7532\u5E76\u6CE8\u5165\u4E71\u7075"
+    actionId: action.gaolaozhuang.cave_demon_lord.guard_and_confuse
+    temporaryCardContentId: 
+    temporaryCardPlacement: 0
+    temporaryCardMaxRemaining: 0
+    compoundPrimaryIntentType: 2
+    compoundIntentType: 9
+    compoundAmount: 1
+    compoundDescription: "\u6CE8\u5165\u4E71\u7075"
+    compoundActionId: action.gaolaozhuang.cave_demon_lord.confuse
+    compoundTemporaryCardContentId: card.xiyou.confuse
+    compoundTemporaryCardPlacement: 0
+    compoundTemporaryCardMaxRemaining: 3
+  useHealthGroups: 0
+  healthGroups: []
+  deathActions: []

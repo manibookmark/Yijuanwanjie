@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!1 &432552071426621710
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 7
+  m_Component:
+  - component: {fileID: 7881045711040415635}
+  - component: {fileID: 1329679358230789413}
+  - component: {fileID: 4720866928756811337}
+  - component: {fileID: 6436761799412347421}
+  m_Layer: 0
+  m_HasEditorInfo: 1
+  m_Name: MonsterSpiritAura
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7881045711040415635
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432552071426621710}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1225040436 &1329679358230789413
+InfinityData:
+  serializedVersion: 1
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432552071426621710}
+  m_Enabled: 1
+  m_InfinityAsset: {fileID: 5905505717634659298, guid: d7e1a1e6ac1147e5abbac2f3cb2b1d41, type: 2}
+  m_InstanceData:
+    m_CustomSimulationSpace: {fileID: 0}
+    m_ShapeMeshRenderer: {fileID: 0}
+    m_ShapeSkinnedMeshRenderer: {fileID: 0}
+    m_ShapeSpriteRenderer: {fileID: 0}
+    m_ExternalForceInfluenceList: []
+    m_CollisionPlanes: []
+    m_TriggerPrimitives: []
+    m_SubEmitterData: []
+    m_Light: {fileID: 0}
+    m_RendererAnchor: {fileID: 0}
+--- !u!114 &4720866928756811337
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432552071426621710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d1c19cb9bb45c890f38b5a99042a7d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_InfinityData: {fileID: 1329679358230789413}
+  m_PlaybackSpeed: 1
+  m_TotalTime: 0
+--- !u!114 &6436761799412347421
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 432552071426621710}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eee1325deb4e4a279d1661069b584abb, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  particleAmountMultiplier: 1.35
+  auraCoverageMultiplier: 1
+  floorBossSizeMultiplier: 1.25
+  stageBossSizeMultiplier: 1.35
+  normalizedOffset: {x: 0, y: -0.08}
+  spriteSizeMultiplier: {x: 0.72, y: 0.78}
+  minimumWorldSize: 0.1
+  pulseSpeed: 0
+  pulseMinimumScale: 1
+  pulseMaximumScale: 1
+  hoveredScale: 1.025
+  sortingOrderOffset: 1
+  showGroundingLayers: 0
+  showContactShadow: 1
+  groundStainOffsetFromFeet: {x: 0, y: 0.015}
+  groundStainSize: {x: 0.84, y: 0.16}
+  groundStainColor: {r: 0.1, g: 0.025, b: 0.14, a: 0.42}
+  contactShadowOffsetFromFeet: {x: 0, y: 0.01}
+  contactShadowSize: {x: 0.54, y: 0.075}
+  contactShadowColor: {r: 0.015, g: 0.012, b: 0.02, a: 0.58}
+  footVeilOffsetFromFeet: {x: 0, y: 0.07}
+  footVeilSize: {x: 0.72, y: 0.13}
+  footVeilColor: {r: 0.22, g: 0.2, b: 0.24, a: 0.3}
+  groundStainSortingOffset: -1
+  contactShadowSortingOffset: -1
+  footVeilSortingOffset: 1

@@ -1,0 +1,82 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e913b55977774bfd921d0a428c8b6f49, type: 3}
+  m_Name: yinjiangjun
+  m_EditorClassIdentifier: 
+  contentId: enemy.xiyou.yinjiangjun
+  actionPlaybackSpeed: 1.25
+  defendImpactNormalized: 0.46
+  idle:
+    frameAtlasResourcePath: Textures/BossAnimations/yinjiangjun-idle-boxer-atlas-v2
+    audioResourcePath: Audio/SFX/Boss/yinjiangjun-idle
+    frameCount: 48
+    atlasColumns: 6
+    atlasRows: 8
+    framesPerSecond: 12
+    audioVolume: 0.9
+  attack:
+    frameAtlasResourcePath: Textures/BossAnimations/yinjiangjun-camera-cross-atlas-v3
+    audioResourcePath: Audio/SFX/Boss/yinjiangjun-claw-attack
+    frameCount: 48
+    atlasColumns: 6
+    atlasRows: 8
+    framesPerSecond: 12
+    audioVolume: 1
+  defend:
+    frameAtlasResourcePath: Textures/BossAnimations/yinjiangjun-defend-atlas-v1
+    audioResourcePath: Audio/SFX/Boss/yinjiangjun-defend
+    frameCount: 48
+    atlasColumns: 6
+    atlasRows: 8
+    framesPerSecond: 12
+    audioVolume: 1
+  attackVariants:
+  - actionId: attack.yinjiangjun.spinning_sweep_kick
+    clip:
+      frameAtlasResourcePath: Textures/BossAnimations/yinjiangjun-spinning-sweep-kick-atlas-v2
+      audioResourcePath: Audio/SFX/Boss/yinjiangjun-spinning-sweep-kick
+      frameCount: 48
+      atlasColumns: 6
+      atlasRows: 8
+      framesPerSecond: 12
+      audioVolume: 1
+    hitNormalized: 0.5
+  - actionId: attack.yinjiangjun.camera_cross
+    clip:
+      frameAtlasResourcePath: Textures/BossAnimations/yinjiangjun-camera-cross-atlas-v3
+      audioResourcePath: Audio/SFX/Boss/yinjiangjun-claw-attack
+      frameCount: 48
+      atlasColumns: 6
+      atlasRows: 8
+      framesPerSecond: 12
+      audioVolume: 1
+    hitNormalized: 0.61
+  utilityVariants: []
+  entrance:
+    styleId: spirit_convergence
+    frameAtlasResourcePath: Textures/BossAnimations/yinjiangjun-map-palm-up-beckon-atlas-v5
+    atlasFrameCount: 32
+    atlasColumns: 8
+    atlasRows: 4
+    firstFrame: 4
+    playbackFrameCount: 24
+    framesPerSecond: 12
+    speechFrame: 8
+    speechDuration: 2.1
+    speakerName: "\u5BC5\u5C06\u519B"
+    speechText: "\u653E\u9A6C\u8FC7\u6765\uFF01"
+    voiceCueId: voice.yinjiangjun.entrance-taunt.v1
+    visualScaleRelativeToIdle: 0.853152
+    entranceGroundAnchorX: 0.40998757
+    entranceGroundAnchorY: 0.158372
+  groundAnchor: {x: 0.49434483, y: 0.14590542}
+  visualScale: 2.0590563

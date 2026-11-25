@@ -1,0 +1,509 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c012ed9835f4eb495b07f5f65bca0c2, type: 3}
+  m_Name: shuangchaling-g1f3-map
+  m_EditorClassIdentifier: 
+  contentId: map.xiyou.shuangchaling.f03.v1
+  background: {fileID: 21300000, guid: dd9e500883314ee2ab4e255efb42ac9d, type: 3}
+  orthographicSize: 5.4
+  backgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  debugFocusGroupId: node.xiyou.shuangchaling.f03.b01
+  interactionVisualPolicy: 0
+  nodes:
+  - contentId: map.visual.xiyou.shuangchaling.f03.o01.bat
+    interactionGroupId: node.xiyou.shuangchaling.f03.o01
+    enemyContentId: legacy.enemy.common.b83e679a
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.20944393, y: 0.25562972}
+    visualOffset: {x: 0, y: 0.021435454}
+    visualScale: 0.08716425
+    hitOffset: {x: 0, y: 0.048282057}
+    hitSize: {x: 1.4849999, y: 0.6328125}
+    sortingOrder: 20
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.o02.bat
+    interactionGroupId: node.xiyou.shuangchaling.f03.o02
+    enemyContentId: legacy.enemy.common.b83e679a
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.31205824, y: 0.40063915}
+    visualOffset: {x: 0, y: 0.021435454}
+    visualScale: 0.08716425
+    hitOffset: {x: 0, y: 0.048282057}
+    hitSize: {x: 1.4849999, y: 0.6328125}
+    sortingOrder: 20
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.o03.bat
+    interactionGroupId: node.xiyou.shuangchaling.f03.o03
+    enemyContentId: legacy.enemy.common.b83e679a
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.3030059, y: 0.5483261}
+    visualOffset: {x: 0, y: 0.021435454}
+    visualScale: 0.08716425
+    hitOffset: {x: 0, y: 0.048282057}
+    hitSize: {x: 1.4849999, y: 0.6328125}
+    sortingOrder: 20
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.jade01
+    interactionGroupId: node.xiyou.shuangchaling.f03.jade01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d6d3717c32c4afb928d336f4ade6a0d, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.7840871, y: 0.9190053}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.3515625
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 1.2, y: 1.2}
+    sortingOrder: 24
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.e01.snake
+    interactionGroupId: node.xiyou.shuangchaling.f03.e01
+    enemyContentId: enemy.xiyou.shuangchaling_coiled_snake_boss
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: e43dd36ed61f49a682e41dce24d2cd12, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.4201452, y: 0.81765085}
+    visualOffset: {x: 0, y: 0.21332753}
+    visualScale: 0.18770292
+    hitOffset: {x: 0, y: 0.2989201}
+    hitSize: {x: 1.4808259, y: 2.035}
+    sortingOrder: 28
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0.18
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.x01.gold-marten
+    interactionGroupId: node.xiyou.shuangchaling.f03.x01
+    enemyContentId: enemy.xiyou.shuangchaling_gold_marten
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d824bb99b1a4fc992e6ff90bf5ebb90, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.37998685, y: 0.9465398}
+    visualOffset: {x: 0, y: 0.07296035}
+    visualScale: 0.09131493
+    hitOffset: {x: 0, y: 0.11459994}
+    hitSize: {x: 0.86625, y: 0.99}
+    sortingOrder: 20
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.o04.minion
+    interactionGroupId: node.xiyou.shuangchaling.f03.o04
+    enemyContentId: enemy.xiyou.shuangchaling_ridge_minion
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: fc261dfa484b42c7a47a2cfd6ea5e7a4, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.6294779, y: 0.9209372}
+    visualOffset: {x: 0, y: 0.2100605}
+    visualScale: 0.1369724
+    hitOffset: {x: 0, y: 0.27251995}
+    hitSize: {x: 1.4849999, y: 1.4849999}
+    sortingOrder: 20
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.o05.minion
+    interactionGroupId: node.xiyou.shuangchaling.f03.o05
+    enemyContentId: enemy.xiyou.shuangchaling_ridge_minion
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: fc261dfa484b42c7a47a2cfd6ea5e7a4, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.36907864, y: 0.6312931}
+    visualOffset: {x: 0, y: 0.2100605}
+    visualScale: 0.1369724
+    hitOffset: {x: 0, y: 0.27251995}
+    hitSize: {x: 1.4849999, y: 1.4849999}
+    sortingOrder: 20
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.o06.huchang
+    interactionGroupId: node.xiyou.shuangchaling.f03.o06
+    enemyContentId: enemy.xiyou.shuangchaling_huchang
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3d9b6c8ca38c42d9ae9e6542e64e8b8c, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/huchang
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.17727941}
+      normalizedSize: {x: 0.5122059, y: 0.02598039}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.7776167, y: 0.7083219}
+    visualOffset: {x: 0.0014241338, y: -0.023648173}
+    visualScale: 0.105435796
+    hitOffset: {x: 0.02693963, y: 0.16735864}
+    hitSize: {x: 1.485, y: 1.3523196}
+    sortingOrder: 22
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0.08
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.jade02
+    interactionGroupId: node.xiyou.shuangchaling.f03.jade02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d6d3717c32c4afb928d336f4ade6a0d, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.8357701, y: 0.6477995}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.3515625
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 1.2, y: 1.2}
+    sortingOrder: 24
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.o07.minion
+    interactionGroupId: node.xiyou.shuangchaling.f03.o07
+    enemyContentId: enemy.xiyou.shuangchaling_ridge_minion
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: fc261dfa484b42c7a47a2cfd6ea5e7a4, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.83193237, y: 0.8424804}
+    visualOffset: {x: 0, y: 0.2100605}
+    visualScale: 0.1369724
+    hitOffset: {x: 0, y: 0.27251995}
+    hitSize: {x: 1.4849999, y: 1.4849999}
+    sortingOrder: 20
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.o08.bat
+    interactionGroupId: node.xiyou.shuangchaling.f03.o08
+    enemyContentId: legacy.enemy.common.b83e679a
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 3a2b718142924716a22685df08f1cf87, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.35369635, y: 0.7265652}
+    visualOffset: {x: 0, y: 0.021435454}
+    visualScale: 0.08716425
+    hitOffset: {x: 0, y: 0.048282057}
+    hitSize: {x: 1.4849999, y: 0.6328125}
+    sortingOrder: 20
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.b01.xiongshanjun
+    interactionGroupId: node.xiyou.shuangchaling.f03.b01
+    enemyContentId: enemy.xiyou.shuangchaling_xiongshanjun
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 7ee7a5e705ee4426a94095d9af052f3f, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.7123525, y: 0.41514912}
+    visualOffset: {x: 0, y: 0.36666667}
+    visualScale: 0.1904762
+    hitOffset: {x: 0, y: 0.36666667}
+    hitSize: {x: 2.8512003, y: 2.5344002}
+    sortingOrder: 30
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0.28
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.xiyou.shuangchaling.f03.exit.jade
+    interactionGroupId: node.xiyou.shuangchaling.f03.exit
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d6d3717c32c4afb928d336f4ade6a0d, type: 3}
+    spriteResourcePath: 
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.76180494, y: 0.31169945}
+    visualOffset: {x: 0, y: 0}
+    visualScale: 0.35
+    hitOffset: {x: 0, y: 0}
+    hitSize: {x: 0.85, y: 0.86}
+    sortingOrder: 32
+    initialState: 1
+    completionEffect: 2
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  dependencyVisualAnchors: []
+  explorationRewardSlots: []
+  battleBackground: {fileID: 21300000, guid: a9ddbefa824b48a290c455ecfc5770c7, type: 3}
+  battleBackgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  overrideBattleGridColor: 0
+  battleGridColor: {r: 0.42, g: 0.18, b: 0.1, a: 0.34}
+  battleTopFogEnabled: 0
+  transitionProfileContentId: transition.paper-cloud.standard.v1
+  layoutSource: 
+  layoutRoundId: 
+  layoutAppliedUtc: 
+  layoutCandidateSha256: 

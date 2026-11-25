@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3f0a9b7e42d4e3286b5197c8f1a2d64, type: 3}
+  m_Name: hub-portal-presentation
+  m_EditorClassIdentifier: 
+  _contentId: presentation.hub.wanjie-portal.stage01.v1
+  _formationCentre: {x: 964.9, y: 613.9}
+  _formationDiameter: 534.7
+  _formationTiltDegrees: 71.09
+  _formationRotationDegrees: 0
+  _idleBaseFlowStrength: 0.45
+  _idleFlowInterval: 3.1
+  _idleFlowDuration: 2.5
+  _idleFlowStrength: 1
+  _idleFlowSpeed: 0.78
+  _hoverSpinSpeedDegrees: 9.4
+  _hoverReturnSpeedDegrees: 32
+  _openingSpinDuration: 0.3
+  _openingSpinTurns: 0.9
+  _openingSinkStrength: 0.05
+  _pullDuration: 0.76
+  _pullParticleCount: 216
+  _pullParticleScale: 1.048
+  _pullParticleBrightness: 1.12
+  _selectionScrimAlpha: 0.88

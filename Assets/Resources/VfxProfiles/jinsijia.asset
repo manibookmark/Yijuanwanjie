@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a87c3cc1b996e544988bed031c63bfb, type: 3}
+  m_Name: jinsijia
+  m_EditorClassIdentifier:
+  contentId: legacy.card.common.cab047cb
+  projectileSprite: {fileID: 0}
+  visualType: Sprite
+  projectileScale: 0.3
+  flightDuration: 0.18
+  flightArc: 0
+  flightArcHeight: 0
+  multiProjectileDelay: 0.045
+  useAuthoritativeHitSequence: 0
+  bounceScaleMultiplier: 0.72
+  selfEffectStyle: 0
+  selfEffectPrimaryColor: {r: 0.95, g: 0.65, b: 0.12, a: 1}
+  selfEffectSecondaryColor: {r: 1, g: 0.94, b: 0.62, a: 0.94}
+  selfEffectDuration: 0.82
+  selfEffectScale: 1.08
+  selfEffectParticleCount: 16
+  enableTrail: 0
+  trailColor: {r: 1, g: 0.82, b: 0.25, a: 0.7}
+  trailWidth: 0.06
+  trailTime: 0.1
+  hitParticleTexture: {fileID: 0}
+  hitParticleColor: {r: 1, g: 0.82, b: 0.25, a: 1}
+  hitParticleCount: 0
+  hitParticleSize: 0.05
+  hitParticleSpeed: 2
+  hitParticleLifetime: 0.2
+  secondaryParticleTexture: {fileID: 0}
+  secondaryParticleColor: {r: 0.46, g: 0.24, b: 0.06, a: 0.85}
+  secondaryParticleCount: 0
+  secondaryParticleSize: 0.04
+  secondaryParticleSpeed: 1.2
+  secondaryParticleLifetime: 0.22
+  punchScaleIntensity: 0.1
+  critPunchScaleIntensity: 0.2
+  hitStopDuration: 0.015
+  critHitStopDuration: 0.03
+  hitStopTimeScale: 0.06
+  deathEffect: 0
+  playSfxClip: {fileID: 8300000, guid: 24d558969af34d45b53002d1f181d8eb, type: 3}
+  playSfxPath: Audio/SFX/armor-gain-01
+  playSfxGain: 0.82
+  hitSfxPath: 
+  hitSfxGain: 1
+  fallbackContentId:
+  critSfxPath:
+  critSfxGain: 1

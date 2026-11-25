@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2204209db2e44a75a53aac3bce9ac83d, type: 3}
+  m_Name: shuangchaling-v1
+  m_EditorClassIdentifier:
+  schemaVersion: 1
+  contentId: run-entry.xiyou.shuangchaling.v1
+  firstFloorContentId: level.xiyou.shuangchaling.v1
+  volumeId: xiyou
+  entrySnapshotId: snapshot.xiyou.shuangchaling.f01.start
+  referenceLoadoutContentId:
+  sideEventTimelineContentId:
+  maxHealth: 50
+  baseMana: 2
+  handSize: 3
+  commonCardContentIds:
+  - legacy.card.common.7e46b7e4
+  - legacy.card.xiyou.0578cfde
+  - legacy.card.common.f22c29d6
+  - legacy.card.common.973d06a5
+  - legacy.card.common.2927e58a

@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805ec6b225aa4edaa5ba552bfc217f0c, type: 3}
+  m_Name: refund-uncommon
+  m_EditorClassIdentifier:
+  contentId: seal.xiyou.refund.uncommon.v1
+  displayName: "返灵印"
+  sealCharacter: "返"
+  effectType: 10
+  effectValue: 1
+  grade: 1
+  material: 3
+  presentationId: reward.reveal.seal.refund.uncommon.v1
+  description: "宿主卡牌结算后，以本回合临时灵力返还此次实际支付量。不增加基础灵力；没有正支付时不返还。"

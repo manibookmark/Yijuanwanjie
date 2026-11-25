@@ -1,0 +1,85 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c19177bf24744be8ae5667acbc03825, type: 3}
+  m_Name: library-ecto
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  contentId: behavior.enemy.xiyou.library-ecto.v1
+  selectionMode: 1
+  avoidImmediateRepeat: 0
+  actions: []
+  hasPhaseSwitch: 0
+  phaseHealthThresholdPercent: 50
+  phaseActionCountThreshold: 7
+  phaseTwoActions: []
+  useHealthGroups: 1
+  healthGroups:
+  - requiredHealthPercent: 100
+    turnCountdown: -1
+    actions:
+    - intentType: 1
+      amount: 1
+      weight: 70
+      healthWeight: 70
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: "\u5F31\u6C34\u6251\u51FB"
+      actionId: behavior.enemy.xiyou.library-ecto.v1.g0.a0
+      temporaryCardContentId: 
+      temporaryCardPlacement: 0
+      temporaryCardMaxRemaining: 0
+      compoundPrimaryIntentType: 2
+      compoundIntentType: 0
+      compoundAmount: 0
+      compoundDescription: 
+      compoundActionId: 
+      compoundTemporaryCardContentId: 
+      compoundTemporaryCardPlacement: 0
+      compoundTemporaryCardMaxRemaining: 0
+    - intentType: 2
+      amount: 6
+      weight: 25
+      healthWeight: 25
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: "\u805A\u6CE5\u62A4\u4F53"
+      actionId: behavior.enemy.xiyou.library-ecto.v1.g0.a1
+      temporaryCardContentId: 
+      temporaryCardPlacement: 0
+      temporaryCardMaxRemaining: 0
+      compoundPrimaryIntentType: 2
+      compoundIntentType: 0
+      compoundAmount: 0
+      compoundDescription: 
+      compoundActionId: 
+      compoundTemporaryCardContentId: 
+      compoundTemporaryCardPlacement: 0
+      compoundTemporaryCardMaxRemaining: 0
+    - intentType: 7
+      amount: 0
+      weight: 5
+      healthWeight: 5
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: "\u6682\u6B47"
+      actionId: behavior.enemy.xiyou.library-ecto.v1.g0.a2
+      temporaryCardContentId: 
+      temporaryCardPlacement: 0
+      temporaryCardMaxRemaining: 0
+      compoundPrimaryIntentType: 2
+      compoundIntentType: 0
+      compoundAmount: 0
+      compoundDescription: 
+      compoundActionId: 
+      compoundTemporaryCardContentId: 
+      compoundTemporaryCardPlacement: 0
+      compoundTemporaryCardMaxRemaining: 0

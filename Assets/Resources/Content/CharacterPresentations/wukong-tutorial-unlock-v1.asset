@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352414a495174cb9a747b1c2cea58c8a, type: 3}
+  m_Name: wukong-tutorial-unlock-v1
+  m_EditorClassIdentifier: 
+  contentId: presentation.character.wukong.tutorial-unlock.v1
+  subjectContentId: legacy.crawler.common.5a3f3db3
+  frameAtlas: {fileID: 2800000, guid: 0f71c51641c24f1fbe521677266edf6e, type: 3}
+  frameCount: 121
+  atlasColumns: 16
+  atlasRows: 8
+  framesPerSecond: 60
+  playbackMode: 0
+  completionMode: 1
+  hintTiming: 1
+  repeatMode: 0
+  panelStyle: 1
+  effectPreset: 0
+  enterDuration: 0.3
+  panelFadeDuration: 0.18
+  exitDuration: 0.32
+  placement: 1
+  displayHeight: 720
+  anchoredOffset: {x: 0, y: 48}
+  dialoguePanelOffset: {x: 0, y: 0}
+  dialoguePanelSize: {x: 800, y: 184}
+  dialogueFontSize: 27
+  speakerFontSize: 24
+  dismissHintFontSize: 18
+  backdropColor: {r: 0.02, g: 0.014, b: 0.009, a: 0.2}
+  displayTitle: 齐天大圣 · 孙悟空
+  dismissHint: 点击继续
+  openingAudioCueId: sfx.presentation.wukong.reveal.v1
+  lines:
+  - speakerName: 孙悟空
+    text: 俺老孙来也！
+    visibleSeconds: 3.2
+    audioCueId: voice.wukong.arrival.v1

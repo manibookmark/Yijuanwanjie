@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 805ec6b225aa4edaa5ba552bfc217f0c, type: 3}
+  m_Name: evolution-immortal
+  m_EditorClassIdentifier: 
+  contentId: seal.common.huaxing.immortal.v1
+  displayName: "\u5316\u5F62\u5370"
+  sealCharacter: "\u5316"
+  effectType: 8
+  effectValue: 1
+  grade: 4
+  material: 1
+  presentationId: reward.reveal.seal.huaxing.immortal.v1
+  description: "将一张卡牌进化为更强形态，占用1个印位，保留原有灵印。"

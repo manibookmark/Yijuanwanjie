@@ -1,0 +1,846 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143359128dc37dc47912248c427531f1, type: 3}
+  m_Name: yingchoujian-g2f3
+  m_EditorClassIdentifier: 
+  contentId: floor.xiyou.yingchoujian.f03
+  dungeonContentId: dungeon.xiyou.yingchoujian
+  dungeonBonusJade: 0
+  levelBonusBaseJade: 0
+  floorIndex: 3
+  nextFloorContentId: floor.xiyou.yingchoujian.f04
+  victoryNextRunEntryContentId: 
+  prerequisiteLevelContentId: 
+  displayName: "\u9E70\u6101\u6DA7\xB7\u5C01\u6F6E\u6C89\u6E7E"
+  mapPresentationContentId: map.xiyou.yingchoujian.f03.v1
+  entryPresentationId: 
+  entryPresentationVariantId: 
+  hideMapNodesDuringEntryPresentation: 0
+  defaultSnapshotId: snapshot.xiyou.yingchoujian.f03.start
+  levelExperienceRules:
+    baseRequirement: 25
+    curveExponent: 2
+    continuationMode: 1
+    continuationIncrement: 14
+    explicitRequirements: 050000000f000000190000002300000032000000400000004e0000005c0000006a000000780000008600000094000000a2000000
+  levelUpRewardRuleProfileId: reward.level-up.global.v1
+  levelUpOfferScheduleProfileId: 
+  nodes:
+  - contentId: node.xiyou.yingchoujian.f03.e01
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.yingchoujian.f03.e01.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_yingchoujian_f03_e01.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.6
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.e02
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.yingchoujian.f03.e02.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_yingchoujian_f03_e02.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.6
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.e03
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.yingchoujian.f03.e03.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_yingchoujian_f03_e03.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.5
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.e04
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.yingchoujian.f03.e04.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_yingchoujian_f03_e04.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.2
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.e05
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.yingchoujian.f03.e05.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_yingchoujian_f03_e05.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.4
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.e06
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.yingchoujian.f03.e06.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_yingchoujian_f03_e06.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.6
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.e07
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.yingchoujian.f03.e07.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_yingchoujian_f03_e07.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.53333336
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.i06
+    nodeType: 1
+    encounterRole: 0
+    scenarioId: battle.xiyou.yingchoujian.f03.i06.v1
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.b01
+    nodeType: 1
+    encounterRole: 0
+    scenarioId: battle.xiyou.yingchoujian.f03.b01.v1
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds: []
+    victoryRewards:
+    - contentId: reward.xiyou.yingchoujian.f03.b01.seal-choice.v1
+      kind: 1
+      targetContentId: 
+      sealChoiceContentIds:
+      - seal.xiyou.amount.common.v1
+      - seal.xiyou.benglie.common.v1
+      - seal.xiyou.armor.common.v1
+      sealRewardPoolId: 
+      sealChoiceCount: 0
+      sealChoiceCountMax: 0
+      allowCashOut: 1
+      presentationId: 
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.i01
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.yingchoujian.f03.e04
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.yingchoujian.f03.i01.mana.v1
+      kind: 0
+      amount: 1
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u7075\u529B\u6CC9"
+      detailText: "\u672C\u6B21\u63A2\u7D22\u7075\u529B\u4E0A\u9650 +1\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.i02
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.yingchoujian.f03.e01
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.yingchoujian.f03.i02.heal.v1
+      kind: 4
+      amount: 10
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u56FA\u5143\u6CC9"
+      detailText: "\u6062\u590D\u5F53\u524D\u751F\u547D +10\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.i03
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.yingchoujian.f03.e02
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.yingchoujian.f03.i03.liekong.v1
+      kind: 16
+      amount: 10
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u88C2\u7A7A\u6CC9"
+      detailText: "\u672C\u6B21\u63A2\u7D22\u88C2\u7A7A +10 \u4E2A\u767E\u5206\u70B9\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.i04
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.yingchoujian.f03.e07
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.yingchoujian.f03.i04.clover.v1
+      kind: 8
+      amount: 1
+      amountMax: 0
+      targetContentId: card.xiyou.fuyuncao.v1
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u798F\u8FD0\u8349"
+      detailText: "\u56FA\u5B9A\u83B7\u5F97\u798F\u8FD0\u8349\uFF1B\u5B9E\u9645\u6253\u51FA\u540E\u672C\u6B21\u63A2\u7D22\u5929\u8FD0
+        +10%\uFF0C\u968F\u540E\u9500\u6BC1\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.i05
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.yingchoujian.f03.e06
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.yingchoujian.f03.i05.clover.v1
+      kind: 8
+      amount: 1
+      amountMax: 0
+      targetContentId: card.xiyou.fuyuncao.v1
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u798F\u8FD0\u8349"
+      detailText: "\u56FA\u5B9A\u83B7\u5F97\u798F\u8FD0\u8349\uFF1B\u5B9E\u9645\u6253\u51FA\u540E\u672C\u6B21\u63A2\u7D22\u5929\u8FD0
+        +10%\uFF0C\u968F\u540E\u9500\u6BC1\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.i07
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.yingchoujian.f03.e03
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.yingchoujian.f03.i07.coin-bag.v1
+      kind: 8
+      amount: 1
+      amountMax: 0
+      targetContentId: legacy.card.common.9f958e38
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u7075\u7389\u888B"
+      detailText: "\u83B7\u5F97\u7075\u7389\u888B1\u5F20\uFF1B\u6253\u51FA\u540E\u6309\u5361\u724C\u6548\u679C\u7ED3\u7B97\u7075\u7389\u5E76\u9500\u6BC1\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.c01
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.yingchoujian.f03.i06
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.yingchoujian.f03.c01.random-seal.v1
+      kind: 11
+      amount: 3
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u94A4\u5370\u5323"
+      detailText: "\u4ECE\u8D26\u53F7\u5DF2\u89E3\u9501\u7684\u94DC\u7EB9\u7075\u5370\u6C60\u968F\u673A\u751F\u6210
+        3 \u4E2A\u4E0D\u91CD\u590D\u5019\u9009\uFF1B\u9009\u62E9\u4E00\u679A\u94A4\u5370\uFF0C\u6216\u5C06\u6574\u5323\u5316\u4E3A
+        200 \u7075\u7389\u3002"
+      sealChoices: []
+      sealRewardPoolId: pool.seal.xiyou.copper-chest.unlocked.v1
+      cashOutJade: 200
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.c02
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.yingchoujian.f03.e05
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.yingchoujian.f03.c02.silver-seal.v1
+      kind: 11
+      amount: 3
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: 
+      rarity: 0
+      summaryText: "\u94F6\u7EB9\u94A4\u5370\u5323"
+      detailText: "\u4ECE\u8D26\u53F7\u5DF2\u89E3\u9501\u7075\u5370\u6C60\u968F\u673A\u751F\u6210
+        3 \u4E2A\u4E0D\u91CD\u590D\u5019\u9009\uFF0C\u5E76\u4F18\u5148\u4FDD\u8BC1
+        1 \u679A\u9AD8\u7B49\u7EA7\u7075\u5370\uFF1B\u4E0D\u8DB3\u65F6\u7531\u5B8C\u6574\u6C60\u8865\u9F50\u3002\u9009\u62E9\u4E00\u679A\u94A4\u5370\uFF0C\u6216\u5C06\u6574\u5323\u5316\u4E3A
+        200 \u7075\u7389\u3002"
+      sealChoices: []
+      sealRewardPoolId: pool.seal.xiyou.silver-chest.unlocked.v1
+      cashOutJade: 200
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      duplicateOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      gunForHire:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      cardStatOffering:
+        sourceEventId: 
+        rootContentId: 
+        sourceFingerprint: 
+        poolPolicyId: 
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.yingchoujian.f03.exit
+    nodeType: 4
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.yingchoujian.f03.b01
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  snapshots:
+  - snapshotId: snapshot.xiyou.yingchoujian.f03.start
+    nodeStates:
+    - nodeContentId: node.xiyou.yingchoujian.f03.e01
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.e02
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.e03
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.e04
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.e05
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.e06
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.e07
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.i06
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.b01
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.i01
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.i02
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.i03
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.i04
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.i05
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.i07
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.c01
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.c02
+      progress: 1
+    - nodeContentId: node.xiyou.yingchoujian.f03.exit
+      progress: 0
+  explorationGuards: []
+  commonFormationRevision: 0

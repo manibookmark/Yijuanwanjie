@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e913b55977774bfd921d0a428c8b6f49, type: 3}
+  m_Name: liejuan-yaowang
+  m_EditorClassIdentifier: 
+  contentId: enemy.xiyou.gaolaozhuang_cave_demon_lord
+  actionPlaybackSpeed: 1
+  defendImpactNormalized: 0.25
+  idle:
+    frameAtlasResourcePath: Textures/BossAnimations/liejuan-yaowang-idle-atlas-v1
+    audioResourcePath: Audio/SFX/Boss/liejuan-yaowang-idle-v1
+    frameCount: 48
+    atlasColumns: 7
+    atlasRows: 7
+    framesPerSecond: 11.405941
+    audioVolume: 0.65
+  attack:
+    frameAtlasResourcePath: Textures/BossAnimations/liejuan-yaowang-attack-atlas-v1
+    audioResourcePath: Audio/SFX/Boss/liejuan-yaowang-attack-v1
+    frameCount: 48
+    atlasColumns: 7
+    atlasRows: 7
+    framesPerSecond: 12
+    audioVolume: 1
+  defend:
+    frameAtlasResourcePath: Textures/BossAnimations/liejuan-yaowang-defend-atlas-v1
+    audioResourcePath: Audio/SFX/Boss/liejuan-yaowang-defend-v1
+    frameCount: 48
+    atlasColumns: 7
+    atlasRows: 7
+    framesPerSecond: 12
+    audioVolume: 1
+  attackVariants:
+  - actionId: action.gaolaozhuang.cave_demon_lord.cleave
+    clip:
+      frameAtlasResourcePath: Textures/BossAnimations/liejuan-yaowang-attack-atlas-v1
+      audioResourcePath: Audio/SFX/Boss/liejuan-yaowang-attack-v1
+      frameCount: 48
+      atlasColumns: 7
+      atlasRows: 7
+      framesPerSecond: 12
+      audioVolume: 1
+    hitNormalized: 0.34375
+  - actionId: action.gaolaozhuang.cave_demon_lord.quick_cut
+    clip:
+      frameAtlasResourcePath: Textures/BossAnimations/liejuan-yaowang-attack-atlas-v1
+      audioResourcePath: Audio/SFX/Boss/liejuan-yaowang-attack-quick-v1
+      frameCount: 48
+      atlasColumns: 7
+      atlasRows: 7
+      framesPerSecond: 18
+      audioVolume: 1
+    hitNormalized: 0.34375
+  utilityVariants:
+  - actionId: action.gaolaozhuang.cave_demon_lord.seal_guard
+    steps:
+    - resolveImpact: 1
+      impactNormalized: 0.25
+      emitSpellRelease: 0
+      releaseNormalized: 0
+      sourceAnchorNormalized: {x: 0.5, y: 0.5}
+      clip:
+        frameAtlasResourcePath: Textures/BossAnimations/liejuan-yaowang-defend-atlas-v1
+        audioResourcePath: Audio/SFX/Boss/liejuan-yaowang-defend-v1
+        frameCount: 48
+        atlasColumns: 7
+        atlasRows: 7
+        framesPerSecond: 12
+        audioVolume: 1
+  - actionId: action.gaolaozhuang.cave_demon_lord.confuse
+    steps:
+    - resolveImpact: 1
+      impactNormalized: 0.34375
+      emitSpellRelease: 1
+      releaseNormalized: 0.34375
+      sourceAnchorNormalized: {x: 0.2934729, y: 0.8466705}
+      clip:
+        frameAtlasResourcePath: Textures/BossAnimations/liejuan-yaowang-confuse-atlas-v1
+        audioResourcePath: Audio/SFX/Boss/liejuan-yaowang-confuse-v1
+        frameCount: 48
+        atlasColumns: 7
+        atlasRows: 7
+        framesPerSecond: 12
+        audioVolume: 1
+  - actionId: action.gaolaozhuang.cave_demon_lord.guard_and_confuse
+    steps:
+    - resolveImpact: 1
+      impactNormalized: 0.25
+      emitSpellRelease: 0
+      releaseNormalized: 0
+      sourceAnchorNormalized: {x: 0.5, y: 0.5}
+      clip:
+        frameAtlasResourcePath: Textures/BossAnimations/liejuan-yaowang-defend-atlas-v1
+        audioResourcePath: Audio/SFX/Boss/liejuan-yaowang-defend-v1
+        frameCount: 48
+        atlasColumns: 7
+        atlasRows: 7
+        framesPerSecond: 12
+        audioVolume: 1
+    - resolveImpact: 0
+      impactNormalized: 0.34375
+      emitSpellRelease: 1
+      releaseNormalized: 0.34375
+      sourceAnchorNormalized: {x: 0.2934729, y: 0.8466705}
+      clip:
+        frameAtlasResourcePath: Textures/BossAnimations/liejuan-yaowang-confuse-atlas-v1
+        audioResourcePath: Audio/SFX/Boss/liejuan-yaowang-confuse-v1
+        frameCount: 48
+        atlasColumns: 7
+        atlasRows: 7
+        framesPerSecond: 12
+        audioVolume: 1
+  entrance:
+    styleId: impact_drop
+    frameAtlasResourcePath: 
+    atlasFrameCount: 32
+    atlasColumns: 8
+    atlasRows: 4
+    firstFrame: 4
+    playbackFrameCount: 24
+    framesPerSecond: 12
+    speechFrame: 8
+    speechDuration: 2.1
+    speakerName: 
+    speechText: 
+    voiceCueId: 
+    visualScaleRelativeToIdle: 1
+    entranceGroundAnchorX: 0.5
+    entranceGroundAnchorY: 0.05
+  groundAnchor: {x: 0.5, y: 0.14595349}
+  visualScale: 3.8296065

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7dd53896043a46299d8795fe7d22a629, type: 3}
+  m_Name: liejuan-staff-pressure
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  effectId: effect.boss.liejuan_staff_pressure.v1
+  displayName: "\u88C2\u5377\u6756\u538B"
+  usage: 0
+  visualKind: 0
+  duration: 0.38
+  visualScale: 1.5
+  particleCount: 96
+  primaryColor: {r: 0.67, g: 0.44, b: 0.81, a: 0.72}
+  coreColor: {r: 0.84, g: 0.74, b: 0.96, a: 0.9}
+  debrisColor: {r: 0.18, g: 0.1, b: 0.25, a: 0.45}
+  screenMotion: 1
+  screenMotionDuration: 0.2
+  screenMotionAmplitude: 0.02

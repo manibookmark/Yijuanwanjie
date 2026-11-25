@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a87c3cc1b996e544988bed031c63bfb, type: 3}
+  m_Name: shawujing
+  m_EditorClassIdentifier:
+  contentId: card.xiyou.shawujing.v1
+  projectileSprite: {fileID: 0}
+  visualType: Sprite
+  useAuthoritativeHitSequence: 0
+  periodicFireCrow: 0
+  selfEffectStyle: 0
+  selfEffectParticleShape: {fileID: 0}
+  selfEffectParticleCount: 0
+  enableTrail: 0
+  hitParticleCount: 0
+  secondaryParticleCount: 0
+  deathEffect: 0
+  playSfxClip: {fileID: 0}
+  playSfxPath:
+  playSfxGain: 1
+  hitSfxPath:
+  hitSfxGain: 1
+  fallbackContentId:
+
+

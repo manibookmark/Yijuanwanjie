@@ -1,0 +1,385 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8c012ed9835f4eb495b07f5f65bca0c2, type: 3}
+  m_Name: liushahe-g4f01-map
+  m_EditorClassIdentifier: 
+  contentId: map.xiyou.liushahe.f01.v1
+  background: {fileID: 21300000, guid: c8bcaafc4aa0f0044a9b5a0fba7b1a2b, type: 3}
+  orthographicSize: 5.4
+  backgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  debugFocusGroupId: 
+  interactionVisualPolicy: 0
+  nodes:
+  - contentId: map.visual.node.xiyou.liushahe.f01.e01
+    interactionGroupId: node.xiyou.liushahe.f01.e01
+    enemyContentId: enemy.xiyou.liushahe_mudman.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 6ffc944c0ceafeb44b3f6ab678fbe393, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-mudman-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.30143228}
+      normalizedSize: {x: 0.38671875, y: 0.0309375}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.12, y: 0.24}
+    visualScale: 0.24509804
+    hitSize: {x: 1.5745099, y: 1.65}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.q01
+    interactionGroupId: node.xiyou.liushahe.f01.q01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: baee10e728c2482aa3848ef2f9dd801f, type: 3}
+    spriteResourcePath: Sprites/UI/MapRewards/seal-cache-open-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.18, y: 0.55}
+    visualScale: 0.9
+    hitSize: {x: 0.9431517, y: 0.99}
+    sortingOrder: 24
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.e02
+    interactionGroupId: node.xiyou.liushahe.f01.e02
+    enemyContentId: enemy.xiyou.liushahe_mudman.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 6ffc944c0ceafeb44b3f6ab678fbe393, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-mudman-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.30143228}
+      normalizedSize: {x: 0.38671875, y: 0.0309375}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.28, y: 0.205}
+    visualScale: 0.24509804
+    hitSize: {x: 1.5745099, y: 1.65}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.e03
+    interactionGroupId: node.xiyou.liushahe.f01.e03
+    enemyContentId: enemy.xiyou.liushahe_mudman.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 6ffc944c0ceafeb44b3f6ab678fbe393, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-mudman-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.30143228}
+      normalizedSize: {x: 0.38671875, y: 0.0309375}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.42, y: 0.255}
+    visualScale: 0.24509804
+    hitSize: {x: 1.5745099, y: 1.65}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.s01
+    interactionGroupId: node.xiyou.liushahe.f01.s01
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: baee10e728c2482aa3848ef2f9dd801f, type: 3}
+    spriteResourcePath: Sprites/UI/MapRewards/seal-cache-open-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.48, y: 0.55}
+    visualScale: 0.9
+    hitSize: {x: 0.9431517, y: 0.99}
+    sortingOrder: 24
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.e04
+    interactionGroupId: node.xiyou.liushahe.f01.e04
+    enemyContentId: enemy.xiyou.liushahe_mudman.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 6ffc944c0ceafeb44b3f6ab678fbe393, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-mudman-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.30143228}
+      normalizedSize: {x: 0.38671875, y: 0.0309375}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.56, y: 0.225}
+    visualScale: 0.24509804
+    hitSize: {x: 1.5745099, y: 1.65}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.q02
+    interactionGroupId: node.xiyou.liushahe.f01.q02
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 77544e908cd9477580ea040f7c750fd5, type: 3}
+    spriteResourcePath: Sprites/UI/MapRewards/evolution-statue-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.65, y: 0.55}
+    visualScale: 1.1
+    hitSize: {x: 1.1830112, y: 1.2100002}
+    sortingOrder: 24
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.e05
+    interactionGroupId: node.xiyou.liushahe.f01.e05
+    enemyContentId: enemy.xiyou.liushahe_mudman.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 6ffc944c0ceafeb44b3f6ab678fbe393, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-mudman-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.30143228}
+      normalizedSize: {x: 0.38671875, y: 0.0309375}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.71, y: 0.25}
+    visualScale: 0.24509804
+    hitSize: {x: 1.5745099, y: 1.65}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.e06
+    interactionGroupId: node.xiyou.liushahe.f01.e06
+    enemyContentId: enemy.xiyou.liushahe_mudman.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 6ffc944c0ceafeb44b3f6ab678fbe393, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-mudman-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.30143228}
+      normalizedSize: {x: 0.38671875, y: 0.0309375}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.82, y: 0.215}
+    visualScale: 0.24509804
+    hitSize: {x: 1.5745099, y: 1.65}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.b01
+    interactionGroupId: node.xiyou.liushahe.f01.b01
+    enemyContentId: enemy.xiyou.liushahe_mudman_elite.v1
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: abbe35dc99457b3468de32ea9b40a399, type: 3}
+    spriteResourcePath: Sprites/Enemies/Papercraft/Map/g4-mudman-elite-v1
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 1
+      normalizedCenter: {x: 0.5, y: 0.25924924}
+      normalizedSize: {x: 0.5382, y: 0.02123123}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.86, y: 0.55}
+    visualScale: 0.18729097
+    hitSize: {x: 2.64, y: 1.584}
+    sortingOrder: 24
+    initialState: 2
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  - contentId: map.visual.node.xiyou.liushahe.f01.exit
+    interactionGroupId: node.xiyou.liushahe.f01.exit
+    enemyContentId: 
+    visualKind: 0
+    sprite: {fileID: 21300000, guid: 9d6d3717c32c4afb928d336f4ade6a0d, type: 3}
+    spriteResourcePath: Sprites/Maps/jade-node
+    spriteSequence:
+      frameAtlas: {fileID: 0}
+      frameCount: 48
+      atlasColumns: 8
+      atlasRows: 6
+      framesPerSecond: 12
+      groundAnchorNormalizedY: -1
+      playOnceThenHoldFirstFrame: 0
+      reviewReplayDelaySeconds: 1.5
+    contactShadow:
+      isConfigured: 0
+      normalizedCenter: {x: 0, y: 0}
+      normalizedSize: {x: 0, y: 0}
+    stateVisualPrefab: {fileID: 0}
+    normalizedPosition: {x: 0.9, y: 0.74}
+    visualScale: 0.35
+    hitSize: {x: 0.84700006, y: 0.86240005}
+    sortingOrder: 24
+    initialState: 1
+    completionEffect: 0
+    battleForeground: {fileID: 0}
+    battleForegroundTint: {r: 1, g: 1, b: 1, a: 1}
+    battleForegroundOffset: {x: 0, y: 0}
+    battleForegroundScale: 1
+    battleFogIntensity: 0
+    postVictoryRevealSprite: {fileID: 0}
+  dependencyVisualAnchors: []
+  explorationRewardSlots: []
+  battleBackground: {fileID: 21300000, guid: 1dd9742e9ba66974da01cb0095ff433b, type: 3}
+  battleBackgroundTint: {r: 1, g: 1, b: 1, a: 1}
+  overrideBattleGridColor: 0
+  battleGridColor: {r: 0.42, g: 0.18, b: 0.1, a: 0.34}
+  battleTopFogEnabled: 0
+  transitionProfileContentId: transition.paper-cloud.standard.v1
+  layoutSource: ai-annotation
+  layoutRoundId: g4f1-paper-riverbank-remediation-20261016
+  layoutAppliedUtc: 2026-10-16T03:03:43.4380145Z
+  layoutCandidateSha256: 

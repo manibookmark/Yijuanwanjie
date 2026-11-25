@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 15f38a252376895469e17aa254530f94, type: 3}
+  m_Name: yinjiangjun
+  m_EditorClassIdentifier: 
+  contentId: enemy.xiyou.yinjiangjun
+  actionPlaybackSpeed: 1.25
+  defendImpactNormalized: 0.46
+  idle:
+    frameAtlas: {fileID: 2800000, guid: b77e60a0a1e249968b54156170e54bcf, type: 3}
+    frameCount: 48
+    atlasColumns: 6
+    atlasRows: 8
+    framesPerSecond: 12
+    audioClip: {fileID: 8300000, guid: a757f3a0831784241834a6f2654a8568, type: 3}
+    audioVolume: 0.9
+  attack:
+    frameAtlas: {fileID: 2800000, guid: 3af1332a559a4e70b99f839c2c31a6e6, type: 3}
+    frameCount: 48
+    atlasColumns: 6
+    atlasRows: 8
+    framesPerSecond: 12
+    audioClip: {fileID: 8300000, guid: 1b89122bf7da62d4dad8326a3a631c2b, type: 3}
+    audioVolume: 1
+  defend:
+    frameAtlas: {fileID: 2800000, guid: 2a23da974a5646a28cf7392d143f5483, type: 3}
+    frameCount: 48
+    atlasColumns: 6
+    atlasRows: 8
+    framesPerSecond: 12
+    audioClip: {fileID: 8300000, guid: 9445c153e47ad44449141d2df10804d1, type: 3}
+    audioVolume: 1
+  attackVariants:
+  - actionId: attack.yinjiangjun.spinning_sweep_kick
+    clip:
+      frameAtlas: {fileID: 2800000, guid: f0858b5699ea4558a37d8f517fade4bc, type: 3}
+      frameCount: 48
+      atlasColumns: 6
+      atlasRows: 8
+      framesPerSecond: 12
+      audioClip: {fileID: 8300000, guid: 32d2169d1b1a46138359679755cf8f43, type: 3}
+      audioVolume: 1
+    hitNormalized: 0.5
+  - actionId: attack.yinjiangjun.camera_cross
+    clip:
+      frameAtlas: {fileID: 2800000, guid: 3af1332a559a4e70b99f839c2c31a6e6, type: 3}
+      frameCount: 48
+      atlasColumns: 6
+      atlasRows: 8
+      framesPerSecond: 12
+      audioClip: {fileID: 8300000, guid: 1b89122bf7da62d4dad8326a3a631c2b, type: 3}
+      audioVolume: 1
+    hitNormalized: 0.61
+  utilityVariants: []
+  groundAnchor: {x: 0.49434483, y: 0.14590542}
+  visualScale: 2.0590563

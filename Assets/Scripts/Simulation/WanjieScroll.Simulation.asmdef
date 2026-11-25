@@ -1,0 +1,17 @@
+{
+    "name": "WanjieScroll.Simulation",
+    "rootNamespace": "WanjieScroll.Simulation",
+    "references": [
+        "WanjieScroll.Core",
+        "WanjieScroll.Content"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

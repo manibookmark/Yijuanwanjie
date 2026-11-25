@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b418109531b85b4fbb508c8d09ddf27, type: 3}
+  m_Name: TutorialHuaguoshanW02
+  m_EditorClassIdentifier: 
+  schemaVersion: 3
+  scenarioId: battle.tutorial.huaguoshan.w02.v1
+  volumeId: xiyou
+  maxHealth: 50
+  baseMana: 2
+  handLimit: 3
+  turnDrawCount: 3
+  might: 0
+  luck: 15
+  nirvana: 10
+  deckContentIds:
+  - legacy.card.common.7e46b7e4
+  enemyContentIds:
+  - legacy.enemy.common.47e65064
+  - legacy.enemy.common.47e65064
+  - legacy.enemy.common.47e65064
+  crawlerContentId: 
+  bossTimerEnabled: 0
+  bossTimerEyes: 5
+  bossTimerDamage: 25
+  enemyWaveSizes: 
+  enemyFormationRows: 
+  enemyFormationPattern: 
+  testOnlyUnconfirmed: 0
+  enemyHealthOverride: 12
+  enemyExperienceOverride: 0
+  startingArmor: 0
+  introHintText: 
+  entryExperienceGrant: 0
+  fixedFirstLevelUpRewardCardContentIds:
+  - legacy.card.xiyou.0578cfde
+  forcedOpeningHandContentIds: []
+  rewardUtilityPolicy: 1

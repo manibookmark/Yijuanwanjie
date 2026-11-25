@@ -1,0 +1,47 @@
+[
+  {
+    "name": "assets-2026.11.25.zip.part01",
+    "bytes": 100663296,
+    "sha256": "82aa6820df637a37e1e25097d57e49241b6e00de89f3f505f1ddede7ca8ff4d0"
+  },
+  {
+    "name": "assets-2026.11.25.zip.part02",
+    "bytes": 100663296,
+    "sha256": "83cfbd3444a3da0c6b258896a0000a28c5c53b739f58cf80739ef6e6bfc54f95"
+  },
+  {
+    "name": "assets-2026.11.25.zip.part03",
+    "bytes": 100663296,
+    "sha256": "1e34baabb11c44042cf3b3242beb5ef82d0114dd1c9eeef9955568f805870af7"
+  },
+  {
+    "name": "assets-2026.11.25.zip.part04",
+    "bytes": 100663296,
+    "sha256": "c9d72d30adee6f2ec280e0b7d899b1378481582b4f667c19dc8af40b07e6082b"
+  },
+  {
+    "name": "assets-2026.11.25.zip.part05",
+    "bytes": 100663296,
+    "sha256": "2a9d2b2ea9cc99432281971a19988e70d7f7a0a56024980de474857cbeec95cc"
+  },
+  {
+    "name": "assets-2026.11.25.zip.part06",
+    "bytes": 100663296,
+    "sha256": "8892e4fd3ce68f0ab428f35eb9cd13f7890370a9dc520524dc5ff4973c83cc10"
+  },
+  {
+    "name": "assets-2026.11.25.zip.part07",
+    "bytes": 100663296,
+    "sha256": "1fcc3cbe5b725e31e0bf0acbc2d192d5cad04a5b9eb8192589369fbb2978a715"
+  },
+  {
+    "name": "assets-2026.11.25.zip.part08",
+    "bytes": 100663296,
+    "sha256": "e63e59ba288494eaed2268db826cc5039f14d71a83f008f5ef6d7f702704442a"
+  },
+  {
+    "name": "assets-2026.11.25.zip.part09",
+    "bytes": 23335351,
+    "sha256": "3bfdf8275007eda935b7dd8db6c17ca40661efbd71d6194c9325f4d12b078dc5"
+  }
+]

@@ -1,0 +1,50 @@
+* text=auto
+
+*.cs text eol=lf
+*.asmdef text eol=lf
+*.asmref text eol=lf
+*.json text eol=lf
+*.md text eol=lf
+*.meta text eol=lf
+*.shader text eol=lf
+*.txt text eol=lf
+*.unity text eol=lf merge=unityyamlmerge
+*.asset text eol=lf merge=unityyamlmerge
+*.prefab text eol=lf merge=unityyamlmerge
+*.mat text eol=lf merge=unityyamlmerge
+*.controller text eol=lf merge=unityyamlmerge
+*.anim text eol=lf merge=unityyamlmerge
+*.playable text eol=lf merge=unityyamlmerge
+*.ps1 text eol=crlf
+
+# Unity/Tuanjie serializers intentionally emit empty YAML scalars as `key: `.
+# Ignore trailing-space diagnostics for engine-owned serialization formats.
+*.meta whitespace=-trailing-space
+*.unity whitespace=-trailing-space
+*.asset whitespace=-trailing-space
+*.prefab whitespace=-trailing-space
+*.mat whitespace=-trailing-space
+*.controller whitespace=-trailing-space
+*.anim whitespace=-trailing-space
+*.playable whitespace=-trailing-space
+*.scenetemplate whitespace=-trailing-space
+*.scene whitespace=-trailing-space
+
+*.aab binary
+*.apk binary
+*.dll binary
+*.exe binary
+*.gif binary
+*.jpeg binary
+*.jpg binary
+*.mp3 binary
+*.mp4 binary
+*.ogg binary
+*.otf binary
+*.pdf binary
+*.png binary
+*.psd binary
+*.so binary
+*.ttf binary
+*.wav binary
+*.webp binary

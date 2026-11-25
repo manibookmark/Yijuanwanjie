@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c19177bf24744be8ae5667acbc03825, type: 3}
+  m_Name: yingchoujian-abyss-stone-guard
+  m_EditorClassIdentifier:
+  schemaVersion: 1
+  contentId: behavior.enemy.xiyou.yingchoujian-abyss-stone-guard.v1
+  selectionMode: 1
+  actions:
+  - intentType: 1
+    amount: 4
+    weight: 60
+    description: 岩躯重击
+  - intentType: 2
+    amount: 50
+    weight: 40
+    description: 石甲闭合

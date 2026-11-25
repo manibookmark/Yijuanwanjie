@@ -1,0 +1,31 @@
+{
+    "schemaVersion": 1,
+    "contentSchemaVersion": 6,
+    "contentVersion": "0b39bca3480459fb9911171052ad13a25ef34631f61951609d07291ab590c630",
+    "entries": [
+        {
+            "sourceFileName": "common.json",
+            "resourcePath": "Content/Generated/cards/common",
+            "volumeId": "common",
+            "sha256": "0b3c6af532a401c09c91d5a4f2bf7bcd8b82bb96395fd5fd1c6afbc8a92a6568"
+        },
+        {
+            "sourceFileName": "daming.json",
+            "resourcePath": "Content/Generated/cards/daming",
+            "volumeId": "daming",
+            "sha256": "c94c6cde72b3ff71a2eb173ad10bfaaf187115d93d4f8f7264fcef2c62032039"
+        },
+        {
+            "sourceFileName": "xiuxian.json",
+            "resourcePath": "Content/Generated/cards/xiuxian",
+            "volumeId": "xiuxian",
+            "sha256": "68ea45c6632809f2ad88c4c926f0f2a9b1189c8c9e91f2d81c90d366625d8337"
+        },
+        {
+            "sourceFileName": "xiyou.json",
+            "resourcePath": "Content/Generated/cards/xiyou",
+            "volumeId": "xiyou",
+            "sha256": "0e4b294f3e6d6afa0a49394e9d439c49d468761b2bda4eae629abc9261ada29e"
+        }
+    ]
+}

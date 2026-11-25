@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ade54751e4f89584ea2d20bdd053c05a, type: 3}
+  m_Name: DefaultPaperCloud
+  m_EditorClassIdentifier: 
+  contentId: transition.paper-cloud.standard.v1
+  mapFocusDuration: 0.3
+  mapOverviewDuration: 0.35
+  nodePurificationDuration: 1.1
+  coverDuration: 0.7
+  revealDuration: 0.22
+  hudFadeDuration: 0.2
+  returnCoverDuration: 0.7
+  returnRevealDuration: 0.1
+  destinationReadyTimeout: 15

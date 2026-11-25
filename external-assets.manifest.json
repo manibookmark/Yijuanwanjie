@@ -1,0 +1,187 @@
+{
+  "schemaVersion": 1,
+  "policy": "external-package",
+  "description": "Files in this manifest are required local assets but are not stored as regular Git objects.",
+  "assets": [
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/zhubajie-unlock-reveal-atlas-v1.png",
+      "bytes": 32585246,
+      "sha256": "5d6af93d3a372443490858459b5b2dece93b54e2037a9d3f5a7f7d88e9be6034",
+      "requiredBy": "Assets/Resources/Content/CharacterPresentations/zhubajie-g3f5-unlock-v1.asset"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/bailongma-unlock-reveal-video-v1.png",
+      "bytes": 35358746,
+      "sha256": "3147f665cc8db946e57844a9b82d0a2b8be51071c61c81607968e21a03888f83",
+      "requiredBy": "Assets/Resources/Content/CharacterPresentations/bailongma-g2f5-unlock-v1.asset"
+    },
+    {
+      "path": "Assets/Fonts/LXGWWenKai-Regular.ttf",
+      "bytes": 25575676,
+      "sha256": "39ad71264b588165b469e35e6afb162a378dacd1f95348160240ba9038ac3009",
+      "requiredBy": "reserved typography source; currently no serialized reference"
+    },
+    {
+      "path": "Assets/Fonts/NotoSerifSC-Heavy.otf",
+      "bytes": 24063000,
+      "sha256": "2c2af226af6170ac28730be03b16ee7ffa6144fe54471d9ebe8a03de97b58160",
+      "requiredBy": "Assets/Editor/CardLayoutTestWindow.cs"
+    },
+    {
+      "path": "Assets/Fonts/NotoSerifSC-Medium.otf",
+      "bytes": 11734356,
+      "sha256": "e4e9beb5aaeb951e101aa8f122e2a6801ea9e48ac9f9b6bdfeef2436b55bc8ee",
+      "requiredBy": "Assets/Editor/CardLayoutTestWindow.cs"
+    },
+    {
+      "path": "Assets/Resources/Fonts/NotoSerifSC-Heavy.otf",
+      "bytes": 24063000,
+      "sha256": "2c2af226af6170ac28730be03b16ee7ffa6144fe54471d9ebe8a03de97b58160",
+      "requiredBy": "Assets/Scripts/UI/Battle/BattlefieldView.cs (Resources.Load<Font>)"
+    },
+    {
+      "path": "Assets/Resources/Fonts/NotoSerifSC-Medium.otf",
+      "bytes": 11734356,
+      "sha256": "e4e9beb5aaeb951e101aa8f122e2a6801ea9e48ac9f9b6bdfeef2436b55bc8ee",
+      "requiredBy": "Assets/Scripts/UI/Components/JadePanelView.cs and shared UI Resources.Load<Font> body text"
+    },
+    {
+      "path": "Assets/Resources/Audio/Music/hub-ambient-01.wav",
+      "bytes": 14821836,
+      "sha256": "8a9b6f37ec8d753062fdfcc7a332af8859d3b405516ca0cfde784097f6566c6f",
+      "requiredBy": "Assets/Resources/Audio/AudioConfig.asset (AudioConfig.hubMusic)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/yinjiangjun-camera-cross-atlas-v3.png",
+      "bytes": 15299286,
+      "sha256": "cf5724e5110318ae9dbc6979bb1f929d2b4508178c4cc120534be43cae703c0e",
+      "requiredBy": "Assets/Resources/BossAnimations/yinjiangjun.asset (attack.frameAtlas and attackVariants[1].clip.frameAtlas)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/yinjiangjun-spinning-sweep-kick-atlas-v2.png",
+      "bytes": 15343553,
+      "sha256": "d34f7ca14699622b291ba0d0774141fc8ffc36013e0cbe3f47e502b924ff6f7a",
+      "requiredBy": "Assets/Resources/BossAnimations/yinjiangjun.asset (attackVariants[0].clip.frameAtlas)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/yinjiangjun-defend-atlas-v1.png",
+      "bytes": 15221571,
+      "sha256": "8d741a534b0fa586fa4472d9ee5bd8df9ded23778f0b46200a254b0eaa96bda2",
+      "requiredBy": "Assets/Resources/BossAnimations/yinjiangjun.asset (defend.frameAtlas)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/yinjiangjun-idle-boxer-atlas-v2.png",
+      "bytes": 13233973,
+      "sha256": "174075959d8af6cb07edd62d9c9c0d297e8a627ae93f541d01536d2fd716f876",
+      "requiredBy": "Assets/Resources/BossAnimations/yinjiangjun.asset (idle.frameAtlas)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/yinjiangjun-map-palm-up-beckon-atlas-v5.png",
+      "bytes": 8494512,
+      "sha256": "774b8220bc5a5890e0ef8d3827e00892152b24bbf93d9cbf8ef861709f3fe010",
+      "requiredBy": "Assets/Resources/MapPreviewProfiles/shuangchaling-g1f4-map.asset (stage Boss spriteSequence.frameAtlas)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenyuan-yushi-attack-abyss-sweep-atlas-v1.png",
+      "bytes": 5991009,
+      "sha256": "8c74c23f48f443ccfc389b88bdb89120311a9812b9c0fbc92e6a8e88f6089cda",
+      "requiredBy": "Assets/Resources/BossAnimations/zhenyuan-yushi.asset and BossAnimationManifests/zhenyuan-yushi.asset"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenyuan-yushi-battle-idle-atlas-v1.png",
+      "bytes": 3043657,
+      "sha256": "54337c66f4b96e9607b821950a8d66c46aec7e0ad29a7543395bbb68daf9e065",
+      "requiredBy": "Assets/Resources/BossAnimations/zhenyuan-yushi.asset and BossAnimationManifests/zhenyuan-yushi.asset"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenyuan-yushi-defend-atlas-v1.png",
+      "bytes": 2959802,
+      "sha256": "8a5a1585c3a3c8353c028b43da90032eb470a4b9d18c8519910ffc24e41a1bda",
+      "requiredBy": "Assets/Resources/BossAnimations/zhenyuan-yushi.asset and BossAnimationManifests/zhenyuan-yushi.asset"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenyuan-yushi-map-challenge-h3-atlas-v1.png",
+      "bytes": 4338344,
+      "sha256": "d92f1cc50ff7704d54c2d41043b2ff8622fff3fccdfee9161c961b35b0f9ebc7",
+      "requiredBy": "Assets/Resources/MapPreviewProfiles/yingchoujian-g2f5-map.asset (G2F5 stage Boss one-shot H3 taunt)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenyuan-yushi-battle-idle-atlas-v2.png",
+      "bytes": 6175525,
+      "sha256": "eda4784012fcc491456c7aaf56ddafea643d15370ef64d33bc0c60d96db8a979",
+      "requiredBy": "Assets/Resources/BossAnimations/zhenyuan-yushi.asset and BossAnimationManifests/zhenyuan-yushi.asset (1280x720 idle frames)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenyuan-yushi-attack-abyss-sweep-atlas-v2.png",
+      "bytes": 9251829,
+      "sha256": "13cddd8723a3373a6551f84f503ab92582a9e5956dbbef5f903bc08dcadca7c9",
+      "requiredBy": "Assets/Resources/BossAnimations/zhenyuan-yushi.asset and BossAnimationManifests/zhenyuan-yushi.asset (1280x720 abyss sweep frames)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenyuan-yushi-defend-atlas-v2.png",
+      "bytes": 4911012,
+      "sha256": "bf99ad7f3353f4ee98a92aeb08f1479224e256e0a6139991220e5a3300d50acd",
+      "requiredBy": "Assets/Resources/BossAnimations/zhenyuan-yushi.asset and BossAnimationManifests/zhenyuan-yushi.asset (1280x720 defend frames)"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/scroll-spirit-idle-atlas-v1.png",
+      "bytes": 14900717,
+      "sha256": "b322bab7a503d379224dcf6ac8b1a6ba939e4d88c5720800c363ec2c49e031c2",
+      "requiredBy": "Assets/Resources/Content/CharacterPresentations/scroll-spirit-level-milestone-v1.asset"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/scroll-spirit-milestone-acknowledge-atlas-v1.png",
+      "bytes": 10754612,
+      "sha256": "7a07b1850ad3ba0414cd83723237ecb38e1f13b76e74b516122f3e756d314b8d",
+      "requiredBy": "Assets/Resources/Content/CharacterPresentations/scroll-spirit-key-relic-reveal-v1.asset"
+    },
+    {
+      "path": "Assets/Resources/Textures/CharacterPresentations/wukong-reveal-atlas-v1.png",
+      "bytes": 29980946,
+      "sha256": "76d71d7b7a7cc5426c25fb322df0f04c2a09e62ed4194e6b05ad52659ce137a3",
+      "requiredBy": "Assets/Resources/Content/CharacterPresentations/wukong-tutorial-unlock-v1.asset"
+    },
+    {
+      "path": "Assets/Resources/Video/opening-cg.mp4",
+      "bytes": 315792814,
+      "sha256": "e7daf36eb4920825c045a8eaabd0a4fab5c3a95843c46cf9dca72aa8a2196c3e",
+      "requiredBy": "Assets/Scripts/UI/Controllers/OpeningCGController.cs (Resources.Load<VideoClip>)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/liejuan-yaowang-attack-atlas-v1.png",
+      "bytes": 31137516,
+      "sha256": "c31d9b3b6957ea3a559ce6e9d73a45dcefcdf1d2fccc2ac92433750c17ce3521",
+      "requiredBy": "Assets/Resources/BossAnimations/liejuan-yaowang.asset and Assets/Resources/BossAnimationManifests/liejuan-yaowang.asset"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/liejuan-yaowang-confuse-atlas-v1.png",
+      "bytes": 23523504,
+      "sha256": "82273c5f2988a87e3d7c6ade8cf55e74606dd01816f6ebf31dba346f32a977a8",
+      "requiredBy": "Assets/Resources/BossAnimations/liejuan-yaowang.asset and Assets/Resources/BossAnimationManifests/liejuan-yaowang.asset"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/liejuan-yaowang-defend-atlas-v1.png",
+      "bytes": 27860236,
+      "sha256": "47b903cc6eab412ec1439b31ebadb61251c85ccd95d8c991aec448ed01a8bf02",
+      "requiredBy": "Assets/Resources/BossAnimations/liejuan-yaowang.asset and Assets/Resources/BossAnimationManifests/liejuan-yaowang.asset"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/liejuan-yaowang-idle-atlas-v1.png",
+      "bytes": 35273420,
+      "sha256": "2436e08075094c7f4709c5ba02cf8753d2f3dbcf5e604bc7631ab7f845ba426b",
+      "requiredBy": "Assets/Resources/BossAnimations/liejuan-yaowang.asset and Assets/Resources/BossAnimationManifests/liejuan-yaowang.asset"
+    },
+    {
+      "path": "Assets/Resources/Sprites/Backgrounds/G4/g4f5-zhenhetai-battle-v1.png",
+      "bytes": 23007506,
+      "sha256": "ff645b0a5b97bbec63de176ed4194309668450e419ceb83deb4a846e6d962208",
+      "requiredBy": "Assets/Editor/G4BossCloseupCandidateConfigurator.cs and tools/assets/map-art.manifest.json (G4F5 7680x3240 closeup super-res battle background)"
+    },
+    {
+      "path": "Assets/Resources/Textures/BossAnimations/zhenhe-yaojiang-attack-atlas-v3.png",
+      "bytes": 11144931,
+      "sha256": "a2d373aac3c77c98eb556b76121310448952d0d5db7e9d07b8b6794a0ca6d983",
+      "requiredBy": "retained historical G4F5 Boss attack atlas prior to H3 closeup standing-frame switch (docs/game-design/levels/xiyou-stage-04/109-旧形象切换与提示文案修复.md)"
+    }
+  ]
+}

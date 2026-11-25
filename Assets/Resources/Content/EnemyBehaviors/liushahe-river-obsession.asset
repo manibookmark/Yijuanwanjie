@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7c19177bf24744be8ae5667acbc03825, type: 3}
+  m_Name: liushahe-river-obsession
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  contentId: behavior.enemy.xiyou.liushahe-river-obsession.v1
+  selectionMode: 1
+  avoidImmediateRepeat: 0
+  actions: []
+  hasPhaseSwitch: 0
+  phaseHealthThresholdPercent: 50
+  phaseActionCountThreshold: 7
+  phaseTwoActions: []
+  useHealthGroups: 1
+  healthGroups:
+  - requiredHealthPercent: 100
+    turnCountdown: -1
+    actions:
+    - intentType: 1
+      amount: 14
+      weight: 70
+      healthWeight: 70
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: "\u5F31\u6C34\u8986\u821F"
+      actionId: behavior.enemy.xiyou.liushahe-river-obsession.v1.attack
+    - intentType: 2
+      amount: 350
+      weight: 20
+      healthWeight: 20
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: "\u6D41\u6C99\u538B\u5883"
+      actionId: behavior.enemy.xiyou.liushahe-river-obsession.v1.guard
+    - intentType: 9
+      amount: 1
+      weight: 10
+      healthWeight: 10
+      canBeConsecutive: 1
+      prioritiseForStartPhase: 0
+      description: "\u6295\u5165\u4E71\u9B42\u86CA"
+      actionId: behavior.enemy.xiyou.liushahe-river-obsession.v1.muddle
+      temporaryCardContentId: card.xiyou.muddle.v1
+      temporaryCardPlacement: 2
+      temporaryCardMaxRemaining: 0

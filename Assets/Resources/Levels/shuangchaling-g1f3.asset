@@ -1,0 +1,417 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 143359128dc37dc47912248c427531f1, type: 3}
+  m_Name: shuangchaling-g1f3
+  m_EditorClassIdentifier: 
+  contentId: floor.xiyou.shuangchaling.f03
+  dungeonContentId: dungeon.xiyou.shuangchaling
+  dungeonBonusJade: 0
+  levelBonusBaseJade: 0
+  floorIndex: 3
+  nextFloorContentId: floor.xiyou.shuangchaling.f04
+  victoryNextRunEntryContentId: 
+  prerequisiteLevelContentId: 
+  displayName: "\u53CC\u53C9\u5CAD\u5E7D\u58D1"
+  mapPresentationContentId: map.xiyou.shuangchaling.f03.v1
+  entryPresentationId: 
+  entryPresentationVariantId: 
+  hideMapNodesDuringEntryPresentation: 0
+  defaultSnapshotId: snapshot.xiyou.shuangchaling.f03.start
+  levelExperienceRules:
+    baseRequirement: 25
+    curveExponent: 2
+    continuationMode: 1
+    continuationIncrement: 14
+    explicitRequirements: 050000000f000000190000002300000032000000400000004e0000005c0000006a000000780000008600000094000000a2000000
+  levelUpRewardRuleProfileId: reward.level-up.global.v1
+  levelUpOfferScheduleProfileId: 
+  nodes:
+  - contentId: node.xiyou.shuangchaling.f03.o01
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.shuangchaling.f03.o01.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_shuangchaling_f03_o01.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.o02
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.shuangchaling.f03.o02.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_shuangchaling_f03_o02.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.120000005
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.o03
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.shuangchaling.f03.o03.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_shuangchaling_f03_o03.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.08
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.jade01
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.shuangchaling.f03.o07
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.shuangchaling.f03.jade01.random-jade.v1
+      kind: 1
+      amount: 4
+      amountMax: 8
+      targetContentId: 
+      cardChoices: []
+      presentationId: reward.reveal.jade.v1
+      rarity: 1
+      summaryText: "\u7075\u7389"
+      detailText: "\u5E7D\u58D1\u65AD\u6865\u4E0A\u6C89\u79EF\u7684\u7075\u6C14\uFF0C\u6536\u53D6\u65F6\u968F\u673A\u51DD\u6210\u7075\u7389\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.e01
+    nodeType: 1
+    encounterRole: 0
+    scenarioId: battle.xiyou.shuangchaling.f03.e01.v1
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds: []
+    victoryRewards:
+    - contentId: reward.xiyou.shuangchaling.f03.e01.double-damage-seal.v1
+      kind: 1
+      targetContentId: seal.xiyou.double-damage.common.v1
+      sealChoiceContentIds: []
+      sealRewardPoolId: 
+      sealChoiceCount: 0
+      sealChoiceCountMax: 0
+      allowCashOut: 1
+      presentationId: reward.reveal.seal.double-damage.common.v1
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.x01
+    nodeType: 1
+    encounterRole: 0
+    scenarioId: battle.xiyou.shuangchaling.f03.x01.v1
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.shuangchaling.f03.e01
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.o04
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.shuangchaling.f03.o04.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_shuangchaling_f03_o04.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.2
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.o05
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.shuangchaling.f03.o05.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_shuangchaling_f03_o05.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.2
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.o06
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.shuangchaling.f03.o06.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_shuangchaling_f03_o06.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.28
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.jade02
+    nodeType: 3
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.shuangchaling.f03.o06
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.shuangchaling.f03.jade02.random-jade.v1
+      kind: 1
+      amount: 4
+      amountMax: 8
+      targetContentId: 
+      cardChoices: []
+      presentationId: reward.reveal.jade.v1
+      rarity: 1
+      summaryText: "\u7075\u7389"
+      detailText: "\u5E7D\u58D1\u4E0B\u5C42\u77F3\u53F0\u6B8B\u7559\u7684\u7075\u6C14\uFF0C\u6536\u53D6\u65F6\u968F\u673A\u51DD\u6210\u7075\u7389\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.o07
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.shuangchaling.f03.o07.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_shuangchaling_f03_o07.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.120000005
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.o08
+    nodeType: 1
+    encounterRole: 1
+    scenarioId: battle.xiyou.shuangchaling.f03.o08.v1
+    commonEncounter:
+      datasetContentId: encounter.xiyou.global_common.v1
+      difficultyContentId: encounter.xiyou.global_shuangchaling_f03_o08.v1
+      hasTileDifficulty: 1
+      tileDifficulty: 0.08
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.b01
+    nodeType: 1
+    encounterRole: 0
+    scenarioId: battle.xiyou.shuangchaling.f03.b01.v1
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds: []
+    victoryRewards: []
+    completionEffects: []
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  - contentId: node.xiyou.shuangchaling.f03.exit
+    nodeType: 4
+    encounterRole: 0
+    scenarioId: 
+    commonEncounter:
+      datasetContentId: 
+      difficultyContentId: 
+      hasTileDifficulty: 0
+      tileDifficulty: 0
+    prerequisiteNodeIds:
+    - node.xiyou.shuangchaling.f03.b01
+    victoryRewards: []
+    completionEffects:
+    - effectId: effect.xiyou.shuangchaling.f03.exit.clear.v1
+      kind: 1
+      amount: 100
+      amountMax: 0
+      targetContentId: 
+      cardChoices: []
+      presentationId: reward.reveal.jade.v1
+      rarity: 2
+      summaryText: "\u7075\u7389"
+      detailText: "\u9875\u7F18\u6536\u675F\u7684\u5C42\u672B\u7075\u6C14\u3002\u9886\u53D6\u540E\u7EED\u9875\u524D\u5F80\u4E0B\u4E00\u5C42\u3002"
+      sealChoices: []
+      sealRewardPoolId: 
+      cashOutJade: 0
+      fixedEvolution:
+        recipeContentId: 
+        primaryCardContentId: 
+        secondaryCardContentId: 
+        resultCardContentId: 
+      targetLevelResult:
+        referenceLoadoutContentId: 
+        targetLevel: 0
+      doubleKeyPayment:
+        version: 0
+        firstColor: 0
+        secondColor: 0
+      arcanaChoice:
+        poolContentId: 
+        candidateCount: 0
+      chickenOffering:
+        sourceEventId: 
+      manaOffering:
+        sourceEventId: 
+      manaStatue:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        manaAmount: 0
+      crystalThrowing:
+        version: 0
+        sourceEventId: 
+      abandonedCart:
+        version: 0
+        sourceEventId: 
+        requiredAcceptedBumps: 0
+        drawCountBonus: 0
+        pickupContentId: 
+    completionPresentationId: 
+    completionPresentationVariantId: 
+  snapshots:
+  - snapshotId: snapshot.xiyou.shuangchaling.f03.start
+    nodeStates:
+    - nodeContentId: node.xiyou.shuangchaling.f03.o01
+      progress: 1
+    - nodeContentId: node.xiyou.shuangchaling.f03.o02
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.o03
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.jade01
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.e01
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.x01
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.o04
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.o05
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.o06
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.jade02
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.o07
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.o08
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.b01
+      progress: 0
+    - nodeContentId: node.xiyou.shuangchaling.f03.exit
+      progress: 0
+  explorationGuards: []
+  commonFormationRevision: 0

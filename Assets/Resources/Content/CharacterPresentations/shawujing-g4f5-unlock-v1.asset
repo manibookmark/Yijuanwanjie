@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 352414a495174cb9a747b1c2cea58c8a, type: 3}
+  m_Name: shawujing-g4f5-unlock-v1
+  m_EditorClassIdentifier: 
+  contentId: presentation.character.shawujing.g4f5-unlock.v1
+  subjectContentId: crawler.xiyou.shawujing.v1
+  frameAtlas: {fileID: 2800000, guid: 957c8e6cecddd1a4b824001fcfab75b1, type: 3}
+  frameCount: 60
+  atlasColumns: 8
+  atlasRows: 8
+  framesPerSecond: 12
+  playbackMode: 0
+  completionMode: 1
+  hintTiming: 0
+  repeatMode: 0
+  interactionMode: 0
+  panelStyle: 1
+  effectPreset: 0
+  enterDuration: 0.55
+  panelFadeDuration: 0.18
+  exitDuration: 0.38
+  maxVoiceWaitAfterDialogue: 8
+  materializationParticleCount: 96
+  materializationSizeScale: 1
+  materializationSpeedScale: 1
+  placement: 1
+  displayHeight: 760
+  anchoredOffset: {x: 0, y: 34}
+  dialoguePanelOffset: {x: 0, y: 0}
+  dialoguePanelSize: {x: 800, y: 184}
+  dialogueFontSize: 27
+  speakerFontSize: 24
+  dismissHintFontSize: 18
+  backdropColor: {r: 0.02, g: 0.014, b: 0.009, a: 0.2}
+  displayTitle: "\u5377\u5E18\u5927\u5C06 \xB7 \u6C99\u609F\u51C0"
+  dismissHint: "\u70B9\u51FB\u7EE7\u7EED"
+  openingAudioCueId: 
+  lines:
+  - speakerName: "\u6C99\u609F\u51C0"
+    text: "\u6C99\u609F\u51C0\u5728\u6B64\uFF01"
+    visibleSeconds: 2.5
+    audioCueId: voice.shawujing.enter.v2
+  variants: []

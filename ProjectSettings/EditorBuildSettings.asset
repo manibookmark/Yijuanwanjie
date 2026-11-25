@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Loading.unity
+    guid: 164709cbcb99a9b479c5b94528968f63
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 7b177c8b34133104faab3b19dfb9bcc8
+  - enabled: 1
+    path: Assets/Scenes/Hub.unity
+    guid: ce8b0f5e0b6b4948adcbd2fd4da0936a
+  - enabled: 1
+    path: Assets/Scenes/LevelSelect.unity
+    guid: 9e521f4f27f116a459bbd1ad9153e8ff
+  - enabled: 1
+    path: Assets/Scenes/RouteSelect.unity
+    guid: 66281d240cc0a91459765d312484062a
+  - enabled: 1
+    path: Assets/Scenes/Dungeon.unity
+    guid: 6e7b41c8c1774b94eb4ce61af375c186
+  - enabled: 1
+    path: Assets/Scenes/OpeningCG.unity
+    guid: 4a68667f16edf8f8bc6f2adebaca61ad
+  - enabled: 1
+    path: Assets/Scenes/LevelMap.unity
+    guid: bd3842488c3a4e12953b9d8d42970add
+  - enabled: 1
+    path: Assets/Scenes/Combat.unity
+    guid: 2da1fd01f24db7846bfff6d2df07e340
+  - enabled: 1
+    path: Assets/Scenes/Daozang.unity
+    guid: 4167bba3bcf0482458523c7968e82362
+  m_BuildProfiles: []
+  m_configObjects: {}
+  m_SlimFeaturesWeixinMiniGame:
+    ACLDecompression: 0
+    AllocateOverhead: 1
+    DecompressASTC: 0
+    DecompressDXT: 0
+    DecompressETC: 1
+    FreeTypeSfntPng: 1
+    LightProbe: 2
+    RootMotion: 0
+    UseStringInternPool: 2

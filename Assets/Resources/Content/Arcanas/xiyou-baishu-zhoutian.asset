@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c955030cb492c5a4baeeacefbb291afb, type: 3}
+  m_Name: xiyou-baishu-zhoutian
+  m_EditorClassIdentifier:
+  contentId: arcana.xiyou.baishu-zhoutian.v1
+  arcanaName: "百术周天"
+  description: "本次探索每真实打出100张牌，基础灵力+1。出发前装备才累计，跨战斗与楼层保留；不立即回填当前灵力。自动轰炸、英灵和灵印追击不计出牌。"
+  effect: 14
+  effectValue: 100
+  unlockCondition: "取得此天机并在出发前装备后生效。获取与展示入口随正式发布配置；未发布时不默认解锁，不由关卡中途启用。"

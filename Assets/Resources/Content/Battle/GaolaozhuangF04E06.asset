@@ -1,0 +1,147 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1b418109531b85b4fbb508c8d09ddf27, type: 3}
+  m_Name: GaolaozhuangF04E06
+  m_EditorClassIdentifier: 
+  schemaVersion: 3
+  scenarioId: battle.xiyou.gaolaozhuang.f04.e06.v1
+  volumeId: xiyou
+  maxHealth: 50
+  baseMana: 2
+  handLimit: 3
+  turnDrawCount: 3
+  might: 0
+  luck: 0
+  nirvana: 0
+  deckContentIds:
+  - legacy.card.common.7e46b7e4
+  - legacy.card.xiyou.0578cfde
+  - legacy.card.common.f22c29d6
+  - legacy.card.common.973d06a5
+  - legacy.card.common.2927e58a
+  - card.xiyou.bailongma.v1
+  - card.xiyou.jianshuiyoulong.v1
+  - card.xiyou.jianshuiyoulong.v1
+  - legacy.card.common.c0191ee0
+  - card.common.candelabrador.tier2.v1
+  enemyContentIds:
+  - enemy.xiyou.gaolaozhuang_courtyard_claw
+  - enemy.xiyou.gaolaozhuang_courtyard_claw
+  - enemy.xiyou.gaolaozhuang_courtyard_claw
+  - enemy.xiyou.gaolaozhuang_courtyard_claw
+  - enemy.xiyou.gaolaozhuang_courtyard_claw
+  - enemy.xiyou.gaolaozhuang_courtyard_claw
+  - enemy.xiyou.gaolaozhuang_courtyard_claw
+  - enemy.xiyou.gaolaozhuang_courtyard_claw
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_blade_wolf
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  - enemy.xiyou.gaolaozhuang_stone_carrier
+  levelBossContentId: 
+  levelBossRank: 0
+  crawlerContentId: crawler.xiyou.bailongma.v1
+  referenceLoadoutContentId: 
+  bossTimerEnabled: 0
+  bossTimerEyes: 5
+  bossTimerDamage: 25
+  enemyWaveSizes: 
+  enemyFormationRows: 
+  serializedEnemyFormationPattern: 
+  enemyFormationSourceColumnCount: 5
+  enemyFormationSourceSlots:
+  - sourceRow: 0
+    sourceColumn: 0
+  - sourceRow: 0
+    sourceColumn: 1
+  - sourceRow: 0
+    sourceColumn: 2
+  - sourceRow: 0
+    sourceColumn: 3
+  - sourceRow: 0
+    sourceColumn: 4
+  - sourceRow: 1
+    sourceColumn: 0
+  - sourceRow: 1
+    sourceColumn: 1
+  - sourceRow: 1
+    sourceColumn: 2
+  - sourceRow: 1
+    sourceColumn: 3
+  - sourceRow: 1
+    sourceColumn: 4
+  - sourceRow: 2
+    sourceColumn: 0
+  - sourceRow: 2
+    sourceColumn: 1
+  - sourceRow: 2
+    sourceColumn: 2
+  - sourceRow: 2
+    sourceColumn: 3
+  - sourceRow: 2
+    sourceColumn: 4
+  - sourceRow: 3
+    sourceColumn: 0
+  - sourceRow: 3
+    sourceColumn: 1
+  - sourceRow: 3
+    sourceColumn: 2
+  - sourceRow: 3
+    sourceColumn: 3
+  - sourceRow: 4
+    sourceColumn: 0
+  - sourceRow: 4
+    sourceColumn: 2
+  - sourceRow: 5
+    sourceColumn: 0
+  - sourceRow: 5
+    sourceColumn: 2
+  - sourceRow: 6
+    sourceColumn: 0
+  - sourceRow: 6
+    sourceColumn: 2
+  - sourceRow: 7
+    sourceColumn: 0
+  - sourceRow: 7
+    sourceColumn: 2
+  - sourceRow: 8
+    sourceColumn: 0
+  - sourceRow: 8
+    sourceColumn: 2
+  - sourceRow: 9
+    sourceColumn: 0
+  testOnlyUnconfirmed: 0
+  enemyHealthOverride: 0
+  enemyExperienceOverride: 0
+  startingArmor: 0
+  introHintText: 
+  entryExperienceGrant: 0
+  fixedFirstLevelUpRewardCardContentIds: []
+  forcedOpeningHandContentIds: []
+  rewardUtilityPolicy: 0

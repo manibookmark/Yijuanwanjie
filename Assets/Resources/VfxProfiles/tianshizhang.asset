@@ -1,0 +1,149 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a87c3cc1b996e544988bed031c63bfb, type: 3}
+  m_Name: tianshizhang
+  m_EditorClassIdentifier: 
+  contentId: legacy.card.common.a2978dfe
+  projectileSprite: {fileID: 0}
+  visualType: ProceduralLightningStrike
+  projectileScale: 0.42
+  flightDuration: 0.18
+  flightArc: 0
+  flightArcHeight: 0
+  multiProjectileDelay: 0.035
+  useAuthoritativeHitSequence: 1
+  bounceScaleMultiplier: 0.72
+  periodicFireCrow: 0
+  periodicAttackerVisualKind: 0
+  beeBodyColor: {r: 0.84, g: 0.55, b: 0.18, a: 1}
+  beeWingColor: {r: 1, g: 0.91, b: 0.66, a: 0.75}
+  fireCrowBodyColor: {r: 0.09, g: 0.025, b: 0.035, a: 1}
+  fireCrowFlameColor: {r: 1, g: 0.24, b: 0.035, a: 0.95}
+  fireCrowScale: 0.55
+  fireCrowHoverHeight: 0.8
+  fireCrowOrbitWidth: 0.9
+  fireCrowOrbitSpeed: 0.16
+  proceduralBladeColor: {r: 0.025, g: 0.03, b: 0.04, a: 1}
+  proceduralBladeEdgeColor: {r: 0.55, g: 0.62, b: 0.7, a: 0.8}
+  proceduralBladeShape: 0
+  proceduralBladeLengthScale: 1
+  proceduralBladeWidthRatio: 0.24
+  proceduralBladeEdgeScale: 1.1
+  proceduralAxeSteelColor: {r: 0.22, g: 0.25, b: 0.28, a: 1}
+  proceduralAxeEdgeColor: {r: 0.92, g: 0.78, b: 0.34, a: 1}
+  proceduralAxeHandleColor: {r: 0.22, g: 0.08, b: 0.035, a: 1}
+  proceduralAxeAccentColor: {r: 0.78, g: 0.22, b: 0.08, a: 1}
+  proceduralAxeSpinSpeed: 1080
+  proceduralAxeHeadScale: 1
+  proceduralVialGlassColor: {r: 0.2, g: 0.08, b: 0.035, a: 0.9}
+  proceduralVialFireColor: {r: 1, g: 0.28, b: 0.035, a: 1}
+  proceduralVialCoreColor: {r: 1, g: 0.86, b: 0.25, a: 1}
+  proceduralVialCorkColor: {r: 0.24, g: 0.095, b: 0.035, a: 1}
+  proceduralVialSpinSpeed: 620
+  proceduralVialFillRatio: 0.56
+  fireTalismanPaperWidth: 1
+  fireTalismanGlyphCoreColor: {r: 1, g: 0.48, b: 0.1, a: 1}
+  fireTalismanFlameColor: {r: 1, g: 0.24, b: 0.025, a: 0.82}
+  fireTalismanFlameCoreColor: {r: 1, g: 0.72, b: 0.22, a: 0.95}
+  fireTalismanFlameIntensity: 0.4
+  fireTalismanFlameRibbonCount: 2
+  fireTalismanSparkCount: 4
+  fireTalismanSparkSize: 0.014
+  ruyiStaffLengthScale: 1
+  ruyiStaffThicknessScale: 1
+  ruyiStaffWakeScale: 1
+  wandBoltCoreColor: {r: 1, g: 0.97, b: 0.76, a: 1}
+  wandBoltAuraColor: {r: 0.22, g: 0.78, b: 1, a: 0.68}
+  wandBoltRuneColor: {r: 0.72, g: 0.4, b: 1, a: 0.94}
+  wandBoltLengthScale: 0.92
+  wandBoltWidthScale: 0.84
+  wandBoltSpinSpeed: 620
+  wandBoltPulseSpeed: 9.2
+  wandBoltRuneRing: 1
+  lightningCoreColor: {r: 1, g: 0.98, b: 0.78, a: 1}
+  lightningAuraColor: {r: 0.44, g: 0.78, b: 1, a: 0.88}
+  lightningGroundColor: {r: 0.82, g: 0.55, b: 1, a: 0.92}
+  lightningSkyHeight: 5.4
+  lightningSegments: 15
+  lightningDuration: 0.28
+  lightningContactDelay: 0.045
+  lightningJitter: 0.52
+  lightningBranchCount: 1
+  lightningIntensity: 1.2
+  whipSegmentColor: {r: 0.48, g: 0.22, b: 0.07, a: 1}
+  whipJointColor: {r: 0.95, g: 0.58, b: 0.14, a: 1}
+  whipInkColor: {r: 0.24, g: 0.055, b: 0.025, a: 0.82}
+  whipSweepDuration: 0.64
+  whipInterSweepDelay: 0.1
+  whipSpanPadding: 0.62
+  whipArcHeight: 0.38
+  whipFlexibility: 0.78
+  whipSegmentThickness: 0.12
+  whipAirRingIntensity: 1
+  whipAirWakeIntensity: 1
+  whipAirWakeLength: 1
+  rakeWindPrimaryColor: {r: 0.92, g: 0.66, b: 0.2, a: 0.95}
+  rakeWindSecondaryColor: {r: 1, g: 0.94, b: 0.62, a: 0.72}
+  rakeWindMistColor: {r: 0.28, g: 0.16, b: 0.06, a: 0.34}
+  rakeWindIntensity: 1
+  rakeWindParticleCount: 72
+  rakeSoulAccentIntensity: 0
+  rakeSoulAccentParticleCount: 0
+  rakeSoulAccentPrimaryColor: {r: 0.58, g: 0.025, b: 0.02, a: 1}
+  rakeSoulAccentSecondaryColor: {r: 1, g: 0.28, b: 0.04, a: 0.95}
+  selfEffectStyle: 10
+  selfEffectPrimaryColor: {r: 0.49, g: 0.24, b: 0.09, a: 0.94}
+  selfEffectSecondaryColor: {r: 1, g: 0.9, b: 0.48, a: 0.94}
+  selfEffectDuration: 0.72
+  selfEffectScale: 0.92
+  selfEffectOffset: {x: 0, y: 0, z: 0}
+  castingArtifactCardClearancePixels: 160
+  selfEffectParticleCount: 8
+  bookPageLayers: 1
+  bookRuneCount: 6
+  quantityMechanismCount: 1
+  lightningRingLayerCount: 1
+  enableTrail: 1
+  trailColor: {r: 0.42, g: 0.83, b: 1, a: 0.72}
+  trailWidth: 0.065
+  trailTime: 0.6
+  hitParticleTexture: {fileID: 0}
+  hitParticleColor: {r: 1, g: 0.92, b: 0.5, a: 1}
+  hitParticleCount: 6
+  hitParticleSize: 0.11618582
+  hitParticleSpeed: 2.7
+  hitParticleLifetime: 0.2
+  secondaryParticleTexture: {fileID: 0}
+  secondaryParticleColor: {r: 0.34, g: 0.78, b: 1, a: 0.9}
+  secondaryParticleCount: 3
+  secondaryParticleSize: 0.09598621
+  secondaryParticleSpeed: 1.8
+  secondaryParticleLifetime: 0.24
+  punchScaleIntensity: 0.085
+  critPunchScaleIntensity: 0.18
+  hitStopDuration: 0.014
+  critHitStopDuration: 0.03
+  hitStopTimeScale: 0.07
+  deathEffect: 2
+  rowAnnihilationWidth: 10.8
+  rowAnnihilationBandHeight: 0.72
+  rowAnnihilationIntensity: 1.35
+  playSfxClip: {fileID: 8300000, guid: 1601087cc2444e929d3451180bad6dda, type: 3}
+  playSfxPath: Audio/SFX/tianshizhang-thunder
+  playSfxGain: 0.66
+  hitSfxPath: 
+  hitSfxGain: 1
+  denseImpactAudio: 0
+  knifeCriticalAccent: 0
+  critSfxPath: 
+  critSfxGain: 1
+  fallbackContentId: 

@@ -1,0 +1,22 @@
+{
+    "name": "WanjieScroll.Simulation.Stage",
+    "rootNamespace": "WanjieScroll.Simulation.Stage",
+    "references": [
+        "WanjieScroll.Core",
+        "WanjieScroll.Content",
+        "WanjieScroll.Dungeon",
+        "WanjieScroll.Meta",
+        "WanjieScroll.Persistence",
+        "WanjieScroll.Progression",
+        "WanjieScroll.Simulation"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

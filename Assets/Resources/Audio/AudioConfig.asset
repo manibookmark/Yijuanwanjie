@@ -1,0 +1,73 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6a97c4ab6c0acbc439eb2907d44413f4, type: 3}
+  m_Name: AudioConfig
+  m_EditorClassIdentifier: 
+  hubMusic: {fileID: 8300000, guid: 5a4a6329aea4d524abbdef5a3a8b185a, type: 3}
+  hallMusic: {fileID: 0}
+  dungeonMusic: {fileID: 0}
+  combatMusic: {fileID: 0}
+  bossMusic: {fileID: 0}
+  comboClimaxMusic: {fileID: 0}
+  hallMusicVolume: 0.4
+  mapMusicVolume: 0.4
+  combatMusicVolume: 0.9
+  bossMusicVolume: 1
+  comboClimaxMusicVolume: 0.35
+  sfxCardPlay: {fileID: 0}
+  sfxComboIncrement: {fileID: 0}
+  sfxCardShatter: {fileID: 0}
+  sfxTianjie: {fileID: 0}
+  sfxLevelUp: {fileID: 8300000, guid: c8afdf96618fb154dbe06a5b53abab0f, type: 3}
+  sfxTreasureOpen: {fileID: 0}
+  sfxLingdanPickup: {fileID: 0}
+  sfxBossAppear: {fileID: 8300000, guid: 49a2e5f5ddcc46a19cd985620a42623f, type: 3}
+  sfxCardDraw: {fileID: 8300000, guid: 7080bdac8144fc64f803f506a44410b8, type: 3}
+  sfxCardHover: {fileID: 8300000, guid: c4ec1ba5681d7e4488d35d9cd967d8be, type: 3}
+  sfxButtonClick: {fileID: 8300000, guid: 1945b1cdd6fd08f44a64e8be4e3a385a, type: 3}
+  sfxRoomEnter: {fileID: 0}
+  sfxMerchant: {fileID: 0}
+  sfxProjectileHit: {fileID: 0}
+  sfxEnemyAttack: {fileID: 8300000, guid: ec51be0e01eed3f418183f4bba9465dc, type: 3}
+  sfxEnemyDeath: {fileID: 0}
+  sfxXpRelease: {fileID: 0}
+  sfxExperienceArrival: {fileID: 0}
+  sfxRewardReveal: {fileID: 0}
+  sfxSealStamp: {fileID: 8300000, guid: 89903e25ac0d4cf981aeac1e1b707de3, type: 3}
+  masterVolume: 1
+  musicVolume: 0.8
+  sfxVolume: 1
+  voiceVolume: 1
+  sfxCueGains:
+    cardHover: 0.18
+    buttonClick: 0.3
+    cardDraw: 0.4
+    cardPlay: 0.66
+    comboIncrement: 0.42
+    projectileHit: 0.56
+    enemyAttack: 1
+    enemyDeath: 0.48
+    cardShatter: 0.48
+    experienceRelease: 0.38
+    experienceArrival: 0.25
+    pickup: 0.42
+    levelUp: 0.6
+    rewardReveal: 0.66
+    treasureOpen: 0.6
+    roomEnter: 0.56
+    merchant: 0.56
+    bossAppear: 0.68
+    tianjie: 0.68
+    sealStamp: 0.72
+  comboDrumBaseInterval: 0.5
+  comboDrumMinInterval: 0.1
+  comboDrumSound: {fileID: 0}

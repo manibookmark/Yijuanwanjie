@@ -1,0 +1,19 @@
+{
+    "name": "WanjieScroll.Prototype",
+    "rootNamespace": "WanjieScroll.Prototype",
+    "references": [
+        "WanjieScroll.Core",
+        "WanjieScroll.Dungeon",
+        "WanjieScroll.UI",
+        "WanjieScroll.Audio"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

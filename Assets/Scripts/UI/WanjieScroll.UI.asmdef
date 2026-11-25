@@ -1,0 +1,22 @@
+{
+    "name": "WanjieScroll.UI",
+    "rootNamespace": "WanjieScroll.UI",
+    "references": [
+        "WanjieScroll.Core",
+        "WanjieScroll.Content",
+        "WanjieScroll.Dungeon",
+        "WanjieScroll.Meta",
+        "WanjieScroll.Progression",
+        "WanjieScroll.Persistence",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

@@ -1,0 +1,872 @@
+%YAML 1.1
+%TAG !u! tag:yousandi.cn,2023:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 82a32cf9fd414e16a7b16c546db32713, type: 3}
+  m_Name: dungeon.xiyou.liushahe
+  m_EditorClassIdentifier: 
+  schemaVersion: 1
+  dungeonContentId: dungeon.xiyou.liushahe
+  displayName: "\u6D41\u6C99\u6CB3"
+  coverResourcePath: Sprites/Maps/G4/g4f1-chenshatan-map-v2
+  resources:
+  - resourcePath: Sprites/Maps/G4/g4f1-chenshatan-map-v2
+    kind: 1
+  - resourcePath: Audio/AudioConfig
+    kind: 0
+  - resourcePath: Audio/CardSfx/shenhuofeiya-impact-v1
+    kind: 3
+  - resourcePath: Audio/CardSfx/talisman-paper-burn-v1
+    kind: 3
+  - resourcePath: Audio/CardSfx/yiwofeng-impact-v1
+    kind: 3
+  - resourcePath: Audio/Music/hub-ambient-01
+    kind: 3
+  - resourcePath: "Audio/Music/\u666E\u901A\u602A\u6218\u6597\u80CC\u666F2"
+    kind: 3
+  - resourcePath: "Audio/Music/\u897F\u6E38\u5730\u56FE\u80CC\u666F\u97F3"
+    kind: 3
+  - resourcePath: Audio/SFX/Boss/boss-entrance
+    kind: 3
+  - resourcePath: Audio/SFX/Boss/zhenhe-yaojiang-attack-v3
+    kind: 3
+  - resourcePath: Audio/SFX/Boss/zhenhe-yaojiang-defend-v2
+    kind: 3
+  - resourcePath: Audio/SFX/Boss/zhenhe-yaojiang-idle-v1
+    kind: 3
+  - resourcePath: Audio/SFX/armor-gain-01
+    kind: 3
+  - resourcePath: Audio/SFX/bailongma-play-water-v1
+    kind: 3
+  - resourcePath: Audio/SFX/bajiaoshan-play
+    kind: 3
+  - resourcePath: Audio/SFX/card-draw-01
+    kind: 3
+  - resourcePath: Audio/SFX/card-hover-01
+    kind: 3
+  - resourcePath: Audio/SFX/dingfengzhu-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/enemy-attack-01
+    kind: 3
+  - resourcePath: Audio/SFX/feidao-hit
+    kind: 3
+  - resourcePath: Audio/SFX/feng-rui-gain-01
+    kind: 3
+  - resourcePath: Audio/SFX/fenyingzhuo-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/formation-activate
+    kind: 3
+  - resourcePath: Audio/SFX/fumozhu-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/gift
+    kind: 3
+  - resourcePath: Audio/SFX/huixuanjian-hit-v1
+    kind: 3
+  - resourcePath: Audio/SFX/huixuanjian-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/huixuanjianzhen-crit-v1
+    kind: 3
+  - resourcePath: Audio/SFX/huixuanjianzhen-hit-v1
+    kind: 3
+  - resourcePath: Audio/SFX/huixuanjianzhen-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/jianshuiyoulong-hit-v2
+    kind: 3
+  - resourcePath: Audio/SFX/jianshuiyoulong-play-v2
+    kind: 3
+  - resourcePath: Audio/SFX/jindouyun-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/jingubang-hit
+    kind: 3
+  - resourcePath: Audio/SFX/jiuchidingpa-hit-v1
+    kind: 3
+  - resourcePath: Audio/SFX/jiuchidingpa-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/jiujiebian-whip-01
+    kind: 3
+  - resourcePath: Audio/SFX/kaishanfu-hit
+    kind: 3
+  - resourcePath: Audio/SFX/leihuohuan-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/level-up-01
+    kind: 3
+  - resourcePath: Audio/SFX/lihuozhou-end-v1
+    kind: 3
+  - resourcePath: Audio/SFX/liushajue-sand-wave-v2
+    kind: 3
+  - resourcePath: Audio/SFX/muddle-low-bell-v1
+    kind: 3
+  - resourcePath: Audio/SFX/page-turn
+    kind: 3
+  - resourcePath: Audio/SFX/qianren-crit-v1
+    kind: 3
+  - resourcePath: Audio/SFX/reward-relic-01
+    kind: 3
+  - resourcePath: Audio/SFX/taomujian-pierce-01
+    kind: 3
+  - resourcePath: Audio/SFX/tianjijing-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/tianshizhang-thunder
+    kind: 3
+  - resourcePath: Audio/SFX/ui-click-01
+    kind: 3
+  - resourcePath: Audio/SFX/water-drop
+    kind: 3
+  - resourcePath: Audio/SFX/xp-bar-arrive-01
+    kind: 3
+  - resourcePath: Audio/SFX/yiwofeng-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/yuyin-stamp-2s
+    kind: 3
+  - resourcePath: Audio/SFX/zhanjuanfu-play-v1
+    kind: 3
+  - resourcePath: Audio/SFX/zhenhuozhou-end-v1
+    kind: 3
+  - resourcePath: Audio/SFX/zhentiangu-play-v1
+    kind: 3
+  - resourcePath: Audio/Voice/Bailongma/bailongma-g2f5-unlock-v1
+    kind: 3
+  - resourcePath: Audio/Voice/Guanyin/guanyin-enter-v2
+    kind: 3
+  - resourcePath: Audio/Voice/ScrollSpirit/scroll-spirit-first-map-v1
+    kind: 3
+  - resourcePath: Audio/Voice/ScrollSpirit/scroll-spirit-g1l1-entry-v1
+    kind: 3
+  - resourcePath: Audio/Voice/ScrollSpirit/scroll-spirit-g2f1-entry-v1
+    kind: 3
+  - resourcePath: Audio/Voice/ScrollSpirit/scroll-spirit-g3f1-entry-v1
+    kind: 3
+  - resourcePath: Audio/Voice/ScrollSpirit/scroll-spirit-g4f1-entry-v1
+    kind: 3
+  - resourcePath: Audio/Voice/ScrollSpirit/scroll-spirit-tutorial-hub-awakening-v2
+    kind: 3
+  - resourcePath: Audio/Voice/Shawujing/shawujing-enter-v2
+    kind: 3
+  - resourcePath: Audio/Voice/Stats/stats-amount-gain-v1
+    kind: 3
+  - resourcePath: Audio/Voice/Tangsanzang/tangsanzang-enter-v1
+    kind: 3
+  - resourcePath: Audio/Voice/Wukong/wukong-arrival-v1
+    kind: 3
+  - resourcePath: Audio/Voice/Zhubajie/zhubajie-enter-v1
+    kind: 3
+  - resourcePath: BossAnimationManifests/zhenhe-yaojiang
+    kind: 0
+  - resourcePath: BossEntranceEffects/stage-drop
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF01B01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF01E01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF01E02
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF01E03
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF01E04
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF01E05
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF01E06
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF02B01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF02E01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF02E02
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF02E03
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF02E04
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF02E05
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF02E06
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF02T01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF03B01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF03E01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF03E02
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF03E03
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF03E04
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF03E05
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF03E06
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04A01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04B01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04E01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04E02
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04E03
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04E04
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04E05
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04E06
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04E07
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF04T01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF05A01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF05B01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF05E01
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF05E02
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF05E03
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF05E04
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF05E05
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF05E06
+    kind: 0
+  - resourcePath: Content/Battle/LiushaheF05E07
+    kind: 0
+  - resourcePath: Content/CharacterPresentations/scroll-spirit-level-milestone-v1
+    kind: 0
+  - resourcePath: Content/CharacterPresentations/shawujing-g4f5-unlock-v1
+    kind: 0
+  - resourcePath: Content/CrawlerResidents/bailongma-resident-idle-v1
+    kind: 0
+  - resourcePath: Content/CrawlerResidents/guanyin-resident-idle-v1
+    kind: 0
+  - resourcePath: Content/CrawlerResidents/shawujing-resident-v1
+    kind: 0
+  - resourcePath: Content/CrawlerResidents/tangsanzang-resident-idle-v1
+    kind: 0
+  - resourcePath: Content/CrawlerResidents/wukong-resident-idle-v1
+    kind: 0
+  - resourcePath: Content/CrawlerResidents/zhubajie-resident-idle-v1
+    kind: 0
+  - resourcePath: Effects/Map/ManaSpiritAscendingWispsSource_Infinity
+    kind: 0
+  - resourcePath: Effects/Map/ManaSpiritCondensedCoreSource_Infinity
+    kind: 0
+  - resourcePath: Effects/Map/ManaSpiritInfinityField
+    kind: 0
+  - resourcePath: Effects/Map/ManaSpiritReturningCurrentSource_Infinity
+    kind: 0
+  - resourcePath: Effects/Map/MonsterSpiritAura
+    kind: 0
+  - resourcePath: Effects/Map/MonsterSpiritAuraSource_Infinity
+    kind: 0
+  - resourcePath: Effects/Map/StandardSpiritAura
+    kind: 0
+  - resourcePath: Effects/Map/StandardSpiritAuraSource_Infinity
+    kind: 0
+  - resourcePath: Fonts/NotoSerifSC-Heavy
+    kind: 0
+  - resourcePath: Fonts/NotoSerifSC-Medium
+    kind: 0
+  - resourcePath: Levels/liushahe-g4f01
+    kind: 0
+  - resourcePath: Levels/liushahe-g4f02
+    kind: 0
+  - resourcePath: Levels/liushahe-g4f03
+    kind: 0
+  - resourcePath: Levels/liushahe-g4f04
+    kind: 0
+  - resourcePath: Levels/liushahe-g4f05
+    kind: 0
+  - resourcePath: MapPreviewProfiles/liushahe-g4f01-map
+    kind: 0
+  - resourcePath: MapPreviewProfiles/liushahe-g4f02-map
+    kind: 0
+  - resourcePath: MapPreviewProfiles/liushahe-g4f03-map
+    kind: 0
+  - resourcePath: MapPreviewProfiles/liushahe-g4f04-map
+    kind: 0
+  - resourcePath: MapPreviewProfiles/liushahe-g4f05-map
+    kind: 0
+  - resourcePath: Sprites/Backgrounds/G4/g4f1-chenshatan-battle-v1
+    kind: 1
+  - resourcePath: Sprites/Backgrounds/G4/g4f2-jiugudu-battle-v1
+    kind: 1
+  - resourcePath: Sprites/Backgrounds/G4/g4f3-anwoxin-battle-v1
+    kind: 1
+  - resourcePath: Sprites/Backgrounds/G4/g4f4-hegushiai-battle-v1
+    kind: 1
+  - resourcePath: Sprites/Backgrounds/G4/g4f5-zhenhetai-battle-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/bajiaoshan-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/feidao-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/huixuanjian-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/jindouyun-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/kaishan-fu-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/lihuozhou-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/shenhuo-feiya-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/suozi-jia-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/tongmaicao-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Cutout/wukong-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/dieyingzhuo-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/dingfengzhu-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/fenyingzhuo-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/fumozhu-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/fuyun-cao-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/fuyunhua-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/guanyin-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/guben-dan-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/huixuanjian-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/huixuanjianzhen-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/jingubang-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/jinsi-jia-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/jiuchidingpa-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/jiuchishihun-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/jiujiebian-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/jiuxiao-leihuohuan-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/leihuohuan-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/lieyan-zhang-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/lieyang-zhang-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/lingwen-tianshu-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/lingyu-dai-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/liushafu-v2
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/muddle-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/mugu-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/qianren-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/shejuan-shu-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/tangsanzang-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/tanlangmian-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/taomujian-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/tiangang-taomujian-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/tianjijing-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/wudaoguan-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/wuzi-tianshu-illustration-1024
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/xuanwen-tianshu-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/yiwofeng-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/zhanjuanfu-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/zhenhuozhou-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/zhentiangu-illustration-v1
+    kind: 1
+  - resourcePath: Sprites/Cards/Illustrations/zhubajie-illustration-v1
+    kind: 1
+  - resourcePath: "Sprites/Cards/Illustrations/\u4E71\u7075"
+    kind: 1
+  - resourcePath: "Sprites/Cards/Illustrations/\u6C99\u609F\u51C0"
+    kind: 1
+  - resourcePath: "Sprites/Cards/Illustrations/\u6DA7\u6C34\u6E38\u9F99"
+    kind: 1
+  - resourcePath: "Sprites/Cards/Illustrations/\u7075\u529B\u8BC0"
+    kind: 1
+  - resourcePath: "Sprites/Cards/Illustrations/\u767D\u9F99\u9A6C"
+    kind: 1
+  - resourcePath: "Sprites/Cards/Illustrations/\u788E\u88C2"
+    kind: 1
+  - resourcePath: Sprites/Enemies/G3/liejuan-yaowang-battle-idle-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/G4/StageBoss/zhenhe-yaojiang-battle-first-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/G4/StageBoss/zhenhe-yaojiang-map-first-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-ecto-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-ecto-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-ghost-elite-ambush-v2
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-ghost-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-ghost-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-glowing-bat-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-lion-head-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-lion-head-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-mudman-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-mudman-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-nesuferit-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/Map/g4-sneaky-head-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/bat
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/chanteng
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3-blade-wolf-guard
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3-courtyard-claw-v2
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3-gaolaozhuang-guard
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3-gaolaozhuang-raid-grunt-v2
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3-iron-barricade
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3-sigil-wing-guard
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3-stone-carrier
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3-wooden-barricade
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3f1-patrol-chief
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3f2-manor-commander-v2
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3f3-mountain-hexer-v2
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g3f4-cave-gate-brute-v2
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-apprentice-witch-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-ecto-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-ecto-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-ghost-elite-ambush-v2
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-ghost-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-ghost-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-glowing-bat-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-lion-head-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-lion-head-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-mudman-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-mudman-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-nesuferit-elite-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-shade-bomb-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/g4-sneaky-head-v1
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/gold-marten
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/huchang
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/mixed-world-demon
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/ridge-minion
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/snake
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/techushi
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/top-fog
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/xiongshanjun
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-abyss-stone-guard
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-abyss-warden
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-dragon-lock-captain
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-dragon-lock-chain-guard
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-glowwing-bat
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-glowwing-bat-king
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-mudscale-commandant
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-mudscale-guard
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-ravine-water-wraith
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-rock-cleft-bat
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-tide-seal-vine
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-tide-shell
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-tide-shell-general
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-tide-sickle-mantis
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yingchoujian-treasure-glider
+    kind: 1
+  - resourcePath: Sprites/Enemies/Papercraft/yinjiangjun
+    kind: 1
+  - resourcePath: Sprites/Maps/G4/g4f2-jiugudu-map-v1
+    kind: 1
+  - resourcePath: Sprites/Maps/G4/g4f3-anwoxin-map-v1
+    kind: 1
+  - resourcePath: Sprites/Maps/G4/g4f4-hegushiai-map-v1
+    kind: 1
+  - resourcePath: Sprites/Maps/G4/g4f5-zhenhetai-map-v1
+    kind: 1
+  - resourcePath: Sprites/Maps/jade-node
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Actions/discard-hover
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Actions/discard-normal
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Actions/draw-hover
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Actions/draw-normal
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Actions/end-turn-hover
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Actions/end-turn-normal
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Actions/play-all-hover
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Actions/play-all-normal
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/BuffIcons/area
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/BuffIcons/greed
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/BuffIcons/growth
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/BuffIcons/hand
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/BuffIcons/might
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Hero/left-info-panel
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Hero/left-info-panel-center-tile
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Hero/left-info-panel-left-cap
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Hero/left-info-panel-right-cap
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Hero/upper-left-icon-plate
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Hero/wukong-avatar
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/Hero/wukong-avatar-frame
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/TopHud/top-progress-empty
+    kind: 1
+  - resourcePath: Sprites/UI/Battle/TopHud/top-progress-full
+    kind: 1
+  - resourcePath: Sprites/UI/Card/Materials/header-ink-wash-alpha-1024x256
+    kind: 1
+  - resourcePath: Sprites/UI/Card/Materials/paper-fiber-overlay-alpha-512
+    kind: 1
+  - resourcePath: Sprites/UI/Cards/FreeIcon/free-icon
+    kind: 1
+  - resourcePath: Sprites/UI/Daozang/glyphs/armor
+    kind: 1
+  - resourcePath: Sprites/UI/Daozang/glyphs/mana
+    kind: 1
+  - resourcePath: Sprites/UI/Daozang/glyphs/reroll
+    kind: 1
+  - resourcePath: Sprites/UI/MapRewards/evolution-statue-v1
+    kind: 1
+  - resourcePath: Sprites/UI/MapRewards/health-life-drop-v1
+    kind: 1
+  - resourcePath: Sprites/UI/MapRewards/seal-cache-open-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/amount-seal-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/armor-seal-common-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/armor-strike-seal-very-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/attribute-blessing-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/benglie-seal-common-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/card-cache-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/copy-seal-very-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/double-damage-seal-common
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/draw-seal-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/guanxing-tai-building-v2
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/guanxing-tai-relic-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/guiyuan-stele
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/huaxing-seal-immortal-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/jiudie-relic
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/leader-seal-very-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/mana-rebate-seal-ultra-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/midas-seal-very-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/might-seal-common-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/mug-seal-common-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/nduja-seal-uncommon-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/refund-seal-uncommon-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/retain-seal-uncommon-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/return-seal-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/reverse-combo-seal-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/seal-cache-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/tanlangmian-shrine-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/triple-damage-seal-rare-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/wuxing-disc
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/yellow-trigger-seal-uncommon-v1
+    kind: 1
+  - resourcePath: Sprites/UI/Rewards/yuyin-relic
+    kind: 1
+  - resourcePath: Sprites/VFX/blood_particle
+    kind: 1
+  - resourcePath: Sprites/VFX/cinnabar_powder
+    kind: 1
+  - resourcePath: Sprites/VFX/ink_dot
+    kind: 1
+  - resourcePath: Sprites/VFX/knife_projectile
+    kind: 1
+  - resourcePath: Sprites/VFX/paper_scrap
+    kind: 1
+  - resourcePath: Sprites/VFX/silver_spark
+    kind: 1
+  - resourcePath: Sprites/VFX/spark_particle
+    kind: 1
+  - resourcePath: TerrainVfxProfiles/lihuo
+    kind: 0
+  - resourcePath: TerrainVfxProfiles/zhenhuo
+    kind: 0
+  - resourcePath: Textures/BossAnimations/zhenhe-yaojiang-attack-atlas-v3
+    kind: 2
+  - resourcePath: Textures/BossAnimations/zhenhe-yaojiang-defend-atlas-v2
+    kind: 2
+  - resourcePath: Textures/BossAnimations/zhenhe-yaojiang-idle-atlas-v1
+    kind: 2
+  - resourcePath: Textures/BossAnimations/zhenhe-yaojiang-map-challenge-atlas-v1
+    kind: 2
+  - resourcePath: Textures/CharacterPresentations/bailongma-resident-idle-atlas-v1
+    kind: 2
+  - resourcePath: Textures/CharacterPresentations/guanyin-resident-idle-atlas-v1
+    kind: 2
+  - resourcePath: Textures/CharacterPresentations/scroll-spirit-idle-atlas-v1
+    kind: 2
+  - resourcePath: Textures/CharacterPresentations/shawujing-resident-side-idle-atlas-v2
+    kind: 2
+  - resourcePath: Textures/CharacterPresentations/shawujing-reveal-atlas-v1
+    kind: 2
+  - resourcePath: Textures/CharacterPresentations/tangsanzang-resident-idle-atlas-v1
+    kind: 2
+  - resourcePath: Textures/CharacterPresentations/wukong-resident-idle-atlas-v1
+    kind: 2
+  - resourcePath: Textures/CharacterPresentations/zhubajie-resident-idle-atlas-v1
+    kind: 2
+  - resourcePath: UI/Battle/BattleBoardHudLayout
+    kind: 0
+  - resourcePath: UI/Battle/DefaultBattleHudPresentation
+    kind: 0
+  - resourcePath: UI/Battle/EnemyAreaPresentation
+    kind: 0
+  - resourcePath: UI/Card/DefaultCardPresentation
+    kind: 0
+  - resourcePath: VfxProfiles/Map/GuiyuanSteleFlow
+    kind: 0
+  - resourcePath: VfxProfiles/Map/GuiyuanSteleFlowSource
+    kind: 0
+  - resourcePath: VfxProfiles/Map/GuiyuanSteleFlowSource_Infinity
+    kind: 0
+  - resourcePath: VfxProfiles/Map/GuiyuanStelePrototype
+    kind: 0
+  - resourcePath: VfxProfiles/bailongma
+    kind: 0
+  - resourcePath: VfxProfiles/bajiaoshan
+    kind: 0
+  - resourcePath: VfxProfiles/dieyingzhuo
+    kind: 0
+  - resourcePath: VfxProfiles/dingfengzhu
+    kind: 0
+  - resourcePath: VfxProfiles/feidao
+    kind: 0
+  - resourcePath: VfxProfiles/fenyingzhuo
+    kind: 0
+  - resourcePath: VfxProfiles/fumozhu
+    kind: 0
+  - resourcePath: VfxProfiles/fuyuncao
+    kind: 0
+  - resourcePath: VfxProfiles/fuyunhua
+    kind: 0
+  - resourcePath: VfxProfiles/gubendan
+    kind: 0
+  - resourcePath: VfxProfiles/huixuanjian
+    kind: 0
+  - resourcePath: VfxProfiles/huixuanjianzhen
+    kind: 0
+  - resourcePath: VfxProfiles/jianshuiyoulong
+    kind: 0
+  - resourcePath: VfxProfiles/jindouyun
+    kind: 0
+  - resourcePath: VfxProfiles/jingubang
+    kind: 0
+  - resourcePath: VfxProfiles/jinsijia
+    kind: 0
+  - resourcePath: VfxProfiles/jiuchidingpa
+    kind: 0
+  - resourcePath: VfxProfiles/jiuchishihun
+    kind: 0
+  - resourcePath: VfxProfiles/jiujiebian
+    kind: 0
+  - resourcePath: VfxProfiles/jiuxiao-leihuohuan
+    kind: 0
+  - resourcePath: VfxProfiles/kaishanfu
+    kind: 0
+  - resourcePath: VfxProfiles/leihuohuan
+    kind: 0
+  - resourcePath: VfxProfiles/lieyangzhang
+    kind: 0
+  - resourcePath: VfxProfiles/lieyanzhang
+    kind: 0
+  - resourcePath: VfxProfiles/lihuozhou
+    kind: 0
+  - resourcePath: VfxProfiles/linglijue-g4
+    kind: 0
+  - resourcePath: VfxProfiles/lingwen-tianshu
+    kind: 0
+  - resourcePath: VfxProfiles/lingyudai
+    kind: 0
+  - resourcePath: VfxProfiles/liushafu
+    kind: 0
+  - resourcePath: VfxProfiles/muddle
+    kind: 0
+  - resourcePath: VfxProfiles/qianren
+    kind: 0
+  - resourcePath: VfxProfiles/shatter
+    kind: 0
+  - resourcePath: VfxProfiles/shawujing
+    kind: 0
+  - resourcePath: VfxProfiles/shejuanshu
+    kind: 0
+  - resourcePath: VfxProfiles/shenhuofeiya
+    kind: 0
+  - resourcePath: VfxProfiles/sunwukong
+    kind: 0
+  - resourcePath: VfxProfiles/suozijia
+    kind: 0
+  - resourcePath: VfxProfiles/taomujian
+    kind: 0
+  - resourcePath: VfxProfiles/tianjijing
+    kind: 0
+  - resourcePath: VfxProfiles/tianshizhang
+    kind: 0
+  - resourcePath: VfxProfiles/tongmaicao
+    kind: 0
+  - resourcePath: VfxProfiles/wuzitianshu
+    kind: 0
+  - resourcePath: VfxProfiles/yiwofeng
+    kind: 0
+  - resourcePath: VfxProfiles/zhanjuanfu
+    kind: 0
+  - resourcePath: VfxProfiles/zhenhuozhou
+    kind: 0
+  - resourcePath: VfxProfiles/zhentiangu
+    kind: 0
+  - resourcePath: VfxProfiles/zhentiangu-vc2
+    kind: 0
+  - resourcePath: VfxProfiles/zhongjuan-g4
+    kind: 0
+  - resourcePath: VfxProfiles/zhubajie
+    kind: 0
+  - resourcePath: VfxShapes/fuyunjing-particle-shape-v1
+    kind: 0
+  - resourcePath: VfxShapes/muddle-sigil-shape-v1
+    kind: 0
+  - resourcePath: hp-component-empty
+    kind: 1
+  - resourcePath: hp-component-full
+    kind: 1
+  - resourcePath: mp-component-empty
+    kind: 1
+  - resourcePath: mp-component-full
+    kind: 1
+  mapProfiles:
+  - contentId: map.xiyou.liushahe.f01.v1
+    resourcePath: MapPreviewProfiles/liushahe-g4f01-map
+  - contentId: map.xiyou.liushahe.f02.v1
+    resourcePath: MapPreviewProfiles/liushahe-g4f02-map
+  - contentId: map.xiyou.liushahe.f03.v1
+    resourcePath: MapPreviewProfiles/liushahe-g4f03-map
+  - contentId: map.xiyou.liushahe.f04.v1
+    resourcePath: MapPreviewProfiles/liushahe-g4f04-map
+  - contentId: map.xiyou.liushahe.f05.v1
+    resourcePath: MapPreviewProfiles/liushahe-g4f05-map
+  coverageNotes:
+  - "\u751F\u4EA7\u697C\u5C42=5;\u6218\u6597/\u5730\u56FE\u6309\u672C\u5173\u7A33\u5B9AID\u6536\u96C6\uFF1B\u5C01\u9762\u590D\u7528\u9996\u5C42\u5DF2\u9A8C\u6536\u80CC\u666F\u3002"
+  - "\u672C\u5377+common\u5168\u90E8\u5361\u724C/\u82F1\u7075Vfx\u5B9A\u4E49\u53CA\u5176fallback\uFF1B\u4E0D\u521B\u5EFA\u6216\u5171\u4EAB\u53EF\u53D8CardConfig\u5B9E\u4F8B\u3002"
+  - "\u5171\u4EABCardPresentation/EnemyAreaPresentation/AudioConfig\u7684\u786C\u5F15\u7528\u6309\u5F53\u524D\u5168\u5C40\u914D\u7F6E\u6536\u96C6\uFF0C\u53EF\u80FD\u5305\u542B\u5176\u5B83\u5173\u5361\u5171\u4EAB\u7D20\u6750\u3002"
+  - "\u5173Boss\u4EC5\u52A0\u8F7D\u8F7B\u91CFruntime manifest\u58F0\u660E\u7684\u539F\u59CBatlas/audio\uFF1B\u4E0D\u63D0\u524D\u521B\u5EFASprite\u5207\u7247\u6216Infinity\u5B9E\u4F8B\u3002"
+  - "Resources\u8D44\u6E90=418;\u7531\u7236\u8D44\u4EA7PPtr\u95F4\u63A5\u6301\u6709\u7684\u975EResources\u4F9D\u8D56=14\u3002"
